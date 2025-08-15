@@ -24,3 +24,23 @@ Anyways, I kind of know exactly what I want to make now, a carrier board with cu
 
 I was on a plane basically doing all this research, so it gave me a solid 6 hours of time on research what exactly a carrier board is and how everything works, but I've only just scratched the surface.
 
+## Day 2 - Linux, linux and linux
+
+Before I wanted to dive more into this project, I wanted to understand some of the software behind what I'm actually doing. I came across this insanely cool resource called https://www.thirtythreeforty.net/series/mastering-embedded-linux/ which teaches Linux embedded systems from a very high level standpoint.
+
+The reason I wanted to look into this, is to understand what goes into making a compute module. You see, you need the RAM, storage, boot ROM, SoC and peripherals to make the board, like USB, UART, SPI, ADC, etc. All the basically combined to form a compute module.
+
+On the software side, it looks something like the bootloader -> linux -> the ssh server, web server, interface, programs anything the user can interact with or run on. So you basically boot your device into linux, and then you can interact with the miniature filesystem that you have access to, it's like a mini computer.
+
+Now you're probably wondering, what's an SoC... SoC stands for System on Chip, it's basically a complete system squeezed onto a tiny piece of silicon. On the SoC, you'll find:
+- The CPU
+- Sometimes accelerators like an NPU, GPU, DSP, etc.
+- I/O controllers
+- Peripherals
+- Sometimes other things like bluetooth/wifi, security, an SoC can have *anything*
+
+But anyways, let's go over some of the core parts...
+
+The CPU is the brain of the SoC, I could talk for years about how the CPU works, but it basically executes the instructions of your programs.
+
+The accelerators are specialized parts of the chips that are really good at specific things like training AI, or math, for example, a GPU is really good at math and AI, a DSP is really good at audio and video acceleration, these can also be on an SoC.
