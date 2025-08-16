@@ -100,3 +100,8 @@ The Mini PCIe express slots basically act as extra nodes for the board for addin
 
 The DSI/HDMI is fairly simple, it basically just lets you hook up a monitor to your SoM so that you can interface graphically with your board. They're not actually necessary, but they're really useful if you don't want to just communicate to your board via other connectors.
 
+The extra USB's on the board are for really anything that is supported. Whether that's keyboards, mice, external storages, you pretty much know the geist, anything that you would plug into your own laptop that's supported. You really have to take into account the protocols your SoC/MCU supports just to make sure that you could add things like extra external storage. Typically, you usually have one USB per node and each node can kind of act as it's own device, very neat stuff!
+
+Next up is the SATA and M.2 ports. You might've heard of these if you've ever built a computer before, they let you interface with things like HDD's, SSD's, wifi sometimes using a specific connector cable. They're easy ways of opening up more features to the user.
+
+The breakout GPIO's are basically extra I/O headers that are on the board if you want to add whatever hardware your heart desires. Sensors, LED's, UART, PWM, whatever you want, you can think of them like the GPIO's on the Rasp Pi 5, they're just general I/O pins that allow flexibility and customization of your motherboard.
