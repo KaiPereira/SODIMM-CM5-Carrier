@@ -94,3 +94,9 @@ On a cluster board, there's usually 2 ethernet ports, one to communicate interna
 
 The BMC controller is basically the parent to the compute modules, it helps manage power, monitor, network, etc. It can basically control and monitor your entire cluster. It's usually a dedicated MCU that's always powered on and basically babysits the compute modules.
 
+The GbE switch is incredibly important, it basically connects all the compute modules together so that they can act as one. It handles the switching between compute modules and aggregates all the traffic from every node.
+
+The Mini PCIe express slots basically act as extra nodes for the board for adding extra capabilities that the normal compute modules don't have. For example, you could add dedicated accelerator cards, modems, storage, anything that supports mini PCIe and that you've implemented on your board. It's really cool!
+
+The DSI/HDMI is fairly simple, it basically just lets you hook up a monitor to your SoM so that you can interface graphically with your board. They're not actually necessary, but they're really useful if you don't want to just communicate to your board via other connectors.
+
