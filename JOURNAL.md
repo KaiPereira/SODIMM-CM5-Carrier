@@ -8,6 +8,8 @@ created_at: 2025-08-14
 
 Recently, I came across a video from one of my favorite content creators, [Bitluni](https://www.youtube.com/@bitluni) about building a Risc-V supercluster. This was one of the coolest concepts I've ever seen in my life, combining the power of 100's of micro controllers to create a decently powerful system.
 
+![[Pasted image 20250815210804.png]]
+
 But then I thought to myself, what if we scaled this up, what if we went BIG.
 
 I started doing some research on cluster boards and how they actually work. I noticed that Bitluni's board was very similar to my Cheetah MX4, 3DP motherboard, so knowing that I kind of had some previous knowledge to what I was looking into, really helped alot!
@@ -30,7 +32,11 @@ Before I wanted to dive more into this project, I wanted to understand some of t
 
 The reason I wanted to look into this, is to understand what goes into making a compute module. You see, you need the RAM, storage, boot ROM, SoC and peripherals to make the board, like USB, UART, SPI, ADC, etc. All the basically combined to form a compute module.
 
+![[Pasted image 20250815210554.png]]
+
 On the software side, it looks something like the bootloader -> linux -> the ssh server, web server, interface, programs anything the user can interact with or run on. So you basically boot your device into linux, and then you can interact with the miniature filesystem that you have access to, it's like a mini computer.
+
+![[Pasted image 20250815210615.png]]
 
 Now you're probably wondering, what's an SoC... SoC stands for System on Chip, it's basically a complete system squeezed onto a tiny piece of silicon. On the SoC, you'll find:
 - The CPU
@@ -68,6 +74,10 @@ And finally, there's all those extra parts on the board like the clock, connecto
 And then there's the connectors, depending on what you make, you'll need more or less, I'm making compute modules so I don't actually need like USB or ethernet ports or anything on the actual card, I just need PCIe lanes where all the information from the motherboard will travel to the cards, think of it like a really big connectors that everything will travel through. This makes it very modular, and very fast, because it goes directly to the motherboard. You can also put like debugging headers on the compute module to make sure that each card is working properly, I'll decide on this later.
 
 Anyways, I spent a REALLY long time writing this, it helps me solidify the information of what I've learned so it's helpful for me too. This is just the start to how the board will work though, what I've described is just how the computational modules will work, we haven't even gotten to the motherboard yet. This should give a solid understanding to how the hardware to work, and I've given a brief overview of the software which is also quite interesting!
+
+Once you start looking at many linux capable boards, you'll start to see the patterns:
+
+![[Pasted image 20250815210716.png]]
 
 I've also learned quite a bit more than what I've described, like a high level overview of the software and potential part choices, but I'll save that for when I have a better idea.
 
