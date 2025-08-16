@@ -86,7 +86,9 @@ The turing pi provides a really good core concept of what you need on a cluster 
 - Breakout GPIO's
 - Power of course
 - SIM slot
-- And then the 4 node modules
+- And then the 4 node modules'
+
+![[Pasted image 20250815210117.png]]
 
 These are kind of the core things you need on a cluster motherboard, and actually a computer motherboard in general, with a few alterations, you could turn this cluster board into a desktop computer motherboard, but that's NO FUN!
 
@@ -113,3 +115,7 @@ Sometimes you'll find a SIM slot on a motherboard. It gives your board cellular 
 Boards will also usually have an SD Card slot that will act as additional storage so you could like run different operating systems if you want and to quickly change stuff up. You'll find that's it's often times on the bottom, this is because it takes up lots of space but isn't actually required for the board to function, so you can kind of just solder it on the board if you really want it, it's not necessary though.
 
 And then of course you'll have the SoM's/nodes on your board. These are usually connected via backplane or mezzanine connectors like PCIe, and you can like stack them on the board to get more or less power/features. This is the core concept of our board.
+
+You'll hear me use the words backplane and mezzanine, they are **structural** components on a board, basically giving it another dimension. This allows you to increase circuit density, it's insanely interesting and works very well!
+
+![[Pasted image 20250815210344.png]]
