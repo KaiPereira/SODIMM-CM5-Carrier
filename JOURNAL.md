@@ -90,3 +90,7 @@ The turing pi provides a really good core concept of what you need on a cluster 
 
 These are kind of the core things you need on a cluster motherboard, and actually a computer motherboard in general, with a few alterations, you could turn this cluster board into a desktop computer motherboard, but that's NO FUN!
 
+On a cluster board, there's usually 2 ethernet ports, one to communicate internally, and one to communicate externally. The external ethernet usually acts as an uplink which you can wire to the internet or a router or something to communicate with it. The internet one acts as the cluster fabric that you could wire up to another motherboard (so 2 motherboards attached) to act as basically another cluster, isn't that so cool! So you could create clusters on clusters of these boards!!!
+
+The BMC controller is basically the parent to the compute modules, it helps manage power, monitor, network, etc. It can basically control and monitor your entire cluster. It's usually a dedicated MCU that's always powered on and basically babysits the compute modules.
+
