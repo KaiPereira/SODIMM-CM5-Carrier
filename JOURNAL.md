@@ -8,7 +8,7 @@ created_at: 2025-08-14
 
 Recently, I came across a video from one of my favorite content creators, [Bitluni](https://www.youtube.com/@bitluni) about building a Risc-V supercluster. This was one of the coolest concepts I've ever seen in my life, combining the power of 100's of micro controllers to create a decently powerful system.
 
-![[Pasted image 20250815210804.png]]
+![Pasted image 20250815210804.png](journal/Pasted%20image%2020250815210804.png)
 
 But then I thought to myself, what if we scaled this up, what if we went BIG.
 
@@ -32,11 +32,11 @@ Before I wanted to dive more into this project, I wanted to understand some of t
 
 The reason I wanted to look into this, is to understand what goes into making a compute module. You see, you need the RAM, storage, boot ROM, SoC and peripherals to make the board, like USB, UART, SPI, ADC, etc. All the basically combined to form a compute module.
 
-![[Pasted image 20250815210554.png]]
+![Pasted image 20250815210554.png](journal/Pasted%20image%2020250815210554.png)
 
 On the software side, it looks something like the bootloader -> linux -> the ssh server, web server, interface, programs anything the user can interact with or run on. So you basically boot your device into linux, and then you can interact with the miniature filesystem that you have access to, it's like a mini computer.
 
-![[Pasted image 20250815210615.png]]
+![Pasted image 20250815210615.png](journal/Pasted%20image%2020250815210615.png)
 
 Now you're probably wondering, what's an SoC... SoC stands for System on Chip, it's basically a complete system squeezed onto a tiny piece of silicon. On the SoC, you'll find:
 - The CPU
@@ -77,7 +77,7 @@ Anyways, I spent a REALLY long time writing this, it helps me solidify the infor
 
 Once you start looking at many linux capable boards, you'll start to see the patterns:
 
-![[Pasted image 20250815210716.png]]
+![Pasted image 20250815210716.png](journal/Pasted%20image%2020250815210716.png)
 
 I've also learned quite a bit more than what I've described, like a high level overview of the software and potential part choices, but I'll save that for when I have a better idea.
 
@@ -85,7 +85,7 @@ I've also learned quite a bit more than what I've described, like a high level o
 
 While doing all this research, I came across a board that Jeff Geerling had tried out. It was basically what I was trying to make, a 4-node ITX motherboard that supports up to 128gb of ram and each compute module supported up to 6 TOPS of NPU performance using their RK1 board, this was the turing pi 2 https://turingpi.com/product/turing-pi-2-5/ . This is going to be one of the core motivations for my project, to make something *better* than this board. 
 
-![[Pasted image 20250815211305.png]]
+![Pasted image 20250815211305.png](journal/Pasted%20image%2020250815211305.png)
 
 The turing pi provides a really good core concept of what you need on a cluster board:
 - Ethernet
@@ -100,7 +100,7 @@ The turing pi provides a really good core concept of what you need on a cluster 
 - SIM slot
 - And then the 4 node modules'
 
-![[Pasted image 20250815210117.png]]
+![Pasted image 20250815210117.png](journal/Pasted%20image%2020250815210117.png)
 
 These are kind of the core things you need on a cluster motherboard, and actually a computer motherboard in general, with a few alterations, you could turn this cluster board into a desktop computer motherboard, but that's NO FUN!
 
@@ -130,7 +130,7 @@ And then of course you'll have the SoM's/nodes on your board. These are usually 
 
 You'll hear me use the words backplane and mezzanine, they are **structural** components on a board, basically giving it another dimension. This allows you to increase circuit density, it's insanely interesting and works very well!
 
-![[Pasted image 20250815210344.png]]
+![Pasted image 20250815210344.png](journal/Pasted%20image%2020250815210344.png)
 
 Anyways, I now have a really strong overview of what I'm actually making from a high level standpoint and I hope that you've also learned something from all my talking! It takes me a really long time to gather all this information, but it's insanely cool once you understand it.
 
