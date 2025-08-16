@@ -81,7 +81,7 @@ Once you start looking at many linux capable boards, you'll start to see the pat
 
 I've also learned quite a bit more than what I've described, like a high level overview of the software and potential part choices, but I'll save that for when I have a better idea.
 
-## Day 3 - Rise of the Turing Pi
+## Day 3 - Rise of the Turing Pi - 8 Hours
 
 While doing all this research, I came across a board that Jeff Geerling had tried out. It was basically what I was trying to make, a 4-node ITX motherboard that supports up to 128gb of ram and each compute module supported up to 6 TOPS of NPU performance using their RK1 board, this was the turing pi 2 https://turingpi.com/product/turing-pi-2-5/ . This is going to be one of the core motivations for my project, to make something *better* than this board. 
 
@@ -129,3 +129,7 @@ And then of course you'll have the SoM's/nodes on your board. These are usually 
 You'll hear me use the words backplane and mezzanine, they are **structural** components on a board, basically giving it another dimension. This allows you to increase circuit density, it's insanely interesting and works very well!
 
 ![[Pasted image 20250815210344.png]]
+
+Anyways, I now have a really strong overview of what I'm actually making from a high level standpoint and I hope that you've also learned something from all my talking! It takes me a really long time to gather all this information, but it's insanely cool once you understand it.
+
+I'm now confident enough to start picking out some components for my board and getting more into the exact specifics of what I want to build.
