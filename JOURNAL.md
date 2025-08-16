@@ -85,6 +85,8 @@ I've also learned quite a bit more than what I've described, like a high level o
 
 While doing all this research, I came across a board that Jeff Geerling had tried out. It was basically what I was trying to make, a 4-node ITX motherboard that supports up to 128gb of ram and each compute module supported up to 6 TOPS of NPU performance using their RK1 board, this was the turing pi 2 https://turingpi.com/product/turing-pi-2-5/ . This is going to be one of the core motivations for my project, to make something *better* than this board. 
 
+![[Pasted image 20250815211305.png]]
+
 The turing pi provides a really good core concept of what you need on a cluster board:
 - Ethernet
 - BMC controller
