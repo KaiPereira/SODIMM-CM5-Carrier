@@ -159,4 +159,14 @@ I also want to support maybe some other types of cards for this board like the N
 Now let's take a quick look at the RK3588, it doesn't have many docs, but it's really cool:
 - Octo-core CPU, insane for multithreading and pure power
 - Low power control which is very helpful for a motherboard if you want sleep states persay
-- ARM Mali-G610 MC4 GPU, which cm
+- ARM Mali-G610 MC4 GPU with 4 shader cores, which will give some good acceleration for mathematics and stuff
+- 6 TOPS of performance on the NPU, which will honestly be a standout feature, because you'll be able to run large AI training on the cluster which is really cool.
+- 64 Bit LPDDR4/LPDDR5 memory which is insanely cool, because you could design for insanely powerful DDR5 ram, but I'll probably just stick with DDR4.
+- eMMC which is basically soldered down storage and is up to 10x faster than SD cards. It's also more compact and works alongside SSD's and drives
+- Up to 8K at 60Hz and dual display which is really good for multi media, so I'll definitely add HDMI
+- 48 mega pixels ISP per camera input which gives it really powerful computer features
+- Some good audio interfaces, I won't really go into it
+- High speed dual USB 3.1 and other interface connection support
+- Some good security features
+
+I wrote all of this by hand which took a long time... But you can tell that this SoC is a beast for around just $50, so while the compute modules will probably be over $100 each, it'll be insanely powerful.
