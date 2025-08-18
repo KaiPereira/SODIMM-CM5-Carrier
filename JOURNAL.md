@@ -135,3 +135,11 @@ You'll hear me use the words backplane and mezzanine, they are **structural** co
 Anyways, I now have a really strong overview of what I'm actually making from a high level standpoint and I hope that you've also learned something from all my talking! It takes me a really long time to gather all this information, but it's insanely cool once you understand it.
 
 I'm now confident enough to start picking out some components for my board and getting more into the exact specifics of what I want to build.
+
+## Day 4 - Parts and specifics :D
+
+Now that I've learned about pretty much everything that you actually have on a cluster board and compute module, it's time to think more about the specifics of the actual board I'm going to make.
+
+I'm going to start off with designing the compute module because it's easy to just produce and then test out quickly which is very convenient, you kind of need the compute modules for the motherboard too, so I think it's the right thing to start with.
+
+
