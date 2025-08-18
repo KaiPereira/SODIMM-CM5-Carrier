@@ -142,4 +142,21 @@ Now that I've learned about pretty much everything that you actually have on a c
 
 I'm going to start off with designing the compute module because it's easy to just produce and then test out quickly which is very convenient, you kind of need the compute modules for the motherboard too, so I think it's the right thing to start with.
 
+Anyways the first thing I have to do for designing my SoM (compute module) is choosing an SoC. Now I have a couple SoC's I've had my eye on while researching. Notably:
+- RP2350 - Cheap, decently powerful, all around
+- Rockchip RK3588 - Moderately expensive, insanely powerful, many good features
+- Intel N100 - Moderately expensive, hard to integrate but powerful, windows support
+- NXP i.MX 8M Plus - Moderately expensive, reliable and decently powerful
+- NVIDIA Jetson Orin - EXPENSIVE, insanely powerful GPU capabilities meant more for carriers
+- WCH CH32V003 - Dirt cheap, risc-v, good for a silly 256 core+ project
 
+Honestly the RP2350 probably shoudn't even be on this list, but it was the first thing I thought of for this project. I also thought that a cheap CH32V003 chip would be fun like the one Bitluni did to maybe get like over 100, maybe even 1000, but it's not really the type of project I want to make.
+
+Overall I kind of want to go with the Rockchip RK3588, it's insanely powerful, a bit pricy, but perfect in my opinion for this board. It's the same chip the Turing RK1 used,  and I think it's a very good option.
+
+I also want to support maybe some other types of cards for this board like the NVIDIA Jetson Orin, but not design the SoM, just buy one.
+
+Now let's take a quick look at the RK3588, it doesn't have many docs, but it's really cool:
+- Octo-core CPU, insane for multithreading and pure power
+- Low power control which is very helpful for a motherboard if you want sleep states persay
+- ARM Mali-G610 MC4 GPU, which cm
