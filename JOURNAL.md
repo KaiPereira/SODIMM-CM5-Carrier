@@ -174,7 +174,9 @@ I wrote all of this by hand which took a long time... But you can tell that this
 Now that I've chosen my SoC, I want to look into all the parts on the SoM again and just choose what I want to focus on. So on the SoM I need:
 - RAM - LPDDR4/5
 - eMMC
-- Power management - LDO's/bucks for different rails
-- Debugging
-- PCIe interface
-- 
+- Power management - I think there's actually like a specific IC for this
+- Debugging - Maybe some headers to interact with the compute module without PCIe
+- PCIe interface - The main connector to the motherboard backplane
+- Networking - GbE phy, I'll explain this soon
+
+Now the first thing I learned while making this list was the GbE Phy which is basically the physical
