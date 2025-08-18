@@ -179,4 +179,8 @@ Now that I've chosen my SoC, I want to look into all the parts on the SoM again 
 - PCIe interface - The main connector to the motherboard backplane
 - Networking - GbE phy, I'll explain this soon
 
-Now the first thing I learned while making this list was the GbE Phy which is basically the physical
+Now the first thing I learned while making this list was the GbE Phy which is basically the physical ethernet layer and can transfer data at 1 GB/s, it's needed for ethernet. 
+
+The second thing I learned was that there's a dedicated power management module called the PMIC (power management IC). It's basically many buck converters and LDO's on one chips and handles the power rails, sequencing and voltage for the board.
+
+The first thing I kind of want to focus on for the SoM is the RAM. Now I could support LPDDR5, but it's really just overkill and not needed, so I'll just go with the LPDDR4 because it's cheaper.
