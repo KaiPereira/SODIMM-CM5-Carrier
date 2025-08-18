@@ -170,3 +170,11 @@ Now let's take a quick look at the RK3588, it doesn't have many docs, but it's r
 - Some good security features
 
 I wrote all of this by hand which took a long time... But you can tell that this SoC is a beast for around just $50, so while the compute modules will probably be over $100 each, it'll be insanely powerful.
+
+Now that I've chosen my SoC, I want to look into all the parts on the SoM again and just choose what I want to focus on. So on the SoM I need:
+- RAM - LPDDR4/5
+- eMMC
+- Power management - LDO's/bucks for different rails
+- Debugging
+- PCIe interface
+- 
