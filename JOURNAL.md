@@ -184,3 +184,6 @@ Now the first thing I learned while making this list was the GbE Phy which is ba
 The second thing I learned was that there's a dedicated power management module called the PMIC (power management IC). It's basically many buck converters and LDO's on one chips and handles the power rails, sequencing and voltage for the board.
 
 The first thing I kind of want to focus on for the SoM is the RAM. Now I could support LPDDR5, but it's really just overkill and not needed, so I'll just go with the LPDDR4 because it's cheaper.
+
+Now it's actually a bit hard to find LPDDR4 RAM, LCSC only has one supplier, and their out of stock, but Mouser seems like a good option. I have no clue how I'm going to get it PCBA'ed, but I'll have to find a way.
+
