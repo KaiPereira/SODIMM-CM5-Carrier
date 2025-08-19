@@ -185,5 +185,5 @@ The second thing I learned was that there's a dedicated power management module 
 
 The first thing I kind of want to focus on for the SoM is the RAM. Now I could support LPDDR5, but it's really just overkill and not needed, so I'll just go with the LPDDR4 because it's cheaper.
 
-Now it's actually a bit hard to find LPDDR4 RAM, LCSC only has one supplier, and their out of stock, but Mouser seems like a good option. I have no clue how I'm going to get it PCBA'ed, but I'll have to find a way.
+Now it's actually a bit hard to find LPDDR4 RAM, JCLCPB is almost all out of LPDDR4 specifically, but I kind of want to source it from their parts library so I can get PCBA and not have to reflow BGA or anything like that...
 
