@@ -14,17 +14,17 @@ But then I thought to myself, what if we scaled this up, what if we went BIG.
 
 I started doing some research on cluster boards and how they actually work. I noticed that Bitluni's board was very similar to my Cheetah MX4, 3DP motherboard, so knowing that I kind of had some previous knowledge to what I was looking into, really helped alot!
 
-I figured out that Bitluni basically had this carrier board, and then on that carrier board, it had these connectors called PCIe which allowed fast data transfer but also to basically plug in cards to your board like a PC.
+I figured out that Bitluni basically had this cluster board, and then on that cluster board, it had these connectors called PCIe which allowed fast data transfer but also to basically plug in cards to your board like a PC.
 
 This was such a cool concept, creating a cluster of computers that acted as a swarm, from basically many mini computers, I had to make one too.
 
-You already know how I function though, I needed to go a bit bigger than Bitluni so I started researching about carrier boards, specifically CM4 carrier boards. Basically, rasp pi makes these things called "pi compute modules" (CMx) which can basically plug into these types of motherboards using PCIe or other connectors to turn their plain PCB, into a devboard of sorts with extra features on the carrier board.
+You already know how I function though, I needed to go a bit bigger than Bitluni so I started researching about cluster boards, specifically CM4 cluster boards. Basically, rasp pi makes these things called "pi compute modules" (CMx) which can basically plug into these types of motherboards using PCIe or other connectors to turn their plain PCB, into a devboard of sorts with extra features on the cluster board.
 
-Jeff Geerling is a really interesting guy I came across who loves messing around with carrier boards like this, I'd highly suggest checking out his stuff and learning how it all works https://www.jeffgeerling.com/
+Jeff Geerling is a really interesting guy I came across who loves messing around with cluster boards like this, I'd highly suggest checking out his stuff and learning how it all works https://www.jeffgeerling.com/
 
-Anyways, I kind of know exactly what I want to make now, a carrier board with custom compute modules for maximum power, it takes a bit of time to wrap your head around this concept of PCB's on PCB's but it's really cool. I also kind of want to go overkill, I never like making stuff that the ordinary person would make, so something that sounds impressive, like 100's of gb's of ram, or 100's of gpu's, just the wow factor.
+Anyways, I kind of know exactly what I want to make now, a cluster board with custom compute modules for maximum power, it takes a bit of time to wrap your head around this concept of PCB's on PCB's but it's really cool. I also kind of want to go overkill, I never like making stuff that the ordinary person would make, so something that sounds impressive, like 100's of gb's of ram, or 100's of gpu's, just the wow factor.
 
-I was on a plane basically doing all this research, so it gave me a solid 6 hours of time on research what exactly a carrier board is and how everything works, but I've only just scratched the surface.
+I was on a plane basically doing all this research, so it gave me a solid 6 hours of time on research what exactly a cluster board is and how everything works, but I've only just scratched the surface.
 
 ## Day 2 - Linux, linux and linux - 8 Hours
 
@@ -98,7 +98,7 @@ The turing pi provides a really good core concept of what you need on a cluster 
 - Breakout GPIO's
 - Power of course
 - SIM slot
-- And then the 4 node modules'
+- And then the 4 node modules
 
 ![Pasted image 20250815210117.png](journal/Pasted%20image%2020250815210117.png)
 
@@ -136,7 +136,7 @@ Anyways, I now have a really strong overview of what I'm actually making from a 
 
 I'm now confident enough to start picking out some components for my board and getting more into the exact specifics of what I want to build.
 
-## Day 4 - Parts and specifics :D
+## Day 4 - Parts and specifics :D - 10 Hours
 
 Now that I've learned about pretty much everything that you actually have on a cluster board and compute module, it's time to think more about the specifics of the actual board I'm going to make.
 
@@ -147,7 +147,7 @@ Anyways the first thing I have to do for designing my SoM (compute module) is ch
 - Rockchip RK3588 - Moderately expensive, insanely powerful, many good features
 - Intel N100 - Moderately expensive, hard to integrate but powerful, windows support
 - NXP i.MX 8M Plus - Moderately expensive, reliable and decently powerful
-- NVIDIA Jetson Orin - EXPENSIVE, insanely powerful GPU capabilities meant more for carriers
+- NVIDIA Jetson Orin - EXPENSIVE, insanely powerful GPU capabilities meant more for cluster
 - WCH CH32V003 - Dirt cheap, risc-v, good for a silly 256 core+ project
 
 Honestly the RP2350 probably shoudn't even be on this list, but it was the first thing I thought of for this project. I also thought that a cheap CH32V003 chip would be fun like the one Bitluni did to maybe get like over 100, maybe even 1000, but it's not really the type of project I want to make.
@@ -187,3 +187,14 @@ The first thing I kind of want to focus on for the SoM is the RAM. Now I could s
 
 Now it's actually a bit hard to find LPDDR4 RAM, JCLCPB is almost all out of LPDDR4 specifically, but I kind of want to source it from their parts library so I can get PCBA and not have to reflow BGA or anything like that...
 
+I did find 32 Gb's of LPDDR4 on JLCPCB for $110 in the form of 16, 2Gb chips, but that's a tad expensive and I feel like I could get it lower. But the advantages of this, is I could just get PCBA, but 16 ram chips is absolutely absurd.
+
+Anyways I asked on the KiCad discord server for some help after this finding RAM and how complicated of a project this would be and figured out that I was in for a bit of a treat. I was informed that with all the absolute insane amount of connections I had, and the BGA parts, I'd need 10 layer HDI, which would cost around $1000 for just the boards, and I'd also need insanely good impedance control. And this isn't even counting the fact that you still need to get the schematic perfectly right, and get all the PCB's assembled, so you're looking at almost $2000, just for a chance that it works.
+
+So for now, I'm going to focus my attention on building the cluster board, because I think I'll actually learn more building that and it's also not as complicated or as expensive, but still pretty darn hard.
+
+## Day 5 - Let's build a cluster board
+
+Now that I've postponed my compute module shenanigans, I want to focus my attention on building the cluster board.
+
+Now I've already gone over what you actually need for a cluster board, so let's go over the specs of MY cluster board I want to build.
