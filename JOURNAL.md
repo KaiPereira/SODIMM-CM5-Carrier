@@ -198,3 +198,7 @@ So for now, I'm going to focus my attention on building the cluster board, becau
 Now that I've postponed my compute module shenanigans, I want to focus my attention on building the cluster board.
 
 Now I've already gone over what you actually need for a cluster board, so let's go over the specs of MY cluster board I want to build.
+
+Now building a board exactly like the Turing Pi 2 is actually insanely hard, this is because the Turing Pi 2 has LOTS of high speed traces because it uses PCIe for stuff like NVMe storage but I can just skip this stuff and just use like SD cards or something else.
+
+I kind of want to model this board similar to the DeskPi Super6C but I want to include a BMC and maybe like an ethernet switch and potentially like PCIe for network cards or something, but I have to look into it a bit more.
