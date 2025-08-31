@@ -202,3 +202,26 @@ Now I've already gone over what you actually need for a cluster board, so let's 
 Now building a board exactly like the Turing Pi 2 is actually insanely hard, this is because the Turing Pi 2 has LOTS of high speed traces because it uses PCIe for stuff like NVMe storage but I can just skip this stuff and just use like SD cards or something else.
 
 I kind of want to model this board similar to the DeskPi Super6C but I want to include a BMC and maybe like an ethernet switch and potentially like PCIe for network cards or something, but I have to look into it a bit more.
+
+**So here's what the board is going to look like:**
+
+There's going to be 4 - 8 mezzanine connectors with daughter cards, this makes everything a bit more expensive, but modular and it's a good intro before tackling this project. Also that means if the mainboard works but not the daughter cards, it's less expensive than just re-doing the entire board. This also means I can get 2 separate grants for my project so it'll cost me less to make!
+
+A small BMC to control power, a small USB mux to communicate to individual modules and communication over ethernet. And maybe I'll use an esp-32 or something so it can have a web UI!
+
+12/24V PSU through a barrel jack or an ATX connector, not quite sure which one yet, so it's easy to power with enough juice.
+
+An ethernet switch with 4 - 8 downlinks and then 2 uplinks for the networking. This allows me to control lots of modules and actually stack the modules to make a super-cluster.
+
+Fan headers so you can power fans to each module for cooling and maybe an RTC battery to help maintain the clock on the mainboard.
+
+Per NVMe SSD storage, this isn't too much more complicated to add but I think it's pretty useful and important to have.
+
+USB, HDMI and micro-USB. The micro-USB is for flashing, the USB is for peripherals and the HDMI is for video output!
+
+And just like that, we pretty much have our entire board layed out. Tomorrow I want to research a bit more how the daughter card will work, and actually get started working on it.
+
+
+
+
+
