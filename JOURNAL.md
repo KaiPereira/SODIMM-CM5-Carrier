@@ -203,9 +203,11 @@ Now building a board exactly like the Turing Pi 2 is actually insanely hard, thi
 
 I kind of want to model this board similar to the DeskPi Super6C but I want to include a BMC and maybe like an ethernet switch and potentially like PCIe for network cards or something, but I have to look into it a bit more.
 
+![Pasted image 20250830224212.png](journal/Pasted%20image%2020250830224212.png)
+
 **So here's what the board is going to look like:**
 
-There's going to be 4 - 8 mezzanine connectors with daughter cards, this makes everything a bit more expensive, but modular and it's a good intro before tackling this project. Also that means if the mainboard works but not the daughter cards, it's less expensive than just re-doing the entire board. This also means I can get 2 separate grants for my project so it'll cost me less to make!
+There's going to be 4 - 8 **vertical** mezzanine connectors (like the turing pi 2) with daughter cards, this makes everything a bit more expensive, but modular and it's a good intro before tackling this project. Also that means if the mainboard works but not the daughter cards, it's less expensive than just re-doing the entire board. This also means I can get 2 separate grants for my project so it'll cost me less to make!
 
 A small BMC to control power, a small USB mux to communicate to individual modules and communication over ethernet. And maybe I'll use an esp-32 or something so it can have a web UI!
 
@@ -224,6 +226,8 @@ And just like that, we pretty much have our entire board layed out. Tomorrow I w
 ## Day 6 - The daughter board
 
 Now the first thing we have to do before making the board, is creating daughter boards for all the compute modules. I'm focused on just making daughter cards for the CM4 and the CM5 so that's going to be my main focus.
+
+![Pasted image 20250830224046.png](journal/Pasted%20image%2020250830224046.png)
 
 Now the CM5 is pretty much a drop-in replacement for the CM4 so I don't need to design in anything extra other than just taking into account the extra power that the CM5 needs.
 
