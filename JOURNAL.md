@@ -229,11 +229,21 @@ Now the CM5 is pretty much a drop-in replacement for the CM4 so I don't need to 
 
 So now let's talk about what the daughter card actually needs on it.
 
-So the first thing you need is the mezzanine connectors to attach the compute module to the daughter card, and the daughter card to the motherboard.
+So the first thing you need is the mezzanine connectors to attach the compute module to the daughter card, and the daughter card to the motherboard. It's also important that you have mechanical supports for the card so you don't damage it during insertion or replacement.
 
 Next you need the power management, you need 3.3V and 5V, the 3.3V is for the NVMe SSD and the 5V is for the compute module.
 
 Then you need your storage. This is eMMC, SD card or even both if you want. Personally I'm probably going to support both because it just adds rigidity to the board in case anything fails!
+
+And then you just really need to break out what pins you want. This is like breaking out USB, UARD, Gigabit Ethernet and the NVMe storage and other stuff you want! The NVMe storage is a bit trickier than the others because if you break it out through the backplane connector, you need to manage the tricky high speed signals, or you can just break it out as a connector on the actual daughter card. If you break it out through the backplane, you can actually pool the storage which is cool, but it's way more complicated, so I'm just going to stick with a connector on the actual carrier.
+
+And then you need the extra things on your board too like:
+- the fan header, this is just a connector on the board for each fan to connect to the daughter card
+- LED's and stuff for power and debugging, just kind of nice to have
+- UART and JTAG headers for debugging
+- Expose GPIO headers, I'll decide if I want to do this later but it's good if you want to add extra hardware to the daughter card which can be handy
+
+And just like that, we've pretty much figured out the carrier board for the compute module! Now we can actually get started with making it!
 
 
 
