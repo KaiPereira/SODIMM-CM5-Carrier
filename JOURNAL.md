@@ -249,6 +249,15 @@ And then you need the extra things on your board too like:
 
 And just like that, we've pretty much figured out the carrier board for the compute module! Now we can actually get started with making it!
 
+So now let's start a new KiCad project and get started!
+
+Now the first thing I want to figure out is the connector because it's like the core part of the boards purpose.  Now there's MANY different options for board connectors, but personally I want something really rigid because I like to make my projects high quality. It also needs a LOT pins so pretty dense, so I have a couple of options I've compiled:
+- **Board-to-board mezzanine connectors**: very compact, but lack a bit of rigidity, but they're also not crazy expensive and there's lots of variety in the connectors
+- **SO-DIMM edge card connector**: pretty compact but larger, pretty darn rigid, more expensive, and sometimes messes with RF tests and stuff apparently?
+
+Now personally I think I'm going to go with the SO-DIMM edge card connector because I have the space of an ITX motherboard which is pretty huge and it's also got really nice rigidity and looks very high quality.
+
+![[Pasted image 20250831115510.png]]
 
 
 
