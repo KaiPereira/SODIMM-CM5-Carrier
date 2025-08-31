@@ -221,6 +221,20 @@ USB, HDMI and micro-USB. The micro-USB is for flashing, the USB is for periphera
 
 And just like that, we pretty much have our entire board layed out. Tomorrow I want to research a bit more how the daughter card will work, and actually get started working on it.
 
+## Day 6 - The daughter board
+
+Now the first thing we have to do before making the board, is creating daughter boards for all the compute modules. I'm focused on just making daughter cards for the CM4 and the CM5 so that's going to be my main focus.
+
+Now the CM5 is pretty much a drop-in replacement for the CM4 so I don't need to design in anything extra other than just taking into account the extra power that the CM5 needs.
+
+So now let's talk about what the daughter card actually needs on it.
+
+So the first thing you need is the mezzanine connectors to attach the compute module to the daughter card, and the daughter card to the motherboard.
+
+Next you need the power management, you need 3.3V and 5V, the 3.3V is for the NVMe SSD and the 5V is for the compute module.
+
+Then you need your storage. This is eMMC, SD card or even both if you want. Personally I'm probably going to support both because it just adds rigidity to the board in case anything fails!
+
 
 
 
