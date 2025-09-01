@@ -255,10 +255,11 @@ Now the first thing I want to figure out is the connector because it's like the 
 - **Board-to-board mezzanine connectors**: very compact, but lack a bit of rigidity, but they're also not crazy expensive and there's lots of variety in the connectors
 - **SO-DIMM edge card connector**: pretty compact but larger, pretty darn rigid, more expensive, and sometimes messes with RF tests and stuff apparently?
 
-Now personally I think I'm going to go with the SO-DIMM edge card connector because I have the space of an ITX motherboard which is pretty huge and it's also got really nice rigidity and looks very high quality.
+Now personally I think I'm going to go with the SO-DIMM edge card connector because I have the space of an ITX motherboard which is pretty huge and it's also got really nice rigidity and looks very high quality. Another advantage of the SO-DIMM is that's it's compatible with the Turing RK1 which I kind of want to get my hands on and make compatible with this board.
 
 ![[Pasted image 20250831115510.png]]
 
+Now before I actually add this to the schematic, I'm going to clone this CM4 carrier template which just provides the exact dimensions for a carrier board so I don't accidentally mess up the very fine measurements https://github.com/ShawnHymel/rpi-cm4-carrier-template. I found this from this very helpful resource page from [Maker Forge](https://www.makerforge.tech/posts/cm5-carrier-basics/), which gives really good tips for making a carrier board and they also have a journal of them [making an actual carrier board](https://www.makerforge.tech/cm5-carrier-board/) too.
 
 
 
