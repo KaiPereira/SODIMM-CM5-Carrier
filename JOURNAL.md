@@ -261,5 +261,8 @@ Now personally I think I'm going to go with the SO-DIMM edge card connector beca
 
 Now before I actually add this to the schematic, I'm going to clone this CM4 carrier template which just provides the exact dimensions for a carrier board so I don't accidentally mess up the very fine measurements https://github.com/ShawnHymel/rpi-cm4-carrier-template. I found this from this very helpful resource page from [Maker Forge](https://www.makerforge.tech/posts/cm5-carrier-basics/), which gives really good tips for making a carrier board and they also have a journal of them [making an actual carrier board](https://www.makerforge.tech/cm5-carrier-board/) too.
 
+And just like that, we have a nice template for our carrier board and there's also a schematic for the mezzanine connectors pre-made so it's easy to add stuff to it!
 
+![[Pasted image 20250831225318.png]]
 
+And for now I'm just going to end it there because we've actually started working on the project and got a lot of the specs for the carrier board down!
