@@ -478,7 +478,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rpi-cm4-carrier-template.kicad_pro",
+    "filename": "carrier.kicad_pro",
     "version": 3
   },
   "net_settings": {
