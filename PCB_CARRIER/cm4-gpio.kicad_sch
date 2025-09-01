@@ -5,12 +5,7 @@
 	(uuid "19b0149b-bd0c-4de6-9ba2-bb1a7dc2e0a3")
 	(paper "A4")
 	(title_block
-		(title "Raspberry Pi Compute Module 4 Carrier Template")
-		(date "2020-10-31")
-		(rev "v01")
-		(comment 2 "creativecommons.org/licenses/by-sa/4.0")
-		(comment 3 "License: CC BY 4.0")
-		(comment 4 "Author: Shawn Hymel")
+		(title "CM4/CM5 Carrier Board")
 	)
 	(lib_symbols
 		(symbol "CM4IO:ComputeModule4-CM4"

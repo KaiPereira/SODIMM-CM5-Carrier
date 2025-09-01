@@ -5,16 +5,53 @@
 	(uuid "f52509e6-8053-454c-b8e9-3e2670c5a5fe")
 	(paper "A4")
 	(title_block
-		(title "Raspberry Pi Compute Module 4 Carrier Template")
-		(date "2020-10-31")
-		(rev "v01")
-		(comment 2 "creativecommons.org/licenses/by-sa/4.0/")
-		(comment 3 "License: CC BY 4.0")
-		(comment 4 "Author: Shawn Hymel")
+		(title "CM4/CM5 Carrier Board")
 	)
 	(lib_symbols)
 	(sheet
-		(at 101.6 101.6)
+		(at 24.13 121.92)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9924afb8-28d2-4519-98a2-71323cd667d5")
+		(property "Sheetname" "Carrier SO-DIMM"
+			(at 24.13 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SO-DIMM.kicad_sch"
+			(at 24.13 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 73.66)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30,7 +67,7 @@
 		)
 		(uuid "caa71f4c-454d-4ac9-b287-456eafb34991")
 		(property "Sheetname" "CM4 High Speed"
-			(at 101.6 100.9645 0)
+			(at 24.13 73.0245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +76,7 @@
 			)
 		)
 		(property "Sheetfile" "cm4-high-speed.kicad_sch"
-			(at 101.6 140.2085 0)
+			(at 24.13 112.2685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +85,7 @@
 			)
 		)
 		(instances
-			(project "rpi-cm4-carrier-template"
+			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
 					(page "3")
 				)
@@ -56,7 +93,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 50.8)
+		(at 24.13 25.4)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -72,7 +109,7 @@
 		)
 		(uuid "fc4c71a5-1008-4ac4-98db-57c838c57d91")
 		(property "Sheetname" "CM4 GPIO"
-			(at 101.6 50.1645 0)
+			(at 24.13 24.7645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -81,7 +118,7 @@
 			)
 		)
 		(property "Sheetfile" "cm4-gpio.kicad_sch"
-			(at 101.6 89.4085 0)
+			(at 24.13 64.0085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +127,7 @@
 			)
 		)
 		(instances
-			(project "rpi-cm4-carrier-template"
+			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
 					(page "3")
 				)

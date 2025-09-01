@@ -223,7 +223,7 @@ USB, HDMI and micro-USB. The micro-USB is for flashing, the USB is for periphera
 
 And just like that, we pretty much have our entire board layed out. Tomorrow I want to research a bit more how the daughter card will work, and actually get started working on it.
 
-## Day 6 - The daughter board
+## Day 6 - The daughter board - 5 Hours
 
 Now the first thing we have to do before making the board, is creating daughter boards for all the compute modules. I'm focused on just making daughter cards for the CM4 and the CM5 so that's going to be my main focus.
 
@@ -266,3 +266,16 @@ And just like that, we have a nice template for our carrier board and there's al
 ![Pasted image 20250831225318.png](journal/Pasted%20image%2020250831225318.png)
 
 And for now I'm just going to end it there because we've actually started working on the project and got a lot of the specs for the carrier board down!
+
+## Day 7 - Starting the PCB
+
+Now that I have the compute module template down, I can actually get started working on it! 
+
+The first thing I'm going to do, is figure out what connector I'm going to use for the backplane. And before I mentioned I was going with SODIMM, but after some more research, it might not be the best fit.
+
+I need a connector that can handle mid-high speed traces, around 60 - 70 pins and be decently, but not too compact. So the options I've compiled are:
+- SO-DIMM: Very rigid and compact, can handle high speeds, 200+ pins, expensive
+- MICRO-DIMM: Rigid and very compact, can handle high speeds, 50+ pins, hard to source and expensive
+- 0.8mm 60+ pin vertical mezzanine connector: Compact, can handle mid speeds, 60+ pins, easy to source and relatively cheap
+
+And it's honestly an insanely tough choice between SO-DIMM and the vertical mezzanine connector, because while the mezzanine connector is way cheaper, it's not as rigid and sleek as the SO-DIMM.
