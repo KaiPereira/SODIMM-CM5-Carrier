@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/sgmustadio/Documents/GitHub/rpi-cm4-carrier-template/hardware/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "CM4IO")(type "KiCad")(uri "/home/kai/projects/pcbs/working/cluster-board/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "SODIMM")(type "KiCad")(uri "/home/kai/projects/pcbs/working/cluster-board/libraries/SODIMM/SODIMM.kicad_sym")(options "")(descr ""))
 )

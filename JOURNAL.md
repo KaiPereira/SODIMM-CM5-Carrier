@@ -278,4 +278,8 @@ I need a connector that can handle mid-high speed traces, around 60 - 70 pins an
 - MICRO-DIMM: Rigid and very compact, can handle high speeds, 50+ pins, hard to source and expensive
 - 0.8mm 60+ pin vertical mezzanine connector: Compact, can handle mid speeds, 60+ pins, easy to source and relatively cheap
 
-And it's honestly an insanely tough choice between SO-DIMM and the vertical mezzanine connector, because while the mezzanine connector is way cheaper, it's not as rigid and sleek as the SO-DIMM.
+And it's honestly an insanely tough choice between SO-DIMM and the vertical mezzanine connector, because while the mezzanine connector is way cheaper, it's not as rigid and sleek as the SO-DIMM. Also another advantage of the SO-DIMM, is that it's compatible with the Turing RK1 and lots of other daughter boards, so I honestly think I'm going to go with SO-DIMM.
+
+Now the Turing RK1 uses a 260 pin SO-DIMM connector, so that's the same thing I'm going to use for my board. 
+
+Now I'm actually going to create custom symbols because I'm having trouble finding some online and they're relatively simple. I'm going to create 6 (a, b, c, d, e, f) symbols, each with 50 pins to make it manageable. I'm just going to take the 200 pin connector and add on some more to make it easy!
