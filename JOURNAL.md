@@ -285,3 +285,19 @@ Now the Turing RK1 uses a 260 pin SO-DIMM connector, so that's the same thing I'
 Now I'm actually going to create custom symbols because I'm having trouble finding some online and they're relatively simple. I'm going to create 6 (a, b, c, d, e, f) symbols, each with 40 pins to make it manageable. I'm just going to take the 200 pin connector and add on some more to make it easy! And just like we're done!
 
 ![[Pasted image 20250901173123.png]]
+
+Now the Turing RK1 doesn't actually have a listed pinout, but it's the same one as the [Jetson Orgin carrier board](https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nano/docs/Jetson-Orin-Nano-DevKit-Carrier-Board-Specification_SP-11324-001_v1.3.pdf?__token__=exp=1756774659~hmac=b387e6facfb238adbd28ccc2a997d7d18f1f6ecd9e7dd8d21f77d45d6cec9db7&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) so I have to use that as reference! And I already know I'm in for a really complicated project....
+
+So here's all the features I need:
+- USB-C/USB 3.2
+- Gigabit Ethernet
+- Display Port
+- M.2 Key E connector
+- Expansion header
+- UI and indicators
+- Fan connector
+- Power
+
+I decided to include the M.2 Key E connector, because I figured out that it's only the M connector that's complicated to route and the E connector still gives me features like a network card and stuff I can add on.
+
+This list was pretty much taken from the Jetson Orin carrier board datasheet, because it's the features I need to expose so that's it's supported!
