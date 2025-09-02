@@ -4851,10 +4851,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDA"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDA_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDA_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 35.56 35.56) (xy 38.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33eaa328-3ddb-4cc8-b234-676c6ea5695c")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c925e5-31a2-4aaf-84c3-97e3661f054e")
+	)
+	(global_label "TX1_P"
+		(shape input)
+		(at 33.02 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dbdeacbd-0ce6-4568-b9cd-a83f8e2c6ce5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.3155 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 44.45 54.61 0)
+		(at 55.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4863,7 +5006,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d90aa80-b49f-490c-89c8-e0b7e6bd831f")
 		(property "Reference" "J1"
-			(at 44.45 24.13 0)
+			(at 55.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5014,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 44.45 26.67 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +5022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 33.02 0)
+			(at 91.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4888,7 +5031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 33.02 0)
+			(at 91.44 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5040,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 44.45 44.704 0)
+			(at 55.88 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,8 +5838,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 35.56 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32460917-98b6-4ec5-959a-205040849b95")
+		(property "Reference" "#PWR01"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 31.242 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 35.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc9d58ea-3e44-4b39-b9c8-51482697b1e0")
+		)
+		(instances
+			(project ""
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/9924afb8-28d2-4519-98a2-71323cd667d5"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 160.02 132.08 0)
+		(at 171.45 135.89 0)
 		(unit 7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5705,7 +5913,7 @@
 		(fields_autoplaced yes)
 		(uuid "592c0b77-959e-4a73-b224-f188e4259ea6")
 		(property "Reference" "J1"
-			(at 160.02 101.6 0)
+			(at 171.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,7 +5921,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 160.02 104.14 0)
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 110.49 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +5938,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 110.49 0)
+			(at 207.01 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +5947,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 160.02 122.174 0)
+			(at 171.45 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6746,7 @@
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 102.87 54.61 0)
+		(at 114.3 58.42 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6547,7 +6755,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0212c64-6bf6-48cd-9dab-9b81f08c203c")
 		(property "Reference" "J1"
-			(at 102.87 25.4 0)
+			(at 114.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6763,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 102.87 27.94 0)
+			(at 114.3 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 33.02 0)
+			(at 149.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 33.02 0)
+			(at 149.86 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6789,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 102.87 44.704 0)
+			(at 114.3 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7588,7 @@
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 102.87 132.08 0)
+		(at 114.3 135.89 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7389,7 +7597,7 @@
 		(fields_autoplaced yes)
 		(uuid "a27011e0-f4aa-48f0-ac03-071434fac4c1")
 		(property "Reference" "J1"
-			(at 102.87 101.6 0)
+			(at 114.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7605,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 102.87 104.14 0)
+			(at 114.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 110.49 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7414,7 +7622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 110.49 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7423,7 +7631,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 102.87 122.174 0)
+			(at 114.3 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8430,7 @@
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 160.02 54.61 0)
+		(at 171.45 58.42 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8231,7 +8439,7 @@
 		(fields_autoplaced yes)
 		(uuid "aabdbfe5-4216-4f98-9eea-3af3ef5ec02d")
 		(property "Reference" "J1"
-			(at 160.02 25.4 0)
+			(at 171.45 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8239,7 +8447,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 160.02 27.94 0)
+			(at 171.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8247,7 +8455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 33.02 0)
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8256,7 +8464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 33.02 0)
+			(at 207.01 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,7 +8473,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 160.02 44.704 0)
+			(at 171.45 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +9272,7 @@
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 218.44 54.61 0)
+		(at 229.87 58.42 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9073,7 +9281,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1576dd3-1ac3-4f4d-bc6c-933a54a3fba9")
 		(property "Reference" "J1"
-			(at 218.44 25.4 0)
+			(at 229.87 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9081,7 +9289,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 218.44 27.94 0)
+			(at 229.87 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 33.02 0)
+			(at 265.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9098,7 +9306,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 33.02 0)
+			(at 265.43 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9107,7 +9315,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 218.44 44.704 0)
+			(at 229.87 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,7 +10114,7 @@
 	)
 	(symbol
 		(lib_id "SODIMM:SODIMM-260_Split")
-		(at 44.45 132.08 0)
+		(at 55.88 135.89 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9915,7 +10123,7 @@
 		(fields_autoplaced yes)
 		(uuid "e419c529-c363-4ce5-843e-a0e550f5293c")
 		(property "Reference" "J1"
-			(at 44.45 102.87 0)
+			(at 55.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +10131,7 @@
 			)
 		)
 		(property "Value" "SODIMM-260_Split"
-			(at 44.45 105.41 0)
+			(at 55.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +10139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 110.49 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +10148,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 110.49 0)
+			(at 91.44 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10157,7 @@
 			)
 		)
 		(property "Description" "SODIMM 200 Pin socket"
-			(at 44.45 122.174 0)
+			(at 55.88 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)

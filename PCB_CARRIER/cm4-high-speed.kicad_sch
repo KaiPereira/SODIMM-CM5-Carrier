@@ -4695,6 +4695,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4759,6 +4760,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4776,7 +4778,7 @@
 	(symbol
 		(lib_id "CM4IO:ComputeModule4-CM4")
 		(at -66.04 106.68 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4859,7 +4861,7 @@
 			)
 		)
 		(property "Manufacturer" "Hirose"
-			(at -66.04 106.68 0)
+			(at 74.422 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +4869,7 @@
 			)
 		)
 		(property "MPN" "2x DF40C-100DS-0.4V"
-			(at -66.04 109.22 0)
+			(at 74.422 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +4877,7 @@
 			)
 		)
 		(property "MPN (Alt)" "2x DF40HC(3.0)-100DS-0.4V"
-			(at -66.04 106.68 0)
+			(at 74.422 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5488,7 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/caa71f4c-454d-4ac9-b287-456eafb34991"
 					(reference "Module?")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
