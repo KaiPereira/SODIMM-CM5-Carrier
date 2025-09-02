@@ -305,3 +305,7 @@ This list was pretty much taken from the Jetson Orin carrier board datasheet, be
 So let's get started with putting the first thing down, the first thing I learned is that SODIMM is actually 2 sided, so 130 pins on one side, 130 on the other, so I redid my symbol to be a bit more accurate!
 
 ![[Pasted image 20250901182004.png]]
+
+And then I actually realized that the A and the B have to be at the start of the number (to look good....) so I re-did it again because I'm a perfectionist. And then after that I labelled all the GND's on my schematic based off of the jetson orin carrier board pinout.
+
+![[Pasted image 20250901194745.png]]
