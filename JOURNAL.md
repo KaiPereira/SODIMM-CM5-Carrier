@@ -325,3 +325,10 @@ And I'm following the NVIDIA Jetson pinout for the SODIMM, so all the VDD pins a
 
 ![[Pasted image 20250902122555.png]]
 Now for most of the rest of these pins, I'm going to have to look at the [CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf) and wire to be pin compatible with the NVIDIA Jetson pinout which requires careful attention.
+
+The first big thing I want to get out of the way, is wiring all the USB pins. It took me quite a long time, but you basically just have to wire the USB lines from the CM5, to the SODIMM while making sure you don't mess up the pinout of the NVIDIA Jetson so it requires careful attention.
+
+The 2 standout things while wiring it was the USB_VBUS, which let's the BMC control the power on the USB ports so that's going to need a load switch on the cluster board, and then the NVIDIA Jetson has 3 USB 3.x ports while the CM5 only has 2, so I didn't wire the third. And just like that, it looks amazing!
+
+![[Pasted image 20250902145720.png]]
+![[Pasted image 20250902145741.png]]
