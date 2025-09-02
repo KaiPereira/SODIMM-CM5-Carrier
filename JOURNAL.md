@@ -324,3 +324,6 @@ I decided to put one 0.1uF cap for every VDD pin (9), and then do a 10uF cap for
 And I'm following the NVIDIA Jetson pinout for the SODIMM, so all the VDD pins are just near the end of the connector, and I think that pin 260 is just unused, and for mechanical usage, but I'm not 100% sure.
 
 ![[Pasted image 20250902122555.png]]
+Now for most of the rest of these pins, I'm going to have to look at the [CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf) and wire to be pin compatible with the NVIDIA Jetson pinout which requires careful attention.
+
+The first big thing I want to get out of the way, is wiring USB3

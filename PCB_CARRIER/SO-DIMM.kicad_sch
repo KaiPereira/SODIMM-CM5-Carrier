@@ -10865,16 +10865,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 135.89 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c4c5d45-ebd1-449f-a89f-61a16b384e73")
-	)
-	(wire
-		(pts
 			(xy 62.23 50.8) (xy 64.77 50.8)
 		)
 		(stroke
@@ -11718,28 +11708,6 @@
 		(uuid "a62f19ce-3992-4e9e-90e0-48227e215404")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.2 100.9992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAN_PWM"
-		(shape input)
-		(at 135.89 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf494ef2-4f76-4d26-bead-a1786de5f294")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.6184 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
