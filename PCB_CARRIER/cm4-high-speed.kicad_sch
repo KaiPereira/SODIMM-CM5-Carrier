@@ -4861,7 +4861,7 @@
 			)
 		)
 		(property "Manufacturer" "Hirose"
-			(at 74.422 114.3 0)
+			(at 74.168 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
