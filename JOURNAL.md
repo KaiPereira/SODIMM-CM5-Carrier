@@ -282,4 +282,6 @@ And it's honestly an insanely tough choice between SO-DIMM and the vertical mezz
 
 Now the Turing RK1 uses a 260 pin SO-DIMM connector, so that's the same thing I'm going to use for my board. 
 
-Now I'm actually going to create custom symbols because I'm having trouble finding some online and they're relatively simple. I'm going to create 6 (a, b, c, d, e, f) symbols, each with 50 pins to make it manageable. I'm just going to take the 200 pin connector and add on some more to make it easy!
+Now I'm actually going to create custom symbols because I'm having trouble finding some online and they're relatively simple. I'm going to create 6 (a, b, c, d, e, f) symbols, each with 40 pins to make it manageable. I'm just going to take the 200 pin connector and add on some more to make it easy! And just like we're done!
+
+![[Pasted image 20250901173123.png]]
