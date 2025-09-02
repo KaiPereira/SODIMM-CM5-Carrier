@@ -284,7 +284,7 @@ Now the Turing RK1 uses a 260 pin SO-DIMM connector, so that's the same thing I'
 
 Now I'm actually going to create custom symbols because I'm having trouble finding some online and they're relatively simple. I'm going to create 6 (a, b, c, d, e, f) symbols, each with 40 pins to make it manageable. I'm just going to take the 200 pin connector and add on some more to make it easy! And just like we're done!
 
-![[Pasted image 20250901173123.png]]
+![Pasted image 20250901173123.png](journal/Pasted%20image%2020250901173123.png)
 
 Now the Turing RK1 doesn't actually have a listed pinout, but it's the same one as the [Jetson Orgin carrier board](https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nano/docs/Jetson-Orin-Nano-DevKit-Carrier-Board-Specification_SP-11324-001_v1.3.pdf?__token__=exp=1756774659~hmac=b387e6facfb238adbd28ccc2a997d7d18f1f6ecd9e7dd8d21f77d45d6cec9db7&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) so I have to use that as reference! And I already know I'm in for a really complicated project....
 
@@ -304,14 +304,14 @@ This list was pretty much taken from the Jetson Orin carrier board datasheet, be
 
 So let's get started with putting the first thing down, the first thing I learned is that SODIMM is actually 2 sided, so 130 pins on one side, 130 on the other, so I redid my symbol to be a bit more accurate!
 
-![[Pasted image 20250901182004.png]]
+![Pasted image 20250901182004.png](journal/Pasted%20image%2020250901182004.png)
 
 And then I actually realized that the A and the B have to be at the start of the number (to look good....) so I re-did it again because I'm a perfectionist. And then after that I labelled all the GND's on my schematic based off of the jetson orin carrier board pinout.
 
-![[Pasted image 20250901194745.png]]
+![Pasted image 20250901194745.png](journal/Pasted%20image%2020250901194745.png)
 
 And turns out, I was looking at the wrong datasheet, the one I was looking at was for the carrier board of the nano, and not the nano itself (which already has SODIMM so it doesn't need a carrier for SODIMM). [So this is the right datasheet](https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nx/docs/Jetson_Orin_NX_Orin_Nano_Pin_Function_Names_Guide_DA-11434-001_v1.0.pdf?__token__=exp=1756784920~hmac=4e1bb813f3562bd7b8484fd6d26ed09d41b7602d230afc62c7dfb80b68671c15&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
 So NOW, I actually have the right ground pins for my SODIMM:
 
-![[Pasted image 20250901204330.png]]
+![Pasted image 20250901204330.png](journal/Pasted%20image%2020250901204330.png)
