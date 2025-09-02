@@ -312,3 +312,6 @@ And then I actually realized that the A and the B have to be at the start of the
 
 And turns out, I was looking at the wrong datasheet, the one I was looking at was for the carrier board of the nano, and not the nano itself (which already has SODIMM so it doesn't need a carrier for SODIMM). [So this is the right datasheet](https://developer.download.nvidia.com/assets/embedded/secure/jetson/orin_nx/docs/Jetson_Orin_NX_Orin_Nano_Pin_Function_Names_Guide_DA-11434-001_v1.0.pdf?__token__=exp=1756784920~hmac=4e1bb813f3562bd7b8484fd6d26ed09d41b7602d230afc62c7dfb80b68671c15&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9).
 
+So NOW, I actually have the right ground pins for my SODIMM:
+
+![[Pasted image 20250901204330.png]]
