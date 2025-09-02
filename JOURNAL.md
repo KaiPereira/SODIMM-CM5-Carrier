@@ -302,4 +302,6 @@ I decided to include the M.2 Key E connector, because I figured out that it's on
 
 This list was pretty much taken from the Jetson Orin carrier board datasheet, because it's the features I need to expose so that's it's supported!
 
-So let's get started with putting the first thing down, 
+So let's get started with putting the first thing down, the first thing I learned is that SODIMM is actually 2 sided, so 130 pins on one side, 130 on the other, so I redid my symbol to be a bit more accurate!
+
+![[Pasted image 20250901182004.png]]
