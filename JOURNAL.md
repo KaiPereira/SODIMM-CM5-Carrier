@@ -301,3 +301,5 @@ So here's all the features I need:
 I decided to include the M.2 Key E connector, because I figured out that it's only the M connector that's complicated to route and the E connector still gives me features like a network card and stuff I can add on.
 
 This list was pretty much taken from the Jetson Orin carrier board datasheet, because it's the features I need to expose so that's it's supported!
+
+So let's get started with putting the first thing down, 
