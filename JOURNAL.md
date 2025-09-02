@@ -315,3 +315,12 @@ And turns out, I was looking at the wrong datasheet, the one I was looking at wa
 So NOW, I actually have the right ground pins for my SODIMM:
 
 ![Pasted image 20250901204330.png](journal/Pasted%20image%2020250901204330.png)
+
+And next, I'm going to add the power to my board. Now the CM5 takes a 5V input, so I'm going to handle the power management on the cluster board, and then just route it through the SODIMM into the mezzanine connector directly. But I do need some decoupling on the daughter card, but there's no datasheets to help me, because it's kind of the edge case of making a carrier board (you're not following like an IC datasheet, but making your own module), so I kind of have to figure out decoupling myself.
+
+I decided to put one 0.1uF cap for every VDD pin (9), and then do a 10uF cap for each GROUP of VDD pins (2), and this gives me good high frequency and bulk decoupling for the power lines which I think is a good balance.
+
+![[Pasted image 20250902122459.png]]
+And I'm following the NVIDIA Jetson pinout for the SODIMM, so all the VDD pins are just near the end of the connector, and I think that pin 260 is just unused, and for mechanical usage, but I'm not 100% sure.
+
+![[Pasted image 20250902122555.png]]

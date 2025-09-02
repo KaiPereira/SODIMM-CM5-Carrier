@@ -9799,6 +9799,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "<- Mechanical Pin"
+		(exclude_from_sim no)
+		(at 202.692 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0cad3564-a863-409f-8f25-f6fb46b6647a")
+	)
 	(junction
 		(at 76.2 161.29)
 		(diameter 0)
@@ -10158,6 +10168,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe0a40bb-62eb-4171-84c1-181130b3b58b")
+	)
+	(no_connect
+		(at 189.23 135.89)
+		(uuid "607d94fd-6ae3-4ca4-82e8-be1691617b1e")
 	)
 	(wire
 		(pts
