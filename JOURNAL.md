@@ -325,5 +325,3 @@ And I'm following the NVIDIA Jetson pinout for the SODIMM, so all the VDD pins a
 
 ![[Pasted image 20250902122555.png]]
 Now for most of the rest of these pins, I'm going to have to look at the [CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf) and wire to be pin compatible with the NVIDIA Jetson pinout which requires careful attention.
-
-The first big thing I want to get out of the way, is wiring USB3
