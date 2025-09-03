@@ -347,3 +347,11 @@ And just like that, we have ethernet wired up!
 And then after this, I realized that some of my net labels were facing the wrong way (for input/output/bidirectional) and also, I was MISSING some USB lines too!!!! So I fixed those pretty quickly and it looks much better now!
 
 ![Pasted image 20250902181823.png](journal/Pasted%20image%2020250902181823.png)
+
+Next, I want to implement the fans, I'm really just going in a kind of random order, but I want to tackle on the easier pins first. The fans just need PWM and Tacho (Not Taco!!!). Tacho is basically an output pin that the CM5 implements for fans that let you read it's current RPM, it's pretty cool and PWM just lets you control the fans.
+
+It was a bit weird, because the pins on the CM5 symbol said they belong to ethernet, but they're actually multiplexed as both ethernet pins AND PWM/Tacho, and I didn't need the 2 ethernet pins I used, so I just made them fan pins.
+
+And just like that, we're done implementing the fan pins!!!
+
+![[Pasted image 20250902201322.png]]
