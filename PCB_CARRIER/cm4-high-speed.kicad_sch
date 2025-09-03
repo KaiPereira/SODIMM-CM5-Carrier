@@ -4617,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 109.22) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c900c8d3-e3b9-48a1-bcdb-16fbe49d320f")
+	)
+	(wire
+		(pts
 			(xy 40.64 83.82) (xy 40.64 91.44)
 		)
 		(stroke
@@ -4657,13 +4667,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 104.14 99.06)
+			(xy 109.22 111.76) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d59e7fdd-6704-4f42-a7b8-a7ae547c1c26")
+		(uuid "d531d094-5a41-4910-b532-1e8d78063bea")
 	)
 	(wire
 		(pts
@@ -5003,6 +5013,50 @@
 			)
 		)
 	)
+	(global_label "HDMI-0_CEC"
+		(shape bidirectional)
+		(at 109.22 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57d9cccf-ca99-4acd-ada4-b383f803827d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.4115 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_HPD"
+		(shape input)
+		(at 109.22 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e36555c-3321-4511-9528-8c2c0b4bd52a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.577 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB3-1-TX_P"
 		(shape output)
 		(at 109.22 134.62 0)
@@ -5082,28 +5136,6 @@
 		(uuid "db02178e-81b7-4ce8-ab43-069c4938da85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.4884 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HDMI-0_HPD"
-		(shape input)
-		(at 109.22 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcdd546d-8766-4e56-aa3f-60e5c4b94c9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.577 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

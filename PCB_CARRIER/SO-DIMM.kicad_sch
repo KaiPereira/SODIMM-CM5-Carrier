@@ -11143,6 +11143,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 91.44) (xy 269.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992afd47-1dd8-42c3-93c2-d9619016e7c1")
+	)
+	(wire
+		(pts
 			(xy 201.93 162.56) (xy 196.85 162.56)
 		)
 		(stroke
@@ -12050,6 +12060,28 @@
 		(uuid "1e4fd293-6a66-4ea7-ac98-de43bf791bf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.4088 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_CEC"
+		(shape bidirectional)
+		(at 274.32 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e94c9a6-a104-4ea2-9382-a655e3cf7702")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.5115 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
