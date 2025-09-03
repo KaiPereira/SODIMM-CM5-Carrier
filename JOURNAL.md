@@ -320,18 +320,18 @@ And next, I'm going to add the power to my board. Now the CM5 takes a 5V input, 
 
 I decided to put one 0.1uF cap for every VDD pin (9), and then do a 10uF cap for each GROUP of VDD pins (2), and this gives me good high frequency and bulk decoupling for the power lines which I think is a good balance.
 
-![[Pasted image 20250902122459.png]]
+![Pasted image 20250902122459.png](journal/Pasted%20image%2020250902122459.png)
 And I'm following the NVIDIA Jetson pinout for the SODIMM, so all the VDD pins are just near the end of the connector, and I think that pin 260 is just unused, and for mechanical usage, but I'm not 100% sure.
 
-![[Pasted image 20250902122555.png]]
+![Pasted image 20250902122555.png](journal/Pasted%20image%2020250902122555.png)
 Now for most of the rest of these pins, I'm going to have to look at the [CM5 datasheet](https://datasheets.raspberrypi.com/cm5/cm5-datasheet.pdf) and wire to be pin compatible with the NVIDIA Jetson pinout which requires careful attention.
 
 The first big thing I want to get out of the way, is wiring all the USB pins. It took me quite a long time, but you basically just have to wire the USB lines from the CM5, to the SODIMM while making sure you don't mess up the pinout of the NVIDIA Jetson so it requires careful attention.
 
 The 2 standout things while wiring it was the USB_VBUS, which let's the BMC control the power on the USB ports so that's going to need a load switch on the cluster board, and then the NVIDIA Jetson has 3 USB 3.x ports while the CM5 only has 2, so I didn't wire the third. And just like that, it looks amazing!
 
-![[Pasted image 20250902145720.png]]
-![[Pasted image 20250902145741.png]]
+![Pasted image 20250902145720.png](journal/Pasted%20image%2020250902145720.png)
+![Pasted image 20250902145741.png](journal/Pasted%20image%2020250902145741.png)
 
 Next up, I decided to wire up the ethernet onto my board. Ethernet has 4 differential pairs which all need to be wired to the SODIMM from the CM5 mezzanine connector, but it also has status LED's which need to be wired too. 
 
@@ -341,9 +341,9 @@ It wasn't too complicated to figure out, but getting this concept though my head
 
 And just like that, we have ethernet wired up!
 
-![[Pasted image 20250902180206.png]]
-![[Pasted image 20250902180225.png]]
+![Pasted image 20250902180206.png](journal/Pasted%20image%2020250902180206.png)
+![Pasted image 20250902180225.png](journal/Pasted%20image%2020250902180225.png)
 
 And then after this, I realized that some of my net labels were facing the wrong way (for input/output/bidirectional) and also, I was MISSING some USB lines too!!!! So I fixed those pretty quickly and it looks much better now!
 
-![[Pasted image 20250902181823.png]]
+![Pasted image 20250902181823.png](journal/Pasted%20image%2020250902181823.png)
