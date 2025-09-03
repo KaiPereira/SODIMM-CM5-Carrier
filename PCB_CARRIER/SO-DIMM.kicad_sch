@@ -11942,7 +11942,7 @@
 		(uuid "ff636a9d-3f2c-4f27-acf7-07cc406579a3")
 	)
 	(global_label "USB3-1-TX_N"
-		(shape input)
+		(shape output)
 		(at 156.21 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11964,7 +11964,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_N"
-		(shape input)
+		(shape output)
 		(at 129.54 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12008,7 +12008,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_P"
-		(shape input)
+		(shape output)
 		(at 129.54 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12030,7 +12030,7 @@
 		)
 	)
 	(global_label "USB3-0-DM"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 111.76 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12041,7 +12041,7 @@
 		)
 		(uuid "28a0dad1-e395-4f45-bace-613997ccbf07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4245 111.76 0)
+			(at 212.4085 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12096,7 +12096,7 @@
 		)
 	)
 	(global_label "USB3-0-DP"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 114.3 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12107,7 +12107,7 @@
 		)
 		(uuid "5160568a-7b58-4632-b372-f6fc3deaa194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6059 114.3 0)
+			(at 212.5899 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12118,7 @@
 		)
 	)
 	(global_label "USB3-1-DM"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12129,7 +12129,7 @@
 		)
 		(uuid "5d59068c-8e9c-4605-9585-9353edff02d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.4245 119.38 0)
+			(at 212.4085 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12140,7 +12140,7 @@
 		)
 	)
 	(global_label "USB3-1-DP"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12151,7 +12151,7 @@
 		)
 		(uuid "6055903a-4017-4e31-a799-6e4071f2abd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6059 121.92 0)
+			(at 212.5899 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +12162,7 @@
 		)
 	)
 	(global_label "USB_P"
-		(shape input)
+		(shape bidirectional)
 		(at 300.99 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12173,7 +12173,7 @@
 		)
 		(uuid "741979c2-c400-45cb-aab6-e8f4b3616387")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.8621 78.74 0)
+			(at 290.8461 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12250,7 +12250,7 @@
 		)
 	)
 	(global_label "USB3-1-TX_P"
-		(shape input)
+		(shape output)
 		(at 156.21 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12382,7 +12382,7 @@
 		)
 	)
 	(global_label "USB_N"
-		(shape input)
+		(shape bidirectional)
 		(at 300.99 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12393,7 +12393,7 @@
 		)
 		(uuid "bc57c71b-8666-48bc-8f6b-694684417a5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.8016 76.2 0)
+			(at 290.7856 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
