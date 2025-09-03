@@ -344,4 +344,6 @@ And just like that, we have ethernet wired up!
 ![[Pasted image 20250902180206.png]]
 ![[Pasted image 20250902180225.png]]
 
-And then after this, I realized that some of my net labels were facing the wrong way (for input/output), so I fixed that too!
+And then after this, I realized that some of my net labels were facing the wrong way (for input/output/bidirectional) and also, I was MISSING some USB lines too!!!! So I fixed those pretty quickly and it looks much better now!
+
+![[Pasted image 20250902181823.png]]
