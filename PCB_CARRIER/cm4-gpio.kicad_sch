@@ -3915,9 +3915,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -7294,7 +7291,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 121.92 71.12 180)
+		(at 113.03 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7302,7 +7299,7 @@
 		(dnp no)
 		(uuid "9b22e66a-0481-44dd-9bd5-366658bdeb72")
 		(property "Reference" "D1"
-			(at 121.666 73.914 0)
+			(at 113.284 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7307,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 121.666 76.454 0)
+			(at 113.284 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7333,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 121.92 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7342,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7709,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 113.03 71.12 90)
+		(at 121.92 71.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7720,7 +7717,7 @@
 		(dnp no)
 		(uuid "ed335432-fc2f-490f-9f8b-042bf7b1db8d")
 		(property "Reference" "R1"
-			(at 113.03 73.914 90)
+			(at 121.92 76.708 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7728,7 +7725,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 113.03 76.454 90)
+			(at 121.92 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +7733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 72.898 90)
+			(at 121.92 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7745,7 +7742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7751,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 71.12 0)
+			(at 121.92 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
