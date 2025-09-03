@@ -10823,6 +10823,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 190.5) (xy 196.85 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718b8726-484d-48e7-bdb8-fc3c95be5487")
+	)
+	(wire
+		(pts
 			(xy 303.53 93.98) (xy 306.07 93.98)
 		)
 		(stroke
@@ -11130,6 +11140,16 @@
 			(type default)
 		)
 		(uuid "969ea01b-5eb0-4973-89e8-16f85bc5de00")
+	)
+	(wire
+		(pts
+			(xy 201.93 162.56) (xy 196.85 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9aad07d7-dbf1-4a93-996a-893e8d7a6eb9")
 	)
 	(wire
 		(pts
@@ -12161,6 +12181,28 @@
 			)
 		)
 	)
+	(global_label "FAN_TACH"
+		(shape input)
+		(at 201.93 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6720cfb3-2609-496f-b618-56b1a7e7a999")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.1423 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_P"
 		(shape bidirectional)
 		(at 300.99 78.74 180)
@@ -12284,6 +12326,28 @@
 		(uuid "9af96c5c-a118-41ff-8eba-9b0ce0d9e167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 146.0338 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM"
+		(shape input)
+		(at 201.93 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4038e5c-148b-4268-90aa-ecc43b064931")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.6584 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
