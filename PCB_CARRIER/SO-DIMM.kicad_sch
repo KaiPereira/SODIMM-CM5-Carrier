@@ -12016,7 +12016,7 @@
 		)
 	)
 	(global_label "+5V"
-		(shape output)
+		(shape input)
 		(at 232.41 148.59 90)
 		(fields_autoplaced yes)
 		(effects
@@ -12346,7 +12346,7 @@
 		)
 	)
 	(global_label "FAN_PWM"
-		(shape input)
+		(shape output)
 		(at 201.93 190.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -12390,7 +12390,7 @@
 		)
 	)
 	(global_label "+5V"
-		(shape output)
+		(shape input)
 		(at 270.51 148.59 90)
 		(fields_autoplaced yes)
 		(effects

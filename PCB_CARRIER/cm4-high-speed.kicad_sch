@@ -4828,7 +4828,7 @@
 		)
 	)
 	(global_label "USB3-1-TX_N"
-		(shape input)
+		(shape output)
 		(at 109.22 132.08 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4850,7 +4850,7 @@
 		)
 	)
 	(global_label "USB3-1-DP"
-		(shape input)
+		(shape bidirectional)
 		(at 109.22 124.46 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4861,7 +4861,7 @@
 		)
 		(uuid "1302ad4c-cde4-458a-ac7d-a7ff8720a943")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.2141 124.46 0)
+			(at 125.2301 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +4872,7 @@
 		)
 	)
 	(global_label "USB3-1-DM"
-		(shape input)
+		(shape bidirectional)
 		(at 109.22 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4883,7 +4883,7 @@
 		)
 		(uuid "160b6a5a-bca7-49c3-a8a0-5a0c329207ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.3955 127 0)
+			(at 125.4115 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4894,7 +4894,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_N"
-		(shape input)
+		(shape output)
 		(at 38.1 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4916,7 +4916,7 @@
 		)
 	)
 	(global_label "USB3-0-DM"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 88.9 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4927,7 +4927,7 @@
 		)
 		(uuid "27bd3d38-75d6-4ae5-b285-146d3096701d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.9245 88.9 0)
+			(at 21.9085 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +4960,7 @@
 		)
 	)
 	(global_label "USB3-0-DP"
-		(shape input)
+		(shape bidirectional)
 		(at 38.1 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4971,7 +4971,7 @@
 		)
 		(uuid "35c799e4-3eb7-4e81-8318-f99a9c627849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.1059 86.36 0)
+			(at 22.0899 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,7 +4982,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_P"
-		(shape input)
+		(shape output)
 		(at 38.1 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5004,7 +5004,7 @@
 		)
 	)
 	(global_label "USB3-1-TX_P"
-		(shape input)
+		(shape output)
 		(at 109.22 134.62 0)
 		(fields_autoplaced yes)
 		(effects

@@ -363,3 +363,5 @@ Tomorrow I'm going to try and get all the pins wired to the SODIMM, and then may
 ## Day 8 - SODIMM so cool!
 
 I made a lot of really good progress yesterday, so let's continue it!
+
+The first thing I want to do is implement HDMI.
