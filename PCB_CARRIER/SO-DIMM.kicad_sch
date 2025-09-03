@@ -10213,6 +10213,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 161.29) (xy 124.46 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041e871f-7ddc-4905-b567-c4abc53fee96")
+	)
+	(wire
+		(pts
 			(xy 86.36 91.44) (xy 86.36 99.06)
 		)
 		(stroke
@@ -10820,6 +10830,16 @@
 			(type default)
 		)
 		(uuid "723d76d7-c236-49ef-9d82-76074c485a59")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 124.46 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7802e700-02d6-4966-8868-7272596a62c3")
 	)
 	(wire
 		(pts
@@ -11443,6 +11463,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 153.67) (xy 88.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfac9227-89d2-4e54-b996-04d0ff4ea896")
+	)
+	(wire
+		(pts
 			(xy 199.39 86.36) (xy 199.39 93.98)
 		)
 		(stroke
@@ -11893,6 +11923,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 156.21) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe60a09e-79e9-4474-98d0-3efeb2bd5886")
+	)
+	(wire
+		(pts
 			(xy 124.46 76.2) (xy 127 76.2)
 		)
 		(stroke
@@ -11923,6 +11963,28 @@
 			)
 		)
 	)
+	(global_label "USB3-0-TX_N"
+		(shape input)
+		(at 129.54 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16f27ebb-51d1-4591-887e-5424e2e401d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.4693 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape output)
 		(at 232.41 148.59 90)
@@ -11936,6 +11998,28 @@
 		(uuid "17e5e47d-518e-4190-a60c-a4205dcfd8c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 232.41 141.6392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3-0-TX_P"
+		(shape input)
+		(at 129.54 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e4fd293-6a66-4ea7-ac98-de43bf791bf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.4088 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,6 +12293,28 @@
 			)
 		)
 	)
+	(global_label "USB3-0-RX_P"
+		(shape input)
+		(at 83.82 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5699b2e-cb58-4fa9-b400-9be7f14b47e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6488 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape output)
 		(at 270.51 148.59 90)
@@ -12315,6 +12421,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB3-0-RX_N"
+		(shape input)
+		(at 83.82 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7b46566-348a-4faf-a740-f1c1e771e4e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.5883 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
