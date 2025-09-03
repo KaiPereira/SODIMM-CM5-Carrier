@@ -364,4 +364,13 @@ Tomorrow I'm going to try and get all the pins wired to the SODIMM, and then may
 
 I made a lot of really good progress yesterday, so let's continue it!
 
-The first thing I want to do is implement HDMI.
+The first thing I want to do is implement HDMI. HDMI isn't too complicated to wire, but routing is a different story... HDMI is pretty straightforward though, it's got 3 differential pairs of TX wires to drive to signals, and one differential pair of clock wires to keep everything synchronized.
+
+And then, there's the I2C bus, SCL and SDA which are bidirectional and can transmit information like the display size and whatnot to the CM5. And to add on, there's also the HPD (hot plug detect) which just lets the source know if a device is plugged in, and there's the CEC (consumer electronics control), which just let's consumer signals be sent to the source like power on/off, audio, etc.
+
+So it wasn't too complicated to wire, and just like that, we have HDMI implemented!
+
+![[Pasted image 20250903072920.png]]
+![[Pasted image 20250903072940.png]]
+
+I also fixed a bunch of the net labels going the wrong way which I messed up for some reason, so you'll notice some changes there!
