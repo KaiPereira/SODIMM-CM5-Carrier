@@ -354,7 +354,7 @@ It was a bit weird, because the pins on the CM5 symbol said they belong to ether
 
 And just like that, we're done implementing the fan pins!!!
 
-![[Pasted image 20250902201322.png]]
+![Pasted image 20250902201322.png](journal/Pasted%20image%2020250902201322.png)
 
 Anyways I spent a pretty long time working on this, so I'm going to end it off here. This is some insanely good tangible progress though which always helps inspire me during my projects!
 
@@ -370,7 +370,7 @@ And then, there's the I2C bus, SCL and SDA which are bidirectional and can trans
 
 So it wasn't too complicated to wire, and just like that, we have HDMI implemented!
 
-![[Pasted image 20250903072920.png]]
-![[Pasted image 20250903072940.png]]
+![Pasted image 20250903072920.png](journal/Pasted%20image%2020250903072920.png)
+![Pasted image 20250903072940.png](journal/Pasted%20image%2020250903072940.png)
 
 I also fixed a bunch of the net labels going the wrong way which I messed up for some reason, so you'll notice some changes there!
