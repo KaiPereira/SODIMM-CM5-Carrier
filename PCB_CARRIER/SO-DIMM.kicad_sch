@@ -11653,6 +11653,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 93.98) (xy 269.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58ad462-38a2-476a-a4f9-c254d2dab3b0")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 158.75 101.6)
 		)
 		(stroke
@@ -12590,6 +12600,28 @@
 		(uuid "ef3bffed-0ca7-4e03-9d2f-56e0206d4297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.1267 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_HPD"
+		(shape input)
+		(at 274.32 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9b46688-6b2d-4cc4-95c3-b4cbed14f904")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 289.677 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
