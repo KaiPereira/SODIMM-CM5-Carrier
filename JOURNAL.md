@@ -332,3 +332,16 @@ The 2 standout things while wiring it was the USB_VBUS, which let's the BMC cont
 
 ![[Pasted image 20250902145720.png]]
 ![[Pasted image 20250902145741.png]]
+
+Next up, I decided to wire up the ethernet onto my board. Ethernet has 4 differential pairs which all need to be wired to the SODIMM from the CM5 mezzanine connector, but it also has status LED's which need to be wired too. 
+
+Now you can wire these status LED's onto the actual daughter card, or you can break them out onto the SODIMM. I decided to break out the 2 status LED's for activity and speed to the SODIMM, and then put the Pi activity LED onto the daughter card to show it's on.
+
+It wasn't too complicated to figure out, but getting this concept though my head was a bit challenging. I decided to just breakout the LED's because that's what the NVIDIA Jetson does, and I kind of want to stay as pin compatible and concise as possible.
+
+And just like that, we have ethernet wired up!
+
+![[Pasted image 20250902180206.png]]
+![[Pasted image 20250902180225.png]]
+
+And then after this, I realized that some of my net labels were facing the wrong way (for input/output), so I fixed that too!
