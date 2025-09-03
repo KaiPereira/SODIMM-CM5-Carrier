@@ -9811,7 +9811,7 @@
 	)
 	(text "Implement on BMC!"
 		(exclude_from_sim no)
-		(at 221.234 81.026 0)
+		(at 220.472 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10573,6 +10573,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 106.68) (xy 161.29 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440441b3-9fbd-4105-87c7-c52cfd4a1e6a")
+	)
+	(wire
+		(pts
 			(xy 233.68 176.53) (xy 232.41 176.53)
 		)
 		(stroke
@@ -10693,6 +10703,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 78.74) (xy 233.68 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1861a3-f70a-45ab-a551-2a9832b3823d")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 161.29 93.98)
 		)
 		(stroke
@@ -10730,6 +10750,16 @@
 			(type default)
 		)
 		(uuid "63b7c1e6-4b97-4378-9143-d0d39b881857")
+	)
+	(wire
+		(pts
+			(xy 156.21 121.92) (xy 161.29 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640d0454-5536-466f-bd7d-0b9e5d32af71")
 	)
 	(wire
 		(pts
@@ -10813,6 +10843,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 119.38) (xy 161.29 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f43f780-1ff5-4411-9654-51d07dc7bb4c")
+	)
+	(wire
+		(pts
 			(xy 341.63 96.52) (xy 344.17 96.52)
 		)
 		(stroke
@@ -10820,6 +10860,16 @@
 			(type default)
 		)
 		(uuid "7011ba11-722c-4519-80aa-9ff72f0d37b4")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70256f69-0083-4271-be1a-24ac618e9be6")
 	)
 	(wire
 		(pts
@@ -11033,6 +11083,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a16d635-6b51-435c-9401-e6476e8bbe76")
+	)
+	(wire
+		(pts
 			(xy 344.17 96.52) (xy 344.17 104.14)
 		)
 		(stroke
@@ -11220,6 +11280,16 @@
 			(type default)
 		)
 		(uuid "a12835f9-dd4c-42a8-888b-5ab1395e87d6")
+	)
+	(wire
+		(pts
+			(xy 156.21 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29524e1-e8c8-4d12-9ee0-71a9beef95f9")
 	)
 	(wire
 		(pts
@@ -11593,6 +11663,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 96.52) (xy 269.24 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd0585b-42e2-4730-8cce-3ada882e24a3")
+	)
+	(wire
+		(pts
 			(xy 231.14 116.84) (xy 233.68 116.84)
 		)
 		(stroke
@@ -11650,6 +11730,16 @@
 			(type default)
 		)
 		(uuid "d1491537-a3e6-41a4-8f04-1785a3c89b5d")
+	)
+	(wire
+		(pts
+			(xy 228.6 76.2) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d285838f-be52-4ac5-9b39-0ebb2cf628e0")
 	)
 	(wire
 		(pts
@@ -11740,6 +11830,16 @@
 			(type default)
 		)
 		(uuid "ddf0b168-ac8d-4f17-9abf-54d40866e4e2")
+	)
+	(wire
+		(pts
+			(xy 274.32 99.06) (xy 269.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df728f90-0a6c-431b-871c-83db77780b11")
 	)
 	(wire
 		(pts
@@ -12003,6 +12103,28 @@
 			)
 		)
 	)
+	(global_label "HDMI-0_TX2_P"
+		(shape input)
+		(at 156.21 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b2cee4f-1418-445e-af6f-bfa52c5da9b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0993 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB3-0-TX_N"
 		(shape output)
 		(at 129.54 158.75 0)
@@ -12087,6 +12209,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_CLK_P"
+		(shape input)
+		(at 228.6 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f02fa7e-dabe-4a79-a7b0-a3c3f6aee2f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.3078 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12267,6 +12411,28 @@
 			)
 		)
 	)
+	(global_label "HDMI-0_TX1_N"
+		(shape input)
+		(at 156.21 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7997b265-8c72-4b72-bc37-56f28b23a378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0388 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB3-1-RX_P"
 		(shape input)
 		(at 156.21 76.2 180)
@@ -12302,6 +12468,50 @@
 		(uuid "818250e1-bf71-4321-bddd-03f750b986d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.8435 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_SDA"
+		(shape bidirectional)
+		(at 274.32 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ab9cd90-cace-422e-a783-96431c1aa3e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3906 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_TX0_P"
+		(shape input)
+		(at 156.21 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98978f12-e333-4ef6-90f9-881d5746ccf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0993 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12373,6 +12583,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_TX2_N"
+		(shape input)
+		(at 156.21 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9cca6350-3eab-472c-b79a-4b51ab5608ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0388 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12487,6 +12719,50 @@
 			)
 		)
 	)
+	(global_label "HDMI-0_TX1_P"
+		(shape input)
+		(at 156.21 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b35b03e4-688c-4f45-86e4-10cd18e2013d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0993 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_SCL"
+		(shape bidirectional)
+		(at 274.32 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b898d2b1-3afc-4a8d-81e8-33d9cf29ad55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.3301 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_N"
 		(shape bidirectional)
 		(at 300.99 76.2 180)
@@ -12527,6 +12803,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_TX0_N"
+		(shape input)
+		(at 156.21 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5836b58-5291-430e-a08a-cab3646aaaa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0388 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12659,6 +12957,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_CLK_N"
+		(shape input)
+		(at 228.6 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe5f440c-6840-4108-ba8c-b098a5b7eb18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.2473 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
