@@ -267,7 +267,7 @@ And just like that, we have a nice template for our carrier board and there's al
 
 And for now I'm just going to end it there because we've actually started working on the project and got a lot of the specs for the carrier board down!
 
-## Day 7 - Starting the PCB
+## Day 7 - Starting the PCB - 8 Hours
 
 Now that I have the compute module template down, I can actually get started working on it! 
 
@@ -355,3 +355,11 @@ It was a bit weird, because the pins on the CM5 symbol said they belong to ether
 And just like that, we're done implementing the fan pins!!!
 
 ![[Pasted image 20250902201322.png]]
+
+Anyways I spent a pretty long time working on this, so I'm going to end it off here. This is some insanely good tangible progress though which always helps inspire me during my projects!
+
+Tomorrow I'm going to try and get all the pins wired to the SODIMM, and then maybe start working on the eMMC or the NVMe wiring.
+
+## Day 8 - SODIMM so cool!
+
+I made a lot of really good progress yesterday, so let's continue it!
