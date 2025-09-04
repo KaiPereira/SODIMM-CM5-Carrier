@@ -374,3 +374,11 @@ So it wasn't too complicated to wire, and just like that, we have HDMI implement
 ![Pasted image 20250903072940.png](journal/Pasted%20image%2020250903072940.png)
 
 I also fixed a bunch of the net labels going the wrong way which I messed up for some reason, so you'll notice some changes there!
+
+Anyways next, I wanted to implement SD cards onto the board, now there's 2 options of how I could do this:
+- Put the SD cards on the cluster board and route them through the SODIMM connector
+- Put the SD cards onto the daughter board and have them nicely self-contained
+
+Now putting on the cluster board would add more routing and complexity, and the jetson also doesn't expose an SD card so it gets a bit confusing, so I think I'm going to include the SD card on the actual daughter card.
+
+Now the only real problem with adding the SD card to the daughter card is space, but I honestly think it's going to be fine, and while it does make the daughter card slightly more expensive, I think it's worth it. So let's implement the SD card!
