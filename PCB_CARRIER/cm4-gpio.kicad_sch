@@ -4322,7 +4322,7 @@
 	)
 	(text "One 0.1uF cap/VDD Pin, One 10uF cap/Group of VDD pins"
 		(exclude_from_sim no)
-		(at 137.668 138.684 0)
+		(at 137.16 169.164 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4708,6 +4708,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 132.08) (xy 104.14 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe47600-05b9-402d-91a7-72cc169b1bf8")
+	)
+	(wire
+		(pts
 			(xy 120.65 152.4) (xy 116.84 152.4)
 		)
 		(stroke
@@ -4838,6 +4848,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 121.92) (xy 104.14 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6a7751-59be-4f74-aa6f-bdb4cc29601f")
+	)
+	(wire
+		(pts
 			(xy 161.29 149.86) (xy 165.1 149.86)
 		)
 		(stroke
@@ -4905,6 +4925,16 @@
 			(type solid)
 		)
 		(uuid "5fde0eb3-ed7f-4936-bef0-600838a52020")
+	)
+	(wire
+		(pts
+			(xy 109.22 129.54) (xy 104.14 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "682c99b0-4064-4efb-9a8b-96e16e91eace")
 	)
 	(wire
 		(pts
@@ -5588,6 +5618,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 116.84) (xy 104.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead7a03c-ed1b-4e99-ba5f-8513640c1e7a")
+	)
+	(wire
+		(pts
 			(xy 40.64 71.12) (xy 40.64 83.82)
 		)
 		(stroke
@@ -5616,6 +5656,16 @@
 		)
 		(uuid "eedc6b81-c699-4a9e-87f0-686c951e6ed3")
 	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0fd7be-2b2d-4bad-89ab-905c726a584b")
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 120.65 152.4 0)
@@ -5632,6 +5682,28 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT3"
+		(shape input)
+		(at 109.22 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dd6dbf1-dc02-4a01-8e00-8c290d958d35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2831 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5696,6 +5768,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CLK"
+		(shape input)
+		(at 109.22 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ab173c8-4ff8-4a4b-ba76-e5e130b3773c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.3155 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5874,6 +5968,28 @@
 			)
 		)
 	)
+	(global_label "SD_DAT2"
+		(shape input)
+		(at 109.22 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78397891-5289-44ec-a802-283befc927a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2831 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GBE_LED_LINK"
 		(shape output)
 		(at 109.22 63.5 0)
@@ -5938,6 +6054,28 @@
 			)
 		)
 	)
+	(global_label "SD_DAT1"
+		(shape input)
+		(at 109.22 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c145ea85-adaa-474c-93d9-2187348f46b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2831 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GBE_MDI0_P"
 		(shape bidirectional)
 		(at 38.1 58.42 180)
@@ -5956,6 +6094,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_DAT0"
+		(shape input)
+		(at 109.22 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef992044-18e1-4fc5-9589-6b18c6bad1e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.2831 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
