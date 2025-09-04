@@ -382,3 +382,9 @@ Anyways next, I wanted to implement SD cards onto the board, now there's 2 optio
 Now putting on the cluster board would add more routing and complexity, and the jetson also doesn't expose an SD card so it gets a bit confusing, so I think I'm going to include the SD card on the actual daughter card.
 
 Now the only real problem with adding the SD card to the daughter card is space, but I honestly think it's going to be fine, and while it does make the daughter card slightly more expensive, I think it's worth it. So let's implement the SD card!
+
+Now SD cards are pretty simple, I basically just route the signals from the mezzanine connector to the SD card directly, and just add decoupling to the power lines. Now the one thing you kind of want for something like this is a power switch so you can turn off the SD card if you're using eMMC or NVMe instead, so I need to add this little power switch circuit to the board.
+
+I just took all of this from the CM5 datasheet, but I think it looks pretty good!
+
+![[Pasted image 20250904164726.png]]
