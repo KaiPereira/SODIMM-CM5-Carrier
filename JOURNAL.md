@@ -388,3 +388,10 @@ Now SD cards are pretty simple, I basically just route the signals from the mezz
 I just took all of this from the CM5 datasheet, but I think it looks pretty good!
 
 ![[Pasted image 20250904164726.png]]
+
+Some notes for this is that I'm wiring SD_PWR_ON, directly to the CM5, so the BMC doesn't actually control that, it's the CM5 that does. I did this because the NVIDIA jetson does the same thing, so it makes more sense to make everything the same.
+
+And then after I did this wiring, I also added some labels just so the BMC can detect when the SD card is plugged in, just some fun added features and I also formatted it a bit more!
+
+![[Pasted image 20250904165741.png]]
+
