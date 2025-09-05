@@ -1,3 +1,5 @@
-# ITX Cluster Board
+# 8-Node ITX Cluster Board
 
-A small, 8-node ITX cluster board running custom compute modules, supporting up to 256 GB of ram and 48 TOPS worth of NPU performance.
+I'm working on an 8-node ITX cluster board with support for the NVIDIA Jetson compute module, turing RK1, and CM5/CM4.
+
+I'm also making custom daughter boards for the CM4/CM5 that support NVMe SSD, and a bunch of other stuff, with SODIMM compatibility with the Jetson and whatnot.
