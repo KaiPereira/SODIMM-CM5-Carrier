@@ -360,7 +360,7 @@ Anyways I spent a pretty long time working on this, so I'm going to end it off h
 
 Tomorrow I'm going to try and get all the pins wired to the SODIMM, and then maybe start working on the eMMC or the NVMe wiring.
 
-## Day 8 - SODIMM so cool!
+## Day 8 - SODIMM so cool! - 4 Hours
 
 I made a lot of really good progress yesterday, so let's continue it!
 
@@ -394,4 +394,8 @@ Some notes for this is that I'm wiring SD_PWR_ON, directly to the CM5, so the BM
 And then after I did this wiring, I also added some labels just so the BMC can detect when the SD card is plugged in, just some fun added features and I also formatted it a bit more!
 
 ![[Pasted image 20250904165741.png]]
+
+I'm honestly going to end the day off here, just because I don't have too much time because school just started, but I think I got some decent work done today!
+
+## Day 9 - YAY NVMe M.2 M-key slot!
 
