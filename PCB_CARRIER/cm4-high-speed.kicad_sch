@@ -5383,6 +5383,10 @@
 		(uuid "335074bd-e82d-4606-8105-13a37c94fa76")
 	)
 	(no_connect
+		(at 160.02 35.56)
+		(uuid "6d3c1da4-b929-432b-a4c5-858750981f8a")
+	)
+	(no_connect
 		(at 259.08 113.03)
 		(uuid "9c662078-9558-4530-9a68-fa21c28daaa4")
 	)
@@ -5629,16 +5633,6 @@
 			(type default)
 		)
 		(uuid "3d39f92e-4eb7-4ef4-b80e-352292020887")
-	)
-	(wire
-		(pts
-			(xy 165.1 35.56) (xy 160.02 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b0a681-e116-4707-b4c4-2e8f02803e6e")
 	)
 	(wire
 		(pts
@@ -6485,7 +6479,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX2_P"
-		(shape input)
+		(shape output)
 		(at 93.98 121.92 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6573,7 +6567,7 @@
 		)
 	)
 	(global_label "HDMI-0_CLK_N"
-		(shape input)
+		(shape output)
 		(at 93.98 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6617,7 +6611,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX2_N"
-		(shape input)
+		(shape output)
 		(at 93.98 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6705,7 +6699,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX1_P"
-		(shape input)
+		(shape output)
 		(at 93.98 129.54 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6903,7 +6897,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX0_N"
-		(shape input)
+		(shape output)
 		(at 93.98 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7145,7 +7139,7 @@
 		)
 	)
 	(global_label "USB_N"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 38.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7156,7 +7150,7 @@
 		)
 		(uuid "a1211036-80c8-4a5b-823b-168c56adf8e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2884 38.1 0)
+			(at 175.3044 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,7 +7183,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX0_P"
-		(shape input)
+		(shape output)
 		(at 93.98 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7255,7 +7249,7 @@
 		)
 	)
 	(global_label "HDMI-0_TX1_N"
-		(shape input)
+		(shape output)
 		(at 93.98 132.08 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7277,7 +7271,7 @@
 		)
 	)
 	(global_label "HDMI-0_CLK_P"
-		(shape input)
+		(shape output)
 		(at 93.98 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7316,28 +7310,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_OTG_ID"
-		(shape input)
-		(at 165.1 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db02178e-81b7-4ce8-ab43-069c4938da85")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3684 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7387,7 +7359,7 @@
 		)
 	)
 	(global_label "USB_P"
-		(shape input)
+		(shape bidirectional)
 		(at 165.1 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7398,7 +7370,7 @@
 		)
 		(uuid "f66a39b9-91ae-48be-94b7-1e6a2e1c3e85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2279 40.64 0)
+			(at 175.2439 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)

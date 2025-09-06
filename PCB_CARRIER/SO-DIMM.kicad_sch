@@ -7236,7 +7236,7 @@
 		(uuid "ff636a9d-3f2c-4f27-acf7-07cc406579a3")
 	)
 	(global_label "USB3-1-TX_N"
-		(shape output)
+		(shape input)
 		(at 156.21 81.28 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7280,7 +7280,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_N"
-		(shape output)
+		(shape input)
 		(at 129.54 158.75 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7324,7 +7324,7 @@
 		)
 	)
 	(global_label "USB3-0-TX_P"
-		(shape output)
+		(shape input)
 		(at 129.54 161.29 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7588,7 +7588,7 @@
 		)
 	)
 	(global_label "USB3-1-RX_P"
-		(shape input)
+		(shape output)
 		(at 156.21 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7698,7 +7698,7 @@
 		)
 	)
 	(global_label "USB3-1-TX_P"
-		(shape output)
+		(shape input)
 		(at 156.21 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7786,7 +7786,7 @@
 		)
 	)
 	(global_label "USB3-0-RX_P"
-		(shape input)
+		(shape output)
 		(at 83.82 156.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7852,7 +7852,7 @@
 		)
 	)
 	(global_label "USB3-1-RX_N"
-		(shape input)
+		(shape output)
 		(at 83.82 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7984,7 +7984,7 @@
 		)
 	)
 	(global_label "USB3-0-RX_N"
-		(shape input)
+		(shape output)
 		(at 83.82 153.67 180)
 		(fields_autoplaced yes)
 		(effects
