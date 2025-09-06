@@ -404,3 +404,21 @@ Now that I got SD cards implemented, I want to work on adding the M.2 M-Key slot
 Now an M.2 M-Key slot is a connector that supports PCIe x4 lanes, used commonly for NVMe SSD's and has clock, reset and 4 differential lanes on it, so it's decently complicated to route/wire.
 
 ![[Pasted image 20250905210937.png]]
+
+But the thing is, the CM5 only has x1 PCIe lanes exposed through the mezzanine connector, so with Gen 3 x1 PCIe so we only get around 1Gb/s of bandwidth. Now I want to go over how PCIe works a bit.
+
+So PCIe has a bunch of different generations:
+
+| Gen | Year | Data rate per lane   | Bandwidth x16 |
+| --- | ---- | -------------------- | ------------- |
+| 1.0 | 2003 | 2.5 GT/s (~250 MB/s) | ~4 GB/s       |
+| 2.0 | 2007 | 5 GT/s (~500 MB/s)   | ~8 GB/s       |
+| 3.0 | 2010 | 8 GT/s (~1 GB/s)     | ~16 GB/s      |
+| 4.0 | 2017 | 16 GT/s (~2 GB/s)    | ~32 GB/s      |
+| 5.0 | 2019 | 32 GT/s (~4 GB/s)    | ~64 GB/s      |
+| 6.0 | 2022 | 64 GT/s (~8 GB/s)    | ~128 GB/s     |
+Each generation gives more and more bandwidth, but not all are supported by the SoM. So the CM5 supports Gen 3.0, and exposed only one lane, so we get Gen 3.0 x1, which is 1Gb/s of bandwidth.
+
+Now usually an SSD uses x4 lanes for high data transfer, but because we only have one lane exposed, we'll need to make do. 
+
+The PCIe socket (where you plug the NVMe SSD into) also has some other pins like PEDET, which detects if a card is in it, and a bunch of other stuff, but we won't actually need those. But it's important to also wire the CLK/clock on the socket to keep accurate timing for the data flow, the clock is provided by the CM5.
