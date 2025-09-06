@@ -397,5 +397,7 @@ And then after I did this wiring, I also added some labels just so the BMC can d
 
 I'm honestly going to end the day off here, just because I don't have too much time because school just started, but I think I got some decent work done today!
 
-## Day 9 - YAY NVMe M.2 M-key slot!
+## Day 9 - NVMe M.2 M-key slot!
+
+Now that I got SD cards implemented, I want to work on adding the M.2 M-Key slot which will allow us to plug in an SSD into the daughter board!
 
