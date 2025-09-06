@@ -422,3 +422,9 @@ Each generation gives more and more bandwidth, but not all are supported by the 
 Now usually an SSD uses x4 lanes for high data transfer, but because we only have one lane exposed, we'll need to make do. 
 
 The PCIe socket (where you plug the NVMe SSD into) also has some other pins like PEDET, which detects if a card is in it, and a bunch of other stuff, but we won't actually need those. But it's important to also wire the CLK/clock on the socket to keep accurate timing for the data flow, the clock is provided by the CM5.
+
+Now I can choose to either wire the NVMe SSD onto the daughter card or put it on the cluster board by breaking it out through the SODIMM connector. It's actually a really tough choice, because putting it on the daughter card is much more simple, but the NVIDIA jetson and the turing rk1 break out the PCIe lanes through the SODIMM connector, so I wouldn't be able to give them an SSD.
+
+So I think I'm actually going to breakout the M.2 M-Key lanes onto the cluster board so I'll also be able to support 4 lanes for the Turing RK1, and the NVIDIA jetson, but also support the one lane for the CM5/CM4.
+
+But just to understand how the NVMe SSD wiring will work, I'm going to model it onto the daughter board and then actually wire it to the SODIMM, so I don't mess anything up!
