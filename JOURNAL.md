@@ -428,3 +428,9 @@ Now I can choose to either wire the NVMe SSD onto the daughter card or put it on
 So I think I'm actually going to breakout the M.2 M-Key lanes onto the cluster board so I'll also be able to support 4 lanes for the Turing RK1, and the NVIDIA jetson, but also support the one lane for the CM5/CM4.
 
 But just to understand how the NVMe SSD wiring will work, I'm going to model it onto the daughter board and then actually wire it to the SODIMM, so I don't mess anything up!
+
+Anyways, with a bit of research and some wiring, I think I have the wiring down!
+
+![[Pasted image 20250906121755.png]]
+
+And then on the SODIMM, I'll wire all 4 lanes to the NVMe SSD on the actual cluster board for greater bandwidth!
