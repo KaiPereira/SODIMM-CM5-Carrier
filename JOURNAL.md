@@ -387,13 +387,13 @@ Now SD cards are pretty simple, I basically just route the signals from the mezz
 
 I just took all of this from the CM5 datasheet, but I think it looks pretty good!
 
-![[Pasted image 20250904164726.png]]
+![Pasted image 20250904164726.png](journal/Pasted%20image%2020250904164726.png)
 
 Some notes for this is that I'm wiring SD_PWR_ON, directly to the CM5, so the BMC doesn't actually control that, it's the CM5 that does. I did this because the NVIDIA jetson does the same thing, so it makes more sense to make everything the same.
 
 And then after I did this wiring, I also added some labels just so the BMC can detect when the SD card is plugged in, just some fun added features and I also formatted it a bit more!
 
-![[Pasted image 20250904165741.png]]
+![Pasted image 20250904165741.png](journal/Pasted%20image%2020250904165741.png)
 
 I'm honestly going to end the day off here, just because I don't have too much time because school just started, but I think I got some decent work done today!
 
@@ -403,7 +403,7 @@ Now that I got SD cards implemented, I want to work on adding the M.2 M-Key slot
 
 Now an M.2 M-Key slot is a connector that supports PCIe x4 lanes, used commonly for NVMe SSD's and has clock, reset and 4 differential lanes on it, so it's decently complicated to route/wire.
 
-![[Pasted image 20250905210937.png]]
+![Pasted image 20250905210937.png](journal/Pasted%20image%2020250905210937.png)
 
 But the thing is, the CM5 only has x1 PCIe lanes exposed through the mezzanine connector, so with Gen 3 x1 PCIe so we only get around 1Gb/s of bandwidth. Now I want to go over how PCIe works a bit.
 
@@ -431,6 +431,6 @@ But just to understand how the NVMe SSD wiring will work, I'm going to model it 
 
 Anyways, with a bit of research and some wiring, I think I have the wiring down!
 
-![[Pasted image 20250906121755.png]]
+![Pasted image 20250906121755.png](journal/Pasted%20image%2020250906121755.png)
 
 And then on the SODIMM, I'll wire all 4 lanes to the NVMe SSD on the actual cluster board for greater bandwidth!
