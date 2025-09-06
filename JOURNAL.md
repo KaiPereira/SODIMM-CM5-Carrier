@@ -401,3 +401,6 @@ I'm honestly going to end the day off here, just because I don't have too much t
 
 Now that I got SD cards implemented, I want to work on adding the M.2 M-Key slot which will allow us to plug in an SSD into the daughter board!
 
+Now an M.2 M-Key slot is a connector that supports PCIe x4 lanes, used commonly for NVMe SSD's and has clock, reset and PCIe lane pins on it, so it's decently complicated to route/wire.
+
+![[Pasted image 20250905210937.png]]
