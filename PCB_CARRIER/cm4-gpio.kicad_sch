@@ -8758,7 +8758,7 @@
 				)
 			)
 		)
-		(property "Value" "RT9742AGJ5F"
+		(property "Value" "RT9742GGJ5"
 			(at 228.6 57.15 0)
 			(effects
 				(font
@@ -8775,7 +8775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf"
+		(property "Datasheet" ""
 			(at 228.6 80.01 0)
 			(effects
 				(font
@@ -8784,7 +8784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3A, Discharge, Active High EN, TSOT-23-5"
+		(property "Description" ""
 			(at 228.6 64.77 0)
 			(effects
 				(font
