@@ -4298,6 +4298,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -8775,7 +8778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf"
 			(at 228.6 80.01 0)
 			(effects
 				(font
@@ -8784,7 +8787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3A, Discharge, Active High EN, TSOT-23-5"
 			(at 228.6 64.77 0)
 			(effects
 				(font
