@@ -6653,7 +6653,7 @@
 		)
 	)
 	(global_label "PCIe_CLK_N"
-		(shape input)
+		(shape output)
 		(at 93.98 48.26 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6697,7 +6697,7 @@
 		)
 	)
 	(global_label "PCIe_CLKREQ"
-		(shape input)
+		(shape output)
 		(at 207.01 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6851,7 +6851,7 @@
 		)
 	)
 	(global_label "PCIe_nRST"
-		(shape input)
+		(shape output)
 		(at 165.1 45.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6939,7 +6939,7 @@
 		)
 	)
 	(global_label "PCIe_CLK_P"
-		(shape input)
+		(shape output)
 		(at 93.98 45.72 180)
 		(fields_autoplaced yes)
 		(effects
