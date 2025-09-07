@@ -433,4 +433,8 @@ Anyways, with a bit of research and some wiring, I think I have the wiring down!
 
 ![Pasted image 20250906121755.png](journal/Pasted%20image%2020250906121755.png)
 
-And then on the SODIMM, I'll wire all 4 lanes to the NVMe SSD on the actual cluster board for greater bandwidth!
+And then on the SODIMM, I'll have just one lane, but for the Jetson and stuff, I'll wire all 4 lanes to the NVMe SSD on the actual cluster board for greater bandwidth!
+
+Anyways, it's not too complicated to breakout the PCIe through the SODIMM connector because we're just using one lane with the CM5.
+
+![[Pasted image 20250906221641.png]]
