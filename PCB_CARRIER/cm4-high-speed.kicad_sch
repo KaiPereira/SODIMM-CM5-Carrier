@@ -4271,6 +4271,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c744f5a-933d-438f-8e90-22eda3ab73ce")
+	)
+	(wire
+		(pts
 			(xy 93.98 45.72) (xy 99.06 45.72)
 		)
 		(stroke
@@ -4598,6 +4608,16 @@
 			(type solid)
 		)
 		(uuid "83b7b10e-9ef4-4a80-a07e-a54c272a8f4e")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84072f14-a7f3-4a54-85ac-ccd0989f4d3e")
 	)
 	(wire
 		(pts
@@ -5399,6 +5419,28 @@
 			)
 		)
 	)
+	(global_label "CSI-0_CLK_P"
+		(shape output)
+		(at 165.1 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "314bfd6d-74ce-4f5d-8535-28d9f00a6ed6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.8198 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PCIe_TX_P"
 		(shape output)
 		(at 93.98 60.96 180)
@@ -5764,6 +5806,28 @@
 		(uuid "a1211036-80c8-4a5b-823b-168c56adf8e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.3044 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CSI-0_CLK_N"
+		(shape output)
+		(at 165.1 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3ca1fd0-f4fc-42af-8d5a-07ce7316d2c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.8803 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
