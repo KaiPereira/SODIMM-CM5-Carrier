@@ -438,3 +438,10 @@ And then on the SODIMM, I'll have just one lane, but for the Jetson and stuff, I
 Anyways, it's not too complicated to breakout the PCIe through the SODIMM connector because we're just using one lane with the CM5.
 
 ![[Pasted image 20250906221641.png]]
+
+The next thing I'm going to do is, I'm going to breakout a camera onto the SODIMM connector. This is because the NVIDIA jetson has a BUNCH of camera's on it, and because I want to match the pinout, I want to include at least 1, and the CM5 has LOTS of camera lanes I can use (unlike the one lane of PCIe).
+
+Now the NVIDIA jetson has 4, x2 camera's or 2, 4x lane camera's, so I'm just going to put one 4x camera and maybe use the other one for display port, or another camera if I can support it later, but for now, I know that I want the camera on it.
+
+Camera's are pretty cool, they use the MIPI protocol, with differential pairs for data. Camera's like SSD's can run off x2 lanes, or x4 lanes, etc, for more bandwidth if you want and they also need I2C or SPI as a control interface. And then you'll probably want like a power reset pin to power the camera down or to reset it if it breaks.
+
