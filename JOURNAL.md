@@ -471,3 +471,11 @@ And just like that, we've broken out a 4 lane camera interface!
 I've implemented 2 of the more complicated protocols for today, so I think I'm going to end it off here. I'm definitely starting to slow down a bit more with the amount of work I've done and also school started too, but I'm going to try and grind this out now!
 
 Tomorrow, I hope to implement lots of the debug headers and other things I need to interact with the actual board!
+
+## Day 10 - Other shenanigans
+
+Today I want to just implement some of the other stuff I need on the daughter board like debug headers, RTC clock and whatnot.
+
+The first thing I want to look at, is implementing an input for an RTC clock to make sure that the CM5 doesn't lose track of the time.
+
+Now I was going to implement this, but I actually compared the CM4 and CM5 datasheet, and the pin is reserved on the CM4, but the CM5's pin is VBAT, so I don't actually want to implement it, because something will be connected to the reserved pin on the CM4 which isn't good.
