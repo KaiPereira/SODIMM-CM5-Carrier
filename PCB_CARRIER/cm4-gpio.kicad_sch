@@ -7214,7 +7214,7 @@
 		)
 	)
 	(global_label "CSI-0_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 139.7 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7225,7 +7225,7 @@
 		)
 		(uuid "54e54585-6700-45c5-b07e-8a866edd3ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.3978 139.7 0)
+			(at 41.3818 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7632,7 +7632,7 @@
 		)
 	)
 	(global_label "CSI-0_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7643,7 +7643,7 @@
 		)
 		(uuid "f9c95765-c1f9-46e4-b3f1-367e8ecf3a9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4583 137.16 0)
+			(at 41.4423 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
