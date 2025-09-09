@@ -397,7 +397,7 @@ And then after I did this wiring, I also added some labels just so the BMC can d
 
 I'm honestly going to end the day off here, just because I don't have too much time because school just started, but I think I got some decent work done today!
 
-## Day 9 - NVMe M.2 M-key slot!
+## Day 9 - NVMe M.2 M-key slot! - 6 Hours
 
 Now that I got SD cards implemented, I want to work on adding the M.2 M-Key slot which will allow us to plug in an SSD into the daughter board!
 
@@ -467,3 +467,7 @@ So by combining the pins/clocks, I get something like this:
 Most of the camera lanes are near the start of the connector, and then the PWDN is a bit farther but I'm just following the pinout of the NVIDIA jetson so I won't question it.
 
 And just like that, we've broken out a 4 lane camera interface!
+
+I've implemented 2 of the more complicated protocols for today, so I think I'm going to end it off here. I'm definitely starting to slow down a bit more with the amount of work I've done and also school started too, but I'm going to try and grind this out now!
+
+Tomorrow, I hope to implement lots of the debug headers and other things I need to interact with the actual board!
