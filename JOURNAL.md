@@ -462,3 +462,8 @@ Now there's something a bit bizarre with the NVIDIA jetson, the pinout on my dat
 
 So by combining the pins/clocks, I get something like this:
 
+![[Pasted image 20250908205850.png]]
+
+Most of the camera lanes are near the start of the connector, and then the PWDN is a bit farther but I'm just following the pinout of the NVIDIA jetson so I won't question it.
+
+And just like that, we've broken out a 4 lane camera interface!
