@@ -445,3 +445,20 @@ Now the NVIDIA jetson has 4, x2 camera's or 2, 4x lane camera's, so I'm just goi
 
 Camera's are pretty cool, they use the MIPI protocol, with differential pairs for data. Camera's like SSD's can run off x2 lanes, or x4 lanes, etc, for more bandwidth if you want and they also need I2C or SPI as a control interface. And then you'll probably want like a power reset pin to power the camera down or to reset it if it breaks.
 
+The CM5 exposes 2, x4 MIPI CSI/DSI, so you can use them for either camera's or for the display serial interface (for some types of displays). I'm just going to wire one x4 lane for now, and then decide what to do with the last one later. The CM5 also exposes SDA/SCL pins for the camera's so I'll just use those, and then I'll use a GPIO for the PWDN.
+
+There's also other pins you can provide to the camera protocol, like MCLK (master clock), which basically keeps timings on older/smaller camera's, but you honestly don't need those, and I don't think I'll be using those because I have longer traces for my camera's because they're on a different board.
+
+Now let's implement camera's on my board! Most of the CSI lanes are on the high speed part of the mezzanine connector, so I can just grab those, and then use the I2C pins on the GPIO connector!
+
+![[Pasted image 20250908205540.png]]
+![[Pasted image 20250908205626.png]]
+
+Now there's something a bit bizarre with the NVIDIA jetson, the pinout on my datasheet is 4, 2x lane camera's, but I want to do 2, 4x camera's because I don't have enough clock pins, so I have to hijack the data pins from another camera lane, and use them for the same lane.
+
+![[Pasted image 20250908205740.png]]
+
+*Only x2 lanes*
+
+So by combining the pins/clocks, I get something like this:
+
