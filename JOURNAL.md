@@ -437,7 +437,7 @@ And then on the SODIMM, I'll have just one lane, but for the Jetson and stuff, I
 
 Anyways, it's not too complicated to breakout the PCIe through the SODIMM connector because we're just using one lane with the CM5.
 
-![[Pasted image 20250906221641.png]]
+![Pasted image 20250906221641.png](journal/Pasted%20image%2020250906221641.png)
 
 The next thing I'm going to do is, I'm going to breakout a camera onto the SODIMM connector. This is because the NVIDIA jetson has a BUNCH of camera's on it, and because I want to match the pinout, I want to include at least 1, and the CM5 has LOTS of camera lanes I can use (unlike the one lane of PCIe).
 
@@ -451,18 +451,18 @@ There's also other pins you can provide to the camera protocol, like MCLK (maste
 
 Now let's implement camera's on my board! Most of the CSI lanes are on the high speed part of the mezzanine connector, so I can just grab those, and then use the I2C pins on the GPIO connector!
 
-![[Pasted image 20250908205540.png]]
-![[Pasted image 20250908205626.png]]
+![Pasted image 20250908205540.png](journal/Pasted%20image%2020250908205540.png)
+![Pasted image 20250908205626.png](journal/Pasted%20image%2020250908205626.png)
 
 Now there's something a bit bizarre with the NVIDIA jetson, the pinout on my datasheet is 4, 2x lane camera's, but I want to do 2, 4x camera's because I don't have enough clock pins, so I have to hijack the data pins from another camera lane, and use them for the same lane.
 
-![[Pasted image 20250908205740.png]]
+![Pasted image 20250908205740.png](journal/Pasted%20image%2020250908205740.png)
 
 *Only x2 lanes*
 
 So by combining the pins/clocks, I get something like this:
 
-![[Pasted image 20250908205850.png]]
+![Pasted image 20250908205850.png](journal/Pasted%20image%2020250908205850.png)
 
 Most of the camera lanes are near the start of the connector, and then the PWDN is a bit farther but I'm just following the pinout of the NVIDIA jetson so I won't question it.
 
