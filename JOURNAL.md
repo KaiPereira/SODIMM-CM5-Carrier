@@ -498,3 +498,6 @@ And then next, I want to add the SD card footprint onto my board, just so I can 
 
 ![Pasted image 20250909193259.png](journal/Pasted%20image%2020250909193259.png)
 
+Now I have the golden fingers in, but I don't actually have the correct size of the daughter board, so I'm going to steal from the SODIMM golden fingers footprint PCB, and just take their edge cut design. And after a bit of aligning, I got it down:
+
+![[Pasted image 20250909202738.png]]
