@@ -486,15 +486,15 @@ I've never used gold fingers before, but I learned that they're JUST a footprint
 
 It took a bit of scrolling, but I eventually found some KiCad footprints for the DDR4 gold fingers, and they look amazing!
 
-![[Pasted image 20250909191322.png]]
+![Pasted image 20250909191322.png](journal/Pasted%20image%2020250909191322.png)
 
 Now I just have to add these onto my actual board. Because I used a "split" footprint for my SODIMM connector, I don't need to separate the footprint weirdly or group it, and instead I can just assign the gold fingers to the entirety of the footprint which is VERY convenient! So just like that we have the gold fingers in.
 
-![[Pasted image 20250909193119.png]]
+![Pasted image 20250909193119.png](journal/Pasted%20image%2020250909193119.png)
 
 *That's a lot of connections...*
 
 And then next, I want to add the SD card footprint onto my board, just so I can kind of visualize it a bit better! I want to use the same footprint on my 3DP motherboard because it's really small and SMD so you don't actually **need** to solder it on which is handy! (If you're curious, it's the microSD_HC_Hirose_DM3AT-SF-PEJM5 footprint).
 
-![[Pasted image 20250909193259.png]]
+![Pasted image 20250909193259.png](journal/Pasted%20image%2020250909193259.png)
 
