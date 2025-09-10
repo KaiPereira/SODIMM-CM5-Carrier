@@ -488,4 +488,7 @@ It took a bit of scrolling, but I eventually found some KiCad footprints for the
 
 ![[Pasted image 20250909191322.png]]
 
-Now I just have to add these onto my actual board.
+Now I just have to add these onto my actual board. Because I used a "split" footprint for my SODIMM connector, I don't need to separate the footprint weirdly or group it, and instead I can just assign the gold fingers to the entirety of the footprint which is VERY convenient! So just like that we have the gold fingers in.
+
+![[Pasted image 20250909193119.png]]
+
