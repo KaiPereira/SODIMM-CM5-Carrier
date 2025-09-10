@@ -5574,6 +5574,14 @@
 		(uuid "fe1cf3e2-34cb-49c8-b0c1-ea6950e09d58")
 	)
 	(no_connect
+		(at 60.96 133.35)
+		(uuid "6d024c76-ede0-4a10-9a12-7084ebfb01ba")
+	)
+	(no_connect
+		(at 60.96 62.23)
+		(uuid "a92d061c-41ef-43bf-925f-3a2a62f097bb")
+	)
+	(no_connect
 		(at 238.76 66.04)
 		(uuid "da1343aa-c791-4c50-8b23-32b563d76cd7")
 	)

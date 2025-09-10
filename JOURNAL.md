@@ -472,10 +472,14 @@ I've implemented 2 of the more complicated protocols for today, so I think I'm g
 
 Tomorrow, I hope to implement lots of the debug headers and other things I need to interact with the actual board!
 
-## Day 10 - Other shenanigans
+## Day 10 - Footprints and other shenanigans
 
 Today I want to just implement some of the other stuff I need on the daughter board like debug headers, RTC clock and whatnot.
 
 The first thing I want to look at, is implementing an input for an RTC clock to make sure that the CM5 doesn't lose track of the time.
 
 Now I was going to implement this, but I actually compared the CM4 and CM5 datasheet, and the pin is reserved on the CM4, but the CM5's pin is VBAT, so I don't actually want to implement it, because something will be connected to the reserved pin on the CM4 which isn't good.
+
+Anyways, I'm getting a bit bored with breaking out pins on my SODIMM connector, so I'm going to start adding footprints into KiCad. The first footprint I want to add is the SODIMM **gold fingers** (I recently learned this term so don't mind if I didn't use it before, but it's basically the footprint for the SODIMM connector on the daughter board that plugs in). 
+
+I've never used gold fingers before, but I learned that they're JUST a footprint, and not actually a connector like I thought before, and it's also a good idea to get ENIG if you're doing gold fingers, for board longevity.
