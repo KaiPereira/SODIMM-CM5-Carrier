@@ -492,3 +492,9 @@ Now I just have to add these onto my actual board. Because I used a "split" foot
 
 ![[Pasted image 20250909193119.png]]
 
+*That's a lot of connections...*
+
+And then next, I want to add the SD card footprint onto my board, just so I can kind of visualize it a bit better! I want to use the same footprint on my 3DP motherboard because it's really small and SMD so you don't actually **need** to solder it on which is handy! (If you're curious, it's the microSD_HC_Hirose_DM3AT-SF-PEJM5 footprint).
+
+![[Pasted image 20250909193259.png]]
+
