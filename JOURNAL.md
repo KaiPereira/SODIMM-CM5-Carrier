@@ -483,3 +483,9 @@ Now I was going to implement this, but I actually compared the CM4 and CM5 datas
 Anyways, I'm getting a bit bored with breaking out pins on my SODIMM connector, so I'm going to start adding footprints into KiCad. The first footprint I want to add is the SODIMM **gold fingers** (I recently learned this term so don't mind if I didn't use it before, but it's basically the footprint for the SODIMM connector on the daughter board that plugs in). 
 
 I've never used gold fingers before, but I learned that they're JUST a footprint, and not actually a connector like I thought before, and it's also a good idea to get ENIG if you're doing gold fingers, for board longevity.
+
+It took a bit of scrolling, but I eventually found some KiCad footprints for the DDR4 gold fingers, and they look amazing!
+
+![[Pasted image 20250909191322.png]]
+
+Now I just have to add these onto my actual board.

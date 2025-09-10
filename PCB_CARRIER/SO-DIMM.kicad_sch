@@ -8968,7 +8968,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -10074,7 +10074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 288.29 154.94 0)
 			(effects
 				(font
@@ -11444,7 +11444,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 210.82 77.47 0)
 			(effects
 				(font
@@ -12286,7 +12286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 210.82 156.21 0)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 288.29 77.47 0)
 			(effects
 				(font
@@ -14102,7 +14102,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 365.76 77.47 0)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kai's library:SODIMM_DDR4_EDGE"
 			(at 133.35 154.94 0)
 			(effects
 				(font
