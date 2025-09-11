@@ -409,7 +409,7 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23-5"
 		(layer "F.Cu")
 		(uuid "4f92d9e0-4e70-4ef4-a01d-2e9a22506511")
-		(at 317.6125 28.05)
+		(at 194.7125 39.675)
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -762,7 +762,7 @@
 	(footprint "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 		(layer "F.Cu")
 		(uuid "b97868b0-6610-440a-9f7c-f7df5a5ecef8")
-		(at 316.3 41.725)
+		(at 193.4 53.35)
 		(descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
 		(tags "Micro SD")
 		(property "Reference" "J2"
@@ -1431,7 +1431,7 @@
 			)
 			(polygon
 				(pts
-					(xy 309.825 37.7) (xy 309.075 37.7) (xy 309.075 34.45) (xy 309.825 34.45)
+					(xy 186.925 49.325) (xy 186.175 49.325) (xy 186.175 46.075) (xy 186.925 46.075)
 				)
 			)
 		)
@@ -1463,7 +1463,7 @@
 			)
 			(polygon
 				(pts
-					(xy 309.825 42.5) (xy 309.075 42.5) (xy 309.075 38.9) (xy 309.825 38.9)
+					(xy 186.925 54.125) (xy 186.175 54.125) (xy 186.175 50.525) (xy 186.925 50.525)
 				)
 			)
 		)
@@ -1495,7 +1495,7 @@
 			)
 			(polygon
 				(pts
-					(xy 310.175 40.3) (xy 310.875 40.3) (xy 310.875 47.9) (xy 310.175 47.9)
+					(xy 187.275 51.925) (xy 187.975 51.925) (xy 187.975 59.525) (xy 187.275 59.525)
 				)
 			)
 		)
@@ -1527,7 +1527,7 @@
 			)
 			(polygon
 				(pts
-					(xy 319.225 48.7) (xy 321.775 48.7) (xy 321.775 50.05) (xy 319.225 50.05)
+					(xy 196.325 60.325) (xy 198.875 60.325) (xy 198.875 61.675) (xy 196.325 61.675)
 				)
 			)
 		)
@@ -1559,7 +1559,7 @@
 			)
 			(polygon
 				(pts
-					(xy 319.575 40.6) (xy 310.875 40.6) (xy 310.875 39) (xy 319.575 39)
+					(xy 196.675 52.225) (xy 187.975 52.225) (xy 187.975 50.625) (xy 196.675 50.625)
 				)
 			)
 		)
@@ -3990,7 +3990,7 @@
 	(footprint "CM4IO:Raspberry-Pi-4-Compute-Module"
 		(layer "F.Cu")
 		(uuid "f2e17c68-23bb-4713-8530-c3d1ed0928ed")
-		(at 110.712501 59.500025 -90)
+		(at 110.712501 58.500025 -90)
 		(descr "Raspberry Pi 4 Compute Module")
 		(tags "Raspberry Pi 4 Compute Module")
 		(property "Reference" "Module1"
@@ -6289,8 +6289,8 @@
 		)
 	)
 	(gr_line
-		(start 100.75 70)
-		(end 168.85 70)
+		(start 100.75 55)
+		(end 168.85 55)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6299,9 +6299,9 @@
 		(uuid "0183a6e6-c7bb-46dd-b30e-3861d59f3b0e")
 	)
 	(gr_arc
-		(start 100 70.75)
-		(mid 100.21967 70.21967)
-		(end 100.75 70)
+		(start 100 55.75)
+		(mid 100.21967 55.21967)
+		(end 100.75 55)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6340,9 +6340,9 @@
 		(uuid "3b7e2668-d5b2-48ba-a75f-95afa9339fd3")
 	)
 	(gr_arc
-		(start 168.851561 70)
-		(mid 169.380883 70.220221)
-		(end 169.600002 70.75)
+		(start 168.851561 55)
+		(mid 169.380883 55.220221)
+		(end 169.600002 55.75)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6372,7 +6372,7 @@
 	)
 	(gr_line
 		(start 100 78)
-		(end 100 70.75)
+		(end 100 55.75)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6413,7 +6413,7 @@
 	)
 	(gr_line
 		(start 169.6 78)
-		(end 169.6 70.75)
+		(end 169.600002 55.75)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6560,7 +6560,7 @@
 		(uuid "ff190513-4a53-4409-b07a-f5e617c988fa")
 	)
 	(gr_text "RPi CM4\nCarrier Template"
-		(at 134.737501 76.005025 90)
+		(at 134.737501 75.005025 90)
 		(layer "B.SilkS")
 		(uuid "110672d7-ff4b-4a32-a4bd-52ee5afc6c79")
 		(effects
@@ -6572,7 +6572,7 @@
 		)
 	)
 	(gr_text "v01"
-		(at 108.237501 64.005025 90)
+		(at 108.237501 63.005025 90)
 		(layer "B.SilkS")
 		(uuid "adbff8d5-8316-4868-8231-932035d9f8a3")
 		(effects
@@ -6596,7 +6596,7 @@
 		)
 	)
 	(gr_text "Wireless\nKeepout"
-		(at 110.487501 72.005025 90)
+		(at 110.487501 71.005025 90)
 		(layer "Dwgs.User")
 		(uuid "88f63287-1cd8-4975-96ed-4d96b1d9cd52")
 		(effects
@@ -6635,7 +6635,7 @@
 		)
 		(polygon
 			(pts
-				(xy 113.737501 66.505025) (xy 113.737501 77.505025) (xy 107.237501 77.505025) (xy 107.237501 66.505025)
+				(xy 113.737501 65.505025) (xy 113.737501 76.505025) (xy 107.237501 76.505025) (xy 107.237501 65.505025)
 			)
 		)
 	)
