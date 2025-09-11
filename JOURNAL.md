@@ -500,4 +500,8 @@ And then next, I want to add the SD card footprint onto my board, just so I can 
 
 Now I have the golden fingers in, but I don't actually have the correct size of the daughter board, so I'm going to steal from the SODIMM golden fingers footprint PCB, and just take their edge cut design. And after a bit of aligning, I got it down:
 
-![[Pasted image 20250909202738.png]]
+![Pasted image 20250909202738.png](journal/Pasted%20image%2020250909202738.png)
+
+And then the next thing I did is I added the CM5/CM4 footprint onto the SODIMM connector, and then aligned everything to look really clean. The KiCad positioning tools and alignement were really useful for all of these!
+
+![Pasted image 20250910181133.png](journal/Pasted%20image%2020250910181133.png)
