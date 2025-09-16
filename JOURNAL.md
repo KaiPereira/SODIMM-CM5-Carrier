@@ -505,3 +505,10 @@ Now I have the golden fingers in, but I don't actually have the correct size of 
 And then the next thing I did is I added the CM5/CM4 footprint onto the SODIMM connector, and then aligned everything to look really clean. The KiCad positioning tools and alignement were really useful for all of these!
 
 ![Pasted image 20250910181133.png](journal/Pasted%20image%2020250910181133.png)
+
+After this, I wanted to put in the footprints for the capacitors I have so far. I'm going to try putting on the caps with 0603 footprints, just because it's easier to solder, but I might need to go smaller due to board space.
+
+![[Pasted image 20250916092310.png]]
+
+And from the size, they'll definitely need to be smaller, so I'm going to go with 0402 caps.
+
