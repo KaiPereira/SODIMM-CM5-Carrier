@@ -5265,7 +5265,7 @@
 	)
 	(text "One 0.1uF cap/VDD Pin, One 10uF/1uF cap/Group of VDD pins"
 		(exclude_from_sim no)
-		(at 158.75 152.4 0)
+		(at 158.496 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)

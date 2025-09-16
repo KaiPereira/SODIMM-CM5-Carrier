@@ -512,3 +512,7 @@ After this, I wanted to put in the footprints for the capacitors I have so far. 
 
 And from the size, they'll definitely need to be smaller, so I'm going to go with 0402 caps. Now I just realized that I probably don't need noise decoupling right by the golden fingers, and just on the mezzanine connector, so I'm going to just do one 0.1uF per pad on the VDD pin for the MEZZANINE connector, and then a bulk cap right by it too, and maybe a bulk cap by the golden fingers!
 
+![[Pasted image 20250916100555.png]]
+
+And then I realized that one cap per pin is a bit much, so I'm just going to do one per 2 pins.
+
