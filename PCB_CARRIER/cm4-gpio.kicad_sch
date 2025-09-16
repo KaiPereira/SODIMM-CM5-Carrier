@@ -5370,7 +5370,7 @@
 		(uuid "68ec8a33-abda-411a-9c84-89e7d7b2f578")
 	)
 	(junction
-		(at 213.36 66.04)
+		(at 210.82 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e1d7901-0c6f-4a04-8576-08345a394918")
@@ -5412,7 +5412,7 @@
 		(uuid "9a222573-cbe0-48fa-8e48-cb15c44c9d9b")
 	)
 	(junction
-		(at 213.36 58.42)
+		(at 210.82 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a144da38-fcb6-4e96-b8c7-7f0ad6502a2d")
@@ -5510,7 +5510,7 @@
 		(uuid "a92d061c-41ef-43bf-925f-3a2a62f097bb")
 	)
 	(no_connect
-		(at 238.76 66.04)
+		(at 236.22 66.04)
 		(uuid "da1343aa-c791-4c50-8b23-32b563d76cd7")
 	)
 	(wire
@@ -5655,7 +5655,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 60.96) (xy 218.44 58.42)
+			(xy 215.9 60.96) (xy 215.9 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5755,7 +5755,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 60.96) (xy 238.76 60.96)
+			(xy 237.49 60.96) (xy 236.22 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6315,7 +6315,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 58.42) (xy 218.44 58.42)
+			(xy 210.82 58.42) (xy 215.9 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6435,7 +6435,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 72.39) (xy 228.6 71.12)
+			(xy 226.06 72.39) (xy 226.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6695,7 +6695,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 66.04) (xy 218.44 66.04)
+			(xy 210.82 66.04) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6715,7 +6715,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 58.42) (xy 213.36 58.42)
+			(xy 208.28 58.42) (xy 210.82 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6725,7 +6725,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 66.04) (xy 213.36 66.04)
+			(xy 208.28 66.04) (xy 210.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7207,7 +7207,7 @@
 	)
 	(global_label "SD_PWR_ON"
 		(shape input)
-		(at 210.82 66.04 180)
+		(at 208.28 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7217,7 +7217,7 @@
 		)
 		(uuid "8e21f5d7-dc76-4790-821b-a6593b93fcfb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.6726 66.04 0)
+			(at 194.1326 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7273,7 +7273,7 @@
 	)
 	(global_label "SD_PWR"
 		(shape output)
-		(at 240.03 60.96 0)
+		(at 237.49 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7283,7 +7283,7 @@
 		)
 		(uuid "aae0c45b-1038-4ec0-8e9c-dd307182e56b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5488 60.96 0)
+			(at 248.0088 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8827,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:RT9742AGJ5F")
-		(at 228.6 63.5 0)
+		(at 226.06 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8836,7 +8836,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e3e44d1-8c57-4d4d-88b2-a7fa7faee372")
 		(property "Reference" "U1"
-			(at 228.6 53.34 0)
+			(at 226.06 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8844,7 @@
 			)
 		)
 		(property "Value" "RT9742GGJ5"
-			(at 228.6 55.88 0)
+			(at 226.06 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,7 +8852,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 228.6 76.2 0)
+			(at 226.06 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8861,7 +8861,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9742/DS9742-10.pdf"
-			(at 228.6 78.74 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,7 +8870,7 @@
 			)
 		)
 		(property "Description" "3A, Discharge, Active High EN, TSOT-23-5"
-			(at 228.6 63.5 0)
+			(at 226.06 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9313,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 210.82 58.42 0)
+		(at 208.28 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9322,7 +9322,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8efb734-d91c-46cc-8261-14dfacca3e3f")
 		(property "Reference" "#PWR022"
-			(at 210.82 62.23 0)
+			(at 208.28 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9331,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 210.82 53.34 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 58.42 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 58.42 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9357,7 +9357,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 210.82 58.42 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9446,7 +9446,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 72.39 0)
+		(at 226.06 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9455,7 +9455,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc93adfc-48c9-4e4b-8f2a-81611795ffe7")
 		(property "Reference" "#PWR017"
-			(at 228.6 78.74 0)
+			(at 226.06 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9464,7 +9464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 77.47 0)
+			(at 226.06 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9472,7 +9472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 72.39 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9481,7 +9481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 72.39 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9490,7 +9490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 72.39 0)
+			(at 226.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9512,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 62.23 0)
+		(at 210.82 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9520,7 +9520,7 @@
 		(dnp no)
 		(uuid "fdc0f05f-7b8a-4239-81f6-8bcdfa87f37c")
 		(property "Reference" "R2"
-			(at 215.138 60.96 0)
+			(at 212.598 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9529,7 @@
 			)
 		)
 		(property "Value" "12K"
-			(at 215.138 63.5 0)
+			(at 212.598 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9538,7 +9538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 211.582 62.23 90)
+			(at 209.042 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9547,7 +9547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +9556,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 213.36 62.23 0)
+			(at 210.82 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
