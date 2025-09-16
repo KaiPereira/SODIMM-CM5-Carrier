@@ -508,11 +508,13 @@ And then the next thing I did is I added the CM5/CM4 footprint onto the SODIMM c
 
 After this, I wanted to put in the footprints for the capacitors I have so far. I'm going to try putting on the caps with 0603 footprints, just because it's easier to solder, but I might need to go smaller due to board space.
 
-![[Pasted image 20250916092310.png]]
+![Pasted image 20250916092310.png](journal/Pasted%20image%2020250916092310.png)
 
 And from the size, they'll definitely need to be smaller, so I'm going to go with 0402 caps. Now I just realized that I probably don't need noise decoupling right by the golden fingers, and just on the mezzanine connector, so I'm going to just do one 0.1uF per pad on the VDD pin for the MEZZANINE connector, and then a bulk cap right by it too, and maybe a bulk cap by the golden fingers!
 
-![[Pasted image 20250916100555.png]]
+![Pasted image 20250916100555.png](journal/Pasted%20image%2020250916100555.png)
 
-And then I realized that one cap per pin is a bit much, so I'm just going to do one per 2 pins.
+And then I realized that one cap per pin is a bit much, so I'm just going to do one per 2 pins. I'm also going to add a 1uF mid range cap just because I have the space to add one, and then I'm going to place all those alongside the SD card onto the board. The SD card is kind of in a temporary spot until I know exactly where to put it:
+
+![Pasted image 20250916164945.png](journal/Pasted%20image%2020250916164945.png)
 
