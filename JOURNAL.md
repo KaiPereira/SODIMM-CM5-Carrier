@@ -518,3 +518,6 @@ And then I realized that one cap per pin is a bit much, so I'm just going to do 
 
 ![Pasted image 20250916164945.png](journal/Pasted%20image%2020250916164945.png)
 
+And then I added the rest of the passive I have so far and the status LED, this looks so cool!
+
+![[Pasted image 20250916171157.png]]
