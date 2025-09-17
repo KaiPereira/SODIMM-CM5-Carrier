@@ -472,7 +472,7 @@ I've implemented 2 of the more complicated protocols for today, so I think I'm g
 
 Tomorrow, I hope to implement lots of the debug headers and other things I need to interact with the actual board!
 
-## Day 10 - Footprints and other shenanigans
+## Day 10 - Footprints and other shenanigans - 6 Hours
 
 Today I want to just implement some of the other stuff I need on the daughter board like debug headers, RTC clock and whatnot.
 
@@ -520,4 +520,6 @@ And then I realized that one cap per pin is a bit much, so I'm just going to do 
 
 And then I added the rest of the passive I have so far and the status LED, this looks so cool!
 
-![[Pasted image 20250916171157.png]]
+![Pasted image 20250916171157.png](journal/Pasted%20image%2020250916171157.png)
+
+Anyways, I got quite a bit done with the actual PCB today, so I'm going to end it off there. I'm a bit worried with my lack of passives, so I'm going to ask some questions about that. I'm also still missing some UART/SPI stuff, so I gotta figure that out too, and then breakout the rest of the GPIO's!
