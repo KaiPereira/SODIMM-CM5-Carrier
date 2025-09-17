@@ -5088,6 +5088,16 @@
 		)
 		(uuid "0cad3564-a863-409f-8f25-f6fb46b6647a")
 	)
+	(text "< Second camera?"
+		(exclude_from_sim no)
+		(at 358.902 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "874d7032-fef1-4fec-a413-2598abd06cf4")
+	)
 	(text "Implement on BMC!"
 		(exclude_from_sim no)
 		(at 221.742 86.868 0)
@@ -5579,6 +5589,10 @@
 		(uuid "bbbeeabf-00c2-412f-8515-d89df7063965")
 	)
 	(no_connect
+		(at 347.98 76.2)
+		(uuid "bc651d3a-0d88-4c83-aa78-679558ec478e")
+	)
+	(no_connect
 		(at 81.28 176.53)
 		(uuid "c452a6e5-67b4-4154-9608-644fd15949aa")
 	)
@@ -5593,6 +5607,10 @@
 	(no_connect
 		(at 157.48 180.34)
 		(uuid "d62d6ae3-31d1-4020-88c4-42f9cf480395")
+	)
+	(no_connect
+		(at 270.51 124.46)
+		(uuid "df2055d9-9d66-4d7b-b0e6-8f00d5d486a1")
 	)
 	(no_connect
 		(at 270.51 119.38)
