@@ -5830,6 +5830,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 198.12) (xy 193.04 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "181664f4-ed97-406d-8082-b00ca447e1fa")
+	)
+	(wire
+		(pts
 			(xy 193.04 116.84) (xy 195.58 116.84)
 		)
 		(stroke
@@ -6097,6 +6107,16 @@
 			(type default)
 		)
 		(uuid "38b0aa14-020a-40d8-b949-a85612f92a57")
+	)
+	(wire
+		(pts
+			(xy 198.12 200.66) (xy 193.04 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38be7f2b-6bc5-47dd-af1a-f8ee41a7f3cd")
 	)
 	(wire
 		(pts
@@ -8114,6 +8134,28 @@
 			)
 		)
 	)
+	(global_label "UART-2_RX"
+		(shape input)
+		(at 198.12 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bf1b894-e9f3-42d5-ba3c-c8f2fa6aa6a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.086 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB3-0-TX_P"
 		(shape input)
 		(at 120.65 161.29 0)
@@ -9540,6 +9582,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-2_TX"
+		(shape input)
+		(at 198.12 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4301cb7-2abe-4115-af54-111d2696f411")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7836 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

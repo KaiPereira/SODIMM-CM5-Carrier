@@ -5875,6 +5875,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 80.01) (xy 60.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551b5ab7-4968-492d-87c7-352110edeb1c")
+	)
+	(wire
+		(pts
 			(xy 58.42 90.17) (xy 58.42 102.87)
 		)
 		(stroke
@@ -6382,6 +6392,16 @@
 			(type solid)
 		)
 		(uuid "b26c3f7f-4a98-451d-9263-620ee69f9f30")
+	)
+	(wire
+		(pts
+			(xy 55.88 105.41) (xy 60.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dd3d1c-d580-4b49-9613-fe8e3d65939b")
 	)
 	(wire
 		(pts
@@ -7199,6 +7219,28 @@
 			)
 		)
 	)
+	(global_label "UART-2_TX"
+		(shape input)
+		(at 55.88 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49afb393-1264-4373-856c-cf9297b4aabf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.2164 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GBE_MDI3_N"
 		(shape bidirectional)
 		(at 127 44.45 0)
@@ -7894,6 +7936,28 @@
 		(uuid "de19f96d-7d27-4a6e-8fe4-a7042bdd04d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 41.914 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-2_RX"
+		(shape input)
+		(at 55.88 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1c38bc2-4c26-4bbf-a2b5-fd8d493b8787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.914 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
