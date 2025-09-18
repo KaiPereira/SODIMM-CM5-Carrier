@@ -532,3 +532,19 @@ UART is really important for debugging your board and for communicating with per
 
 SPI is really important for connecting external peripherals like sensors, display controllers, flash chips, etc. It's also good for high speed I/O, it's faster than I2C so it's useful for cluster boards, and you can have multiple peripherals on the same bus which is really cool. This basically means you can have 2 devices on the same SPI line, but choose which one talks at a time using the CS line, it's pretty cool!
 
+The first thing I want to implement is SPI onto my board, it's fairly straightforward, the NVIDIA jetson exposes two hardware SPI controllers which 2 CS pins respectively so you can have multiple devices on each line.
+
+![[Pasted image 20250917192817.png]]
+
+The CM5 is cool, because the GPIO's can be toggled between UART/SPI/other protocols, so there's a lot of variety in what you can actually do:
+
+![[Pasted image 20250917193006.png]]
+
+So I'm just gonna use the SIO[0]/SIO[1] as the MOSI/MISO (which transmit data from master/slave essentially), and then just use 2 CS pins for each hardware controller.
+
+So I carefully mapped these lines to the SODIMM connector following the NVIDIA Jetson pinout:
+
+![[Pasted image 20250917193149.png]]
+![[Pasted image 20250917193205.png]]
+
+And just like that, we have SPI implemented. It was a bit complicated for me to understand how you can just use SIO as MOSI/MISO and the 2 CS pins, but I figured it out, and it should be working!
