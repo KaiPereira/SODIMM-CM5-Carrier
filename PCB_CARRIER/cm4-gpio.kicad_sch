@@ -7175,8 +7175,8 @@
 			)
 		)
 	)
-	(global_label "SPI-1_SCLK"
-		(shape input)
+	(global_label "SPI-1_CLK"
+		(shape output)
 		(at 127 69.85 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7187,7 +7187,7 @@
 		)
 		(uuid "43ce250b-e371-466c-8cfe-3d93d59fd0a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6917 69.85 0)
+			(at 140.4822 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7396,7 @@
 		)
 	)
 	(global_label "SPI-1_CS1"
-		(shape input)
+		(shape output)
 		(at 55.88 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7550,7 +7550,7 @@
 		)
 	)
 	(global_label "SPI-0_CS1"
-		(shape input)
+		(shape output)
 		(at 127 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7594,7 +7594,7 @@
 		)
 	)
 	(global_label "SPI-1_MOSI"
-		(shape input)
+		(shape output)
 		(at 127 72.39 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7638,7 +7638,7 @@
 		)
 	)
 	(global_label "SPI-1_CS0"
-		(shape input)
+		(shape output)
 		(at 127 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7792,7 +7792,7 @@
 		)
 	)
 	(global_label "SPI-0_MOSI"
-		(shape input)
+		(shape output)
 		(at 55.88 92.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7814,7 +7814,7 @@
 		)
 	)
 	(global_label "SPI-0_CS0"
-		(shape input)
+		(shape output)
 		(at 127 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8033,8 +8033,8 @@
 			)
 		)
 	)
-	(global_label "SPI-0_SCLK"
-		(shape input)
+	(global_label "SPI-0_CLK"
+		(shape output)
 		(at 55.88 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8045,7 +8045,7 @@
 		)
 		(uuid "f6a494bd-028b-4066-ac29-b20b46df0b89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.1883 85.09 0)
+			(at 42.3978 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
