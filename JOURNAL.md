@@ -534,17 +534,17 @@ SPI is really important for connecting external peripherals like sensors, displa
 
 The first thing I want to implement is SPI onto my board, it's fairly straightforward, the NVIDIA jetson exposes two hardware SPI controllers which 2 CS pins respectively so you can have multiple devices on each line.
 
-![[Pasted image 20250917192817.png]]
+![Pasted image 20250917192817.png](journal/Pasted%20image%2020250917192817.png)
 
 The CM5 is cool, because the GPIO's can be toggled between UART/SPI/other protocols, so there's a lot of variety in what you can actually do:
 
-![[Pasted image 20250917193006.png]]
+![Pasted image 20250917193006.png](journal/Pasted%20image%2020250917193006.png)
 
 So I'm just gonna use the SIO[0]/SIO[1] as the MOSI/MISO (which transmit data from master/slave essentially), and then just use 2 CS pins for each hardware controller.
 
 So I carefully mapped these lines to the SODIMM connector following the NVIDIA Jetson pinout:
 
-![[Pasted image 20250917193149.png]]
-![[Pasted image 20250917193205.png]]
+![Pasted image 20250917193149.png](journal/Pasted%20image%2020250917193149.png)
+![Pasted image 20250917193205.png](journal/Pasted%20image%2020250917193205.png)
 
 And just like that, we have SPI implemented. It was a bit complicated for me to understand how you can just use SIO as MOSI/MISO and the 2 CS pins, but I figured it out, and it should be working!
