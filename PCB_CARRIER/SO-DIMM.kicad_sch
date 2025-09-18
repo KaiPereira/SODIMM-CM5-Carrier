@@ -5503,6 +5503,10 @@
 		(uuid "2d6b6bad-b553-46e0-88df-bac7d01da6b5")
 	)
 	(no_connect
+		(at 80.01 111.76)
+		(uuid "3008392f-d499-4909-8568-d626d9dd0c42")
+	)
+	(no_connect
 		(at 193.04 76.2)
 		(uuid "3413caa8-2b5d-4110-b2db-de5b6f1a9b16")
 	)
@@ -5573,6 +5577,10 @@
 	(no_connect
 		(at 193.04 96.52)
 		(uuid "82fe143d-b183-4b4b-a107-9f9d2473c8f8")
+	)
+	(no_connect
+		(at 80.01 109.22)
+		(uuid "83d95e97-b84c-4864-ae58-1b208fc2fa95")
 	)
 	(no_connect
 		(at 347.98 119.38)
@@ -8089,7 +8097,7 @@
 		)
 	)
 	(global_label "CSI-1_D3_P"
-		(shape input)
+		(shape output)
 		(at 74.93 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8375,7 +8383,7 @@
 		)
 	)
 	(global_label "CSI-1_D1_P"
-		(shape input)
+		(shape output)
 		(at 120.65 119.38 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8727,7 +8735,7 @@
 		)
 	)
 	(global_label "CSI-1_D2_P"
-		(shape input)
+		(shape output)
 		(at 74.93 104.14 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8771,7 +8779,7 @@
 		)
 	)
 	(global_label "CSI-1_D0_N"
-		(shape input)
+		(shape output)
 		(at 120.65 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8925,7 +8933,7 @@
 		)
 	)
 	(global_label "CSI-1_D1_N"
-		(shape input)
+		(shape output)
 		(at 120.65 116.84 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9849,7 +9857,7 @@
 		)
 	)
 	(global_label "CSI-1_D3_N"
-		(shape input)
+		(shape output)
 		(at 74.93 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9915,7 +9923,7 @@
 		)
 	)
 	(global_label "CSI-1_D0_P"
-		(shape input)
+		(shape output)
 		(at 120.65 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9981,7 +9989,7 @@
 		)
 	)
 	(global_label "CSI-1_D2_N"
-		(shape input)
+		(shape output)
 		(at 74.93 101.6 180)
 		(fields_autoplaced yes)
 		(effects
