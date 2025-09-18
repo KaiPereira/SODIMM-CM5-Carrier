@@ -523,3 +523,12 @@ And then I added the rest of the passive I have so far and the status LED, this 
 ![Pasted image 20250916171157.png](journal/Pasted%20image%2020250916171157.png)
 
 Anyways, I got quite a bit done with the actual PCB today, so I'm going to end it off there. I'm a bit worried with my lack of passives, so I'm going to ask some questions about that. I'm also still missing some UART/SPI stuff, so I gotta figure that out too, and then breakout the rest of the GPIO's!
+
+## Day 11 - SPI/UART!!
+
+Now yesterday, I got the layout together, so now I want to focus on getting all the pin mappings done. The first thing I want to focus on is UART/SPI.
+
+UART is really important for debugging your board and for communicating with peripherals like modems and such. It's pretty much essential if you want any hardware debugging and an extra protection in case your USB doesn't work or something so you can write to your board still.
+
+SPI is really important for connecting external peripherals like sensors, display controllers, flash chips, etc. It's also good for high speed I/O, it's faster than I2C so it's useful for cluster boards, and you can have multiple peripherals on the same bus which is really cool. This basically means you can have 2 devices on the same SPI line, but choose which one talks at a time using the CS line, it's pretty cool!
+
