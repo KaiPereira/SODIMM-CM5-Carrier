@@ -5591,6 +5591,10 @@
 		(uuid "9669451a-a919-4a6d-9b50-e8ee7f026a18")
 	)
 	(no_connect
+		(at 80.01 88.9)
+		(uuid "a5db09ae-91c2-4539-b5bf-9f28e16b91fb")
+	)
+	(no_connect
 		(at 347.98 99.06)
 		(uuid "a722b272-27a7-421f-93a7-c13b83c3ea64")
 	)
@@ -5621,6 +5625,10 @@
 	(no_connect
 		(at 157.48 180.34)
 		(uuid "d62d6ae3-31d1-4020-88c4-42f9cf480395")
+	)
+	(no_connect
+		(at 80.01 86.36)
+		(uuid "dc2e8b23-5337-436a-94ce-27194dab34f0")
 	)
 	(no_connect
 		(at 270.51 124.46)
@@ -9411,7 +9419,7 @@
 		)
 	)
 	(global_label "CSI-0_D1_P"
-		(shape input)
+		(shape output)
 		(at 120.65 96.52 0)
 		(fields_autoplaced yes)
 		(effects

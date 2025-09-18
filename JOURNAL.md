@@ -565,3 +565,7 @@ So instead I can use ID_SD and ID_SC as GPIO0 and GPIO1 for my UART controller, 
 ![Pasted image 20250918065614.png](journal/Pasted%20image%2020250918065614.png)
 
 And just like that, we have 3 UART controllers, 2 of them with hardware flow control!
+
+Next, I want to actually revisit the camera's. The NVIDIA jetson has support for 2 - 4 camera's, and I only have one implemented, so let's add the second one in. I didn't want to do this initially because I could also use it as a DSI interface, but I can just use HDMI for displays, so it's not really useful I feel like.
+
+
