@@ -5615,6 +5615,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196b97c1-1ae8-496b-9699-32365b7d75fe")
+	)
+	(wire
+		(pts
 			(xy 124.46 128.27) (xy 124.46 168.91)
 		)
 		(stroke
@@ -5625,6 +5635,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 107.95) (xy 121.92 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5defb2-a894-4b1e-b98b-df40f5f0c085")
+	)
+	(wire
+		(pts
 			(xy 127 133.35) (xy 121.92 133.35)
 		)
 		(stroke
@@ -5632,6 +5652,16 @@
 			(type default)
 		)
 		(uuid "1ec665f6-5b4a-4046-b811-b8f02f33bfe4")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 121.92 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f003525-8bc6-4f71-b50a-b2a73ae134d3")
 	)
 	(wire
 		(pts
@@ -6833,6 +6863,16 @@
 		)
 		(uuid "fc877c3e-fd8a-4327-a756-62adb8743c70")
 	)
+	(wire
+		(pts
+			(xy 55.88 72.39) (xy 60.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde87410-5605-4968-9609-a0ca0f4d8967")
+	)
 	(global_label "SD_DAT3"
 		(shape bidirectional)
 		(at 127 115.57 0)
@@ -7088,6 +7128,28 @@
 		(uuid "43ce250b-e371-466c-8cfe-3d93d59fd0a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.6917 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_TX"
+		(shape input)
+		(at 127 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46bb4330-342e-42f5-a56a-fb294cee639a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.6636 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,6 +7511,28 @@
 			)
 		)
 	)
+	(global_label "UART-1_RTS"
+		(shape input)
+		(at 127 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a568aec6-debd-49b7-ad5c-ea821412e165")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.9336 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI-1_CS0"
 		(shape input)
 		(at 127 100.33 0)
@@ -7691,6 +7775,28 @@
 			)
 		)
 	)
+	(global_label "UART-1_RX"
+		(shape input)
+		(at 55.88 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de19f96d-7d27-4a6e-8fe4-a7042bdd04d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.914 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_DAT0"
 		(shape bidirectional)
 		(at 127 118.11 0)
@@ -7753,6 +7859,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_CTS"
+		(shape input)
+		(at 127 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6f3562d-4b77-427f-b45b-94b24405339d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.9336 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

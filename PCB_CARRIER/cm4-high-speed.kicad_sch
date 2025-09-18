@@ -6238,22 +6238,6 @@
 				)
 			)
 		)
-		(property "Field4" "Hirose"
-			(at 129.54 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" "2x DF40C-100DS-0.4V"
-			(at 129.54 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digi-Key_PN" "2x H11615CT-ND"
 			(at -10.16 96.52 0)
 			(effects
