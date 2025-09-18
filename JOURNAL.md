@@ -551,17 +551,17 @@ And just like that, we have SPI implemented. It was a bit complicated for me to 
 
 Next I need to implement UART! It's fairly simple, it has an RX/TX pair to just transmit data, and then there's optional RTS/CTS pins for hardware flow control. The SODIMM connector on the NVIDIA jetson exposes 2 hardware flow controllers for 2 of the UART controllers, and one without. These hardware flow controllers (CTS/RTS) let you basically know if data is ready to be transmitted or if it actually can be, so it's pretty helpful.
 
-![[Pasted image 20250918064933.png]]
+![Pasted image 20250918064933.png](journal/Pasted%20image%2020250918064933.png)
 
 The CM5 multiplexes a bunch of the GPIO's like how I described earlier, but for UART, they also use GPIO0 and GPIO1, which are special, I need to use these because the other pins are being used by SPI.
 
-![[Pasted image 20250918065031.png]]
+![Pasted image 20250918065031.png](journal/Pasted%20image%2020250918065031.png)
 
 Now GPIO0 and GPIO1 are special because they're also used for EEPROM for HAT's, but I'm pretty sure I don't need that, it just provides like information about the pi like vendor details and such, but I don't think I'll need to use those?
 
 So instead I can use ID_SD and ID_SC as GPIO0 and GPIO1 for my UART controller, so I'm just going to map these from the CM5 mezzanine connector to the SODIMM breakout!
 
-![[Pasted image 20250918065555.png]]
-![[Pasted image 20250918065614.png]]
+![Pasted image 20250918065555.png](journal/Pasted%20image%2020250918065555.png)
+![Pasted image 20250918065614.png](journal/Pasted%20image%2020250918065614.png)
 
 And just like that, we have 3 UART controllers, 2 of them with hardware flow control!
