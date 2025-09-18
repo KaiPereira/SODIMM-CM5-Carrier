@@ -8033,7 +8033,7 @@
 		)
 	)
 	(global_label "UART-1_RX"
-		(shape input)
+		(shape output)
 		(at 152.4 160.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8143,7 +8143,7 @@
 		)
 	)
 	(global_label "UART-2_RX"
-		(shape input)
+		(shape output)
 		(at 198.12 200.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8297,7 +8297,7 @@
 		)
 	)
 	(global_label "UART-0_CTS"
-		(shape input)
+		(shape output)
 		(at 229.87 106.68 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8473,7 +8473,7 @@
 		)
 	)
 	(global_label "UART-1_CTS"
-		(shape input)
+		(shape output)
 		(at 152.4 165.1 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8583,7 +8583,7 @@
 		)
 	)
 	(global_label "UART-0_RX"
-		(shape input)
+		(shape output)
 		(at 229.87 101.6 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8671,7 +8671,7 @@
 		)
 	)
 	(global_label "FAN_TACH"
-		(shape input)
+		(shape output)
 		(at 198.12 162.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9067,7 +9067,7 @@
 		)
 	)
 	(global_label "FAN_PWM"
-		(shape output)
+		(shape input)
 		(at 198.12 190.5 0)
 		(fields_autoplaced yes)
 		(effects
