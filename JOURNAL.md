@@ -524,7 +524,7 @@ And then I added the rest of the passive I have so far and the status LED, this 
 
 Anyways, I got quite a bit done with the actual PCB today, so I'm going to end it off there. I'm a bit worried with my lack of passives, so I'm going to ask some questions about that. I'm also still missing some UART/SPI stuff, so I gotta figure that out too, and then breakout the rest of the GPIO's!
 
-## Day 11 - SPI/UART!!
+## Day 11 - Finessing spare GPIO's
 
 Now yesterday, I got the layout together, so now I want to focus on getting all the pin mappings done. The first thing I want to focus on is UART/SPI.
 
@@ -575,3 +575,10 @@ Anyways, just like the other camera controller, I'll just basically combine CSI2
 I also cleaned up lots of the labels during this step, so the inputs/outputs, should be more accurate now!
 
 ![[Pasted image 20250918185800.png]]
+
+Now that I have SPI, UART and the last camera in, I want to focus on using the rest of the GPIO's. The first thing I'm going to do, is see if I can create an I2C busses and wire those up for sensors and whatnot! My mezzanine connector is pretty full, but I just so happened to have GPIO22 and GPIO23 free for an I2C bus, so I'm going to add one there!
+
+![[Pasted image 20250918205413.png]]
+![[Pasted image 20250918205452.png]]
+
+I2C is mostly used for just like sensors, peripheral control, like signals that can afford to be slow. I might be able to also move around some pins to potentially get another I2C bus, but it's not the end of the world if I can't, but for now, at least I have one!
