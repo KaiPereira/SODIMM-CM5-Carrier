@@ -5905,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 95.25) (xy 60.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2b1473-eb3a-4e48-b8f2-e505b7e517bd")
+	)
+	(wire
+		(pts
 			(xy 55.88 107.95) (xy 60.96 107.95)
 		)
 		(stroke
@@ -6442,6 +6452,16 @@
 			(type solid)
 		)
 		(uuid "b8e12f36-e2cc-420a-b7cb-8e5d69f90281")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 121.92 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba14dd0b-4f92-4b15-af8d-2ec1cbdb2d55")
 	)
 	(wire
 		(pts
@@ -7351,6 +7371,28 @@
 			)
 		)
 	)
+	(global_label "I2C-0_SDA"
+		(shape bidirectional)
+		(at 55.88 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c765c87-cd33-409c-b000-0694cbe3f742")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.3818 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_DET_A"
 		(shape output)
 		(at 203.2 114.3 180)
@@ -8002,6 +8044,28 @@
 		(uuid "ef992044-18e1-4fc5-9589-6b18c6bad1e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.0791 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-0_SCL"
+		(shape bidirectional)
+		(at 127 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f291c5bd-5858-491f-b75a-e9fceb794632")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4377 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

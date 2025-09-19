@@ -5491,6 +5491,10 @@
 		(uuid "11bd0781-4f4f-40fd-80d6-2ca1ed98a0d8")
 	)
 	(no_connect
+		(at 157.48 96.52)
+		(uuid "13b6df55-6193-4ffa-8aab-9437ed837a3b")
+	)
+	(no_connect
 		(at 193.04 88.9)
 		(uuid "13c7d8fb-6a3e-4560-86f7-cf0ec96c8258")
 	)
@@ -5521,6 +5525,10 @@
 	(no_connect
 		(at 193.04 76.2)
 		(uuid "3413caa8-2b5d-4110-b2db-de5b6f1a9b16")
+	)
+	(no_connect
+		(at 157.48 99.06)
+		(uuid "34296829-97e5-4f7c-9001-ceb3e18adc10")
 	)
 	(no_connect
 		(at 193.04 81.28)
@@ -5719,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "01459b75-7dd1-43bf-a770-811d297fce51")
+	)
+	(wire
+		(pts
+			(xy 74.93 184.15) (xy 80.01 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "029be071-aa8c-45f2-80b1-dc93c553cfc2")
 	)
 	(wire
 		(pts
@@ -7439,6 +7457,16 @@
 			(type default)
 		)
 		(uuid "bdcc4fba-fca7-405c-b8c2-28fd4c9e2970")
+	)
+	(wire
+		(pts
+			(xy 74.93 186.69) (xy 80.01 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdde3c50-0f0e-4a3f-a252-67fdf6450738")
 	)
 	(wire
 		(pts
@@ -9166,6 +9194,28 @@
 			)
 		)
 	)
+	(global_label "I2C-0_SCL"
+		(shape bidirectional)
+		(at 74.93 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "871f8219-c618-4cbe-9124-427d3550ff5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.4923 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HDMI-0_SDA"
 		(shape bidirectional)
 		(at 275.59 96.52 0)
@@ -9976,6 +10026,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C-0_SDA"
+		(shape bidirectional)
+		(at 74.93 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea43a61b-cd5b-44ab-8b51-49c01608a859")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.4318 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
