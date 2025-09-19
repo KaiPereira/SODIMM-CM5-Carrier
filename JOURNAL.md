@@ -568,4 +568,10 @@ And just like that, we have 3 UART controllers, 2 of them with hardware flow con
 
 Next, I want to actually revisit the camera's. The NVIDIA jetson has support for 2 - 4 camera's, and I only have one implemented, so let's add the second one in. I didn't want to do this initially because I could also use it as a DSI interface, but I can just use HDMI for displays, so it's not really useful I feel like.
 
+Anyways, just like the other camera controller, I'll just basically combine CSI2 and CSI3 on the NVIDIA jetson into one singular controller with double the lanes! This is because the CM5 has the lanes, but not the clock pins for more than 2 cameras:
 
+![[Pasted image 20250918185716.png]]
+
+I also cleaned up lots of the labels during this step, so the inputs/outputs, should be more accurate now!
+
+![[Pasted image 20250918185800.png]]
