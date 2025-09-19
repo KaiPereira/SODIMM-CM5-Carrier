@@ -581,4 +581,6 @@ Now that I have SPI, UART and the last camera in, I want to focus on using the r
 ![[Pasted image 20250918205413.png]]
 ![[Pasted image 20250918205452.png]]
 
-I2C is mostly used for just like sensors, peripheral control, like signals that can afford to be slow. I might be able to also move around some pins to potentially get another I2C bus, but it's not the end of the world if I can't, but for now, at least I have one!
+I2C is mostly used for just like sensors, peripheral control, like signals that can afford to be slow because it's a small 2 pin, bidirectional protocol. I might be able to also move around some pins to potentially get another I2C bus, but it's not the end of the world if I can't, but for now, at least I have one! 
+
+Now I don't notice any more pins that I could possibly use for an I2C bus, so I'm just going to leave it for now.
