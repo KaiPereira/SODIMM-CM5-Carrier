@@ -5892,6 +5892,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 198.12) (xy 157.48 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096b418b-20dd-4e8d-ab93-a83bc9c8e9cc")
+	)
+	(wire
+		(pts
 			(xy 193.04 86.36) (xy 195.58 86.36)
 		)
 		(stroke
@@ -7712,6 +7722,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 200.66) (xy 157.48 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc8900b5-cead-4ea6-84ff-0778af6ac114")
+	)
+	(wire
+		(pts
 			(xy 307.34 88.9) (xy 312.42 88.9)
 		)
 		(stroke
@@ -9144,6 +9164,28 @@
 			)
 		)
 	)
+	(global_label "POWER_EN"
+		(shape output)
+		(at 152.4 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c836a1c-cb40-459f-aeaa-03ba1da0d378")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.4017 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI-1_MISO"
 		(shape output)
 		(at 275.59 109.22 0)
@@ -9487,6 +9529,28 @@
 		(uuid "9cca6350-3eab-472c-b79a-4b51ab5608ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 135.2288 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT"
+		(shape output)
+		(at 152.4 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d1d0ccd-2b58-477a-a1fc-577a26985f92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9049 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
