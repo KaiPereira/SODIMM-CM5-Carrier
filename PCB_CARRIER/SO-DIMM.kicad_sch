@@ -5088,6 +5088,16 @@
 		)
 		(uuid "0cad3564-a863-409f-8f25-f6fb46b6647a")
 	)
+	(text "< Research cluster board implement"
+		(exclude_from_sim no)
+		(at 232.664 203.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "383daccd-0902-4687-a301-aa5549bccb49")
+	)
 	(text "< Second camera?"
 		(exclude_from_sim no)
 		(at 358.902 76.454 0)
@@ -5989,6 +5999,16 @@
 			(type default)
 		)
 		(uuid "14242974-49de-4290-ae86-c81a0118dc37")
+	)
+	(wire
+		(pts
+			(xy 152.4 203.2) (xy 157.48 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15b1d472-515c-46e0-9973-eec8ccd25222")
 	)
 	(wire
 		(pts
@@ -7919,6 +7939,16 @@
 			(type default)
 		)
 		(uuid "dcdefe52-3988-4583-ae1e-10196948f86a")
+	)
+	(wire
+		(pts
+			(xy 198.12 203.2) (xy 193.04 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce1016a-fb4f-44e7-b076-deb397f3e386")
 	)
 	(wire
 		(pts
@@ -9859,6 +9889,50 @@
 		(uuid "bdf22453-02d0-4ed0-bb8b-2edf975e1078")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.2367 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SYS_RESET"
+		(shape output)
+		(at 152.4 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf59bd92-238f-4c9e-9c51-c3481a4a232a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.0994 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SLEEP{slash}WAKE"
+		(shape bidirectional)
+		(at 198.12 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2fa94b9-26a3-4d52-ba08-e5c9cf47197c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.3114 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
