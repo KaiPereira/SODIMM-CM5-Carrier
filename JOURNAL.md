@@ -596,3 +596,12 @@ I'm going to go pretty quick through all these because there's quite a few diffe
 The first thing I added what GPIO_CLK, which is a general purpose GPIO, but can also be a clock signal if needed! It's pretty darn cool!
 
 ![[Pasted image 20250919174653.png]]
+
+Then I'm going to no-connect the MOD_SLEEP which just signals that the SoM is going into deep sleep, and the CM5 doesn't implement this.
+
+MODULE_ID will also be no-connected because it's to tell the carrier what  jetson SKU is installed, which doesn't matter for the CM5!
+
+FORCE_RECOVERY and SHUTDOWN_REQ will also not be connected because they're just shutdown stuff which the jetson handles, but the CM5 handles differently.
+
+I'm going to be going through all the CM5 mezzanine pins after this to make sure that I didn't miss anything, so if any of these are wrong, I'll just re-wire!
+
