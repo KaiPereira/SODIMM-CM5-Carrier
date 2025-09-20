@@ -524,7 +524,7 @@ And then I added the rest of the passive I have so far and the status LED, this 
 
 Anyways, I got quite a bit done with the actual PCB today, so I'm going to end it off there. I'm a bit worried with my lack of passives, so I'm going to ask some questions about that. I'm also still missing some UART/SPI stuff, so I gotta figure that out too, and then breakout the rest of the GPIO's!
 
-## Day 11 - Finessing spare GPIO's
+## Day 11 - Finessing spare GPIO's - 4 Hours
 
 Now yesterday, I got the layout together, so now I want to focus on getting all the pin mappings done. The first thing I want to focus on is UART/SPI.
 
@@ -584,3 +584,15 @@ Now that I have SPI, UART and the last camera in, I want to focus on using the r
 I2C is mostly used for just like sensors, peripheral control, like signals that can afford to be slow because it's a small 2 pin, bidirectional protocol. I might be able to also move around some pins to potentially get another I2C bus, but it's not the end of the world if I can't, but for now, at least I have one! 
 
 Now I don't notice any more pins that I could possibly use for an I2C bus, so I'm just going to leave it for now.
+
+I'm going to end it off there, because I really got done what I needed, and then tomorrow, I'll work on getting all the GPIO's in!
+
+## Day 12 - GPIO's!!
+
+Now today is all about wiring all the GPIO's to give BMC functionality, do a bunch of information stuff, and for some other devices I'll bring out on the cluster board, there's just plenty to do with them.
+
+I'm going to go pretty quick through all these because there's quite a few different ones, but I'll describe what each one is for.
+
+The first thing I added what GPIO_CLK, which is a general purpose GPIO, but can also be a clock signal if needed! It's pretty darn cool!
+
+![[Pasted image 20250919174653.png]]
