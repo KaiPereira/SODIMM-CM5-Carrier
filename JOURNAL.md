@@ -605,3 +605,6 @@ FORCE_RECOVERY and SHUTDOWN_REQ will also not be connected because they're just 
 
 I'm going to be going through all the CM5 mezzanine pins after this to make sure that I didn't miss anything, so if any of these are wrong, I'll just re-wire!
 
+After adding these no-connects, I wired up the SLEEP/RESET and the SYS_RESET pins. The CM5 doesn't have a SLEEP/RESET pin, so I just used a GPIO, I'm basically just using this to convey power states, but usually you'd use it to request a sleep/suspend instead of the POWER_EN which just shuts off power entirely.
+
+SYS_RESET will be wired to nEXTRST, now the CM5 doesn't actually have nEXTRST or a reset for that matter, but the CM4 does, so I'll implement it still.
