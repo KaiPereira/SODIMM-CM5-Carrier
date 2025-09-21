@@ -4776,6 +4776,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -5263,9 +5413,9 @@
 		)
 		(uuid "a7973bfa-becf-43b1-86e9-44f49657838b")
 	)
-	(text "As many 0.1uF as can fit, a 10uF/1uF for bulk"
+	(text "< As many 0.1uF as can fit, a 10uF/1uF for bulk"
 		(exclude_from_sim no)
-		(at 166.116 147.574 0)
+		(at 211.328 138.684 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5697,6 +5847,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 162.56) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecb2805-e00e-4183-862e-c1fd97c273a4")
+	)
+	(wire
+		(pts
 			(xy 140.97 101.6) (xy 135.89 101.6)
 		)
 		(stroke
@@ -5784,6 +5944,16 @@
 			(type solid)
 		)
 		(uuid "38f08a3b-afe3-4b24-9b4f-9317686ddc5b")
+	)
+	(wire
+		(pts
+			(xy 156.21 154.94) (xy 154.94 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b87419c-9306-414b-861e-1e21ee7d5f45")
 	)
 	(wire
 		(pts
@@ -5937,6 +6107,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 152.4) (xy 41.91 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597792ba-5ec0-4509-8d0e-974dd8ea332b")
+	)
+	(wire
+		(pts
 			(xy 142.24 142.24) (xy 148.59 142.24)
 		)
 		(stroke
@@ -6034,16 +6214,6 @@
 			(type default)
 		)
 		(uuid "6865ff3a-5de8-4b49-b432-87f3404c0f86")
-	)
-	(wire
-		(pts
-			(xy 135.89 162.56) (xy 144.78 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a773d3a-25ee-4823-a713-4af047db22cc")
 	)
 	(wire
 		(pts
@@ -6167,16 +6337,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 162.56) (xy 163.83 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8730c56f-0312-41f8-994d-dc37d0b46a32")
-	)
-	(wire
-		(pts
 			(xy 217.17 95.25) (xy 218.44 95.25)
 		)
 		(stroke
@@ -6234,16 +6394,6 @@
 			(type default)
 		)
 		(uuid "8cede94c-9f23-4485-aca6-5c1d80db394e")
-	)
-	(wire
-		(pts
-			(xy 40.64 152.4) (xy 41.91 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d1cfd5a-d4c4-4851-a6e4-c1d15407bbcd")
 	)
 	(wire
 		(pts
@@ -6534,6 +6684,16 @@
 			(type default)
 		)
 		(uuid "b78173a1-f1a9-4052-946f-104f49844caa")
+	)
+	(wire
+		(pts
+			(xy 165.1 162.56) (xy 163.83 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ef9e57-fec9-4c5a-a9a4-68c0e0407f94")
 	)
 	(wire
 		(pts
@@ -6874,6 +7034,16 @@
 			(type default)
 		)
 		(uuid "e4ec3722-e00e-472a-91ac-e1013c0ebc8b")
+	)
+	(wire
+		(pts
+			(xy 135.89 154.94) (xy 144.78 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e560e153-3b70-458f-adf8-2aee82cf9ef8")
 	)
 	(wire
 		(pts
@@ -8536,6 +8706,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 149.86 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1eee5dde-cc9b-4ced-8ae1-e88a0d0d849f")
+		(property "Reference" "SW2"
+			(at 149.86 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088"
+			(at 149.86 150.622 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 149.86 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74e627d6-34d0-4cf0-bf72-8262f646a0c2")
+		)
+		(pin "1"
+			(uuid "20cdc750-1f5e-401a-9cf5-90f327c480bb")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 167.64 0)
 		(unit 1)
@@ -9663,6 +9900,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 156.21 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b5fefba-55e5-40a8-a188-6ba19aa20cbb")
+		(property "Reference" "#PWR026"
+			(at 156.21 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 156.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 156.21 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be82a9a9-0064-4700-8d14-43024baa0051")
+		)
+		(instances
+			(project ""
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 142.24 138.43 0)
 		(unit 1)
@@ -10624,13 +10926,12 @@
 		)
 	)
 	(sheet
-		(at 144.78 158.75)
-		(size 19.05 7.62)
+		(at 144.78 160.02)
+		(size 19.05 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -10640,7 +10941,7 @@
 		)
 		(uuid "09257d35-601f-4d68-a810-2e61c60f1e35")
 		(property "Sheetname" "NMOS BMC Switch1"
-			(at 144.78 158.0384 0)
+			(at 144.78 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10649,7 +10950,7 @@
 			)
 		)
 		(property "Sheetfile" "nmos.kicad_sch"
-			(at 144.78 166.9546 0)
+			(at 144.78 165.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10686,8 +10987,8 @@
 		)
 	)
 	(sheet
-		(at 41.91 148.59)
-		(size 19.05 7.62)
+		(at 41.91 149.86)
+		(size 19.05 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10702,7 +11003,7 @@
 		)
 		(uuid "7bca2312-7305-412b-a0e1-7f20c6415ba3")
 		(property "Sheetname" "NMOS BMC Switch"
-			(at 41.91 147.8784 0)
+			(at 41.91 149.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +11012,7 @@
 			)
 		)
 		(property "Sheetfile" "nmos.kicad_sch"
-			(at 41.91 156.7946 0)
+			(at 41.91 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
