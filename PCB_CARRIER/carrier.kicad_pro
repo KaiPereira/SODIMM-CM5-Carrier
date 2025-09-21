@@ -661,10 +661,6 @@
     [
       "9924afb8-28d2-4519-98a2-71323cd667d5",
       "Carrier SO-DIMM"
-    ],
-    [
-      "7bca2312-7305-412b-a0e1-7f20c6415ba3",
-      "NMOS BMC Switch"
     ]
   ],
   "text_variables": {}

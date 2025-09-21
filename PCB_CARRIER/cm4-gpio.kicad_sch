@@ -5714,12 +5714,6 @@
 		(uuid "42765bf4-1c4c-458c-8ac5-4dc0047dade1")
 	)
 	(junction
-		(at 55.88 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d27fe42-1981-4faa-88b8-878ef3b59e12")
-	)
-	(junction
 		(at 165.1 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6011,7 +6005,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 147.32) (xy 66.04 147.32)
+			(xy 60.96 147.32) (xy 66.04 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6371,16 +6365,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 147.32) (xy 33.02 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "597792ba-5ec0-4509-8d0e-974dd8ea332b")
-	)
-	(wire
-		(pts
 			(xy 133.35 137.16) (xy 139.7 137.16)
 		)
 		(stroke
@@ -6628,16 +6612,6 @@
 			(type default)
 		)
 		(uuid "87c9c86d-2626-4268-b5ff-8ab49aeff011")
-	)
-	(wire
-		(pts
-			(xy 52.07 147.32) (xy 55.88 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8939d9bf-63a1-46ab-9c7a-95f65b6dd847")
 	)
 	(wire
 		(pts
@@ -7098,16 +7072,6 @@
 			(type default)
 		)
 		(uuid "c6c88336-4bf3-4024-951a-a921a754d39b")
-	)
-	(wire
-		(pts
-			(xy 55.88 149.86) (xy 55.88 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc1f4734-6f04-4a8f-8737-c0c893a7862f")
 	)
 	(wire
 		(pts
@@ -7589,28 +7553,6 @@
 		)
 		(uuid "fde87410-5605-4968-9609-a0ca0f4d8967")
 	)
-	(global_label "RUN_PG"
-		(shape output)
-		(at 104.14 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05355e4d-b7c0-46a9-86ae-cacc2ec176d3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.6589 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PMIC_EN"
 		(shape input)
 		(at 135.89 160.02 270)
@@ -7668,6 +7610,28 @@
 		(uuid "0ddb73a1-a103-4b9f-a62f-8b80884eda72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.6062 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_Button"
+		(shape output)
+		(at 104.14 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f503181-5874-422d-bf67-8c7f265d14e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.3477 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,28 +8169,6 @@
 			)
 		)
 	)
-	(global_label "RESET_BMC"
-		(shape input)
-		(at 31.75 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ab62e90-0410-462d-a0bf-7c0a3ba69d93")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.9656 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GBE_MDI0_N"
 		(shape bidirectional)
 		(at 60.96 43.18 180)
@@ -8469,9 +8411,9 @@
 			)
 		)
 	)
-	(global_label "RUN_PG"
+	(global_label "PWR_Button"
 		(shape input)
-		(at 55.88 149.86 270)
+		(at 60.96 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8481,7 +8423,7 @@
 		)
 		(uuid "917bd57a-dc9c-4702-af17-86591aac2df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 160.3789 90)
+			(at 46.7523 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11501,7 +11443,7 @@
 		)
 		(uuid "09257d35-601f-4d68-a810-2e61c60f1e35")
 		(property "Sheetname" "NMOS BMC Switch1"
-			(at 138.43 164.338 0)
+			(at 138.43 154.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,68 +11484,6 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 33.02 144.78)
-		(size 19.05 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7bca2312-7305-412b-a0e1-7f20c6415ba3")
-		(property "Sheetname" "NMOS BMC Switch"
-			(at 33.02 144.0684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "nmos.kicad_sch"
-			(at 33.02 150.4446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "INPUT" input
-			(at 33.02 147.32 180)
-			(uuid "d82e26c5-6599-4e94-a5a5-e98dece19d9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT" output
-			(at 52.07 147.32 0)
-			(uuid "f43fa1cb-a2f8-4dc5-814a-232a78dc7170")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "carrier"
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-					(page "5")
 				)
 			)
 		)

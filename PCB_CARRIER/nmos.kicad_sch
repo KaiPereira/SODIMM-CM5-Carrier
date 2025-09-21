@@ -774,10 +774,6 @@
 					(reference "#PWR025")
 					(unit 1)
 				)
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91/7bca2312-7305-412b-a0e1-7f20c6415ba3"
-					(reference "#PWR028")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -877,10 +873,6 @@
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91/7bca2312-7305-412b-a0e1-7f20c6415ba3"
-					(reference "Q3")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -970,7 +962,7 @@
 				)
 			)
 		)
-		(property "Value" "110"
+		(property "Value" "100"
 			(at 142.24 99.06 90)
 			(effects
 				(font
@@ -1015,10 +1007,6 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91/09257d35-601f-4d68-a810-2e61c60f1e35"
 					(reference "R3")
-					(unit 1)
-				)
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91/7bca2312-7305-412b-a0e1-7f20c6415ba3"
-					(reference "R5")
 					(unit 1)
 				)
 			)
