@@ -5806,6 +5806,12 @@
 		(uuid "2fd37dfa-a6e7-48c1-9251-95b9e5ca97ff")
 	)
 	(junction
+		(at 151.13 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a0c5be9-521d-478e-8049-269429d80a05")
+	)
+	(junction
 		(at 72.39 111.76)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6249,6 +6255,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 162.56) (xy 151.13 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c0cf60-58c8-4ec9-99b5-068593f35b38")
+	)
+	(wire
+		(pts
 			(xy 50.8 158.75) (xy 52.07 158.75)
 		)
 		(stroke
@@ -6316,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "4347088a-bba8-4ba6-bbde-4f8d5bb932df")
+	)
+	(wire
+		(pts
+			(xy 160.02 168.91) (xy 158.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f26a7a-d515-468a-a78a-613ca9bbb7ec")
 	)
 	(wire
 		(pts
@@ -6426,6 +6452,16 @@
 			(type default)
 		)
 		(uuid "59b0f76a-fcf3-4eb1-8bf2-9e3bc8fa7ee7")
+	)
+	(wire
+		(pts
+			(xy 163.83 162.56) (xy 162.56 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4a76a7-1639-4758-a907-bbc13761b7d2")
 	)
 	(wire
 		(pts
@@ -6789,7 +6825,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 49.53 152.4)
+			(xy 46.99 152.4) (xy 48.26 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6826,6 +6862,16 @@
 			(type solid)
 		)
 		(uuid "9e78ea43-fe9c-4a77-97b0-58e0ab9493a9")
+	)
+	(wire
+		(pts
+			(xy 151.13 173.99) (xy 151.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8153ee-f4e4-4e19-b246-caa31955ddd6")
 	)
 	(wire
 		(pts
@@ -7069,7 +7115,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 162.56) (xy 135.89 162.56)
+			(xy 135.89 162.56) (xy 151.13 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7166,6 +7212,16 @@
 			(type default)
 		)
 		(uuid "cf86ddd3-cde4-4105-abc5-5ab73cc8a294")
+	)
+	(wire
+		(pts
+			(xy 151.13 162.56) (xy 152.4 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe044cd-9260-4407-81a9-55673955bc06")
 	)
 	(wire
 		(pts
@@ -7519,6 +7575,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 152.4) (xy 59.69 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17977e2-47ad-4e2f-960c-265419f7406e")
+	)
+	(wire
+		(pts
 			(xy 222.25 57.15) (xy 224.79 57.15)
 		)
 		(stroke
@@ -7536,6 +7602,16 @@
 			(type default)
 		)
 		(uuid "f731ec6a-2916-476e-8989-a33f629d5873")
+	)
+	(wire
+		(pts
+			(xy 168.91 168.91) (xy 167.64 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4f5fa7-b3d6-4009-9991-52b49f907422")
 	)
 	(wire
 		(pts
@@ -7614,6 +7690,28 @@
 		(uuid "148c2133-9e2a-4996-a13b-025558ed5eba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 155.1174 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_BMC"
+		(shape input)
+		(at 168.91 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d059b1c-b260-4caf-be81-527263c18b91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.4202 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7883,28 +7981,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "POWER_EN"
-		(shape input)
-		(at 140.97 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f9a2767-0e8d-4203-830d-09ec617a4b31")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.9683 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8613,7 +8689,7 @@
 			)
 		)
 	)
-	(global_label "PWR_GPIO"
+	(global_label "RESET_BMC"
 		(shape input)
 		(at 41.91 158.75 180)
 		(fields_autoplaced yes)
@@ -8625,7 +8701,7 @@
 		)
 		(uuid "ca6617d7-3a25-4c14-88d2-d16901672ff5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.3954 158.75 0)
+			(at 28.1256 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8969,6 +9045,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b16fc33-f52d-447e-bf00-27ee9d7e0dd5")
+		(property "Reference" "#PWR025"
+			(at 163.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98e0b333-9973-4976-9bb7-150e3e583980")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
 		(at 57.15 158.75 0)
 		(unit 1)
@@ -8976,10 +9117,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c186b10-7cdd-4aae-bf96-4401c70538f5")
 		(property "Reference" "Q1"
-			(at 63.5 157.4799 0)
+			(at 62.484 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8987,8 +9127,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
-			(at 63.5 160.0199 0)
+		(property "Value" "BSS138"
+			(at 62.484 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,6 +9534,73 @@
 			(project ""
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 157.48 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43192191-9b01-4373-aaa4-ca205ec222af")
+		(property "Reference" "SW2"
+			(at 157.48 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088"
+			(at 157.48 158.242 0)
+			(effects
+				(font
+					(size 1.143 1.143)
+				)
+			)
+		)
+		(property "Footprint" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 157.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a6d5e47-8817-4f4f-aced-d4b9a34b3d6c")
+		)
+		(pin "1"
+			(uuid "466c56f2-3b43-4d7e-83a4-fc0f5fe7a49f")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10172,7 +10379,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 54.61 152.4 0)
+		(at 53.34 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10180,23 +10387,23 @@
 		(dnp no)
 		(uuid "4bee80f6-541f-4d57-bd3f-9fa852133697")
 		(property "Reference" "SW1"
-			(at 54.61 154.178 0)
+			(at 53.34 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 54.356 148.082 0)
+		(property "Value" "TS-1088"
+			(at 53.34 148.082 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 54.61 147.32 0)
+		(property "Footprint" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 147.32 0)
+			(at 53.34 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10421,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 54.61 152.4 0)
+			(at 53.34 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10469,7 +10676,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 48.26 152.4 0)
+		(at 46.99 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10477,7 +10684,7 @@
 		(dnp no)
 		(uuid "75036a61-cdbd-4ae2-ad04-f8f0278d2c0e")
 		(property "Reference" "#PWR021"
-			(at 48.26 158.75 0)
+			(at 46.99 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10486,7 +10693,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 154.178 0)
+			(at 43.18 154.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10494,7 +10701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 152.4 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10503,7 +10710,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 152.4 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 48.26 152.4 0)
+			(at 46.99 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,6 +11365,139 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1cd2ea6-ed10-422d-a848-b0dee551c2e7")
+		(property "Reference" "R4"
+			(at 163.83 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110"
+			(at 163.83 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 170.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50d6417c-ceb1-41fb-ac00-776fc230ff94")
+		)
+		(pin "2"
+			(uuid "48a56730-464e-436f-b57b-ed45142e0bd8")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e548ed38-a81a-4f51-8799-4ffd61b8befd")
+		(property "Reference" "#PWR026"
+			(at 151.13 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e58df51c-9370-464c-b213-8bce43a97d55")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 185.42 134.62 0)
 		(unit 1)
@@ -11350,6 +11690,106 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 153.67 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f330a2b2-92bc-4b20-9477-bfda88d14574")
+		(property "Reference" "Q2"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 148.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 153.67 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 153.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 153.67 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 153.67 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 153.67 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2867b593-a76a-4975-b541-381672afe94f")
+		)
+		(pin "1"
+			(uuid "98229963-c751-4bc7-9446-f3728489ae98")
+		)
+		(pin "3"
+			(uuid "237dbe78-0cbc-44eb-9485-d834cf48d7eb")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "Q2")
 					(unit 1)
 				)
 			)

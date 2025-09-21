@@ -9194,7 +9194,7 @@
 			)
 		)
 	)
-	(global_label "POWER_EN"
+	(global_label "POWER_BMC"
 		(shape output)
 		(at 152.4 200.66 180)
 		(fields_autoplaced yes)
@@ -9206,7 +9206,7 @@
 		)
 		(uuid "7c836a1c-cb40-459f-aeaa-03ba1da0d378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4017 200.66 0)
+			(at 137.8898 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +9854,7 @@
 			)
 		)
 	)
-	(global_label "RUN_PG"
+	(global_label "RESET_BMC"
 		(shape output)
 		(at 152.4 203.2 180)
 		(fields_autoplaced yes)
@@ -9866,7 +9866,7 @@
 		)
 		(uuid "bcafd6f5-2e3e-4f41-a16f-f55936455f85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.8811 203.2 0)
+			(at 138.6156 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
