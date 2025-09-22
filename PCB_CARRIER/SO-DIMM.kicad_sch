@@ -5078,16 +5078,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "<- Mechanical Pin"
-		(exclude_from_sim no)
-		(at 284.988 176.784 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0cad3564-a863-409f-8f25-f6fb46b6647a")
-	)
 	(text "< Research cluster board implement"
 		(exclude_from_sim no)
 		(at 231.394 203.454 0)
@@ -5369,6 +5359,12 @@
 		(uuid "a686c70e-f6c0-4452-a2d8-ddaa61ad7e66")
 	)
 	(junction
+		(at 273.05 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9efd086-4e4a-47dd-91cf-695059674733")
+	)
+	(junction
 		(at 274.32 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5603,10 +5599,6 @@
 	(no_connect
 		(at 76.2 196.85)
 		(uuid "5983850a-f4ce-4cff-9baa-153d21adabb7")
-	)
-	(no_connect
-		(at 271.78 176.53)
-		(uuid "607d94fd-6ae3-4ca4-82e8-be1691617b1e")
 	)
 	(no_connect
 		(at 316.23 114.3)
@@ -6315,6 +6307,16 @@
 			(type default)
 		)
 		(uuid "38be7f2b-6bc5-47dd-af1a-f8ee41a7f3cd")
+	)
+	(wire
+		(pts
+			(xy 271.78 176.53) (xy 273.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "397eeefb-74d1-4566-8190-a08bfc04d1c9")
 	)
 	(wire
 		(pts
@@ -8055,6 +8057,16 @@
 			(type default)
 		)
 		(uuid "e61a5e16-d8fa-4e08-a88a-109bb938bc26")
+	)
+	(wire
+		(pts
+			(xy 273.05 176.53) (xy 273.05 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65aaaf5-5349-4115-8796-654a498719f8")
 	)
 	(wire
 		(pts

@@ -6264,6 +6264,10 @@
 		(uuid "5f23bb55-3125-4b85-acc5-75d557eea9ea")
 	)
 	(no_connect
+		(at 40.64 111.76)
+		(uuid "d20e85db-cced-4a4b-ab5e-d60858022f69")
+	)
+	(no_connect
 		(at 260.35 59.69)
 		(uuid "da1343aa-c791-4c50-8b23-32b563d76cd7")
 	)
@@ -7080,6 +7084,16 @@
 			(type default)
 		)
 		(uuid "8af5e7c1-b6d3-434f-9c14-ca933b8cba2d")
+	)
+	(wire
+		(pts
+			(xy 106.68 177.8) (xy 101.6 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bac26d9-2a1a-4727-abf6-a1887b7c405a")
 	)
 	(wire
 		(pts
@@ -8533,7 +8547,7 @@
 	)
 	(global_label "PMIC_EN"
 		(shape input)
-		(at 101.6 177.8 0)
+		(at 106.68 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8543,7 +8557,7 @@
 		)
 		(uuid "530f47ff-3215-44dd-adae-ff078492fb8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.7236 177.8 0)
+			(at 117.8036 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
