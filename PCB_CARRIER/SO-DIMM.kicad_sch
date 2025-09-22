@@ -5088,19 +5088,9 @@
 		)
 		(uuid "383daccd-0902-4687-a301-aa5549bccb49")
 	)
-	(text "< Second camera?"
-		(exclude_from_sim no)
-		(at 362.712 76.454 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "874d7032-fef1-4fec-a413-2598abd06cf4")
-	)
 	(text "Implement on BMC >\n"
 		(exclude_from_sim no)
-		(at 206.248 84.074 0)
+		(at 207.518 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5501,6 +5491,10 @@
 		(uuid "06dba2a2-b89c-4d53-9c22-73fb1e28550b")
 	)
 	(no_connect
+		(at 191.77 167.64)
+		(uuid "09d2cb44-a136-407c-8b71-3ce2aa548e88")
+	)
+	(no_connect
 		(at 191.77 119.38)
 		(uuid "11bd0781-4f4f-40fd-80d6-2ca1ed98a0d8")
 	)
@@ -5517,6 +5511,10 @@
 		(uuid "17ab57bd-040c-448e-82a0-7a51b7847b22")
 	)
 	(no_connect
+		(at 316.23 83.82)
+		(uuid "17af6e70-eb10-4f77-a7b9-e37081065f67")
+	)
+	(no_connect
 		(at 191.77 177.8)
 		(uuid "1c0703ae-ffad-476a-b00e-b8c7fe31ea30")
 	)
@@ -5525,8 +5523,16 @@
 		(uuid "1daf905c-2680-4fa9-803f-6e7e4276f6c9")
 	)
 	(no_connect
+		(at 191.77 175.26)
+		(uuid "1ed5d90a-3382-48ed-801d-74ff85361633")
+	)
+	(no_connect
 		(at 316.23 111.76)
 		(uuid "20898ee4-d73b-4702-af10-e16d5c8b9aa2")
+	)
+	(no_connect
+		(at 351.79 78.74)
+		(uuid "27f97f15-a316-407d-bf19-422fc5567d89")
 	)
 	(no_connect
 		(at 316.23 104.14)
@@ -5605,6 +5611,10 @@
 		(uuid "6599cb7b-d716-4caa-98f2-0dc2ce05bb1a")
 	)
 	(no_connect
+		(at 351.79 83.82)
+		(uuid "66699441-75ca-4eb9-9288-41a53e092127")
+	)
+	(no_connect
 		(at 191.77 182.88)
 		(uuid "6691a59e-a249-4510-b70a-de26c2099eef")
 	)
@@ -5635,6 +5645,10 @@
 	(no_connect
 		(at 156.21 91.44)
 		(uuid "7807e22b-3371-4ff8-900c-c5fe888b627e")
+	)
+	(no_connect
+		(at 191.77 187.96)
+		(uuid "7a519a24-c3eb-437f-9408-4979b43c90c2")
 	)
 	(no_connect
 		(at 191.77 193.04)
@@ -5677,6 +5691,10 @@
 		(uuid "8990c045-5329-4696-9474-ff35e02f9f68")
 	)
 	(no_connect
+		(at 191.77 172.72)
+		(uuid "8b40bdfe-4884-4547-816e-ba02455dbebf")
+	)
+	(no_connect
 		(at 351.79 109.22)
 		(uuid "903eb611-2493-492c-b360-1c73dfa61bb8")
 	)
@@ -5695,6 +5713,10 @@
 	(no_connect
 		(at 156.21 167.64)
 		(uuid "9dc0c0ae-2aba-403f-a240-65f905df7151")
+	)
+	(no_connect
+		(at 351.79 81.28)
+		(uuid "a5ceee1c-b807-422c-afe4-37e60dce2357")
 	)
 	(no_connect
 		(at 76.2 88.9)
@@ -5717,8 +5739,16 @@
 		(uuid "bc651d3a-0d88-4c83-aa78-679558ec478e")
 	)
 	(no_connect
+		(at 191.77 160.02)
+		(uuid "bdca5f0e-6f45-41bc-80b7-545005cce0f3")
+	)
+	(no_connect
 		(at 76.2 176.53)
 		(uuid "c452a6e5-67b4-4154-9608-644fd15949aa")
+	)
+	(no_connect
+		(at 351.79 86.36)
+		(uuid "c5dd6f81-4bea-4092-89ef-70f501bc5147")
 	)
 	(no_connect
 		(at 156.21 177.8)
