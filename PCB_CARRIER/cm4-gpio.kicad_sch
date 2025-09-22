@@ -6783,7 +6783,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 25.4) (xy 46.99 25.4)
+			(xy 48.26 31.75) (xy 46.99 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6953,7 +6953,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 25.4) (xy 39.37 25.4)
+			(xy 38.1 31.75) (xy 39.37 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7240,6 +7240,16 @@
 			(type default)
 		)
 		(uuid "551b5ab7-4968-492d-87c7-352110edeb1c")
+	)
+	(wire
+		(pts
+			(xy 106.68 175.26) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e7cc64-903b-4777-87db-d0b5e68ef663")
 	)
 	(wire
 		(pts
@@ -8183,7 +8193,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 25.4) (xy 55.88 25.4)
+			(xy 57.15 31.75) (xy 55.88 31.75)
 		)
 		(stroke
 			(width 0)
@@ -9153,6 +9163,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0"
+		(shape bidirectional)
+		(at 106.68 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "544fc7e8-0f41-4adf-8c00-03e4a0701b16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.4611 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10215,7 +10247,7 @@
 	)
 	(global_label "ACTIVITY_LED"
 		(shape output)
-		(at 38.1 25.4 180)
+		(at 38.1 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10225,7 +10257,7 @@
 		)
 		(uuid "f636b63d-3ef0-45b3-855b-3cb6c459c759")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.9244 25.4 0)
+			(at 22.9244 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11226,7 @@
 			)
 		)
 		(property "Value" "Yellow"
-			(at 113.03 21.082 0)
+			(at 114.554 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12955,7 +12987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "BC817-40"
 			(at 119.38 33.0199 0)
 			(effects
 				(font
@@ -13104,7 +13136,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 43.18 25.4 0)
+		(at 43.18 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13112,7 +13144,7 @@
 		(dnp no)
 		(uuid "9b22e66a-0481-44dd-9bd5-366658bdeb72")
 		(property "Reference" "D1"
-			(at 43.434 30.988 0)
+			(at 43.434 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13120,7 +13152,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 43.434 28.448 0)
+			(at 43.434 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13160,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 43.18 25.4 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13137,7 +13169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 25.4 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13146,7 +13178,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 43.18 25.4 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13155,7 +13187,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 43.18 25.4 0)
+			(at 43.18 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13382,7 +13414,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 57.15 25.4 0)
+		(at 57.15 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13390,7 +13422,7 @@
 		(dnp no)
 		(uuid "c49a1c11-fbcf-48a1-bf1a-e1fad7abf086")
 		(property "Reference" "#PWR030"
-			(at 57.15 29.21 0)
+			(at 57.15 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13431,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 57.15 21.082 0)
+			(at 57.15 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13407,7 +13439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 25.4 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13416,7 +13448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 25.4 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13425,7 +13457,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 57.15 25.4 0)
+			(at 57.15 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14168,7 +14200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 25.4 270)
+		(at 52.07 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14176,7 +14208,7 @@
 		(dnp no)
 		(uuid "ed335432-fc2f-490f-9f8b-042bf7b1db8d")
 		(property "Reference" "R1"
-			(at 52.07 30.988 90)
+			(at 52.07 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,7 +14216,7 @@
 			)
 		)
 		(property "Value" "330Ω"
-			(at 52.07 28.448 90)
+			(at 52.07 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14192,7 +14224,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 52.07 23.622 90)
+			(at 52.07 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14201,7 +14233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 25.4 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14210,7 +14242,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 25.4 0)
+			(at 52.07 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
