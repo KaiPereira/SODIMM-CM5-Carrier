@@ -4070,6 +4070,10 @@
 		(uuid "80554322-3a35-4789-aab0-597d61e24118")
 	)
 	(no_connect
+		(at 160.02 48.26)
+		(uuid "8a18dceb-744a-412d-9be7-8dfe6c569dfb")
+	)
+	(no_connect
 		(at 99.06 40.64)
 		(uuid "b0c35a51-282e-40a4-9f0d-14d647378f7d")
 	)
