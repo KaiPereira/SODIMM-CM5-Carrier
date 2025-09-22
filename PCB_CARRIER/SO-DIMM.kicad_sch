@@ -5541,6 +5541,10 @@
 		(uuid "30a7b535-160a-4356-b94e-991bf6b349be")
 	)
 	(no_connect
+		(at 271.78 121.92)
+		(uuid "329ab72e-13f0-419b-a9b5-08c9a523b86a")
+	)
+	(no_connect
 		(at 191.77 76.2)
 		(uuid "3413caa8-2b5d-4110-b2db-de5b6f1a9b16")
 	)
@@ -5615,10 +5619,6 @@
 	(no_connect
 		(at 191.77 180.34)
 		(uuid "6d95f9c4-02f2-4f8f-a624-4f730a925491")
-	)
-	(no_connect
-		(at 111.76 173.99)
-		(uuid "70371afe-0e2f-421a-9ef1-fa9125103450")
 	)
 	(no_connect
 		(at 271.78 88.9)
@@ -5797,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "01459b75-7dd1-43bf-a770-811d297fce51")
+	)
+	(wire
+		(pts
+			(xy 116.84 173.99) (xy 111.76 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d4d6fc-a0ea-4e84-aa85-4b8deffb1905")
 	)
 	(wire
 		(pts
@@ -6007,16 +6017,6 @@
 			(type default)
 		)
 		(uuid "16870520-cb00-4497-a9df-8196c2b0172a")
-	)
-	(wire
-		(pts
-			(xy 276.86 121.92) (xy 271.78 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18044f9f-e4fc-4dee-974d-9015fde60f90")
 	)
 	(wire
 		(pts
@@ -8662,6 +8662,28 @@
 			)
 		)
 	)
+	(global_label "MOD_SLEEP"
+		(shape input)
+		(at 116.84 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e476cb3-3ab4-49f1-8a0e-52ecac5411ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.7454 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART-0_TX"
 		(shape input)
 		(at 231.14 99.06 180)
@@ -9780,28 +9802,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_CLK"
-		(shape input)
-		(at 276.86 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b58c99cc-b274-494b-87ff-fbd4d06e72df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.9513 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)

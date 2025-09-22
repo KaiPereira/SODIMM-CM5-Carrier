@@ -8917,28 +8917,6 @@
 			)
 		)
 	)
-	(global_label "GPIO_CLK"
-		(shape input)
-		(at 35.56 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "865a288c-2e2a-44cb-af89-fae62782c900")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.4687 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SHUT_REQ_BMC"
 		(shape input)
 		(at 151.13 115.57 0)
@@ -9458,6 +9436,28 @@
 		(uuid "d00f0fad-60ba-46a4-b9de-ccca20cb13d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 20.0338 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOD_SLEEP"
+		(shape output)
+		(at 35.56 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d35e3257-9c8a-4335-ba94-576aa756e238")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6546 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
