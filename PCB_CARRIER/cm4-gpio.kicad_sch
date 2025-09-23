@@ -9167,28 +9167,6 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
-		(shape bidirectional)
-		(at 106.68 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "544fc7e8-0f41-4adf-8c00-03e4a0701b16")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.4611 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CSI-0_SDA"
 		(shape bidirectional)
 		(at 35.56 154.94 180)
@@ -10104,6 +10082,28 @@
 		(uuid "e395ebeb-4261-4276-be57-7df79a9d87a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.0027 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CSI-0_PWDN"
+		(shape input)
+		(at 106.68 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e84cf7b4-ae0d-4585-96fb-26296d310137")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.916 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
