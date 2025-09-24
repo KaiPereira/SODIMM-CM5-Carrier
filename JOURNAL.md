@@ -647,5 +647,5 @@ The level shifting is actually quite complicated to do in a nice manner though. 
 
 So signals like camera power, reset and sleep don't need to be shifted on the board for various reasons.
 
-Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need shifted too
+Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need that shifted too
 
