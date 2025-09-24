@@ -587,7 +587,7 @@ Now I don't notice any more pins that I could possibly use for an I2C bus, so I'
 
 I'm going to end it off there, because I really got done what I needed, and then tomorrow, I'll work on getting all the GPIO's in!
 
-## Day 12 - GPIO's!!
+## Day 12 - GPIO's!! - 8 Hours
 
 Now today is all about wiring all the GPIO's to give BMC functionality, do a bunch of information stuff, and for some other devices I'll bring out on the cluster board, there's just plenty to do with them.
 
@@ -622,3 +622,15 @@ I also added that 4 button switch on the board, so that you can manually tap the
 Now I haven't talked about those 2 yet, but essentially, nRPI when held low, boots through USB 2.0 instead of eMMC, so it's just a recovery thing I implemented that probably won't be used too much, but it's good for a high quality board.
 
 PMIC_EN will basically put the CM5 into low power state, which is just kind of nice to give the user and is relatively simple to wire.
+
+And after an absurdly long time, and a bunch of other stuff I didn't talk about because it took so much focus, I got ALL the pins wired:
+
+![[Pasted image 20250924064040.png]]![[Pasted image 20250924064056.png]]![[Pasted image 20250924064112.png]]
+
+I also did a lot of small things, like add a pin 260 to go to power because I think one of the datasheets actually had a mistake in it and didn't include it, but another jetson datasheet had it.
+
+I also removed some pins that weren't getting use like USB VBUS and such, and gave them real connections if they didn't have them yet.
+
+Now I just need to level shift a BUNCH of signals to 1.8V, but I'll keep that for the next day.
+
+Now it probably doesn't look like I did that much, but figuring out how to drive signals low, high, and whatnot took FOREVER, and was pretty darn complicated, so this day took over 8 hours to finish!
