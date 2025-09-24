@@ -9,6 +9,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 71.12 25.4)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b90d14f-4142-447b-ad6a-0ca28adbd057")
+		(property "Sheetname" "Level Shifting"
+			(at 71.12 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "level-shifting.kicad_sch"
+			(at 71.12 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 121.92)
 		(size 38.1 38.1)
 		(exclude_from_sim no)

@@ -657,6 +657,10 @@
     [
       "9924afb8-28d2-4519-98a2-71323cd667d5",
       "Carrier SO-DIMM"
+    ],
+    [
+      "7b90d14f-4142-447b-ad6a-0ca28adbd057",
+      "Level Shifting"
     ]
   ],
   "text_variables": {}
