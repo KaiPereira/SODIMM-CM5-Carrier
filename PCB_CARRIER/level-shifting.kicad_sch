@@ -521,9 +521,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LIKELY SHIFTED PINS: MOD SLEEP and PWM"
+		(exclude_from_sim no)
+		(at 61.722 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "48995c75-01f6-4e94-b165-d9c0e8aa8eaf")
+	)
+	(text "SPI isn't good for these"
+		(exclude_from_sim no)
+		(at 51.054 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b38a69ca-4f34-4960-bb54-64fb7b2ddf93")
+	)
 	(symbol
 		(lib_id "Logic_LevelTranslator:TXB0108DQSR")
-		(at 153.67 100.33 0)
+		(at 175.26 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -532,7 +552,7 @@
 		(fields_autoplaced yes)
 		(uuid "0573e741-3054-4841-bcad-15d4308340a6")
 		(property "Reference" "U3"
-			(at 155.8133 118.11 0)
+			(at 177.4033 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,7 +561,7 @@
 			)
 		)
 		(property "Value" "TXB0108DQSR"
-			(at 155.8133 120.65 0)
+			(at 177.4033 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +570,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-20_2x4mm_P0.4mm"
-			(at 153.67 119.38 0)
+			(at 175.26 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +579,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
-			(at 153.67 102.87 0)
+			(at 175.26 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +588,7 @@
 			)
 		)
 		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, USON-20"
-			(at 153.67 100.33 0)
+			(at 175.26 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -647,7 +667,7 @@
 	)
 	(symbol
 		(lib_id "Logic_LevelTranslator:TXB0108DQSR")
-		(at 114.3 99.06 0)
+		(at 135.89 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -656,7 +676,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e03994b-4634-40f2-b0a2-168164ffb520")
 		(property "Reference" "U1"
-			(at 116.4433 116.84 0)
+			(at 138.0333 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +685,7 @@
 			)
 		)
 		(property "Value" "TXB0108DQSR"
-			(at 116.4433 119.38 0)
+			(at 138.0333 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +694,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:USON-20_2x4mm_P0.4mm"
-			(at 114.3 118.11 0)
+			(at 135.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -683,7 +703,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txb0108.pdf"
-			(at 114.3 101.6 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +712,7 @@
 			)
 		)
 		(property "Description" "8-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, USON-20"
-			(at 114.3 99.06 0)
+			(at 135.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

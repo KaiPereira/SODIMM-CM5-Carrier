@@ -10685,7 +10685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "230650eb-8852-4c76-b63c-12ec79910b81")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR?"
 			(at 102.87 165.1 0)
 			(effects
 				(font
@@ -10732,6 +10732,14 @@
 		(pin "1"
 			(uuid "2fe5e23b-b0a3-4415-ab3f-35c2c2de6532")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -10742,7 +10750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24a751e2-5b65-45cc-a485-8d0994e0ee7a")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR?"
 			(at 100.33 139.7 0)
 			(effects
 				(font
@@ -10789,6 +10797,14 @@
 		(pin "1"
 			(uuid "88660642-4cfd-4b8b-a2a4-245018cffb1d")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10800,7 +10816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28c1b201-98f9-4860-bd3b-9e2dfa30b7ba")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR?"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -10847,6 +10863,14 @@
 		(pin "1"
 			(uuid "e6290f15-fe13-42d9-9f9c-bd0a62e0ff5f")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -10859,7 +10883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b6f6f4-4195-4254-8d9c-1ad48357c235")
-		(property "Reference" "R16"
+		(property "Reference" "R?"
 			(at 55.88 111.7599 0)
 			(effects
 				(font
@@ -10910,6 +10934,14 @@
 		(pin "2"
 			(uuid "45e63670-b0e9-4785-941b-38e392a70d4c")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10921,7 +10953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d74db12-c287-4e8d-8347-c4faa7ef7801")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR?"
 			(at 265.43 180.34 0)
 			(effects
 				(font
@@ -10967,6 +10999,14 @@
 		)
 		(pin "1"
 			(uuid "311fc7c1-01dd-4d4d-bb2d-6d03de580a5d")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11044,7 +11084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31551326-27c6-4bba-a0c0-abe772948a8c")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR?"
 			(at 168.91 165.1 0)
 			(effects
 				(font
@@ -11091,6 +11131,14 @@
 		(pin "1"
 			(uuid "9c4b17c0-2428-4226-a0ac-222974aef3e7")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11102,7 +11150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "332a017d-d71c-413f-b2f2-ace14f9beef7")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 45.72 127.254 90)
 			(effects
 				(font
@@ -11151,6 +11199,14 @@
 		(pin "1"
 			(uuid "5f0c25d6-51a5-40cc-aedd-dc2dba9b4bef")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11162,7 +11218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "371ffedf-2144-4ff0-b411-520400391985")
-		(property "Reference" "R15"
+		(property "Reference" "R?"
 			(at 60.96 68.5799 0)
 			(effects
 				(font
@@ -11213,6 +11269,14 @@
 		(pin "1"
 			(uuid "e1d4fa62-a4e0-4a71-91cb-f33d83f87286")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_name "LED_1")
@@ -11224,7 +11288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b85f3fe-9e8a-4a88-9d8e-007cfcc863be")
-		(property "Reference" "D4"
+		(property "Reference" "D?"
 			(at 261.62 159.512 0)
 			(effects
 				(font
@@ -11283,6 +11347,14 @@
 		)
 		(pin "1"
 			(uuid "765478c4-35c8-49b8-812c-1a92485ee93c")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11428,7 +11500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "463d59ed-ef45-4402-9140-190527b0aff8")
-		(property "Reference" "Module2"
+		(property "Reference" "Module?"
 			(at 136.398 20.32 0)
 			(effects
 				(font
@@ -12112,6 +12184,14 @@
 		(pin "199"
 			(uuid "5b2864dc-6d10-4634-9ec8-a0024e8cdd2f")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "Module?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -12222,7 +12302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5636ba7d-f832-49b9-87a4-46f97dec889b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR?"
 			(at 276.86 91.44 0)
 			(effects
 				(font
@@ -12269,6 +12349,14 @@
 		(pin "1"
 			(uuid "9012cf59-6ce5-4180-a33a-74d43debf65e")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det2")
@@ -12280,7 +12368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5827ba45-0968-4566-8d7f-9d74bb2829fd")
-		(property "Reference" "J3"
+		(property "Reference" "J?"
 			(at 257.175 49.53 0)
 			(effects
 				(font
@@ -12355,6 +12443,14 @@
 		)
 		(pin "11"
 			(uuid "3839ea47-1fa7-496e-b823-0ed4457374a8")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "J?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12500,7 +12596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75b2aac6-2930-4151-b6e2-f330ecdf5cef")
-		(property "Reference" "R18"
+		(property "Reference" "R?"
 			(at 253.238 159.512 90)
 			(effects
 				(font
@@ -12551,6 +12647,14 @@
 		(pin "1"
 			(uuid "d5b449e3-339e-49a4-ad71-568e42e76a06")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -12561,7 +12665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bd7475d-b5e3-4efd-a813-cc1695c516eb")
-		(property "Reference" "R19"
+		(property "Reference" "R?"
 			(at 252.73 170.688 90)
 			(effects
 				(font
@@ -12610,6 +12714,14 @@
 		(pin "2"
 			(uuid "3c9f4c88-39c7-412d-9ff3-330d3608f307")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Power_Management:RT9742AGJ5F")
@@ -12621,7 +12733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e3e44d1-8c57-4d4d-88b2-a7fa7faee372")
-		(property "Reference" "U2"
+		(property "Reference" "U?"
 			(at 255.27 20.32 0)
 			(effects
 				(font
@@ -12678,6 +12790,14 @@
 		)
 		(pin "2"
 			(uuid "a5685d7b-6e66-4463-8f00-daabbf9b92f4")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12927,7 +13047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94f2c665-3470-483b-9573-f9dce90e0e23")
-		(property "Reference" "Q8"
+		(property "Reference" "Q?"
 			(at 267.97 166.3699 0)
 			(effects
 				(font
@@ -13008,6 +13128,14 @@
 		(pin "2"
 			(uuid "9515571c-7eb6-47c6-8ebb-f0c5750b1a89")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13019,7 +13147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9714c526-1bef-4129-a194-f9f0422936ad")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR?"
 			(at 246.38 127 0)
 			(effects
 				(font
@@ -13065,6 +13193,14 @@
 		)
 		(pin "1"
 			(uuid "670f8fd0-2491-41af-80d1-4347aceeb3af")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13218,7 +13354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a32c3c35-ab86-4837-81aa-2dadc32907dc")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 43.18 84.074 90)
 			(effects
 				(font
@@ -13266,6 +13402,14 @@
 		)
 		(pin "1"
 			(uuid "ebefb21d-2e50-4eec-8e95-15d960fec2ae")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13411,7 +13555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9894115-20b5-4107-b554-2bb39aabba23")
-		(property "Reference" "C16"
+		(property "Reference" "C?"
 			(at 216.408 68.58 0)
 			(effects
 				(font
@@ -13462,6 +13606,14 @@
 		(pin "2"
 			(uuid "7baadf68-f494-46eb-b104-63db7bf0f24a")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -13472,7 +13624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdcffdec-ef11-48ba-8a43-369c6f49a0b8")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR?"
 			(at 215.9 139.7 0)
 			(effects
 				(font
@@ -13518,6 +13670,14 @@
 		)
 		(pin "1"
 			(uuid "c54be774-4d03-41d9-a87a-dfd2d2be42a3")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13598,7 +13758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d75779fe-0fca-45f7-9043-b9102a63c8ca")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR?"
 			(at 100.33 144.78 0)
 			(effects
 				(font
@@ -13644,6 +13804,14 @@
 		)
 		(pin "1"
 			(uuid "dbdf2570-e01b-40ce-a285-9a94c3839160")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13888,7 +14056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e460238d-66d0-4749-906e-6d0cf716e7c6")
-		(property "Reference" "SW1"
+		(property "Reference" "SW?"
 			(at 254 100.33 0)
 			(effects
 				(font
@@ -13955,6 +14123,14 @@
 		(pin "2"
 			(uuid "0e7564a9-aa94-4578-9ba8-b8bdc3d4df7d")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "SW?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -13965,7 +14141,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e75c1710-4ebb-47d9-ab6e-9369bec15fee")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR?"
 			(at 215.9 129.54 0)
 			(effects
 				(font
@@ -14012,6 +14188,14 @@
 		(pin "1"
 			(uuid "c874ece6-d575-4437-a594-1233f3bac003")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -14023,7 +14207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8efb734-d91c-46cc-8261-14dfacca3e3f")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR?"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -14069,6 +14253,14 @@
 		)
 		(pin "1"
 			(uuid "f78ac783-8004-49eb-aaf9-890d72db3886")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14148,7 +14340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc93adfc-48c9-4e4b-8f2a-81611795ffe7")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR?"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -14195,6 +14387,14 @@
 		(pin "1"
 			(uuid "9ec9ff4c-a662-4d5e-9d0d-665681595bd7")
 		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -14205,7 +14405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdc0f05f-7b8a-4239-81f6-8bcdfa87f37c")
-		(property "Reference" "R17"
+		(property "Reference" "R?"
 			(at 241.808 27.94 0)
 			(effects
 				(font
@@ -14255,6 +14455,14 @@
 		)
 		(pin "2"
 			(uuid "d153b98c-3112-4878-9927-cc5cf5c0d1a4")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
