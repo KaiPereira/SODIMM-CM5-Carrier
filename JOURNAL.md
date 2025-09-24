@@ -634,3 +634,18 @@ I also removed some pins that weren't getting use like USB VBUS and such, and ga
 Now I just need to level shift a BUNCH of signals to 1.8V, but I'll keep that for the next day.
 
 Now it probably doesn't look like I did that much, but figuring out how to drive signals low, high, and whatnot took FOREVER, and was pretty darn complicated, so this day took over 8 hours to finish!
+
+## Day 13 - Level shifting shenanigans
+
+Now today I need to figure out how to get a bunch of these signals from 3.3V to 1.8V. This is important so that I don't fry anything that the jetson would normally use at 1.8V by using it at 3.3V, and also so that things specifically looking for 1.8V don't mistake anything by seeing it at 3.3V, it's just generally pretty important.
+
+Now the turing pi CM4 adapter, doesn't actually seem to include any level shifting on their board, and instead puts it on the cluster board, but I actually don't agree with this and I feel like it should be on the daughter board too. This is because if I want true pin compatibility, so that this card can be plugged in anywhere, other boards might not do the level shifting on the cluster board, so you could fry something or something might not be detected.
+
+The level shifting is actually quite complicated to do in a nice manner though. I created this spreadsheet to explain to you guys, and to myself how this will work out:
+
+![[Pasted image 20250924064620.png]]
+
+So signals like camera power, reset and sleep don't need to be shifted on the board for various reasons.
+
+Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need shifted too
+
