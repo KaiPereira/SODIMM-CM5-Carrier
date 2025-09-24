@@ -606,3 +606,13 @@ FORCE_RECOVERY and SHUTDOWN_REQ will also not be connected because they're just 
 I'm going to be going through all the CM5 mezzanine pins after this to make sure that I didn't miss anything, so if any of these are wrong, I'll just re-wire!
 
 After adding these no-connects, I wired up the SLEEP/RESET and the SYS_RESET pins. The CM5 doesn't have a SLEEP/RESET pin, so I just used a GPIO, I'm basically just using this to convey power states, but usually you'd use it to request a sleep/suspend instead of the POWER_EN which just shuts off power entirely.
+
+Anyways I spent a long time not journalling in order to figure out a bunch of stuff. I realized that there's a lot of switching IO's, which aren't just GPIO's but like pins that are either GND or a certain voltage at some point. These use mosftets or transistors to switch, and they're required in order to follow jetson datasheets.
+
+![[Pasted image 20250924063355.png]]
+
+It's mostly all BMC pins, but basically the BMC will send a signal to these, and based off of the jetson datasheet, it will either be GND or a certain voltage that the MCU needs. There's also an LED that uses this type of mechanism to switch it on or off using an NPN.
+
+![[Pasted image 20250924063516.png]]
+
+Now NMOS's and NPN's are a bit different. NMOS is voltage based, so it switches based off of the voltage applied, whilst an NPN switches based off of the current and allows a larger current to flow from the collector to the emitter. It's kind of complicated but once you've used them a bit, they start to make sense.
