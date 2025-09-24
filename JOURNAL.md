@@ -616,3 +616,9 @@ It's mostly all BMC pins, but basically the BMC will send a signal to these, and
 ![[Pasted image 20250924063516.png]]
 
 Now NMOS's and NPN's are a bit different. NMOS is voltage based, so it switches based off of the voltage applied, whilst an NPN switches based off of the current and allows a larger current to flow from the collector to the emitter. It's kind of complicated but once you've used them a bit, they start to make sense.
+
+I also added that 4 button switch on the board, so that you can manually tap the power button, reset, nRPI, and the PMIC EN.
+
+Now I haven't talked about those 2 yet, but essentially, nRPI when held low, boots through USB 2.0 instead of eMMC, so it's just a recovery thing I implemented that probably won't be used too much, but it's good for a high quality board.
+
+PMIC_EN will basically put the CM5 into low power state, which is just kind of nice to give the user and is relatively simple to wire.
