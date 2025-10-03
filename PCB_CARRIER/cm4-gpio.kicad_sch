@@ -10165,7 +10165,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_PWDN"
+	(global_label "CSI-1_PWDN"
 		(shape input)
 		(at 171.45 151.13 0)
 		(fields_autoplaced yes)
