@@ -643,9 +643,13 @@ Now the turing pi CM4 adapter, doesn't actually seem to include any level shifti
 
 The level shifting is actually quite complicated to do in a nice manner though. I created this spreadsheet to explain to you guys, and to myself how this will work out:
 
-![[Pasted image 20250924064620.png]]
+![[Pasted image 20251003202443.png]]
 
 So signals like camera power, reset and sleep don't need to be shifted on the board for various reasons.
 
-Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need that shifted too
+Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need that shifted too because it's just pulled up on the NMOS.
+
+MOD_SLEEP is just detected when active low and the line is 3.3V tolerant, so it should be fine!
+
+
 
