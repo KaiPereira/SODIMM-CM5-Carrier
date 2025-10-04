@@ -5090,7 +5090,7 @@
 	)
 	(text "SPI multiplexed\nMaster/Slave"
 		(exclude_from_sim no)
-		(at 208.026 92.456 0)
+		(at 204.978 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8446,7 +8446,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS0"
+	(global_label "SPI-0_CS0_1V8"
 		(shape input)
 		(at 231.14 93.98 180)
 		(fields_autoplaced yes)
@@ -8458,7 +8458,7 @@
 		)
 		(uuid "1411e761-561c-4624-8dc9-c1696e702ca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5369 93.98 0)
+			(at 213.0617 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,7 +8776,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CLK"
+	(global_label "SPI-1_CLK_1V8"
 		(shape input)
 		(at 276.86 106.68 0)
 		(fields_autoplaced yes)
@@ -8788,7 +8788,7 @@
 		)
 		(uuid "3ce78258-b34c-4cd9-b5ee-1e40fea93f07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.3422 106.68 0)
+			(at 294.8174 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8864,7 +8864,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS1"
+	(global_label "SPI-0_CS1_1V8"
 		(shape input)
 		(at 231.14 96.52 180)
 		(fields_autoplaced yes)
@@ -8876,7 +8876,7 @@
 		)
 		(uuid "4c9003e2-b24b-4371-a258-42cd9d09657b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5369 96.52 0)
+			(at 213.0617 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8952,7 +8952,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CS0"
+	(global_label "SPI-1_CS0_1V8"
 		(shape input)
 		(at 276.86 111.76 0)
 		(fields_autoplaced yes)
@@ -8964,7 +8964,7 @@
 		)
 		(uuid "526d3146-ad61-4a6d-8775-1db1598aa125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.4631 111.76 0)
+			(at 294.9383 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8974,7 +8974,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_MOSI"
+	(global_label "SPI-0_MOSI_1V8"
 		(shape input)
 		(at 231.14 86.36 180)
 		(fields_autoplaced yes)
@@ -8986,7 +8986,7 @@
 		)
 		(uuid "54c34ff7-274e-4437-a71f-5ffa43d03b36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.6297 86.36 0)
+			(at 212.1545 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9282,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MISO"
+	(global_label "SPI-1_MISO_1V8"
 		(shape output)
 		(at 276.86 109.22 0)
 		(fields_autoplaced yes)
@@ -9294,7 +9294,7 @@
 		)
 		(uuid "7d90065a-086d-496b-be38-5ef405fe50c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.3703 109.22 0)
+			(at 295.8455 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MOSI"
+	(global_label "SPI-1_MOSI_1V8"
 		(shape input)
 		(at 276.86 104.14 0)
 		(fields_autoplaced yes)
@@ -9338,7 +9338,7 @@
 		)
 		(uuid "807a4be1-bdee-42d9-9476-4dd8ddaead05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.3703 104.14 0)
+			(at 295.8455 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,7 +9986,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CLK"
+	(global_label "SPI-0_CLK_1V8"
 		(shape input)
 		(at 231.14 88.9 180)
 		(fields_autoplaced yes)
@@ -9998,7 +9998,7 @@
 		)
 		(uuid "c4931d61-871c-47a8-bb40-2794ec439de3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6578 88.9 0)
+			(at 213.1826 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10140,7 +10140,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_MISO"
+	(global_label "SPI-0_MISO_1V8"
 		(shape output)
 		(at 231.14 91.44 180)
 		(fields_autoplaced yes)
@@ -10152,7 +10152,7 @@
 		)
 		(uuid "dd351bab-41b2-49b0-92a6-cbd9f74d5c34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.6297 91.44 0)
+			(at 212.1545 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10206,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CS1"
+	(global_label "SPI-1_CS1_1V8"
 		(shape input)
 		(at 276.86 114.3 0)
 		(fields_autoplaced yes)
@@ -10218,7 +10218,7 @@
 		)
 		(uuid "e0e93c8b-689c-4c38-a187-c6ec4da3cb00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.4631 114.3 0)
+			(at 294.9383 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
