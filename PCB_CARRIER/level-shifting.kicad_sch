@@ -1100,13 +1100,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SPI 8-Bit Unidirectional Transceiver\n"
+	(text "SPI 8-Bit Unidirectional Transceiver, one direction\n8 pins - MOSI/CS/CLK output\n2 pins - MISO input\n"
 		(exclude_from_sim no)
-		(at 54.61 69.85 0)
+		(at 37.084 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "6026a9fa-5fcc-4b7b-a8ce-d96bffdf6b04")
 	)
@@ -1241,142 +1242,6 @@
 			(project ""
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/7b90d14f-4142-447b-ad6a-0ca28adbd057"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Logic_LevelTranslator:SN74LVC8T245")
-		(at 87.63 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3b241d0-a210-44eb-8b69-0685e8001c52")
-		(property "Reference" "U2"
-			(at 89.7733 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SN74LVC8T245"
-			(at 89.7733 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf"
-			(at 87.63 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs"
-			(at 87.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0ed7a257-dac6-4eca-96cd-582903b879b5")
-		)
-		(pin "23"
-			(uuid "e45533e9-a337-4f9f-af49-d4f9ddc494c6")
-		)
-		(pin "13"
-			(uuid "1e743bef-a969-4d80-b1fa-52819d9d520f")
-		)
-		(pin "1"
-			(uuid "5d15bafb-ed7f-4089-b3d1-f3619d608249")
-		)
-		(pin "21"
-			(uuid "641e5a87-8f5a-4bad-9375-e0dac846459c")
-		)
-		(pin "22"
-			(uuid "70a00742-e7e7-4412-9d10-b968ed44a4e0")
-		)
-		(pin "24"
-			(uuid "3af505e9-2c36-489b-a235-01c0b2a2db0d")
-		)
-		(pin "19"
-			(uuid "69847a79-b962-4e45-9831-aca85633c098")
-		)
-		(pin "20"
-			(uuid "ab01585c-f6c5-4440-a5a1-4ed6c142225f")
-		)
-		(pin "3"
-			(uuid "eef29703-4d39-47d2-9251-38c2d6e92c9e")
-		)
-		(pin "6"
-			(uuid "de925e4e-73ea-4649-a8a3-018f926e6885")
-		)
-		(pin "5"
-			(uuid "c7b51d46-b169-4eb1-b580-f87268b56a11")
-		)
-		(pin "4"
-			(uuid "191bdc7c-6783-4a6d-bc0d-4e9cbca1bfe3")
-		)
-		(pin "10"
-			(uuid "9b4e1270-0a1f-412e-a3cf-e5dfd641e874")
-		)
-		(pin "11"
-			(uuid "5ac29bf4-04e6-4c33-81e0-464714cec258")
-		)
-		(pin "12"
-			(uuid "2b3343c0-8dc2-4ae0-97f0-def72ffddbf0")
-		)
-		(pin "18"
-			(uuid "87a0c55c-00de-4a80-81b5-d059ca1ac8b3")
-		)
-		(pin "7"
-			(uuid "3a7ab822-dbab-47e4-9d35-28bf9c09809d")
-		)
-		(pin "17"
-			(uuid "7483ac8d-14c8-4258-a036-a4d9087573ff")
-		)
-		(pin "15"
-			(uuid "48708c43-0908-4332-a1e3-c8520da2cd99")
-		)
-		(pin "14"
-			(uuid "76d6ca85-2cf3-4c17-b2cb-a4b461993e3c")
-		)
-		(pin "8"
-			(uuid "0aa08dcb-39f2-4191-83c8-922a8ad3b5ea")
-		)
-		(pin "9"
-			(uuid "dc1ac6df-da38-48b9-91c7-b17172e08194")
-		)
-		(pin "16"
-			(uuid "5fa8d79b-6b26-44bf-ac69-dba226499fd1")
-		)
-		(instances
-			(project "carrier"
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/7b90d14f-4142-447b-ad6a-0ca28adbd057"
-					(reference "U2")
 					(unit 1)
 				)
 			)
