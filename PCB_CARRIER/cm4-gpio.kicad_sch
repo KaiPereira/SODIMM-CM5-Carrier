@@ -9109,7 +9109,7 @@
 			)
 		)
 	)
-	(global_label "UART-1_TX"
+	(global_label "UART-1_TX_3V3"
 		(shape output)
 		(at 171.45 67.31 0)
 		(fields_autoplaced yes)
@@ -9121,7 +9121,7 @@
 		)
 		(uuid "46bb4330-342e-42f5-a56a-fb294cee639a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1136 67.31 0)
+			(at 189.5888 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9131,7 +9131,7 @@
 			)
 		)
 	)
-	(global_label "UART-2_TX"
+	(global_label "UART-2_TX_3V3"
 		(shape output)
 		(at 100.33 95.25 180)
 		(fields_autoplaced yes)
@@ -9143,7 +9143,7 @@
 		)
 		(uuid "49afb393-1264-4373-856c-cf9297b4aabf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.6664 95.25 0)
+			(at 82.1912 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9571,7 @@
 			)
 		)
 	)
-	(global_label "UART-0_TX"
+	(global_label "UART-0_TX_3V3"
 		(shape output)
 		(at 100.33 72.39 180)
 		(fields_autoplaced yes)
@@ -9583,7 +9583,7 @@
 		)
 		(uuid "89146847-2ed1-45bd-a43a-c67a5007a421")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.6664 72.39 0)
+			(at 82.1912 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +9725,7 @@
 			)
 		)
 	)
-	(global_label "UART-1_RTS"
+	(global_label "UART-1_RTS_3V3"
 		(shape output)
 		(at 171.45 92.71 0)
 		(fields_autoplaced yes)
@@ -9737,7 +9737,7 @@
 		)
 		(uuid "a568aec6-debd-49b7-ad5c-ea821412e165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3836 92.71 0)
+			(at 190.8588 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,7 +9835,7 @@
 			)
 		)
 	)
-	(global_label "UART-0_RX"
+	(global_label "UART-0_RX_3V3"
 		(shape input)
 		(at 171.45 72.39 0)
 		(fields_autoplaced yes)
@@ -9847,7 +9847,7 @@
 		)
 		(uuid "abf26ea4-ca5f-4a4a-9ce7-712a27e8ec80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.416 72.39 0)
+			(at 189.8912 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9967,7 +9967,7 @@
 			)
 		)
 	)
-	(global_label "UART-0_CTS"
+	(global_label "UART-0_CTS_3V3"
 		(shape input)
 		(at 100.33 100.33 180)
 		(fields_autoplaced yes)
@@ -9979,7 +9979,7 @@
 		)
 		(uuid "c6aedf5a-0a1b-4557-9463-82d2640638f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3964 100.33 0)
+			(at 80.9212 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10099,7 @@
 			)
 		)
 	)
-	(global_label "UART-1_RX"
+	(global_label "UART-1_RX_3V3"
 		(shape input)
 		(at 100.33 62.23 180)
 		(fields_autoplaced yes)
@@ -10111,7 +10111,7 @@
 		)
 		(uuid "de19f96d-7d27-4a6e-8fe4-a7042bdd04d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.364 62.23 0)
+			(at 81.8888 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10121,7 @@
 			)
 		)
 	)
-	(global_label "UART-2_RX"
+	(global_label "UART-2_RX_3V3"
 		(shape input)
 		(at 100.33 69.85 180)
 		(fields_autoplaced yes)
@@ -10133,7 +10133,7 @@
 		)
 		(uuid "e1c38bc2-4c26-4bbf-a2b5-fd8d493b8787")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.364 69.85 0)
+			(at 81.8888 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +10187,7 @@
 			)
 		)
 	)
-	(global_label "UART-0_RTS"
+	(global_label "UART-0_RTS_3V3"
 		(shape output)
 		(at 100.33 97.79 180)
 		(fields_autoplaced yes)
@@ -10199,7 +10199,7 @@
 		)
 		(uuid "ec9cade7-b770-4c56-8d85-8d9e5b3f0466")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3964 97.79 0)
+			(at 80.9212 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,7 +10385,7 @@
 			)
 		)
 	)
-	(global_label "UART-1_CTS"
+	(global_label "UART-1_CTS_3V3"
 		(shape input)
 		(at 171.45 97.79 0)
 		(fields_autoplaced yes)
@@ -10397,7 +10397,7 @@
 		)
 		(uuid "f6f3562d-4b77-427f-b45b-94b24405339d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3836 97.79 0)
+			(at 190.8588 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
