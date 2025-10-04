@@ -8934,7 +8934,7 @@
 		)
 	)
 	(global_label "SPI-1_MISO"
-		(shape input)
+		(shape bidirectional)
 		(at 100.33 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8945,7 +8945,7 @@
 		)
 		(uuid "296b80a8-ee12-4071-af49-886ef810788c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.8197 59.69 0)
+			(at 84.8037 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9088,7 +9088,7 @@
 		)
 	)
 	(global_label "SPI-1_CLK"
-		(shape output)
+		(shape bidirectional)
 		(at 171.45 59.69 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9099,7 +9099,7 @@
 		)
 		(uuid "43ce250b-e371-466c-8cfe-3d93d59fd0a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9322 59.69 0)
+			(at 185.9482 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9396,7 @@
 		)
 	)
 	(global_label "SPI-1_CS1"
-		(shape output)
+		(shape bidirectional)
 		(at 100.33 90.17 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9407,7 +9407,7 @@
 		)
 		(uuid "650e2f31-d4a0-4554-88fe-17862c25e5f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.7269 90.17 0)
+			(at 85.7109 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9616,7 @@
 		)
 	)
 	(global_label "SPI-0_CS1"
-		(shape output)
+		(shape bidirectional)
 		(at 171.45 74.93 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9627,7 +9627,7 @@
 		)
 		(uuid "8fee8fb6-e568-45fb-ab7b-c169f9ef6616")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0531 74.93 0)
+			(at 186.0691 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9704,7 +9704,7 @@
 		)
 	)
 	(global_label "SPI-1_MOSI"
-		(shape output)
+		(shape bidirectional)
 		(at 171.45 62.23 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9715,7 +9715,7 @@
 		)
 		(uuid "93865c50-bcc5-4e54-8867-2008cf657954")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.9603 62.23 0)
+			(at 186.9763 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9748,7 +9748,7 @@
 		)
 	)
 	(global_label "SPI-1_CS0"
-		(shape output)
+		(shape bidirectional)
 		(at 171.45 90.17 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9759,7 +9759,7 @@
 		)
 		(uuid "a5956caa-a0a5-4231-8dcc-85d32c0aadbe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0531 90.17 0)
+			(at 186.0691 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +9924,7 @@
 		)
 	)
 	(global_label "SPI-0_MOSI"
-		(shape output)
+		(shape bidirectional)
 		(at 100.33 82.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9935,7 +9935,7 @@
 		)
 		(uuid "c5c69fce-e5eb-45e8-9d14-95dd4e5d22d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.8197 82.55 0)
+			(at 84.8037 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +9946,7 @@
 		)
 	)
 	(global_label "SPI-0_CS0"
-		(shape output)
+		(shape bidirectional)
 		(at 171.45 77.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9957,7 +9957,7 @@
 		)
 		(uuid "c6931053-815c-461c-855e-522764db109f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.0531 77.47 0)
+			(at 186.0691 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10078,7 @@
 		)
 	)
 	(global_label "SPI-0_MISO"
-		(shape input)
+		(shape bidirectional)
 		(at 100.33 77.47 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10089,7 +10089,7 @@
 		)
 		(uuid "dd81085b-6271-459d-8fd7-0894d36d39ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.8197 77.47 0)
+			(at 84.8037 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10342,7 +10342,7 @@
 		)
 	)
 	(global_label "SPI-0_CLK"
-		(shape output)
+		(shape bidirectional)
 		(at 100.33 74.93 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10353,7 +10353,7 @@
 		)
 		(uuid "f6a494bd-028b-4066-ac29-b20b46df0b89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.8478 74.93 0)
+			(at 85.8318 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
