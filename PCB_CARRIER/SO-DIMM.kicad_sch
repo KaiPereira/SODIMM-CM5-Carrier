@@ -9282,7 +9282,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MISO_3V3"
+	(global_label "SPI-1_MISO_1V8"
 		(shape output)
 		(at 276.86 109.22 0)
 		(fields_autoplaced yes)
@@ -10140,7 +10140,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_MISO_3V3"
+	(global_label "SPI-0_MISO_1V8"
 		(shape output)
 		(at 231.14 91.44 180)
 		(fields_autoplaced yes)
