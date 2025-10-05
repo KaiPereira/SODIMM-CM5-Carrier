@@ -635,7 +635,7 @@ Now I just need to level shift a BUNCH of signals to 1.8V, but I'll keep that fo
 
 Now it probably doesn't look like I did that much, but figuring out how to drive signals low, high, and whatnot took FOREVER, and was pretty darn complicated, so this day took over 8 hours to finish!
 
-## Day 13 - Level shifting shenanigans - 15 Hours
+## Day 13 - Level shifting shenanigans - 13 Hours
 
 Now today I need to figure out how to get a bunch of these signals from 3.3V to 1.8V. This is important so that I don't fry anything that the jetson would normally use at 1.8V by using it at 3.3V, and also so that things specifically looking for 1.8V don't mistake anything by seeing it at 3.3V, it's just generally pretty important.
 
@@ -662,7 +662,7 @@ The reason I don't use bidirectional transceivers is for lots of reasons like:
 
 I think the unidirectional level shifters will be much more efficient.
 
-Now this spreadsheet took me literally **15 hours** to come up with, it's probably one of the most complicated things I've had to wrap around my head to understand. I had to make an efficient IC setup with complicated signals, but it did take longer than it needed too, I was just really new to these concepts.
+Now this spreadsheet took me literally **13 hours** to come up with, it's probably one of the most complicated things I've had to wrap around my head to understand. I had to make an efficient IC setup with complicated signals, but it did take longer than it needed too, I was just really new to these concepts.
 
 Anyways this is how I wired the whole thing:
 
@@ -673,8 +673,17 @@ A couple notes here:
 - DIR is pulled down to specify that the direction is **B -> A**
 - OE is pulled down to tell the transceiver to turn on
 
-And after liker **15 hours**, I was finally done this absolute pain. I didn't mention my iteration because it was mostly user error, but this is just the facts on how I did it and why here!
+And after liker **13 hours**, I was finally done this absolute pain. I didn't mention my iteration because it was mostly user error, but this is just the facts on how I did it and why here!
 
+## Day 14 - Terminator time
+
+Now we've actually finished up pretty much all the real wiring on our board, but now we just need to add the passives and protections.
+
+Now we already have all of our decoupling in, but there's 2 things I feel like I have to add!
+
+The first thing is termination resistors on lots of the high-speed lines. Termination resistors are basically resistors placed on a trace to match it's characteristic impedance, so it helps it keep it's proper impedance and manage signal integrity.
+
+The second thing is ESD protection, this is important for high-speed data lines exposed to the user like ethernet, USB, etc. ESD protection helps prevent damage from static discharge that can occur. I haven't put too much effort into it, but I know that USB will probably need it, and maybe some other lines like ethernet!
 
 
 
