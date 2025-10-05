@@ -570,16 +570,16 @@ Next, I want to actually revisit the camera's. The NVIDIA jetson has support for
 
 Anyways, just like the other camera controller, I'll just basically combine CSI2 and CSI3 on the NVIDIA jetson into one singular controller with double the lanes! This is because the CM5 has the lanes, but not the clock pins for more than 2 cameras:
 
-![[Pasted image 20250918185716.png]]
+![Pasted image 20250918185716.png](journal/Pasted%20image%2020250918185716.png)
 
 I also cleaned up lots of the labels during this step, so the inputs/outputs, should be more accurate now!
 
-![[Pasted image 20250918185800.png]]
+![Pasted image 20250918185800.png](journal/Pasted%20image%2020250918185800.png)
 
 Now that I have SPI, UART and the last camera in, I want to focus on using the rest of the GPIO's. The first thing I'm going to do, is see if I can create an I2C busses and wire those up for sensors and whatnot! My mezzanine connector is pretty full, but I just so happened to have GPIO22 and GPIO23 free for an I2C bus, so I'm going to add one there!
 
-![[Pasted image 20250918205413.png]]
-![[Pasted image 20250918205452.png]]
+![Pasted image 20250918205413.png](journal/Pasted%20image%2020250918205413.png)
+![Pasted image 20250918205452.png](journal/Pasted%20image%2020250918205452.png)
 
 I2C is mostly used for just like sensors, peripheral control, like signals that can afford to be slow because it's a small 2 pin, bidirectional protocol. I might be able to also move around some pins to potentially get another I2C bus, but it's not the end of the world if I can't, but for now, at least I have one! 
 
@@ -595,7 +595,7 @@ I'm going to go pretty quick through all these because there's quite a few diffe
 
 The first thing I added what GPIO_CLK, which is a general purpose GPIO, but can also be a clock signal if needed! It's pretty darn cool!
 
-![[Pasted image 20250919174653.png]]
+![Pasted image 20250919174653.png](journal/Pasted%20image%2020250919174653.png)
 
 Then I'm going to no-connect the MOD_SLEEP which just signals that the SoM is going into deep sleep, and the CM5 doesn't implement this.
 
@@ -609,11 +609,11 @@ After adding these no-connects, I wired up the SLEEP/RESET and the SYS_RESET pin
 
 Anyways I spent a long time not journalling in order to figure out a bunch of stuff. I realized that there's a lot of switching IO's, which aren't just GPIO's but like pins that are either GND or a certain voltage at some point. These use mosftets or transistors to switch, and they're required in order to follow jetson datasheets.
 
-![[Pasted image 20250924063355.png]]
+![Pasted image 20250924063355.png](journal/Pasted%20image%2020250924063355.png)
 
 It's mostly all BMC pins, but basically the BMC will send a signal to these, and based off of the jetson datasheet, it will either be GND or a certain voltage that the MCU needs. There's also an LED that uses this type of mechanism to switch it on or off using an NPN.
 
-![[Pasted image 20250924063516.png]]
+![Pasted image 20250924063516.png](journal/Pasted%20image%2020250924063516.png)
 
 Now NMOS's and NPN's are a bit different. NMOS is voltage based, so it switches based off of the voltage applied, whilst an NPN switches based off of the current and allows a larger current to flow from the collector to the emitter. It's kind of complicated but once you've used them a bit, they start to make sense.
 
@@ -625,7 +625,7 @@ PMIC_EN will basically put the CM5 into low power state, which is just kind of n
 
 And after an absurdly long time, and a bunch of other stuff I didn't talk about because it took so much focus, I got ALL the pins wired:
 
-![[Pasted image 20250924064040.png]]![[Pasted image 20250924064056.png]]![[Pasted image 20250924064112.png]]
+![Pasted image 20250924064040.png](journal/Pasted%20image%2020250924064040.png)![Pasted image 20250924064056.png](journal/Pasted%20image%2020250924064056.png)![Pasted image 20250924064112.png](journal/Pasted%20image%2020250924064112.png)
 
 I also did a lot of small things, like add a pin 260 to go to power because I think one of the datasheets actually had a mistake in it and didn't include it, but another jetson datasheet had it.
 
@@ -643,7 +643,7 @@ Now the turing pi CM4 adapter, doesn't actually seem to include any level shifti
 
 The level shifting is actually quite complicated to do in a nice manner though. I created this spreadsheet to explain to you guys, and to myself how this will work out:
 
-![[Pasted image 20251003202443.png]]
+![Pasted image 20251003202443.png](journal/Pasted%20image%2020251003202443.png)
 
 So signals like camera power, reset and sleep don't need to be shifted on the board for various reasons.
 
@@ -653,7 +653,7 @@ MOD_SLEEP is just detected when active low and the line is 3.3V tolerant, so it 
 
 Anyways I actually forgot a bunch of information, so after many hours of research and testing, I came up with this combination:
 
-![[Pasted image 20251004214226.png]]
+![Pasted image 20251004214226.png](journal/Pasted%20image%2020251004214226.png)
 
 The reason I don't use bidirectional transceivers is for lots of reasons like:
 - Low drive current which causes parasitic capacitance which can cause mis-sampled bits
@@ -666,7 +666,7 @@ Now this spreadsheet took me literally **15 hours** to come up with, it's probab
 
 Anyways this is how I wired the whole thing:
 
-![[Pasted image 20251004214556.png]]
+![Pasted image 20251004214556.png](journal/Pasted%20image%2020251004214556.png)
 
 A couple notes here:
 - The decoupling capacitors are for the high-frequency switching transients, and then I added bulk caps because I'm working with really fast signals which can cause larger drops
