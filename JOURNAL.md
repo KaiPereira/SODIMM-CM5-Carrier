@@ -685,6 +685,10 @@ The first thing is termination resistors on lots of the high-speed lines. Termin
 
 The second thing is ESD protection, this is important for high-speed data lines exposed to the user like ethernet, USB, etc. ESD protection helps prevent damage from static discharge that can occur. I haven't put too much effort into it, but I know that USB will probably need it, and maybe some other lines like ethernet!
 
+Now before I even do this, I'm going to create a pinout table just so it's easier to plot my termination resistors and to make sure it matches up with the pinout of the jetson and whatnot. This took me about an hour and a half, but it's going to be pretty helpful:
 
+![[Pasted image 20251005124126.png]]
+
+*It's very long, and the full thing is accessible [here](https://docs.google.com/spreadsheets/d/1PQB4lJVr67ksKEhhsC4d91bklUIjZz4fbMR-MDZYI1U/edit?usp=sharing)*
 
 
