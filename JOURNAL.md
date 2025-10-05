@@ -635,7 +635,7 @@ Now I just need to level shift a BUNCH of signals to 1.8V, but I'll keep that fo
 
 Now it probably doesn't look like I did that much, but figuring out how to drive signals low, high, and whatnot took FOREVER, and was pretty darn complicated, so this day took over 8 hours to finish!
 
-## Day 13 - Level shifting shenanigans
+## Day 13 - Level shifting shenanigans - 15 Hours
 
 Now today I need to figure out how to get a bunch of these signals from 3.3V to 1.8V. This is important so that I don't fry anything that the jetson would normally use at 1.8V by using it at 3.3V, and also so that things specifically looking for 1.8V don't mistake anything by seeing it at 3.3V, it's just generally pretty important.
 
@@ -650,6 +650,32 @@ So signals like camera power, reset and sleep don't need to be shifted on the bo
 Camera power doesn't need to be shifted because it's simple on/off. Module reset is a NMOS switch so I don't need that shifted too because it's just pulled up on the NMOS.
 
 MOD_SLEEP is just detected when active low and the line is 3.3V tolerant, so it should be fine!
+
+Anyways I actually forgot a bunch of information, so after many hours of research and testing, I came up with this combination:
+
+![[Pasted image 20251004214226.png]]
+
+The reason I don't use bidirectional transceivers is for lots of reasons like:
+- Low drive current which causes parasitic capacitance which can cause mis-sampled bits
+- Long lines, so you need efficient switching and driving current
+- Slow switching speeds which isn't great for fast signals going in different directions like SPI
+
+I think the unidirectional level shifters will be much more efficient.
+
+Now this spreadsheet took me literally **15 hours** to come up with, it's probably one of the most complicated things I've had to wrap around my head to understand. I had to make an efficient IC setup with complicated signals, but it did take longer than it needed too, I was just really new to these concepts.
+
+Anyways this is how I wired the whole thing:
+
+![[Pasted image 20251004214556.png]]
+
+A couple notes here:
+- The decoupling capacitors are for the high-frequency switching transients, and then I added bulk caps because I'm working with really fast signals which can cause larger drops
+- DIR is pulled down to specify that the direction is **B -> A**
+- OE is pulled down to tell the transceiver to turn on
+
+And after liker **15 hours**, I was finally done this absolute pain. I didn't mention my iteration because it was mostly user error, but this is just the facts on how I did it and why here!
+
+
 
 
 
