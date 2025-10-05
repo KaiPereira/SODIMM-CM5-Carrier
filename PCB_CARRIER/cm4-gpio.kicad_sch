@@ -9197,7 +9197,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
+	(global_label "GPIO0_3V3"
 		(shape bidirectional)
 		(at 100.33 87.63 180)
 		(fields_autoplaced yes)
@@ -9209,7 +9209,7 @@
 		)
 		(uuid "5183c1aa-2648-4b7c-a124-59955aa386e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.5489 87.63 0)
+			(at 86.0737 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9483,7 @@
 			)
 		)
 	)
-	(global_label "FAN_PWM"
+	(global_label "FAN_PWM_3V3"
 		(shape output)
 		(at 171.45 52.07 0)
 		(fields_autoplaced yes)
@@ -9495,7 +9495,7 @@
 		)
 		(uuid "75a103a5-2332-4b2c-ae87-ce6448c244b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.1784 52.07 0)
+			(at 187.6536 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +9769,7 @@
 			)
 		)
 	)
-	(global_label "FAN_TACH"
+	(global_label "FAN_TACH_3V3"
 		(shape input)
 		(at 100.33 46.99 180)
 		(fields_autoplaced yes)
@@ -9781,7 +9781,7 @@
 		)
 		(uuid "a63b838d-8dd0-4da9-a713-01072b9fc7d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1177 46.99 0)
+			(at 83.6425 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1878,28 +1878,12 @@
 		(uuid "6c25d369-3efa-4a65-b4c5-85f18e9a3fdc")
 	)
 	(no_connect
-		(at 113.03 119.38)
-		(uuid "704e12e8-ff4f-49ef-b0f2-6ade415de517")
-	)
-	(no_connect
-		(at 184.15 109.22)
-		(uuid "717d4fc5-4b72-4562-9433-6796071a8316")
-	)
-	(no_connect
-		(at 204.47 109.22)
-		(uuid "8c7e60c6-2d25-44dd-879e-c6e22a259cde")
-	)
-	(no_connect
 		(at 204.47 119.38)
 		(uuid "ad174bae-b696-4f9d-916a-f80925a39abc")
 	)
 	(no_connect
 		(at 204.47 114.3)
 		(uuid "e19ef31f-9a66-497d-a1cc-24f210357b15")
-	)
-	(no_connect
-		(at 133.35 119.38)
-		(uuid "f60fddb4-4317-40f7-83ed-b4f2ec920af9")
 	)
 	(wire
 		(pts
@@ -2303,6 +2287,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 109.22) (xy 184.15 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de3c0f4-0a86-4708-a2ac-4f9c8463b8c4")
+	)
+	(wire
+		(pts
 			(xy 110.49 109.22) (xy 113.03 109.22)
 		)
 		(stroke
@@ -2530,6 +2524,16 @@
 			(type default)
 		)
 		(uuid "7b87220b-4f89-44ca-971b-c1bda121267f")
+	)
+	(wire
+		(pts
+			(xy 207.01 109.22) (xy 204.47 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c68e5ae-f54c-4aaf-8156-777589bd44be")
 	)
 	(wire
 		(pts
@@ -2833,6 +2837,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c087ad71-9a99-4b9b-9bf3-126b5e348cc4")
+	)
+	(wire
+		(pts
 			(xy 135.89 69.85) (xy 138.43 69.85)
 		)
 		(stroke
@@ -2980,6 +2994,16 @@
 			(type default)
 		)
 		(uuid "e1e4c6c0-1067-4861-b244-9385c89c02a3")
+	)
+	(wire
+		(pts
+			(xy 135.89 119.38) (xy 133.35 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2075af6-b6cf-4981-a645-cb732d5bd06d")
 	)
 	(wire
 		(pts
@@ -3163,6 +3187,28 @@
 			)
 		)
 	)
+	(global_label "FAN_PWM_3V3"
+		(shape input)
+		(at 207.01 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d160620-3928-4493-8b4a-df9312139faa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.2136 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART-0_RTS_3V3"
 		(shape input)
 		(at 207.01 88.9 0)
@@ -3225,6 +3271,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_TACH_1V8"
+		(shape input)
+		(at 135.89 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23a11ffa-e787-42ab-b63f-d971c8118f46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5775 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3647,6 +3715,28 @@
 			)
 		)
 	)
+	(global_label "FAN_PWM_1V8"
+		(shape output)
+		(at 181.61 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "83f5587b-e266-42d6-afec-4f4db1a19437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.4064 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART-0_RX_3V3"
 		(shape output)
 		(at 110.49 93.98 180)
@@ -3792,6 +3882,28 @@
 		(uuid "a8dfc441-d3ff-4972-abf6-c1b0bf7d873a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.2917 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_TACH_3V3"
+		(shape output)
+		(at 110.49 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1a6f7fc-044a-46e3-bd68-fd0eb087659c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.8025 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

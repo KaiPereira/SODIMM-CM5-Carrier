@@ -5088,16 +5088,6 @@
 		)
 		(uuid "383daccd-0902-4687-a301-aa5549bccb49")
 	)
-	(text "SPI multiplexed\nMaster/Slave"
-		(exclude_from_sim no)
-		(at 206.248 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bea9948c-b1ec-4674-b8e4-fdfbde5f3c44")
-	)
 	(junction
 		(at 110.49 201.93)
 		(diameter 0)
@@ -9150,7 +9140,7 @@
 			)
 		)
 	)
-	(global_label "FAN_TACH"
+	(global_label "FAN_TACH_1V8"
 		(shape output)
 		(at 195.58 162.56 0)
 		(fields_autoplaced yes)
@@ -9162,7 +9152,7 @@
 		)
 		(uuid "6720cfb3-2609-496f-b618-56b1a7e7a999")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.7923 162.56 0)
+			(at 212.2675 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9646,7 @@
 			)
 		)
 	)
-	(global_label "FAN_PWM"
+	(global_label "FAN_PWM_1V8"
 		(shape input)
 		(at 195.58 190.5 0)
 		(fields_autoplaced yes)
@@ -9668,7 +9658,7 @@
 		)
 		(uuid "a4038e5c-148b-4268-90aa-ecc43b064931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.3084 190.5 0)
+			(at 211.7836 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10394,7 @@
 			)
 		)
 	)
-	(global_label "GPIO0"
+	(global_label "GPIO0_1V8"
 		(shape bidirectional)
 		(at 232.41 83.82 180)
 		(fields_autoplaced yes)
@@ -10416,7 +10406,7 @@
 		)
 		(uuid "efcab2db-5beb-4cae-b2b9-863889e54a23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.6289 83.82 0)
+			(at 218.1537 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
