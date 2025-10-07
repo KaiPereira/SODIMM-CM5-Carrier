@@ -697,3 +697,9 @@ Now before I even access my spreadsheet, I'm going to highlight the whole thing 
 
 I didn't notice any possible issues, aside from a PCIe wake call (which I never added, but don't seem to need) and CM4/CM5 cross compatibility.
 
+Now while I procrastinate checking out the CM4/CM5 compatibility, I want to start plotting the routing design for my high speeds signals. I'm going to be using what's called the Jetson Orin NX Nano Design Guide, which basically tells you the resistance, and extra components you'll want/should have on each controller to make sure that they can communicate properly:
+
+![[Pasted image 20251006204540.png]]
+
+
+
