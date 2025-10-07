@@ -710,5 +710,9 @@ So first let's talk about what USB2.0 needs, based off of this datasheet, we can
 - Max trace length is basically exactly what it says, it's how far your traces can go before wonky stuff starts happening. My traces are probably going to be pretty long so I need to research this a bunch
 - Max intra-pair skew, this basically describes how accurate the impedance needs to be on the differential pairs, so basically length matching, it's pretty important.
 
+Now let's talk about what the trace impedance is all about. Now there's 2 stat's here, SE (single ended impedance) and DP (differential pair impedance).
 
+Single ended impedance is basically the impedance of a single trace relative to it's reference plane which is usually GND. This makes it so basically the signal can transmit properly by changing the physical geometry of the trace and signals around it, it's insanely interesting.
+
+Differential pair impedance is basically the impedance between 2 traces calculated by taking the single-ended impedance and the coupling coefficient between the 2 traces (basically just how far apart they are), which also make the signals transmit properly.
 
