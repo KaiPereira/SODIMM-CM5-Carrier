@@ -701,5 +701,14 @@ Now while I procrastinate checking out the CM4/CM5 compatibility, I want to star
 
 ![[Pasted image 20251006204540.png]]
 
+So first let's talk about what USB2.0 needs, based off of this datasheet, we can see it has:
+- Max frequency (isn't needed for routing considerations really)
+- Max loading (you also don't really need to pay attention to this)
+- Reference plane, this is important because it means that we need a GND plane close by basically so I need to remember to plan my stackup properly where the GND plane is closeby.
+- Trace impedance, this is really important and very complicated so I'll explain it right after this
+- Via proximity, this is kind of important but basically states how far away the reference plane needs to be from the via
+- Max trace length is basically exactly what it says, it's how far your traces can go before wonky stuff starts happening. My traces are probably going to be pretty long so I need to research this a bunch
+- Max intra-pair skew, this basically describes how accurate the impedance needs to be on the differential pairs, so basically length matching, it's pretty important.
+
 
 
