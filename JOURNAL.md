@@ -691,4 +691,9 @@ Now before I even do this, I'm going to create a pinout table just so it's easie
 
 *It's very long, and the full thing is accessible [here](https://docs.google.com/spreadsheets/d/1PQB4lJVr67ksKEhhsC4d91bklUIjZz4fbMR-MDZYI1U/edit?usp=sharing)*
 
+Now before I even access my spreadsheet, I'm going to highlight the whole thing just to make sure everything is fine:
+
+![[Pasted image 20251006190738.png]]
+
+I didn't notice any possible issues, aside from a PCIe wake call (which I never added, but don't seem to need) and CM4/CM5 cross compatibility.
 
