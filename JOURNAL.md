@@ -716,3 +716,13 @@ Single ended impedance is basically the impedance of a single trace relative to 
 
 Differential pair impedance is basically the impedance between 2 traces calculated by taking the single-ended impedance and the coupling coefficient between the 2 traces (basically just how far apart they are), which also make the signals transmit properly.
 
+So in my spreadsheet I'm going to keep track of the main points, pretty much all high speed signals follow the ground plane rule so I'm not going to mark it down, but the key points, I definitely will:
+
+![[Pasted image 20251007063144.png]]
+
+USB2.0:
+- Max trace length: 6in
+- Trace impedance: 90
+
+
+
