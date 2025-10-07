@@ -724,5 +724,19 @@ USB2.0:
 - Max trace length: 6in
 - Trace impedance: 90
 
+Next we have USB3.0, this one's a lot more complicated because it's a way faster, so let's take a look at the design specs:
+- Data rate: up to 10 GB/s which just tells us this is FAST 
+- Max number of loads: this tells us that we shouldn't attach more than USB port to this controller
+- Termination: this just tells us the differential we need to route our signals at
+- Some electrical specifications we don't really need to care about unless they're dramatic, which they aren't really, just tells us we should probably add-on components
+- Near end crosstalk basically tells us to avoid sharp bends on our traces and to not have too much noise around them
+- Loss number tells us how much are signal is deteriorating every inch, this is going to be important for getting the max trace length
+- The breakout region is the maximum gap between pairs when you're routing like BGA or something, this isn't actually relevant luckily because we're just routing them from a mezzanine connector which is pretty sweet!
+- Intra-pair skew just tells us we need to length match well
+- Uncoupled length limit tells us how far apart our differentials can comfortably be
+
+and there's a bunch more, but those are directly relevant to the actual aspect of routing which we'll talk about soon:
+
+![[Pasted image 20251007064658.png]]
 
 
