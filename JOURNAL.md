@@ -754,3 +754,9 @@ So in USB3.0, it's suggested to void underneath the AC caps, and for PCIe 3.0, i
 Anyways after a bit of troubleshooting, I have solid design specs for PCIe gen 3.0:
 
 ![[Pasted image 20251007171127.png]]
+
+Next up, we have ethernet! Ethernet is actually kind of boring and doesn't really need any add-on components like ESD, or AC caps, but it'll probably need some termination resistors, it's also not suggested to have via's, but it's fine for the PHY controller and whatnot:
+
+![[Pasted image 20251007173921.png]]
+
+![[Pasted image 20251007174048.png]]
