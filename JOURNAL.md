@@ -675,7 +675,7 @@ A couple notes here:
 
 And after liker **13 hours**, I was finally done this absolute pain. I didn't mention my iteration because it was mostly user error, but this is just the facts on how I did it and why here!
 
-## Day 14 - Terminator time
+## Day 14 - Design considerations
 
 Now we've actually finished up pretty much all the real wiring on our board, but now we just need to add the passives and protections.
 
@@ -774,3 +774,5 @@ Stripline is more optimal than microstrip because the signals are more tightly c
 Because of this, I'm going to go with a stripline design, which in term means we have specific trace requirements like 4x dielectric spacing and some different loss characteristics, nothing crazy important:
 
 ![[Pasted image 20251007201106.png]]
+
+And I actually figured out I also need ESD protection on lots of these signals.
