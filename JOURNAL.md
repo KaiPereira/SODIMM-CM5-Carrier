@@ -760,3 +760,14 @@ Next up, we have ethernet! Ethernet is actually kind of boring and doesn't reall
 ![[Pasted image 20251007173921.png]]
 
 ![[Pasted image 20251007174048.png]]
+
+Now let's design for HDMI. Now HDMI is special because it has a couple different ways of routing it:
+- Stripline 2.1 - meets PCIe 2.1 standards, same layer (tightly coupled)
+- Stripline 1.4b/2.0 - meets PCIe 1.4b/2.0 standards, same layer (tightly coupled)
+- Microstrip 2.1 - meets PCIe 2.1 standards but routed on different layers (top/bottom)
+- Microstrip 1.4b/2.0 - meets those standards and routed on different layers (top/bot)
+
+Now I dived into this a bit, and it gets really interesting when you look at stuff like PCIe. Now you remember how PCIe TX/RX need to be routed on different layers, they're still stripline, because all the TX pairs are routed on the same layer, and all the RX ones on the same one too.
+
+Now stripline is more optimal than microstrip because the signals are more tightly coupled (lower crosstalk and better/easier impedance control).
+
