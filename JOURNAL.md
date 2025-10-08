@@ -739,4 +739,18 @@ and there's a bunch more, but those are directly relevant to the actual aspect o
 
 ![[Pasted image 20251007064658.png]]
 
+So I noted down all the significant features of this design on the spreadsheet:
 
+![[Pasted image 20251007163846.png]]
+
+Next up we have PCIe 3.0. This is our highest speed signal so we need to pay the most attention to it. For Gen 4.0, which is 16 GB/s, you need to pay even more attention, but we're using 3.0 which is going to be more simple.
+
+Now aside from all the other stuff, the datasheet specified that RX/TX should be 9x dielectric height spacing apart, which means they should be decently far apart, so definitely on different layers, which will help me plan my layer stackup!
+
+Now I actually learned something here that I didn't realize USB3.0 also had. There's something called voiding, which is basically removing the GND/PWR fill underneath some pads/components to reduce parasitic capacitance and some other stuff, which is included in the datasheet.
+
+So in USB3.0, it's suggested to void underneath the AC caps, and for PCIe 3.0, it's a good idea to void under the PCIe pads with 0.1mm+ tolerance!
+
+Anyways after a bit of troubleshooting, I have solid design specs for PCIe gen 3.0:
+
+![[Pasted image 20251007171127.png]]
