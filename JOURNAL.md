@@ -769,5 +769,8 @@ Now let's design for HDMI. Now HDMI is special because it has a couple different
 
 Now I dived into this a bit, and it gets really interesting when you look at stuff like PCIe. Now you remember how PCIe TX/RX need to be routed on different layers, they're still stripline, because all the TX pairs are routed on the same layer, and all the RX ones on the same one too.
 
-Now stripline is more optimal than microstrip because the signals are more tightly coupled (lower crosstalk and better/easier impedance control).
+Stripline is more optimal than microstrip because the signals are more tightly coupled (lower crosstalk and better/easier impedance control).
 
+Because of this, I'm going to go with a stripline design, which in term means we have specific trace requirements like 4x dielectric spacing and some different loss characteristics, nothing crazy important:
+
+![[Pasted image 20251007201106.png]]
