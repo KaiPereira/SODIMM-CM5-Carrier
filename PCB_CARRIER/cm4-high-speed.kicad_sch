@@ -6107,7 +6107,7 @@
 			)
 		)
 	)
-	(global_label "USB_N"
+	(global_label "USB_M"
 		(shape bidirectional)
 		(at 165.1 38.1 0)
 		(fields_autoplaced yes)
@@ -6119,7 +6119,7 @@
 		)
 		(uuid "a1211036-80c8-4a5b-823b-168c56adf8e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.3044 38.1 0)
+			(at 175.4253 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
