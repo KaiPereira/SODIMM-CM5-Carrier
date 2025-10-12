@@ -8326,7 +8326,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D3_P"
+	(global_label "dCSI-1_D3_P"
 		(shape output)
 		(at 67.31 119.38 180)
 		(fields_autoplaced yes)
@@ -8338,7 +8338,7 @@
 		)
 		(uuid "093b4c8b-6c03-4858-a004-362e20c47aa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6788 119.38 0)
+			(at 51.5298 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8348,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX2_P"
+	(global_label "dHDMI-0_TX2_P"
 		(shape input)
 		(at 149.86 106.68 180)
 		(fields_autoplaced yes)
@@ -8360,7 +8360,7 @@
 		)
 		(uuid "0b2cee4f-1418-445e-af6f-bfa52c5da9b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7493 106.68 0)
+			(at 131.6003 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8458,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_CLK_N"
+	(global_label "dCSI-1_CLK_N"
 		(shape input)
 		(at 113.03 109.22 0)
 		(fields_autoplaced yes)
@@ -8470,7 +8470,7 @@
 		)
 		(uuid "14920542-5548-4689-81e3-c4b8dda4c55f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.8103 109.22 0)
+			(at 129.9593 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8612,7 +8612,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D1_P"
+	(global_label "dCSI-1_D1_P"
 		(shape output)
 		(at 113.03 119.38 0)
 		(fields_autoplaced yes)
@@ -8624,7 +8624,7 @@
 		)
 		(uuid "255f061e-ed74-4312-bd8d-010930a00d62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6612 119.38 0)
+			(at 128.8102 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8634,7 +8634,7 @@
 			)
 		)
 	)
-	(global_label "USB3-0-DM"
+	(global_label "dUSB3-0-DM"
 		(shape bidirectional)
 		(at 232.41 111.76 180)
 		(fields_autoplaced yes)
@@ -8646,7 +8646,7 @@
 		)
 		(uuid "28a0dad1-e395-4f45-bace-613997ccbf07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.2185 111.76 0)
+			(at 215.0695 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +8832,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_CLK_N"
+	(global_label "dCSI-0_CLK_N"
 		(shape input)
 		(at 113.03 86.36 0)
 		(fields_autoplaced yes)
@@ -8844,7 +8844,7 @@
 		)
 		(uuid "4c43aba6-dad7-4d1e-8a8d-7b7fa2d3b7e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.8103 86.36 0)
+			(at 129.9593 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8920,7 +8920,7 @@
 			)
 		)
 	)
-	(global_label "USB3-0-DP"
+	(global_label "dUSB3-0-DP"
 		(shape bidirectional)
 		(at 232.41 114.3 180)
 		(fields_autoplaced yes)
@@ -8932,7 +8932,7 @@
 		)
 		(uuid "5160568a-7b58-4632-b372-f6fc3deaa194")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.3999 114.3 0)
+			(at 215.2509 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +8986,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D2_P"
+	(global_label "dCSI-1_D2_P"
 		(shape output)
 		(at 67.31 104.14 180)
 		(fields_autoplaced yes)
@@ -8998,7 +8998,7 @@
 		)
 		(uuid "56035a1d-460a-4ffc-ab37-68db246bfe09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6788 104.14 0)
+			(at 51.5298 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9008,7 +9008,7 @@
 			)
 		)
 	)
-	(global_label "USB3-1-DM"
+	(global_label "dUSB3-1-DM"
 		(shape bidirectional)
 		(at 232.41 119.38 180)
 		(fields_autoplaced yes)
@@ -9020,7 +9020,7 @@
 		)
 		(uuid "5d59068c-8e9c-4605-9585-9353edff02d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.2185 119.38 0)
+			(at 215.0695 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,7 +9030,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D0_N"
+	(global_label "dCSI-1_D0_N"
 		(shape output)
 		(at 113.03 101.6 0)
 		(fields_autoplaced yes)
@@ -9042,7 +9042,7 @@
 		)
 		(uuid "5eac3422-3a0a-4cd6-bda3-1d241641073b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7217 101.6 0)
+			(at 128.8707 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +9074,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D2_P"
+	(global_label "dCSI-0_D2_P"
 		(shape output)
 		(at 67.31 81.28 180)
 		(fields_autoplaced yes)
@@ -9086,7 +9086,7 @@
 		)
 		(uuid "604810d4-e889-432c-a206-a03defc4f774")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6788 81.28 0)
+			(at 51.5298 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9096,7 @@
 			)
 		)
 	)
-	(global_label "USB3-1-DP"
+	(global_label "dUSB3-1-DP"
 		(shape bidirectional)
 		(at 232.41 121.92 180)
 		(fields_autoplaced yes)
@@ -9108,7 +9108,7 @@
 		)
 		(uuid "6055903a-4017-4e31-a799-6e4071f2abd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.3999 121.92 0)
+			(at 215.2509 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9118,7 +9118,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D0_N"
+	(global_label "dCSI-0_D0_N"
 		(shape output)
 		(at 113.03 78.74 0)
 		(fields_autoplaced yes)
@@ -9130,7 +9130,7 @@
 		)
 		(uuid "64456911-0d29-412a-a37e-d6b4c9d4fdf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7217 78.74 0)
+			(at 128.8707 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9184,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D1_N"
+	(global_label "dCSI-1_D1_N"
 		(shape output)
 		(at 113.03 116.84 0)
 		(fields_autoplaced yes)
@@ -9196,7 +9196,7 @@
 		)
 		(uuid "6fdd1afe-fd1f-47f3-a5c6-5baa234a8d7e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7217 116.84 0)
+			(at 128.8707 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9206,7 +9206,7 @@
 			)
 		)
 	)
-	(global_label "USB_P"
+	(global_label "dUSB_P"
 		(shape bidirectional)
 		(at 314.96 78.74 180)
 		(fields_autoplaced yes)
@@ -9218,7 +9218,7 @@
 		)
 		(uuid "741979c2-c400-45cb-aab6-e8f4b3616387")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.8161 78.74 0)
+			(at 303.6671 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9228,7 +9228,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX1_N"
+	(global_label "dHDMI-0_TX1_N"
 		(shape input)
 		(at 149.86 111.76 180)
 		(fields_autoplaced yes)
@@ -9240,7 +9240,7 @@
 		)
 		(uuid "7997b265-8c72-4b72-bc37-56f28b23a378")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.6888 111.76 0)
+			(at 131.5398 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,7 +9338,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D3_P"
+	(global_label "dCSI-0_D3_P"
 		(shape output)
 		(at 67.31 96.52 180)
 		(fields_autoplaced yes)
@@ -9350,7 +9350,7 @@
 		)
 		(uuid "817358f0-bcff-425e-b8fa-02a310894222")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6788 96.52 0)
+			(at 51.5298 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,7 +9448,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_CLK_P"
+	(global_label "dCSI-1_CLK_P"
 		(shape input)
 		(at 113.03 111.76 0)
 		(fields_autoplaced yes)
@@ -9460,7 +9460,7 @@
 		)
 		(uuid "9000e668-6bb7-44b1-86e6-2ded57296592")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7498 111.76 0)
+			(at 129.8988 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9492,7 +9492,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX0_P"
+	(global_label "dHDMI-0_TX0_P"
 		(shape input)
 		(at 149.86 121.92 180)
 		(fields_autoplaced yes)
@@ -9504,7 +9504,7 @@
 		)
 		(uuid "98978f12-e333-4ef6-90f9-881d5746ccf4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7493 121.92 0)
+			(at 131.6003 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9602,7 +9602,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX2_N"
+	(global_label "dHDMI-0_TX2_N"
 		(shape input)
 		(at 149.86 104.14 180)
 		(fields_autoplaced yes)
@@ -9614,7 +9614,7 @@
 		)
 		(uuid "9cca6350-3eab-472c-b79a-4b51ab5608ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.6888 104.14 0)
+			(at 131.5398 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9756,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_CLK_P"
+	(global_label "dCSI-0_CLK_P"
 		(shape input)
 		(at 113.03 88.9 0)
 		(fields_autoplaced yes)
@@ -9768,7 +9768,7 @@
 		)
 		(uuid "afda5ab3-0e59-47d9-92b4-1e634fe27ff8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.7498 88.9 0)
+			(at 129.8988 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9778,7 +9778,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX1_P"
+	(global_label "dHDMI-0_TX1_P"
 		(shape input)
 		(at 149.86 114.3 180)
 		(fields_autoplaced yes)
@@ -9790,7 +9790,7 @@
 		)
 		(uuid "b35b03e4-688c-4f45-86e4-10cd18e2013d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.7493 114.3 0)
+			(at 131.6003 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9844,7 +9844,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D2_N"
+	(global_label "dCSI-0_D2_N"
 		(shape output)
 		(at 67.31 78.74 180)
 		(fields_autoplaced yes)
@@ -9856,7 +9856,7 @@
 		)
 		(uuid "b8b2eed4-eb71-4a2f-a7dd-30a4178b0664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6183 78.74 0)
+			(at 51.4693 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +9866,7 @@
 			)
 		)
 	)
-	(global_label "USB_M"
+	(global_label "dUSB_M"
 		(shape bidirectional)
 		(at 314.96 76.2 180)
 		(fields_autoplaced yes)
@@ -9878,7 +9878,7 @@
 		)
 		(uuid "bc57c71b-8666-48bc-8f6b-694684417a5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 304.6347 76.2 0)
+			(at 303.4857 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,7 +9998,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_TX0_N"
+	(global_label "dHDMI-0_TX0_N"
 		(shape input)
 		(at 149.86 119.38 180)
 		(fields_autoplaced yes)
@@ -10010,7 +10010,7 @@
 		)
 		(uuid "c5836b58-5291-430e-a08a-cab3646aaaa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.6888 119.38 0)
+			(at 131.5398 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10042,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D1_P"
+	(global_label "dCSI-0_D1_P"
 		(shape output)
 		(at 113.03 96.52 0)
 		(fields_autoplaced yes)
@@ -10054,7 +10054,7 @@
 		)
 		(uuid "d153c686-2523-44b2-82f3-594054ed070b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6612 96.52 0)
+			(at 128.8102 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10086,7 +10086,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D1_N"
+	(global_label "dCSI-0_D1_N"
 		(shape output)
 		(at 113.03 93.98 0)
 		(fields_autoplaced yes)
@@ -10098,7 +10098,7 @@
 		)
 		(uuid "d82469d8-3279-4dec-b71d-fe008f55a1b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7217 93.98 0)
+			(at 128.8707 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10218,7 +10218,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D3_N"
+	(global_label "dCSI-0_D3_N"
 		(shape output)
 		(at 67.31 93.98 180)
 		(fields_autoplaced yes)
@@ -10230,7 +10230,7 @@
 		)
 		(uuid "e2398f22-1dde-45e6-a007-6192fe344f3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6183 93.98 0)
+			(at 51.4693 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10240,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D3_N"
+	(global_label "dCSI-1_D3_N"
 		(shape output)
 		(at 67.31 116.84 180)
 		(fields_autoplaced yes)
@@ -10252,7 +10252,7 @@
 		)
 		(uuid "e3db0147-57d7-4879-913c-bdae2b161f3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6183 116.84 0)
+			(at 51.4693 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10306,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D0_P"
+	(global_label "dCSI-1_D0_P"
 		(shape output)
 		(at 113.03 104.14 0)
 		(fields_autoplaced yes)
@@ -10318,7 +10318,7 @@
 		)
 		(uuid "e8d0ff03-d1ca-4412-82a9-ab2e906e281c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6612 104.14 0)
+			(at 128.8102 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10350,7 @@
 			)
 		)
 	)
-	(global_label "CSI-0_D0_P"
+	(global_label "dCSI-0_D0_P"
 		(shape output)
 		(at 113.03 81.28 0)
 		(fields_autoplaced yes)
@@ -10362,7 +10362,7 @@
 		)
 		(uuid "ead9b480-53fb-4269-afab-5fad6d0db383")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6612 81.28 0)
+			(at 128.8102 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10416,7 +10416,7 @@
 			)
 		)
 	)
-	(global_label "CSI-1_D2_N"
+	(global_label "dCSI-1_D2_N"
 		(shape output)
 		(at 67.31 101.6 180)
 		(fields_autoplaced yes)
@@ -10428,7 +10428,7 @@
 		)
 		(uuid "f98cbd60-f5fe-40ff-80af-1e398a20486a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.6183 101.6 0)
+			(at 51.4693 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
