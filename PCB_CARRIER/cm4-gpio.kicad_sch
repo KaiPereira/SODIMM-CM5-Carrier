@@ -11774,7 +11774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "463d59ed-ef45-4402-9140-190527b0aff8")
-		(property "Reference" "Module0"
+		(property "Reference" "Module"
 			(at 174.498 76.2 0)
 			(effects
 				(font
@@ -12461,7 +12461,7 @@
 		(instances
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/fc4c71a5-1008-4ac4-98db-57c838c57d91"
-					(reference "Module0")
+					(reference "Module")
 					(unit 1)
 				)
 			)
