@@ -675,7 +675,7 @@ A couple notes here:
 
 And after liker **13 hours**, I was finally done this absolute pain. I didn't mention my iteration because it was mostly user error, but this is just the facts on how I did it and why here!
 
-## Day 14 - Design considerations
+## Day 14 - Design considerations - 12 Hours
 
 Now we've actually finished up pretty much all the real wiring on our board, but now we just need to add the passives and protections.
 
@@ -775,4 +775,8 @@ Because of this, I'm going to go with a stripline design, which in term means we
 
 ![Pasted image 20251007201106.png](journal/Pasted%20image%2020251007201106.png)
 
-And I actually figured out I also need ESD protection on lots of these signals.
+And then I just did the rest of them and updated this, I'm kind of just skipping the descriptions for these because it's really time consuming to describe:
+
+![[Pasted image 20251013134047.png]]
+
+SPI doesn't really need to be impedance matched, but I'm going to length match it because it's travelling really far!
