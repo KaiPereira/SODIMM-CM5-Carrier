@@ -6362,7 +6362,7 @@
 		)
 	)
 	(rectangle
-		(start 281.94 175.26)
+		(start 280.67 175.26)
 		(end 341.63 210.82)
 		(stroke
 			(width 0)
@@ -6398,7 +6398,7 @@
 		(uuid 7cf25fd9-e5f3-4f87-87c7-49a4c77c23b6)
 	)
 	(rectangle
-		(start 281.432 74.168)
+		(start 280.67 74.168)
 		(end 403.86 171.45)
 		(stroke
 			(width 0)
@@ -6429,6 +6429,26 @@
 		)
 		(uuid "60724ff6-5699-4e75-bd9f-d8cb0b006995")
 	)
+	(text "Soft Off/On"
+		(exclude_from_sim no)
+		(at 293.116 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72d94758-3c29-4157-bc60-38d4c1f267c5")
+	)
+	(text "Hard Off"
+		(exclude_from_sim no)
+		(at 294.386 191.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7bd6553b-f38a-4bd3-bdae-5c1045ab0096")
+	)
 	(text "SD Card"
 		(exclude_from_sim no)
 		(at 290.83 80.01 0)
@@ -6458,6 +6478,26 @@
 			)
 		)
 		(uuid "c2c5ba12-8570-439e-ad2e-a53f1690db1e")
+	)
+	(text "Reset"
+		(exclude_from_sim no)
+		(at 295.91 197.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0a15e5c-df71-4587-82b6-6737ea87813d")
+	)
+	(text "RPI Server Boot"
+		(exclude_from_sim no)
+		(at 290.83 194.564 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fcdc0411-1b3c-4e17-b970-607b9f67eb78")
 	)
 	(junction
 		(at 332.74 119.38)
