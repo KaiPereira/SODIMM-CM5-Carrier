@@ -687,19 +687,19 @@ The second thing is ESD protection, this is important for high-speed data lines 
 
 Now before I even do this, I'm going to create a pinout table just so it's easier to plot my termination resistors and to make sure it matches up with the pinout of the jetson and whatnot. This took me about an hour and a half, but it's going to be pretty helpful:
 
-![[Pasted image 20251005124126.png]]
+![Pasted image 20251005124126.png](journal/Pasted%20image%2020251005124126.png)
 
 *It's very long, and the full thing is accessible [here](https://docs.google.com/spreadsheets/d/1PQB4lJVr67ksKEhhsC4d91bklUIjZz4fbMR-MDZYI1U/edit?usp=sharing)*
 
 Now before I even access my spreadsheet, I'm going to highlight the whole thing just to make sure everything is fine:
 
-![[Pasted image 20251006190738.png]]
+![Pasted image 20251006190738.png](journal/Pasted%20image%2020251006190738.png)
 
 I didn't notice any possible issues, aside from a PCIe wake call (which I never added, but don't seem to need) and CM4/CM5 cross compatibility.
 
 Now while I procrastinate checking out the CM4/CM5 compatibility, I want to start plotting the routing design for my high speeds signals. I'm going to be using what's called the Jetson Orin NX Nano Design Guide, which basically tells you the resistance, and extra components you'll want/should have on each controller to make sure that they can communicate properly:
 
-![[Pasted image 20251006204540.png]]
+![Pasted image 20251006204540.png](journal/Pasted%20image%2020251006204540.png)
 
 So first let's talk about what USB2.0 needs, based off of this datasheet, we can see it has:
 - Max frequency (isn't needed for routing considerations really)
@@ -718,7 +718,7 @@ Differential pair impedance is basically the impedance between 2 traces calculat
 
 So in my spreadsheet I'm going to keep track of the main points, pretty much all high speed signals follow the ground plane rule so I'm not going to mark it down, but the key points, I definitely will:
 
-![[Pasted image 20251007063144.png]]
+![Pasted image 20251007063144.png](journal/Pasted%20image%2020251007063144.png)
 
 USB2.0:
 - Max trace length: 6in
@@ -737,11 +737,11 @@ Next we have USB3.0, this one's a lot more complicated because it's a way faster
 
 and there's a bunch more, but those are directly relevant to the actual aspect of routing which we'll talk about soon:
 
-![[Pasted image 20251007064658.png]]
+![Pasted image 20251007064658.png](journal/Pasted%20image%2020251007064658.png)
 
 So I noted down all the significant features of this design on the spreadsheet:
 
-![[Pasted image 20251007163846.png]]
+![Pasted image 20251007163846.png](journal/Pasted%20image%2020251007163846.png)
 
 Next up we have PCIe 3.0. This is our highest speed signal so we need to pay the most attention to it. For Gen 4.0, which is 16 GB/s, you need to pay even more attention, but we're using 3.0 which is going to be more simple.
 
@@ -753,13 +753,13 @@ So in USB3.0, it's suggested to void underneath the AC caps, and for PCIe 3.0, i
 
 Anyways after a bit of troubleshooting, I have solid design specs for PCIe gen 3.0:
 
-![[Pasted image 20251007171127.png]]
+![Pasted image 20251007171127.png](journal/Pasted%20image%2020251007171127.png)
 
 Next up, we have ethernet! Ethernet is actually kind of boring and doesn't really need any add-on components like ESD, or AC caps, but it'll probably need some termination resistors, it's also not suggested to have via's, but it's fine for the PHY controller and whatnot:
 
-![[Pasted image 20251007173921.png]]
+![Pasted image 20251007173921.png](journal/Pasted%20image%2020251007173921.png)
 
-![[Pasted image 20251007174048.png]]
+![Pasted image 20251007174048.png](journal/Pasted%20image%2020251007174048.png)
 
 Now let's design for HDMI. Now HDMI is special because it has a couple different ways of routing it:
 - Stripline 2.1 - meets PCIe 2.1 standards, same layer (tightly coupled)
@@ -773,6 +773,6 @@ Stripline is more optimal than microstrip because the signals are more tightly c
 
 Because of this, I'm going to go with a stripline design, which in term means we have specific trace requirements like 4x dielectric spacing and some different loss characteristics, nothing crazy important:
 
-![[Pasted image 20251007201106.png]]
+![Pasted image 20251007201106.png](journal/Pasted%20image%2020251007201106.png)
 
 And I actually figured out I also need ESD protection on lots of these signals.
