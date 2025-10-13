@@ -797,3 +797,10 @@ Anyways, I did a lot, but it was a bit slow because everything needed really dee
 
 ## Day 15 - Layout and test points!
 
+Now that I've added all the dampening/termination resistors, I need to put them onto my board, fill all the footprints for my other components and group them together!
+
+So first I need to add all my footprints in, this was really easy and the only hard part was looking at the datasheet for the level shifters and grabbing the footprint for it from there:
+
+![[Pasted image 20251013135121.png]]
+
+For my capacitors/resistors I follow the rule of, >10uF 0603+, <= 10uF, 0402-, and all resistors are just 0402. This gives good ESR characteristics on my capacitors and the resistors aren't too important from what I know. I don't really want to use under 0402 for this board, because I want it to be hand solderable, and also cheaper, potentially with economic PCBA!
