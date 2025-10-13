@@ -733,6 +733,10 @@
     [
       "23620a0b-1ad0-4687-9f88-c9a273d596b9",
       "Damping Resistors"
+    ],
+    [
+      "666e2063-ff87-4c61-9afe-515fe21135e6",
+      "Testing Points"
     ]
   ],
   "text_variables": {}

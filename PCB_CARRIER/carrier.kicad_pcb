@@ -2515,7 +2515,7 @@
 	(footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile"
 		(layer "F.Cu")
 		(uuid "33e37b84-b38b-464f-ade1-cfd858840a2c")
-		(at 70.295 31.2025)
+		(at 77.75 89.75)
 		(descr "4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil LowProfile")
 		(property "Reference" "SW1"

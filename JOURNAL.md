@@ -804,3 +804,11 @@ So first I need to add all my footprints in, this was really easy and the only h
 ![[Pasted image 20251013135121.png]]
 
 For my capacitors/resistors I follow the rule of, >10uF 0603+, <= 10uF, 0402-, and all resistors are just 0402. This gives good ESR characteristics on my capacitors and the resistors aren't too important from what I know. I don't really want to use under 0402 for this board, because I want it to be hand solderable, and also cheaper, potentially with economic PCBA!
+
+And then I imported them and organized them all onto my board, this didn't take too long but gets me used to how everything will kind of fit on:
+
+![[Pasted image 20251013135427.png]]
+
+I really need to find a smaller button, and I'm pretty sure this is also a switch, but you get the idea!
+
+Now I need to add in all the test points, which I've never done before, and have no idea how to do....
