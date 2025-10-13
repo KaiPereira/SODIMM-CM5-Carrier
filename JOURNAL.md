@@ -780,3 +780,14 @@ And then I just did the rest of them and updated this, I'm kind of just skipping
 ![[Pasted image 20251013134047.png]]
 
 SPI doesn't really need to be impedance matched, but I'm going to length match it because it's travelling really far!
+
+Now I need to figure out how to do the dampening resistors! These are resistors to help reduce noise and to protect the board on signals that travel far and for a lot of other reasons. When I'm getting these fabricated, they're going to be 0 ohm resistors, and then you can desolder them and solder on values to test how it affects the noise.
+
+They're very useful to optimize your board and important so your board works reliably and well. This actually took me really long to figure out, but eventually I figured out what signals should have them:
+- USB DP/DM pairs should have them to reduce noise, but USB 3.0 shouldn't because those traces are much faster and it can mess with the impedance.
+- HDMI TX should have them, and then I'll probably actually put some minor dampening resistors on the actual carrier board, but this is just to reduce ringing and to help match impedance
+- CSI clock and transmit pairs should have them for noise again
+
+This took me way too long to figure out, but it's pretty safe for dampening/impedance matching!
+
+![[Pasted image 20251013134336.png]]
