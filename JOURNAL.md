@@ -791,3 +791,9 @@ They're very useful to optimize your board and important so your board works rel
 This took me way too long to figure out, but it's pretty safe for dampening/impedance matching!
 
 ![[Pasted image 20251013134336.png]]
+And then after that I made my schematic a bit easier to read, I'm not going to add all the screenshots, but all the schematics are now slightly easier to read!
+
+Anyways, I did a lot, but it was a bit slow because everything needed really deep considerations. Next I need to layout all my components on my actual PCB, and add test points!
+
+## Day 15 - Layout and test points!
+
