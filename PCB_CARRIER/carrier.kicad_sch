@@ -51,48 +51,6 @@
 		)
 	)
 	(sheet
-		(at 71.12 121.92)
-		(size 38.1 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "68e9d692-cd3a-4296-a9ab-8053ab6c5b6d")
-		(property "Sheetname" "Test Points"
-			(at 71.12 121.2084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "test-points.kicad_sch"
-			(at 71.12 160.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "carrier"
-				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 71.12 25.4)
 		(size 38.1 38.1)
 		(exclude_from_sim no)
