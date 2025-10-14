@@ -1101,7 +1101,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "475ccc0c-c7da-45e3-a5ab-076d48dc84f2")
@@ -1137,7 +1137,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/e495d94f-6bbd-4f83-871a-0a606499898e")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/edc587b0-38ba-4694-a7a2-7fd9ee4f8e9c")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -1932,7 +1932,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "129dd28f-902d-489e-911c-47650c7e5445")
@@ -1968,7 +1968,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/ea45b001-b253-4744-9199-4df5b9f05bac")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/1c1935f3-9808-467a-9d04-51cbff002648")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -2515,7 +2515,7 @@
 	(footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile"
 		(layer "F.Cu")
 		(uuid "33e37b84-b38b-464f-ade1-cfd858840a2c")
-		(at 77.75 89.75)
+		(at 69.38 90)
 		(descr "4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile")
 		(tags "DIP Switch SPST Slide 7.62mm 300mil LowProfile")
 		(property "Reference" "SW1"
@@ -3159,7 +3159,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "ea851138-0a36-4bd5-b14c-de1d89de3f26")
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/4cf6991d-3c8d-47ae-8677-5c5362511096")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/87a402b1-7d74-4571-bc7c-f3e491d743ff")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -4183,7 +4183,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "a53754f1-894b-4b8d-a4c6-907c5b2441c9")
@@ -4219,7 +4219,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/0f4e3019-d7bd-42dd-a2ba-09260e971ebb")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/487a6160-7ee6-47b6-b43f-d6ef04833885")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -4382,7 +4382,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b9d145e4-3fbe-408e-9995-1306bfd344ad")
@@ -4418,7 +4418,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/91a0ae74-3156-4bcf-a109-552f8ac31771")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/d662f19e-5f0c-4690-bc30-ea30c486f60d")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -4581,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "2cc34fc3-aaca-45c7-b8ae-fc678eb60d38")
@@ -4617,7 +4617,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/1910df1e-db55-485a-9cad-21d0d35bac67")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/e69db6c8-f3a7-4dc0-84e2-988b9f45b8e5")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -4980,7 +4980,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "e1f3f690-d573-47cc-83d0-91c8b5b8793e")
@@ -5016,7 +5016,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/b9dcda2c-d207-40a3-b783-0b6ef8063ece")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/88ca3df3-9561-4b7a-a9e0-a886b6c3b381")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -6652,7 +6652,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "e23c24c7-322b-4f58-b545-022be13980e0")
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/4ead0348-242c-4026-9acd-128eefa2e653")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/f60920b1-f929-44b9-8a78-43a0a7a08b46")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -7051,7 +7051,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "c7c7d7c7-84e1-4f74-9a76-e80ac537b563")
@@ -7087,7 +7087,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/7601ba30-765e-4fbe-b2bf-280106ea580b")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/22c34ee9-7a69-44fe-af87-bc165bdcb2cb")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -8245,7 +8245,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "0ad0421e-bcc8-4a05-be88-0f6234a9d352")
@@ -8444,7 +8444,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "ad6d7229-899e-4889-9d95-6c5a74ca2bf8")
@@ -8480,7 +8480,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/f19b7868-0ffd-4612-ac95-58920377afd8")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/da281eba-4713-4ba9-9094-826886b595ad")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -9186,7 +9186,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "c8fd2726-6502-4804-8946-4a500d94dbf4")
@@ -9222,7 +9222,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/302fd084-21ac-42b1-a7b6-423f1695378a")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/93d12e39-289b-46b2-852a-838ce93c4080")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -9385,7 +9385,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "5c92b803-f099-430a-98c5-d4430d4d1454")
@@ -9421,7 +9421,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/ba619d84-ca94-4826-af5f-055d9802f151")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/bb132e9a-0787-49d2-a99e-c40d4de7673f")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -10182,7 +10182,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "8bdc19d3-7f20-4828-8e6c-2e6821e9d9a3")
@@ -10218,7 +10218,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/f660a51c-8ce3-41f4-beee-8514cb7d802f")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/5b4c78fb-2b3d-4326-8734-5dbebca98d26")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -10381,7 +10381,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "e6eab116-b15e-4c5d-89e8-cae28503e4ad")
@@ -10417,7 +10417,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/d1742845-09a2-4205-afa9-0f2ebb238dfb")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/3ae6f4b0-2aca-4280-8187-6bd03e9a824b")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -10779,7 +10779,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "9b56efc9-0679-44d9-95fe-ffe6ea0ddcb1")
@@ -10815,7 +10815,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/eed87b6e-59a5-49a3-adc2-104b27c21798")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/b09d5b15-bffe-4055-8465-4242be7646ec")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -11178,7 +11178,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "6029edaa-a672-4e82-bd93-4b9bc5c99803")
@@ -11214,7 +11214,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/c6990ed3-9bb3-40f7-a98c-885252cb9514")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/d33000ad-f12f-4af9-a947-802c32a46a66")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -12318,7 +12318,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "1202c4cb-9f3d-4d9c-823e-3ca57e488c6f")
@@ -12354,7 +12354,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/fc788fe5-37f7-42ba-8290-c0f95836c572")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/5eed6aa6-00b1-47a9-ae77-cc209a9144e4")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -12517,7 +12517,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "30295586-b6cf-4bfb-aff7-140baeafbb77")
@@ -12553,7 +12553,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/11487635-d343-4b94-bac3-ebea34027cde")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/1f524af6-3e2d-45d1-a83d-4c749ba81c33")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -13049,7 +13049,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "f890a6bb-4dae-499d-9761-1b637aba4f4b")
@@ -13085,7 +13085,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/31529853-0847-4e2b-86de-54b11efec721")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/76abcc64-f78a-4026-ab9b-8442ed06b7a5")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -13248,7 +13248,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "a45779f8-26e0-4f7f-b106-aa84142ad24a")
@@ -13284,7 +13284,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/ebeb1011-111a-43f1-b87f-5ca6f8211029")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/6a6ac008-98b2-4bff-81dd-8207ff6733d0")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -13447,7 +13447,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0.01 1.17 90)
 			(layer "F.Fab")
 			(uuid "0e009f12-3aae-4ab6-9285-8e54ef2d7270")
@@ -13483,7 +13483,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/a719f457-0545-4e1e-bc5f-bf20b98eb092")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/bab2b37d-eeb3-490e-85df-78577d730f9a")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -14034,7 +14034,7 @@
 		(property "Reference" "J1"
 			(at 11 -6 0)
 			(layer "F.SilkS")
-			(uuid "2a6de7ec-5168-4e69-9b93-69903d2a74e0")
+			(uuid "26849b8d-ad5b-48f1-900a-64c5d495deec")
 			(effects
 				(font
 					(size 1 1)
@@ -14045,7 +14045,7 @@
 		(property "Value" "SODIMM-260_Split"
 			(at 9.5 1 0)
 			(layer "F.Fab")
-			(uuid "3c7f64bc-cada-488c-b714-0a8794692926")
+			(uuid "82fd059e-b655-46f9-be2e-eac4b647680e")
 			(effects
 				(font
 					(size 1 1)
@@ -14057,7 +14057,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6e2beb4-f296-4a23-a761-74688d23315b")
+			(uuid "263219c5-dfec-40a4-9649-3381b99689bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14069,7 +14069,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e7a21028-dd37-4b1a-943c-ecd12e2bc834")
+			(uuid "5f513ee7-7c03-4a18-bec8-96576c7a5f93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16455,7 +16455,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "2d3b39f1-21d1-4453-9d87-2cf1d9757927")
@@ -16491,7 +16491,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/cc038c9d-d730-4500-b47c-799166e4a0c8")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/c3f206b0-06e6-41c8-9ab6-3fa3b45c8bfb")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -16654,7 +16654,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "5481d6f7-d340-4281-9b40-27c8caef1336")
@@ -16690,7 +16690,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/127b9e1a-c00f-4810-8601-4b0f4ac58e36")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/3590a63e-91ec-4a71-b3b8-222c8f977fd5")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -16853,7 +16853,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "42cd6806-c51e-4145-8a29-d9a41032fabb")
@@ -16889,7 +16889,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/d7590fc0-01a1-46c7-85ae-4adc8362c5d7")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/a9b965c2-467b-4d5d-953c-0eaab2f3327b")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -17649,7 +17649,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "60ceaa12-5fe4-4b99-95c3-c99f26604d35")
@@ -17685,7 +17685,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/124252ce-1aa7-4a92-bc52-ab2fcf7ed080")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/a2bee2c3-df5a-4d45-80ab-87913977722d")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -17848,7 +17848,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "cb822237-d3b6-49cd-bbb4-daf91e18f472")
@@ -17884,7 +17884,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/5281b276-bdbe-49d5-ab79-2d92b8dcadd6")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/5ffa68e8-2913-447a-9ec8-c92a188b2b70")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -18047,7 +18047,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "c394b1da-3fb3-43cf-9afe-eaa499171f76")
@@ -18083,7 +18083,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/b138cc81-d6f6-436d-9da6-5b001b745c95")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/4f6f86a9-e141-4ccb-ad24-65eab719203e")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -18445,7 +18445,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.27 90)
 			(layer "F.Fab")
 			(uuid "597f5016-343f-482f-acd1-78d03109e37e")
@@ -18481,7 +18481,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/db1c95e6-41eb-4f67-a20b-2c1d56191562")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/bbc575cc-2ace-427f-ba01-f617a12b4d5e")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -18644,7 +18644,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "7909d987-0869-4581-a048-1ed6441703f9")
@@ -18680,7 +18680,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/e2b3cc4e-b92c-4c07-9815-72055da701eb")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/ae5cd21e-80eb-43c4-ba0c-6abe08355af5")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -19475,7 +19475,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "6272044f-1146-4bee-80dc-73f47c3301e5")
@@ -19511,7 +19511,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/93f6e8b6-a62d-47cb-bd69-4f8be9b39973")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/8ed87213-df53-41b9-98e4-aec897188e50")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)
@@ -19674,7 +19674,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "0"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "0c606b4c-caf6-4d91-a3bf-59e03040bec5")
@@ -19710,7 +19710,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/88c4ed86-9a78-4b7d-8133-173dfa413454")
+		(path "/23620a0b-1ad0-4687-9f88-c9a273d596b9/159b6378-eecd-40a7-bf29-851450f384fe")
 		(sheetname "/Damping Resistors/")
 		(sheetfile "damping-resistors.kicad_sch")
 		(attr smd)

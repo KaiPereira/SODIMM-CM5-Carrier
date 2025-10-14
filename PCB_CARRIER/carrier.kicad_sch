@@ -65,8 +65,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "666e2063-ff87-4c61-9afe-515fe21135e6")
-		(property "Sheetname" "Testing Points"
+		(uuid "68e9d692-cd3a-4296-a9ab-8053ab6c5b6d")
+		(property "Sheetname" "Test Points"
 			(at 71.12 121.2084 0)
 			(effects
 				(font
@@ -75,7 +75,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "testing-points.kicad_sch"
+		(property "Sheetfile" "test-points.kicad_sch"
 			(at 71.12 160.6046 0)
 			(effects
 				(font

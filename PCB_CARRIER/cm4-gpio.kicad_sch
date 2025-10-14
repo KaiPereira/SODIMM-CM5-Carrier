@@ -6489,6 +6489,16 @@
 		)
 		(uuid "f0a15e5c-df71-4587-82b6-6737ea87813d")
 	)
+	(text "Module entering sleep >"
+		(exclude_from_sim no)
+		(at 112.522 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc74317c-1484-48c4-b31e-f97df023c8c9")
+	)
 	(text "RPI Server Boot"
 		(exclude_from_sim no)
 		(at 290.83 194.564 0)
@@ -7106,6 +7116,16 @@
 			(type default)
 		)
 		(uuid "16ef76ec-43db-4b5f-b196-108e97e40f89")
+	)
+	(wire
+		(pts
+			(xy 138.43 179.07) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1870abff-1fe1-4b8e-b2ec-c0b3594191b0")
 	)
 	(wire
 		(pts
@@ -8976,16 +8996,6 @@
 			(type default)
 		)
 		(uuid "ef0fd7be-2b2d-4bad-89ab-905c726a584b")
-	)
-	(wire
-		(pts
-			(xy 138.43 179.07) (xy 143.51 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9823c0-74b8-4ae2-abc8-375502fd3e54")
 	)
 	(wire
 		(pts
