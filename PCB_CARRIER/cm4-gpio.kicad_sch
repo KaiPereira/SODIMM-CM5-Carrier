@@ -6618,9 +6618,9 @@
 		)
 		(uuid "f0a15e5c-df71-4587-82b6-6737ea87813d")
 	)
-	(text "Module entering sleep >"
+	(text "Sleep Status Output >"
 		(exclude_from_sim no)
-		(at 112.522 120.904 0)
+		(at 113.792 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
