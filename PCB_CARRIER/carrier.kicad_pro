@@ -508,16 +508,13 @@
         "wire_width": 6
       },
       {
-        "name": "PCIe DIFF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "PCIe SE",
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.1494,
+        "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1565
       }
     ],
     "meta": {
@@ -526,28 +523,28 @@
     "net_colors": null,
     "netclass_assignments": {
       "PCIe_CLKREQ": [
-        "PCIe SE"
+        "PCIe"
       ],
       "PCIe_CLK_N": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_CLK_P": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_RX_N": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_RX_P": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_TX_N": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_TX_P": [
-        "PCIe DIFF"
+        "PCIe"
       ],
       "PCIe_nRST": [
-        "PCIe SE"
+        "PCIe"
       ]
     },
     "netclass_patterns": []

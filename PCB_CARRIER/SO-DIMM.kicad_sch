@@ -8435,7 +8435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe SE"
+		(property "Netclass" "PCIe"
 			(at 113.03 179.4828 0)
 			(effects
 				(font
@@ -8533,7 +8533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 360.68 127.4128 0)
 			(effects
 				(font
@@ -8785,7 +8785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 314.96 94.3928 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 360.68 96.9328 0)
 			(effects
 				(font
@@ -9223,7 +9223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe SE"
+		(property "Netclass" "PCIe"
 			(at 67.31 182.0228 0)
 			(effects
 				(font
@@ -9497,7 +9497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 360.68 94.3928 0)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 113.03 156.6228 0)
 			(effects
 				(font
@@ -10001,7 +10001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "PCIe DIFF"
+		(property "Netclass" "PCIe"
 			(at 314.96 91.8528 0)
 			(effects
 				(font
