@@ -59,9 +59,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.2032,
+          "gap": 0.127,
           "via_gap": 0.0,
-          "width": 0.1786
+          "width": 0.1494
         }
       ],
       "drc_exclusions": [],
@@ -137,7 +137,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.381,
         "min_groove_width": 0.0,
@@ -150,7 +150,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.254,
-        "min_track_width": 0.1524,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.127,
         "min_via_diameter": 0.508,
         "solder_mask_clearance": 0.0,
@@ -506,13 +506,50 @@
         "via_diameter": 0.508,
         "via_drill": 0.254,
         "wire_width": 6
+      },
+      {
+        "name": "PCIe DIFF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PCIe SE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "PCIe_CLKREQ": [
+        "PCIe SE"
+      ],
+      "PCIe_CLK_N": [
+        "PCIe DIFF"
+      ],
+      "PCIe_CLK_P": [
+        "PCIe DIFF"
+      ],
+      "PCIe_RX_N": [
+        "PCIe DIFF"
+      ],
+      "PCIe_RX_P": [
+        "PCIe DIFF"
+      ],
+      "PCIe_TX_N": [
+        "PCIe DIFF"
+      ],
+      "PCIe_TX_P": [
+        "PCIe DIFF"
+      ],
+      "PCIe_nRST": [
+        "PCIe SE"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -523,7 +560,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "carrier.step",
       "svg": "",
       "vrml": ""
     },

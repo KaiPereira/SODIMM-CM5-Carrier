@@ -5314,6 +5314,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe SE"
+			(at 93.98 38.5128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX2_P"
 		(shape output)
@@ -5556,6 +5566,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 56.2928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3-0-DN"
 		(shape bidirectional)
@@ -5666,6 +5686,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 63.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3-0-DP"
 		(shape bidirectional)
@@ -5724,6 +5754,16 @@
 		(uuid "39c3059c-18fc-4daa-aba1-3cff3fdf5ab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.8325 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 51.2128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,6 +5896,16 @@
 		(uuid "539bd577-e9a2-49b4-ab98-45b689e377fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.9211 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 58.8328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,6 +6060,16 @@
 		(uuid "8b637d27-e833-49af-b828-d3ebf4ef087a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.9774 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe SE"
+			(at 165.1 48.6728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,6 +6254,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 48.6728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX0_P"
 		(shape output)
@@ -6230,6 +6300,16 @@
 		(uuid "c92e31b2-b409-48ea-a9b0-69beb13d2a67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.2235 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 93.98 66.4528 0)
 			(effects
 				(font
 					(size 1.27 1.27)

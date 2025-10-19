@@ -8435,6 +8435,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe SE"
+			(at 113.03 179.4828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI-0_CS0_1V8"
 		(shape input)
@@ -8515,6 +8525,16 @@
 		(uuid "1932742a-8100-4f96-b3f5-e5a118394b24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 374.8275 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 360.68 127.4128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,6 +8785,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe DIFF"
+			(at 314.96 94.3928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI-1_CLK_1V8"
 		(shape input)
@@ -8823,6 +8853,16 @@
 		(uuid "460e73be-47e6-4882-9c18-7785e30ede04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 373.376 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 360.68 96.9328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,6 +9223,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe SE"
+			(at 67.31 182.0228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_D1_N"
 		(shape output)
@@ -9447,6 +9497,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "PCIe DIFF"
+			(at 360.68 94.3928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_CLK_P"
 		(shape input)
@@ -9593,6 +9653,16 @@
 		(uuid "9c88628c-8595-4ccf-8a12-d22eb35f640b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.117 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 113.03 156.6228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,6 +9993,16 @@
 		(uuid "bce8288d-dfee-4bb7-b48d-9375c8b7f09c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 301.9011 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "PCIe DIFF"
+			(at 314.96 91.8528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
