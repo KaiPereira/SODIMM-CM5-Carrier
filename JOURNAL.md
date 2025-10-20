@@ -812,3 +812,25 @@ And then I imported them and organized them all onto my board, this didn't take 
 I really need to find a smaller button, and I'm pretty sure this is also a switch, but you get the idea!
 
 Now I need to add in all the test points, which I've never done before, and have no idea how to do....
+
+Anyways I found a new button, and then I used my intuition to figure out the test points, I just thought about what traces would probably be completely inaccessibly and weren't just simple GPIO's and I only needed one on my RTC battery to make sure that's working properly, and also one on my sleep mode status, which should automatically be sending:
+
+![[Pasted image 20251020064216.png]]
+And then, I also found this button, which has the same form factor as the one on the turing pi:
+
+![[Pasted image 20251020064304.png]]
+
+I then decided to flip my mezzanine connector so the high speeds were closer, which makes it a bit tighter to route, but I think it's better for ESR with smaller traces and lower loss.
+
+Then, I did a ground pour on my 2 inner layers, so my stackup is now:
+
+L1: PCIe RX
+L2: GND
+L3: Signal
+L4: Signal
+L5: GND
+L6: PCIe TX
+
+![[Pasted image 20251020070417.png]]
+
+Now, I kind of want to find a way to fit a third ground plane in there, but I think the current stackup is acceptable.
