@@ -834,3 +834,5 @@ L6: PCIe TX
 ![[Pasted image 20251020070417.png]]
 
 Now, I kind of want to find a way to fit a third ground plane in there, but I think the current stackup is acceptable.
+
+Now before I start routing, I need to add what's called net classes to my labels. These are essentially like CSS classes, but for PCB's, you can give all the similar traces the same net class and they'll have the same sizes, constraints, etc. It's insanely cool.
