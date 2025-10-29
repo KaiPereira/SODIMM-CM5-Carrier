@@ -512,9 +512,15 @@
         "diff_pair_width": 0.1494,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -545,6 +551,30 @@
       ],
       "PCIe_nRST": [
         "PCIe"
+      ],
+      "USB3-0-RX_N": [
+        "USB"
+      ],
+      "USB3-0-RX_P": [
+        "USB"
+      ],
+      "USB3-0-TX_N": [
+        "USB"
+      ],
+      "USB3-0-TX_P": [
+        "USB"
+      ],
+      "USB3-1-RX_N": [
+        "USB"
+      ],
+      "USB3-1-RX_P": [
+        "USB"
+      ],
+      "USB3-1-TX_N": [
+        "USB"
+      ],
+      "USB3-1-TX_P": [
+        "USB"
       ]
     },
     "netclass_patterns": []

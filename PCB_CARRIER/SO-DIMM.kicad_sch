@@ -8325,6 +8325,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 149.86 84.2328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_D3_P"
 		(shape output)
@@ -8511,6 +8521,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 113.03 161.7028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PCIe_CLK_N"
 		(shape input)
@@ -8579,6 +8599,16 @@
 		(uuid "1e4fd293-6a66-4ea7-ac98-de43bf791bf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.8988 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 113.03 164.2428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9365,6 +9395,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 149.86 79.1528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI-1_MOSI_1V8"
 		(shape input)
@@ -9617,6 +9657,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 149.86 86.7728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GBE_LED_ACT"
 		(shape bidirectional)
@@ -9759,6 +9809,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 67.31 159.1628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART-1_TX_1V8"
 		(shape input)
@@ -9817,6 +9877,16 @@
 		(uuid "ad71ca4b-1868-489a-b500-9a5fac62e1ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.0783 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 67.31 127.4128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10113,6 +10183,16 @@
 		(uuid "c7b46566-348a-4faf-a740-f1c1e771e4e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.0783 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 67.31 156.6228 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5270,6 +5270,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 165.1 112.1728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_D3_N"
 		(shape input)
@@ -5382,6 +5392,16 @@
 		(uuid "0fe95de2-b372-468e-9f36-e0fcc3472c63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.0293 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 165.1 124.8728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,6 +5542,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 93.98 86.7728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX2_N"
 		(shape output)
@@ -5612,6 +5642,16 @@
 		(uuid "28cf7d84-c381-4df7-b63a-30fbe4383dc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.3317 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 165.1 109.6328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,6 +5772,16 @@
 		(uuid "388a3679-d3ac-491a-a4c3-f3b90a1ff077")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.1112 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 93.98 89.3128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,6 +6074,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 165.1 127.4128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_SDA"
 		(shape bidirectional)
@@ -6092,6 +6152,16 @@
 		(uuid "9484d292-28e5-46b6-8b55-71ae2cb1cb14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.7483 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 93.98 71.5328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,6 +6534,16 @@
 		(uuid "e3f396f2-a912-4bec-98a7-a69a18a5c510")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.8088 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 93.98 74.0728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
