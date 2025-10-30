@@ -1,11 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 10,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
-      "Default",
-      "PCIe"
+      "Default"
     ],
     "hidden_nets": [
       "",
@@ -39,7 +38,6 @@
       "Net-(D2-K)",
       "Net-(D2-A)",
       "CSI-1_D3_P",
-      "PCIe_RX_P",
       "CSI-1_D1_P",
       "+5V",
       "UART-2_RX_1V8",
@@ -90,7 +88,6 @@
       "unconnected-(J1-Pad229)",
       "VBAT",
       "unconnected-(J1-Pad150)",
-      "PCIe_TX_N",
       "GBE_MDI2_N",
       "SHUT_REQ_BMC",
       "unconnected-(J1-Pad88)",
@@ -155,7 +152,6 @@
       "GBE_MDI3_P",
       "unconnected-(J1-Pad60)",
       "unconnected-(J1-Pad179)",
-      "PCIe_CLK_P",
       "unconnected-(J1-Pad52)",
       "unconnected-(J1-Pad220)",
       "unconnected-(J1-Pad183)",
@@ -170,7 +166,6 @@
       "SPI-1_MOSI_3V3",
       "HDMI-0_CLK_P",
       "CSI-0_SCL",
-      "PCIe_nRST",
       "unconnected-(J1-Pad48)",
       "CSI-0_D3_N",
       "unconnected-(J1-Pad195)",
@@ -183,11 +178,9 @@
       "unconnected-(J1-Pad222)",
       "CSI-0_D1_N",
       "unconnected-(J1-Pad140)",
-      "PCIe_CLKREQ",
       "GBE_MDI1_P",
       "unconnected-(J1-Pad199)",
       "unconnected-(J1-Pad149)",
-      "PCIe_CLK_N",
       "unconnected-(J1-Pad124)",
       "CSI-0_D2_N",
       "unconnected-(J1-Pad57)",
@@ -209,7 +202,6 @@
       "HDMI-0_SDA",
       "RESET_Button",
       "unconnected-(J1-Pad84)",
-      "PCIe_TX_P",
       "USB3-1-DP",
       "unconnected-(J1-Pad139)",
       "unconnected-(J1-Pad155)",
@@ -218,7 +210,6 @@
       "unconnected-(J1-Pad9)",
       "unconnected-(J1-Pad148)",
       "HDMI-0_HPD",
-      "PCIe_RX_N",
       "Net-(Q3-G)",
       "GBE_LED_ACT",
       "unconnected-(J1-Pad225)",
@@ -350,7 +341,7 @@
       "drc_exclusions",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffebf",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffabf",
     "zone_display_mode": 0
   },
   "git": {

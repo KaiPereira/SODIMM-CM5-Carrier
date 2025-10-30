@@ -795,7 +795,7 @@ And then after that I made my schematic a bit easier to read, I'm not going to a
 
 Anyways, I did a lot, but it was a bit slow because everything needed really deep considerations. Next I need to layout all my components on my actual PCB, and add test points!
 
-## Day 15 - Layout and test points!
+## Day 15 - Layout and test points! - 12 Hours
 
 Now that I've added all the dampening/termination resistors, I need to put them onto my board, fill all the footprints for my other components and group them together!
 
@@ -836,3 +836,26 @@ L6: PCIe TX
 Now, I kind of want to find a way to fit a third ground plane in there, but I think the current stackup is acceptable.
 
 Now before I start routing, I need to add what's called net classes to my labels. These are essentially like CSS classes, but for PCB's, you can give all the similar traces the same net class and they'll have the same sizes, constraints, etc. It's insanely cool.
+
+Now when's I'll introduce the JLCPCB impedance calculator! This will basically tell me what size traces and stuff to do for routing specific things based off of your stackup:
+
+![[Pasted image 20251030065357.png]]
+
+And then I can just add these into my net classes for everything:
+
+![[Pasted image 20251030065452.png]]
+
+And then I can start routing everything:
+
+
+![[Pasted image 20251030064706.png]]
+
+These 3 steps took me a LONG time to figure out...
+
+Also my routing in the last screenshot here is pretty terribly so I'll need to modify it to be more optimal. But before I do that, I'm going to do what's called voiding, which is removing GND underneath pads to reduce parasitic capacitance!
+
+The golden fingers need 0.15mm of voiding around/under the pad, so I'll do something like this:
+
+![[Pasted image 20251030065727.png]]
+
+
