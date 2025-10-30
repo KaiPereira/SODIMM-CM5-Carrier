@@ -5432,6 +5432,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 165.1 117.2528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D1_P"
 		(shape input)
@@ -5468,6 +5478,16 @@
 		(uuid "160b6a5a-bca7-49c3-a8a0-5a0c329207ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.1706 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 165.1 119.7928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,6 +5648,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB"
+			(at 93.98 81.6928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3-1-RX_N"
 		(shape input)
@@ -5750,6 +5780,16 @@
 		(uuid "35c799e4-3eb7-4e81-8318-f99a9c627849")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 77.9699 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB"
+			(at 93.98 79.1528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,6 +6298,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "USB2"
+			(at 165.1 41.0528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_CLK_N"
 		(shape output)
@@ -6566,6 +6616,16 @@
 		(uuid "f66a39b9-91ae-48be-94b7-1e6a2e1c3e85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 175.2439 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "USB2"
+			(at 165.1 43.5928 0)
 			(effects
 				(font
 					(size 1.27 1.27)

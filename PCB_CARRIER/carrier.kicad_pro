@@ -512,7 +512,7 @@
         "diff_pair_width": 0.1494,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       },
@@ -521,9 +521,18 @@
         "diff_pair_width": 0.1494,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2108
+      },
+      {
+        "diff_pair_gap": 0.127,
+        "diff_pair_width": 0.1295,
+        "name": "USB2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1565
       }
     ],
     "meta": {
@@ -555,6 +564,12 @@
       "PCIe_nRST": [
         "PCIe"
       ],
+      "USB3-0-DN": [
+        "USB"
+      ],
+      "USB3-0-DP": [
+        "USB"
+      ],
       "USB3-0-RX_N": [
         "USB"
       ],
@@ -565,6 +580,12 @@
         "USB"
       ],
       "USB3-0-TX_P": [
+        "USB"
+      ],
+      "USB3-1-DN": [
+        "USB"
+      ],
+      "USB3-1-DP": [
         "USB"
       ],
       "USB3-1-RX_N": [
@@ -578,6 +599,21 @@
       ],
       "USB3-1-TX_P": [
         "USB"
+      ],
+      "USB_N": [
+        "USB2"
+      ],
+      "USB_P": [
+        "USB2"
+      ],
+      "dUSB_M": [
+        "USB2"
+      ],
+      "dUSB_N": [
+        "USB2"
+      ],
+      "dUSB_P": [
+        "USB2"
       ]
     },
     "netclass_patterns": []
