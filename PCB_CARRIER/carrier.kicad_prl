@@ -1,10 +1,12 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
-      "Default"
+      "Default",
+      "PCIe",
+      "USB"
     ],
     "hidden_nets": [
       "",
