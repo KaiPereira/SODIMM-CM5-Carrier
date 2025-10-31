@@ -5,6 +5,7 @@
     "auto_track_width": false,
     "hidden_netclasses": [
       "Default",
+      "HDMI",
       "PCIe",
       "USB",
       "USB2"

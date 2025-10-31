@@ -5302,6 +5302,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 86.7728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PCIe_CLKREQ"
 		(shape input)
@@ -5380,6 +5390,16 @@
 		(uuid "0eab7028-c961-4b3c-8062-bde0f38cd3ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7312 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 81.6928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,6 +5494,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 142.6528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3-1-DN"
 		(shape bidirectional)
@@ -5552,6 +5582,16 @@
 		(uuid "1df16caf-126c-4b2b-a472-24fcc9fa3266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 79.2883 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 93.98 155.3528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,6 +5814,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 74.0728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PCIe_TX_P"
 		(shape output)
@@ -5924,6 +5974,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 58.8328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_CLK_P"
 		(shape output)
@@ -5938,6 +5998,16 @@
 		(uuid "42a757bb-3339-49c1-843b-1b655181009a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 180.8198 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 150.2728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5968,6 +6038,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 132.4928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D2_N"
 		(shape input)
@@ -5990,6 +6070,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 155.3528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_D1_P"
 		(shape input)
@@ -6004,6 +6094,16 @@
 		(uuid "4d6b53cf-df15-4a7f-b4a6-1e2b148d3114")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7312 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 66.4528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,6 +6180,16 @@
 		(uuid "625b3ca2-e4e5-4bd3-a526-5693892e9f5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7917 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 140.1128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,6 +6392,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 63.9128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D2_P"
 		(shape input)
@@ -6304,6 +6424,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 157.8928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_D0_N"
 		(shape input)
@@ -6318,6 +6448,16 @@
 		(uuid "9815d40f-850b-47bc-8793-77050f11513b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7917 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 56.2928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,6 +6520,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 71.5328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_D3_P"
 		(shape input)
@@ -6394,6 +6544,16 @@
 		(uuid "bf58d86e-fb63-4988-96cf-c3f4a755860f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7312 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 89.3128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,6 +6712,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 93.98 157.8928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_CLK_P"
 		(shape output)
@@ -6606,6 +6776,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 165.1 147.7328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D0_P"
 		(shape input)
@@ -6620,6 +6800,16 @@
 		(uuid "d646de98-13d3-4ab1-9d74-5b433a61a5cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7312 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 135.0328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,6 +6918,16 @@
 		(uuid "fc96f3ba-5267-41d4-a1f6-a63eff0a00be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.7917 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 165.1 79.1528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
