@@ -312,6 +312,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 107.95) (xy 116.84 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d912e51-8c53-48cf-ac72-667d7d636fcc")
+	)
+	(wire
+		(pts
 			(xy 124.46 82.55) (xy 127 82.55)
 		)
 		(stroke
@@ -409,6 +419,16 @@
 			(type default)
 		)
 		(uuid "72d83aec-6847-42d6-9243-342b3a9bc742")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831bd083-631c-4f44-a14e-60a44aaf2c00")
 	)
 	(wire
 		(pts
@@ -592,6 +612,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd75c152-3dcb-4b07-a496-a5d316ac1431")
+	)
+	(wire
+		(pts
 			(xy 233.68 107.95) (xy 236.22 107.95)
 		)
 		(stroke
@@ -629,6 +659,16 @@
 			(type default)
 		)
 		(uuid "e449a30c-b522-48d3-a818-5b13bcfaa0a3")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf70a55-6e24-42d8-893f-a411b63765e4")
 	)
 	(wire
 		(pts
@@ -876,6 +916,28 @@
 			)
 		)
 	)
+	(global_label "dHDMI-0_CLK_N"
+		(shape output)
+		(at 127 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2be21c69-cba7-468d-9b20-5152c69fe370")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5017 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HDMI-0_TX2_N"
 		(shape input)
 		(at 114.3 92.71 180)
@@ -992,6 +1054,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HDMI-0_CLK_N"
+		(shape input)
+		(at 114.3 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e562738-8643-4bda-b242-8dd379afe21a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.9473 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1644,6 +1728,28 @@
 			)
 		)
 	)
+	(global_label "HDMI-0_CLK_P"
+		(shape input)
+		(at 114.3 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cab6e94f-39f2-489a-b70b-3fe043119d1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0078 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "dCSI-1_D0_N"
 		(shape output)
 		(at 223.52 82.55 180)
@@ -1777,6 +1883,28 @@
 		(uuid "e896e6aa-af24-42cd-b2ef-802af5156d60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 197.5717 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "dHDMI-0_CLK_P"
+		(shape output)
+		(at 127 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea389c02-801e-4812-bd3c-fd5afbe8c3c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4412 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,6 +2353,73 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/23620a0b-1ad0-4687-9f88-c9a273d596b9"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28ed12d0-610f-4e8a-afeb-f16b6bfc9b70")
+		(property "Reference" "R22"
+			(at 125.222 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 116.332 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.65 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "508e9230-cf4b-4ffe-abfb-30fa3e1fda0f")
+		)
+		(pin "1"
+			(uuid "0110722a-4dd5-478e-b247-e64210898938")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/23620a0b-1ad0-4687-9f88-c9a273d596b9"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3029,6 +3224,73 @@
 			(project "carrier"
 				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/23620a0b-1ad0-4687-9f88-c9a273d596b9"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9920e5f6-8f8d-427b-96f2-c2d8c5d39c9c")
+		(property "Reference" "R23"
+			(at 125.222 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 116.332 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 120.65 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9407511e-45e6-45e1-8509-fb296faaee54")
+		)
+		(pin "1"
+			(uuid "55c551c8-2a3b-4617-8e92-a79513ccf3e1")
+		)
+		(instances
+			(project "carrier"
+				(path "/f52509e6-8053-454c-b8e9-3e2670c5a5fe/23620a0b-1ad0-4687-9f88-c9a273d596b9"
+					(reference "R23")
 					(unit 1)
 				)
 			)

@@ -8640,7 +8640,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_CLK_P"
+	(global_label "dHDMI-0_CLK_P"
 		(shape input)
 		(at 232.41 78.74 180)
 		(fields_autoplaced yes)
@@ -8652,7 +8652,7 @@
 		)
 		(uuid "1f02fa7e-dabe-4a79-a7b0-a3c3f6aee2f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.1178 78.74 0)
+			(at 213.9688 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10680,7 @@
 			)
 		)
 	)
-	(global_label "HDMI-0_CLK_N"
+	(global_label "dHDMI-0_CLK_N"
 		(shape input)
 		(at 232.41 76.2 180)
 		(fields_autoplaced yes)
@@ -10692,7 +10692,7 @@
 		)
 		(uuid "fe5f440c-6840-4108-ba8c-b098a5b7eb18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0573 76.2 0)
+			(at 213.9083 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
