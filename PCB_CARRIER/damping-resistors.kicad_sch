@@ -142,7 +142,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 82.55) (xy 114.3 82.55)
+			(xy 114.3 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -152,7 +152,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 77.47) (xy 182.88 77.47)
+			(xy 179.07 77.47) (xy 181.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -162,7 +162,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 182.88 113.03)
+			(xy 179.07 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -172,7 +172,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 92.71) (xy 170.18 92.71)
+			(xy 171.45 92.71) (xy 168.91 92.71)
 		)
 		(stroke
 			(width 0)
@@ -182,7 +182,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 82.55) (xy 182.88 82.55)
+			(xy 179.07 82.55) (xy 181.61 82.55)
 		)
 		(stroke
 			(width 0)
@@ -192,7 +192,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 127 92.71)
+			(xy 121.92 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -222,7 +222,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 118.11) (xy 170.18 118.11)
+			(xy 171.45 118.11) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -232,7 +232,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 92.71) (xy 182.88 92.71)
+			(xy 179.07 92.71) (xy 181.61 92.71)
 		)
 		(stroke
 			(width 0)
@@ -242,7 +242,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 170.18 113.03)
+			(xy 171.45 113.03) (xy 168.91 113.03)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 182.88 107.95)
+			(xy 179.07 107.95) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -292,7 +292,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 92.71) (xy 114.3 92.71)
+			(xy 114.3 102.87) (xy 111.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +312,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 116.84 107.95)
+			(xy 111.76 77.47) (xy 114.3 77.47)
 		)
 		(stroke
 			(width 0)
@@ -322,7 +322,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 127 82.55)
+			(xy 121.92 92.71) (xy 124.46 92.71)
 		)
 		(stroke
 			(width 0)
@@ -332,7 +332,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 72.39) (xy 182.88 72.39)
+			(xy 179.07 72.39) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -342,7 +342,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 170.18 87.63)
+			(xy 171.45 87.63) (xy 168.91 87.63)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 127 72.39)
+			(xy 121.92 82.55) (xy 124.46 82.55)
 		)
 		(stroke
 			(width 0)
@@ -382,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 127 87.63)
+			(xy 121.92 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 170.18 72.39)
+			(xy 171.45 72.39) (xy 168.91 72.39)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 182.88 87.63)
+			(xy 179.07 87.63) (xy 181.61 87.63)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 127 102.87)
+			(xy 121.92 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 114.3 72.39)
+			(xy 114.3 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 107.95) (xy 170.18 107.95)
+			(xy 171.45 107.95) (xy 168.91 107.95)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 97.79) (xy 170.18 97.79)
+			(xy 171.45 97.79) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +512,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 97.79) (xy 182.88 97.79)
+			(xy 179.07 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 102.87) (xy 170.18 102.87)
+			(xy 171.45 102.87) (xy 168.91 102.87)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +542,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 77.47) (xy 170.18 77.47)
+			(xy 171.45 77.47) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +552,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 127 77.47)
+			(xy 121.92 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 127 97.79)
+			(xy 121.92 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -582,7 +582,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 118.11) (xy 182.88 118.11)
+			(xy 179.07 118.11) (xy 181.61 118.11)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +592,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 170.18 82.55)
+			(xy 171.45 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 97.79) (xy 114.3 97.79)
+			(xy 114.3 107.95) (xy 111.76 107.95)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 107.95) (xy 127 107.95)
+			(xy 121.92 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 102.87) (xy 116.84 102.87)
+			(xy 111.76 72.39) (xy 114.3 72.39)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 77.47) (xy 114.3 77.47)
+			(xy 114.3 87.63) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +712,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 114.3 87.63)
+			(xy 114.3 97.79) (xy 111.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 182.88 102.87)
+			(xy 179.07 102.87) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -751,10 +751,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 100.7428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX0_N"
 		(shape input)
-		(at 114.3 72.39 180)
+		(at 111.76 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -764,7 +774,7 @@
 		)
 		(uuid "08a37e7c-829b-422a-b9fd-f836a904eb25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1288 72.39 0)
+			(at 94.5888 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +784,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 75.3428 0)
+			(at 111.76 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -818,7 +828,7 @@
 	)
 	(global_label "CSI-0_D1_P"
 		(shape input)
-		(at 182.88 97.79 0)
+		(at 181.61 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -828,7 +838,17 @@
 		)
 		(uuid "0de070b5-8e0c-456a-9172-00157a6c52c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5112 97.79 0)
+			(at 196.2412 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +860,7 @@
 	)
 	(global_label "HDMI-0_TX1_P"
 		(shape input)
-		(at 114.3 87.63 180)
+		(at 111.76 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -850,7 +870,7 @@
 		)
 		(uuid "1a6c5640-f15f-4527-8e0c-9970170ec3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1893 87.63 0)
+			(at 94.6493 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +880,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 90.5828 0)
+			(at 111.76 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,10 +911,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 80.4228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_D3_P"
 		(shape output)
-		(at 170.18 118.11 180)
+		(at 168.91 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -904,7 +934,17 @@
 		)
 		(uuid "25fbf269-c4e7-4286-885d-b8e75b459239")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3998 118.11 0)
+			(at 153.1298 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 121.0628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,10 +975,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 121.0628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dHDMI-0_CLK_N"
 		(shape output)
-		(at 127 102.87 0)
+		(at 124.46 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -948,7 +998,7 @@
 		)
 		(uuid "2be21c69-cba7-468d-9b20-5152c69fe370")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5017 102.87 0)
+			(at 142.9617 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -958,7 +1008,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 105.8228 0)
+			(at 124.46 75.3428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +1020,7 @@
 	)
 	(global_label "HDMI-0_TX2_N"
 		(shape input)
-		(at 114.3 92.71 180)
+		(at 111.76 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -980,7 +1030,7 @@
 		)
 		(uuid "2c3280d3-0c30-413d-a762-683d911ff2e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1288 92.71 0)
+			(at 94.5888 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1040,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 95.6628 0)
+			(at 111.76 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1052,7 @@
 	)
 	(global_label "dCSI-0_CLK_P"
 		(shape output)
-		(at 170.18 77.47 180)
+		(at 168.91 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1012,7 +1062,17 @@
 		)
 		(uuid "3212fa96-b8c3-4f52-8bdf-fafe52de796f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.3112 77.47 0)
+			(at 152.0412 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,6 +1095,16 @@
 		(uuid "37066556-e185-4b48-9917-2b988569fabf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.7398 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 223.52 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1148,7 @@
 	)
 	(global_label "CSI-0_D0_N"
 		(shape input)
-		(at 182.88 82.55 0)
+		(at 181.61 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1088,7 +1158,17 @@
 		)
 		(uuid "3b8ff24f-8953-4b99-a9ae-464a95016754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5717 82.55 0)
+			(at 196.3017 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1180,7 @@
 	)
 	(global_label "HDMI-0_CLK_N"
 		(shape input)
-		(at 114.3 102.87 180)
+		(at 111.76 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1110,7 +1190,7 @@
 		)
 		(uuid "3e562738-8643-4bda-b242-8dd379afe21a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.9473 102.87 0)
+			(at 94.4073 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1200,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 105.8228 0)
+			(at 111.76 75.3428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,6 +1231,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 115.9828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_CLK_P"
 		(shape input)
@@ -1173,10 +1263,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 80.4228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_D1_P"
 		(shape output)
-		(at 170.18 97.79 180)
+		(at 168.91 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1186,7 +1286,17 @@
 		)
 		(uuid "44c4de97-3ecd-409d-aa8c-ef40a0e4df9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3998 97.79 0)
+			(at 153.1298 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +1308,7 @@
 	)
 	(global_label "CSI-0_D0_P"
 		(shape input)
-		(at 182.88 87.63 0)
+		(at 181.61 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1208,7 +1318,17 @@
 		)
 		(uuid "47d1febb-c298-4cd8-a301-f7b4b9df35ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5112 87.63 0)
+			(at 196.2412 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1340,7 @@
 	)
 	(global_label "CSI-0_CLK_P"
 		(shape input)
-		(at 182.88 77.47 0)
+		(at 181.61 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1230,7 +1350,17 @@
 		)
 		(uuid "4809fb02-34fe-415e-ae13-2f137700ce07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.5998 77.47 0)
+			(at 197.3298 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1372,7 @@
 	)
 	(global_label "HDMI-0_TX1_N"
 		(shape input)
-		(at 114.3 82.55 180)
+		(at 111.76 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1252,7 +1382,7 @@
 		)
 		(uuid "4f9f12bf-dc0d-4d50-a1cf-c6a0dff69104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1288 82.55 0)
+			(at 94.5888 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1392,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 85.5028 0)
+			(at 111.76 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1404,7 @@
 	)
 	(global_label "dCSI-0_D0_P"
 		(shape output)
-		(at 170.18 87.63 180)
+		(at 168.91 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1284,7 +1414,17 @@
 		)
 		(uuid "5bd07440-7838-4e0e-86f9-da0584d38aac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3998 87.63 0)
+			(at 153.1298 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,6 +1455,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 100.7428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_D1_N"
 		(shape output)
@@ -1329,6 +1479,16 @@
 		(uuid "6615f765-056b-4cd6-ad71-3ca354efa5d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.6793 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 223.52 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1532,7 @@
 	)
 	(global_label "CSI-0_CLK_N"
 		(shape input)
-		(at 182.88 72.39 0)
+		(at 181.61 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1382,7 +1542,17 @@
 		)
 		(uuid "75bf16e6-67e2-4428-9464-69eecd46827c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.6603 72.39 0)
+			(at 197.3903 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 75.3428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1564,7 @@
 	)
 	(global_label "CSI-0_D3_P"
 		(shape input)
-		(at 182.88 118.11 0)
+		(at 181.61 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1404,7 +1574,17 @@
 		)
 		(uuid "75d49fde-bdd7-4750-b7f1-7748f7670d84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5112 118.11 0)
+			(at 196.2412 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 121.0628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1596,7 @@
 	)
 	(global_label "dHDMI-0_TX2_P"
 		(shape output)
-		(at 127 97.79 0)
+		(at 124.46 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1426,7 +1606,7 @@
 		)
 		(uuid "7a442ee5-27d9-432d-80c4-b57addbc4ab7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.2597 97.79 0)
+			(at 142.7197 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1616,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 100.7428 0)
+			(at 124.46 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,10 +1647,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 90.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_D2_P"
 		(shape output)
-		(at 170.18 107.95 180)
+		(at 168.91 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1480,7 +1670,17 @@
 		)
 		(uuid "809f6823-d2d7-40a0-a062-f264bff82294")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3998 107.95 0)
+			(at 153.1298 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1511,6 +1711,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 110.9028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_CLK_N"
 		(shape input)
@@ -1525,6 +1735,16 @@
 		(uuid "84898bf8-c2f6-471f-bc38-7db564fb1402")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.0003 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 236.22 75.3428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,6 +1775,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 115.9828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D3_P"
 		(shape input)
@@ -1577,10 +1807,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 121.0628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_D3_N"
 		(shape output)
-		(at 170.18 113.03 180)
+		(at 168.91 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1590,7 +1830,17 @@
 		)
 		(uuid "9403ddfe-7d1d-4cf1-b430-1804492a0132")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3393 113.03 0)
+			(at 153.0693 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 115.9828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1852,7 @@
 	)
 	(global_label "dCSI-0_D1_N"
 		(shape output)
-		(at 170.18 92.71 180)
+		(at 168.91 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1612,7 +1862,17 @@
 		)
 		(uuid "9d7f7320-3f9e-4c84-9dcd-0ccf20c0f56c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3393 92.71 0)
+			(at 153.0693 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1884,7 @@
 	)
 	(global_label "dHDMI-0_TX1_N"
 		(shape output)
-		(at 127 82.55 0)
+		(at 124.46 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1634,7 +1894,7 @@
 		)
 		(uuid "a37fe855-ab61-4fe1-8aa0-15a1ea4cfcf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3202 82.55 0)
+			(at 142.7802 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1904,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 85.5028 0)
+			(at 124.46 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1916,7 @@
 	)
 	(global_label "dHDMI-0_TX2_N"
 		(shape output)
-		(at 127 92.71 0)
+		(at 124.46 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1666,7 +1926,7 @@
 		)
 		(uuid "a4d0b776-b35c-4eeb-9314-41ca18137a0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3202 92.71 0)
+			(at 142.7802 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1936,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 95.6628 0)
+			(at 124.46 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1948,7 @@
 	)
 	(global_label "HDMI-0_TX2_P"
 		(shape input)
-		(at 114.3 97.79 180)
+		(at 111.76 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1698,7 +1958,7 @@
 		)
 		(uuid "adf5d3a5-01b5-4fb2-915d-44a5d9e3a266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1893 97.79 0)
+			(at 94.6493 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1968,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 100.7428 0)
+			(at 111.76 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1980,7 @@
 	)
 	(global_label "CSI-0_D2_N"
 		(shape input)
-		(at 182.88 102.87 0)
+		(at 181.61 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1730,7 +1990,17 @@
 		)
 		(uuid "ae663e84-09a3-4baf-b726-a8a52b80f819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5717 102.87 0)
+			(at 196.3017 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,10 +2031,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 90.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dHDMI-0_TX0_N"
 		(shape output)
-		(at 127 72.39 0)
+		(at 124.46 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1774,7 +2054,7 @@
 		)
 		(uuid "b52269df-4156-4bb3-ad8f-69c53bfb2e98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.3202 72.39 0)
+			(at 142.7802 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1784,7 +2064,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 75.3428 0)
+			(at 124.46 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +2076,7 @@
 	)
 	(global_label "dCSI-0_CLK_N"
 		(shape output)
-		(at 170.18 72.39 180)
+		(at 168.91 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1806,7 +2086,17 @@
 		)
 		(uuid "b8c74465-538c-47ce-af9e-1c36417263e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.2507 72.39 0)
+			(at 151.9807 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 75.3428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,10 +2127,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 105.8228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_CLK_P"
 		(shape input)
-		(at 114.3 107.95 180)
+		(at 111.76 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1850,7 +2150,7 @@
 		)
 		(uuid "cab6e94f-39f2-489a-b70b-3fe043119d1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0078 107.95 0)
+			(at 94.4678 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2160,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 110.9028 0)
+			(at 111.76 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,6 +2191,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 85.5028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D0_N"
 		(shape input)
@@ -1905,6 +2215,16 @@
 		(uuid "d196e3c6-0a2b-4e1d-aeeb-9c3bcd855f96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.9117 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 236.22 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,7 +2268,7 @@
 	)
 	(global_label "CSI-0_D2_P"
 		(shape input)
-		(at 182.88 107.95 0)
+		(at 181.61 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1958,7 +2278,17 @@
 		)
 		(uuid "dd153e1c-f3d5-402b-b6bd-baceb34af0d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5112 107.95 0)
+			(at 196.2412 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2300,7 @@
 	)
 	(global_label "dCSI-0_D0_N"
 		(shape output)
-		(at 170.18 82.55 180)
+		(at 168.91 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1980,7 +2310,17 @@
 		)
 		(uuid "e7e63820-76bc-4737-ae8f-4b1cc2eeba86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3393 82.55 0)
+			(at 153.0693 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2332,7 @@
 	)
 	(global_label "CSI-0_D3_N"
 		(shape input)
-		(at 182.88 113.03 0)
+		(at 181.61 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2002,7 +2342,17 @@
 		)
 		(uuid "e896e6aa-af24-42cd-b2ef-802af5156d60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5717 113.03 0)
+			(at 196.3017 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 115.9828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2364,7 @@
 	)
 	(global_label "dHDMI-0_CLK_P"
 		(shape output)
-		(at 127 107.95 0)
+		(at 124.46 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2024,7 +2374,7 @@
 		)
 		(uuid "ea389c02-801e-4812-bd3c-fd5afbe8c3c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4412 107.95 0)
+			(at 142.9012 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2034,7 +2384,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 110.9028 0)
+			(at 124.46 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +2396,7 @@
 	)
 	(global_label "HDMI-0_TX0_P"
 		(shape input)
-		(at 114.3 77.47 180)
+		(at 111.76 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2056,7 +2406,7 @@
 		)
 		(uuid "ec46a19f-54d0-4aff-8d83-e9c8507ef9f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.1893 77.47 0)
+			(at 94.6493 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2416,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 114.3 80.4228 0)
+			(at 111.76 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2428,7 @@
 	)
 	(global_label "dHDMI-0_TX1_P"
 		(shape output)
-		(at 127 87.63 0)
+		(at 124.46 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2088,7 +2438,7 @@
 		)
 		(uuid "eff0ed24-7411-405d-9fa6-53565e9e1126")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.2597 87.63 0)
+			(at 142.7197 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2448,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 90.5828 0)
+			(at 124.46 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2460,7 @@
 	)
 	(global_label "dHDMI-0_TX0_P"
 		(shape output)
-		(at 127 77.47 0)
+		(at 124.46 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2120,7 +2470,7 @@
 		)
 		(uuid "f2bcc3fc-33f3-45e1-93ca-f4cf65f7d797")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.2597 77.47 0)
+			(at 142.7197 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2480,7 @@
 			)
 		)
 		(property "Netclass" "HDMI"
-			(at 127 80.4228 0)
+			(at 124.46 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2492,7 @@
 	)
 	(global_label "CSI-0_D1_N"
 		(shape input)
-		(at 182.88 92.71 0)
+		(at 181.61 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2152,7 +2502,17 @@
 		)
 		(uuid "f606ff31-2d67-43fb-9ded-9cdc1e51c4db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.5717 92.71 0)
+			(at 196.3017 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 181.61 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,10 +2543,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 236.22 95.6628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_D2_N"
 		(shape output)
-		(at 170.18 102.87 180)
+		(at 168.91 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2196,7 +2566,17 @@
 		)
 		(uuid "f70c25f3-f76b-460e-bc45-5ce2622fddd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.3393 102.87 0)
+			(at 153.0693 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "CSI"
+			(at 168.91 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2227,6 +2607,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 75.3428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_D2_N"
 		(shape output)
@@ -2249,10 +2639,20 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "CSI"
+			(at 223.52 105.8228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 72.39 90)
+		(at 118.11 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2260,7 +2660,7 @@
 		(dnp no)
 		(uuid "159b6378-eecd-40a7-bf29-851450f384fe")
 		(property "Reference" "R28"
-			(at 125.222 70.866 90)
+			(at 122.682 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,7 +2668,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 70.866 90)
+			(at 113.792 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2676,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 74.168 90)
+			(at 118.11 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2685,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 72.39 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2694,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 72.39 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2719,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 87.63 90)
+		(at 175.26 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2327,7 +2727,7 @@
 		(dnp no)
 		(uuid "1c1935f3-9808-467a-9d04-51cbff002648")
 		(property "Reference" "R37"
-			(at 181.102 86.106 90)
+			(at 179.832 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2735,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 86.106 90)
+			(at 170.942 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2743,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 89.408 90)
+			(at 175.26 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,7 +2752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 87.63 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2761,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 87.63 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 82.55 90)
+		(at 118.11 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2394,7 +2794,7 @@
 		(dnp no)
 		(uuid "1f524af6-3e2d-45d1-a83d-4c749ba81c33")
 		(property "Reference" "R30"
-			(at 125.222 81.026 90)
+			(at 122.682 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2802,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 81.026 90)
+			(at 113.792 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 84.328 90)
+			(at 118.11 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 82.55 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2828,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 82.55 0)
+			(at 118.11 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2920,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 102.87 90)
+		(at 118.11 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2528,7 +2928,7 @@
 		(dnp no)
 		(uuid "28ed12d0-610f-4e8a-afeb-f16b6bfc9b70")
 		(property "Reference" "R22"
-			(at 125.222 101.346 90)
+			(at 122.682 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2936,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 101.346 90)
+			(at 113.792 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2944,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 104.648 90)
+			(at 118.11 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 102.87 0)
+			(at 118.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2962,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 102.87 0)
+			(at 118.11 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +3255,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 97.79 90)
+		(at 118.11 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2863,7 +3263,7 @@
 		(dnp no)
 		(uuid "5eed6aa6-00b1-47a9-ae77-cc209a9144e4")
 		(property "Reference" "R33"
-			(at 125.222 96.266 90)
+			(at 122.682 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2871,7 +3271,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 96.266 90)
+			(at 113.792 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2879,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 99.568 90)
+			(at 118.11 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,7 +3288,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 97.79 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2897,7 +3297,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 97.79 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3389,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 77.47 90)
+		(at 175.26 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2997,7 +3397,7 @@
 		(dnp no)
 		(uuid "6a6ac008-98b2-4bff-81dd-8207ff6733d0")
 		(property "Reference" "R35"
-			(at 181.102 75.946 90)
+			(at 179.832 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3405,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 75.946 90)
+			(at 170.942 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3413,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 79.248 90)
+			(at 175.26 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 77.47 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3431,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 77.47 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3456,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 113.03 90)
+		(at 175.26 113.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3064,7 +3464,7 @@
 		(dnp no)
 		(uuid "76abcc64-f78a-4026-ab9b-8442ed06b7a5")
 		(property "Reference" "R42"
-			(at 181.102 111.506 90)
+			(at 179.832 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3472,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 111.506 90)
+			(at 170.942 111.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3480,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 114.808 90)
+			(at 175.26 114.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3489,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 113.03 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3498,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 113.03 0)
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3523,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 72.39 90)
+		(at 175.26 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3131,7 +3531,7 @@
 		(dnp no)
 		(uuid "87a402b1-7d74-4571-bc7c-f3e491d743ff")
 		(property "Reference" "R34"
-			(at 181.102 70.866 90)
+			(at 179.832 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +3539,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 70.866 90)
+			(at 170.942 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3547,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 74.168 90)
+			(at 175.26 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3556,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 72.39 0)
+			(at 175.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3565,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 72.39 0)
+			(at 175.26 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3590,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 102.87 90)
+		(at 175.26 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3198,7 +3598,7 @@
 		(dnp no)
 		(uuid "88ca3df3-9561-4b7a-a9e0-a886b6c3b381")
 		(property "Reference" "R40"
-			(at 181.102 101.346 90)
+			(at 179.832 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3606,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 101.346 90)
+			(at 170.942 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3614,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 104.648 90)
+			(at 175.26 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3623,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 102.87 0)
+			(at 175.26 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3232,7 +3632,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 102.87 0)
+			(at 175.26 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3724,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 87.63 90)
+		(at 118.11 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3332,7 +3732,7 @@
 		(dnp no)
 		(uuid "93d12e39-289b-46b2-852a-838ce93c4080")
 		(property "Reference" "R31"
-			(at 125.222 86.106 90)
+			(at 122.682 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3740,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 86.106 90)
+			(at 113.792 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3348,7 +3748,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 89.408 90)
+			(at 118.11 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 87.63 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3766,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 87.63 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 107.95 90)
+		(at 118.11 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3399,7 +3799,7 @@
 		(dnp no)
 		(uuid "9920e5f6-8f8d-427b-96f2-c2d8c5d39c9c")
 		(property "Reference" "R23"
-			(at 125.222 106.426 90)
+			(at 122.682 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3807,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 106.426 90)
+			(at 113.792 75.946 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3815,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 109.728 90)
+			(at 118.11 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3824,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 107.95 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3833,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 107.95 0)
+			(at 118.11 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3925,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 77.47 90)
+		(at 118.11 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3533,7 +3933,7 @@
 		(dnp no)
 		(uuid "ae5cd21e-80eb-43c4-ba0c-6abe08355af5")
 		(property "Reference" "R29"
-			(at 125.222 75.946 90)
+			(at 122.682 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3941,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 75.946 90)
+			(at 113.792 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,7 +3949,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 79.248 90)
+			(at 118.11 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,7 +3958,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 77.47 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,7 +3967,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 77.47 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3992,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 107.95 90)
+		(at 175.26 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3600,7 +4000,7 @@
 		(dnp no)
 		(uuid "b09d5b15-bffe-4055-8465-4242be7646ec")
 		(property "Reference" "R41"
-			(at 181.102 106.426 90)
+			(at 179.832 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3608,7 +4008,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 106.426 90)
+			(at 170.942 106.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +4016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 109.728 90)
+			(at 175.26 109.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3634,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 107.95 0)
+			(at 175.26 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +4059,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 118.11 90)
+		(at 175.26 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3667,7 +4067,7 @@
 		(dnp no)
 		(uuid "bab2b37d-eeb3-490e-85df-78577d730f9a")
 		(property "Reference" "R43"
-			(at 181.102 116.586 90)
+			(at 179.832 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3675,7 +4075,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 116.586 90)
+			(at 170.942 116.586 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +4083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 119.888 90)
+			(at 175.26 119.888 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +4092,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 118.11 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +4101,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 118.11 0)
+			(at 175.26 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 97.79 90)
+		(at 175.26 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3935,7 +4335,7 @@
 		(dnp no)
 		(uuid "d33000ad-f12f-4af9-a947-802c32a46a66")
 		(property "Reference" "R39"
-			(at 181.102 96.266 90)
+			(at 179.832 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4343,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 96.266 90)
+			(at 170.942 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +4351,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 99.568 90)
+			(at 175.26 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 97.79 0)
+			(at 175.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4369,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 97.79 0)
+			(at 175.26 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4394,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 92.71 90)
+		(at 175.26 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4002,7 +4402,7 @@
 		(dnp no)
 		(uuid "d662f19e-5f0c-4690-bc30-ea30c486f60d")
 		(property "Reference" "R38"
-			(at 181.102 91.186 90)
+			(at 179.832 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4410,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 91.186 90)
+			(at 170.942 91.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 94.488 90)
+			(at 175.26 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +4427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 92.71 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4436,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 92.71 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +4461,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 82.55 90)
+		(at 175.26 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4469,7 @@
 		(dnp no)
 		(uuid "da281eba-4713-4ba9-9094-826886b595ad")
 		(property "Reference" "R36"
-			(at 181.102 81.026 90)
+			(at 179.832 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4477,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 172.212 81.026 90)
+			(at 170.942 81.026 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 176.53 84.328 90)
+			(at 175.26 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 82.55 0)
+			(at 175.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4503,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 82.55 0)
+			(at 175.26 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +4528,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 92.71 90)
+		(at 118.11 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4136,7 +4536,7 @@
 		(dnp no)
 		(uuid "edc587b0-38ba-4694-a7a2-7fd9ee4f8e9c")
 		(property "Reference" "R32"
-			(at 125.222 91.186 90)
+			(at 122.682 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4544,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 116.332 91.186 90)
+			(at 113.792 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +4552,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 120.65 94.488 90)
+			(at 118.11 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +4561,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 92.71 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4570,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 92.71 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

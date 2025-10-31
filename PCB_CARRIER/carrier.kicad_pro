@@ -510,9 +510,18 @@
       {
         "diff_pair_gap": 0.1524,
         "diff_pair_width": 0.109,
-        "name": "HDMI",
+        "name": "CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1565
+      },
+      {
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.109,
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -520,7 +529,7 @@
         "diff_pair_width": 0.1494,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       },
@@ -529,7 +538,7 @@
         "diff_pair_width": 0.1494,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2108
       },
@@ -538,7 +547,7 @@
         "diff_pair_width": 0.1295,
         "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       }
@@ -548,6 +557,66 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "CSI-0_CLK_N": [
+        "CSI"
+      ],
+      "CSI-0_CLK_P": [
+        "CSI"
+      ],
+      "CSI-0_D0_N": [
+        "CSI"
+      ],
+      "CSI-0_D0_P": [
+        "CSI"
+      ],
+      "CSI-0_D1_N": [
+        "CSI"
+      ],
+      "CSI-0_D1_P": [
+        "CSI"
+      ],
+      "CSI-0_D2_N": [
+        "CSI"
+      ],
+      "CSI-0_D2_P": [
+        "CSI"
+      ],
+      "CSI-0_D3_N": [
+        "CSI"
+      ],
+      "CSI-0_D3_P": [
+        "CSI"
+      ],
+      "CSI-1_CLK_N": [
+        "CSI"
+      ],
+      "CSI-1_CLK_P": [
+        "CSI"
+      ],
+      "CSI-1_D0_N": [
+        "CSI"
+      ],
+      "CSI-1_D0_P": [
+        "CSI"
+      ],
+      "CSI-1_D1_N": [
+        "CSI"
+      ],
+      "CSI-1_D1_P": [
+        "CSI"
+      ],
+      "CSI-1_D2_N": [
+        "CSI"
+      ],
+      "CSI-1_D2_P": [
+        "CSI"
+      ],
+      "CSI-1_D3_N": [
+        "CSI"
+      ],
+      "CSI-1_D3_P": [
+        "CSI"
+      ],
       "HDMI-0_CLK_N": [
         "HDMI"
       ],
@@ -637,6 +706,66 @@
       ],
       "USB_P": [
         "USB2"
+      ],
+      "dCSI-0_CLK_N": [
+        "CSI"
+      ],
+      "dCSI-0_CLK_P": [
+        "CSI"
+      ],
+      "dCSI-0_D0_N": [
+        "CSI"
+      ],
+      "dCSI-0_D0_P": [
+        "CSI"
+      ],
+      "dCSI-0_D1_N": [
+        "CSI"
+      ],
+      "dCSI-0_D1_P": [
+        "CSI"
+      ],
+      "dCSI-0_D2_N": [
+        "CSI"
+      ],
+      "dCSI-0_D2_P": [
+        "CSI"
+      ],
+      "dCSI-0_D3_N": [
+        "CSI"
+      ],
+      "dCSI-0_D3_P": [
+        "CSI"
+      ],
+      "dCSI-1_CLK_N": [
+        "CSI"
+      ],
+      "dCSI-1_CLK_P": [
+        "CSI"
+      ],
+      "dCSI-1_D0_N": [
+        "CSI"
+      ],
+      "dCSI-1_D0_P": [
+        "CSI"
+      ],
+      "dCSI-1_D1_N": [
+        "CSI"
+      ],
+      "dCSI-1_D1_P": [
+        "CSI"
+      ],
+      "dCSI-1_D2_N": [
+        "CSI"
+      ],
+      "dCSI-1_D2_P": [
+        "CSI"
+      ],
+      "dCSI-1_D3_N": [
+        "CSI"
+      ],
+      "dCSI-1_D3_P": [
+        "CSI"
       ],
       "dHDMI-0_CLK_N": [
         "HDMI"
