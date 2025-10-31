@@ -8379,6 +8379,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 149.86 109.6328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "UART-1_RTS_1V8"
 		(shape input)
@@ -8653,6 +8663,16 @@
 		(uuid "1f02fa7e-dabe-4a79-a7b0-a3c3f6aee2f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.9688 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 232.41 81.6928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9379,6 +9399,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 149.86 114.7128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "POWER_BMC"
 		(shape output)
@@ -9663,6 +9693,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 149.86 124.8728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GBE_LED_LINK"
 		(shape bidirectional)
@@ -9785,6 +9825,16 @@
 		(uuid "9cca6350-3eab-472c-b79a-4b51ab5608ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.5398 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 149.86 107.0928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,6 +10031,16 @@
 		(uuid "b35b03e4-688c-4f45-86e4-10cd18e2013d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.6003 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 149.86 117.2528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,6 +10281,16 @@
 		(uuid "c5836b58-5291-430e-a08a-cab3646aaaa2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 131.5398 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 149.86 122.3328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10693,6 +10763,16 @@
 		(uuid "fe5f440c-6840-4108-ba8c-b098a5b7eb18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.9083 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 232.41 79.1528 0)
 			(effects
 				(font
 					(size 1.27 1.27)

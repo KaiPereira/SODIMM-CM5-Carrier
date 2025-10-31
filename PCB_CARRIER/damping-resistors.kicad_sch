@@ -773,6 +773,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 114.3 75.3428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB_P"
 		(shape bidirectional)
@@ -841,6 +851,16 @@
 		(uuid "1a6c5640-f15f-4527-8e0c-9970170ec3b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1893 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,6 +957,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 105.8228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX2_N"
 		(shape input)
@@ -951,6 +981,16 @@
 		(uuid "2c3280d3-0c30-413d-a762-683d911ff2e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1288 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 95.6628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,6 +1111,16 @@
 		(uuid "3e562738-8643-4bda-b242-8dd379afe21a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.9473 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,6 +1253,16 @@
 		(uuid "4f9f12bf-dc0d-4d50-a1cf-c6a0dff69104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1288 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 85.5028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,6 +1427,16 @@
 		(uuid "7a442ee5-27d9-432d-80c4-b57addbc4ab7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2597 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 127 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,6 +1643,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 85.5028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dHDMI-0_TX2_N"
 		(shape output)
@@ -1595,6 +1675,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 95.6628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX2_P"
 		(shape input)
@@ -1609,6 +1699,16 @@
 		(uuid "adf5d3a5-01b5-4fb2-915d-44a5d9e3a266")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1893 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 100.7428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,6 +1783,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 75.3428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-0_CLK_N"
 		(shape output)
@@ -1741,6 +1851,16 @@
 		(uuid "cab6e94f-39f2-489a-b70b-3fe043119d1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.0078 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 110.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,6 +2033,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 110.9028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_TX0_P"
 		(shape input)
@@ -1927,6 +2057,16 @@
 		(uuid "ec46a19f-54d0-4aff-8d83-e9c8507ef9f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.1893 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 114.3 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,6 +2097,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 127 90.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dHDMI-0_TX0_P"
 		(shape output)
@@ -1971,6 +2121,16 @@
 		(uuid "f2bcc3fc-33f3-45e1-93ca-f4cf65f7d797")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 145.2597 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 127 80.4228 0)
 			(effects
 				(font
 					(size 1.27 1.27)

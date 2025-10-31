@@ -508,11 +508,19 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.109,
+        "name": "HDMI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "diff_pair_gap": 0.127,
         "diff_pair_width": 0.1494,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       },
@@ -521,7 +529,7 @@
         "diff_pair_width": 0.1494,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2108
       },
@@ -530,7 +538,7 @@
         "diff_pair_width": 0.1295,
         "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       }
@@ -540,6 +548,30 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "HDMI-0_CLK_N": [
+        "HDMI"
+      ],
+      "HDMI-0_CLK_P": [
+        "HDMI"
+      ],
+      "HDMI-0_TX0_N": [
+        "HDMI"
+      ],
+      "HDMI-0_TX0_P": [
+        "HDMI"
+      ],
+      "HDMI-0_TX1_N": [
+        "HDMI"
+      ],
+      "HDMI-0_TX1_P": [
+        "HDMI"
+      ],
+      "HDMI-0_TX2_N": [
+        "HDMI"
+      ],
+      "HDMI-0_TX2_P": [
+        "HDMI"
+      ],
       "PCIe_CLKREQ": [
         "PCIe"
       ],
@@ -605,6 +637,30 @@
       ],
       "USB_P": [
         "USB2"
+      ],
+      "dHDMI-0_CLK_N": [
+        "HDMI"
+      ],
+      "dHDMI-0_CLK_P": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX0_N": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX0_P": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX1_N": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX1_P": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX2_N": [
+        "HDMI"
+      ],
+      "dHDMI-0_TX2_P": [
+        "HDMI"
       ],
       "dUSB_M": [
         "USB2"

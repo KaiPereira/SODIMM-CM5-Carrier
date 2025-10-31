@@ -5356,6 +5356,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 93.98 124.8728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-0_D2_P"
 		(shape input)
@@ -5518,6 +5528,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 93.98 150.2728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D3_N"
 		(shape input)
@@ -5586,6 +5606,16 @@
 		(uuid "23941c9e-bbf3-4f7d-9829-b2088d9110b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.8088 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 93.98 127.4128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,6 +5734,16 @@
 		(uuid "2a95c95f-dea7-4cd3-838b-a99867786a4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.8693 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 93.98 132.4928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,6 +6110,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 93.98 142.6528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HDMI-0_HPD"
 		(shape input)
@@ -6406,6 +6456,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 93.98 140.1128 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PCIe_TX_N"
 		(shape output)
@@ -6460,6 +6520,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "HDMI"
+			(at 93.98 135.0328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CSI-1_D3_P"
 		(shape input)
@@ -6496,6 +6566,16 @@
 		(uuid "cdf6a308-5377-434b-b7b6-863a178c1062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.6878 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "HDMI"
+			(at 93.98 147.7328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
