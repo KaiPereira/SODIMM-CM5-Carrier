@@ -777,7 +777,7 @@ Because of this, I'm going to go with a stripline design, which in term means we
 
 And then I just did the rest of them and updated this, I'm kind of just skipping the descriptions for these because it's really time consuming to describe:
 
-![[Pasted image 20251013134047.png]]
+![Pasted image 20251013134047.png](journal/Pasted%20image%2020251013134047.png)
 
 SPI doesn't really need to be impedance matched, but I'm going to length match it because it's travelling really far!
 
@@ -790,7 +790,7 @@ They're very useful to optimize your board and important so your board works rel
 
 This took me way too long to figure out, but it's pretty safe for dampening/impedance matching!
 
-![[Pasted image 20251013134336.png]]
+![Pasted image 20251013134336.png](journal/Pasted%20image%2020251013134336.png)
 And then after that I made my schematic a bit easier to read, I'm not going to add all the screenshots, but all the schematics are now slightly easier to read!
 
 Anyways, I did a lot, but it was a bit slow because everything needed really deep considerations. Next I need to layout all my components on my actual PCB, and add test points!
@@ -801,13 +801,13 @@ Now that I've added all the dampening/termination resistors, I need to put them 
 
 So first I need to add all my footprints in, this was really easy and the only hard part was looking at the datasheet for the level shifters and grabbing the footprint for it from there:
 
-![[Pasted image 20251013135121.png]]
+![Pasted image 20251013135121.png](journal/Pasted%20image%2020251013135121.png)
 
 For my capacitors/resistors I follow the rule of, >10uF 0603+, <= 10uF, 0402-, and all resistors are just 0402. This gives good ESR characteristics on my capacitors and the resistors aren't too important from what I know. I don't really want to use under 0402 for this board, because I want it to be hand solderable, and also cheaper, potentially with economic PCBA!
 
 And then I imported them and organized them all onto my board, this didn't take too long but gets me used to how everything will kind of fit on:
 
-![[Pasted image 20251013135427.png]]
+![Pasted image 20251013135427.png](journal/Pasted%20image%2020251013135427.png)
 
 I really need to find a smaller button, and I'm pretty sure this is also a switch, but you get the idea!
 
@@ -815,10 +815,10 @@ Now I need to add in all the test points, which I've never done before, and have
 
 Anyways I found a new button, and then I used my intuition to figure out the test points, I just thought about what traces would probably be completely inaccessibly and weren't just simple GPIO's and I only needed one on my RTC battery to make sure that's working properly, and also one on my sleep mode status, which should automatically be sending:
 
-![[Pasted image 20251020064216.png]]
+![Pasted image 20251020064216.png](journal/Pasted%20image%2020251020064216.png)
 And then, I also found this button, which has the same form factor as the one on the turing pi:
 
-![[Pasted image 20251020064304.png]]
+![Pasted image 20251020064304.png](journal/Pasted%20image%2020251020064304.png)
 
 I then decided to flip my mezzanine connector so the high speeds were closer, which makes it a bit tighter to route, but I think it's better for ESR with smaller traces and lower loss.
 
@@ -831,7 +831,7 @@ L4: Signal
 L5: GND
 L6: PCIe TX
 
-![[Pasted image 20251020070417.png]]
+![Pasted image 20251020070417.png](journal/Pasted%20image%2020251020070417.png)
 
 Now, I kind of want to find a way to fit a third ground plane in there, but I think the current stackup is acceptable.
 
@@ -839,16 +839,16 @@ Now before I start routing, I need to add what's called net classes to my labels
 
 Now when's I'll introduce the JLCPCB impedance calculator! This will basically tell me what size traces and stuff to do for routing specific things based off of your stackup:
 
-![[Pasted image 20251030065357.png]]
+![Pasted image 20251030065357.png](journal/Pasted%20image%2020251030065357.png)
 
 And then I can just add these into my net classes for everything:
 
-![[Pasted image 20251030065452.png]]
+![Pasted image 20251030065452.png](journal/Pasted%20image%2020251030065452.png)
 
 And then I can start routing everything:
 
 
-![[Pasted image 20251030064706.png]]
+![Pasted image 20251030064706.png](journal/Pasted%20image%2020251030064706.png)
 
 These 3 steps took me a LONG time to figure out...
 
@@ -856,6 +856,6 @@ Also my routing in the last screenshot here is pretty terribly so I'll need to m
 
 The golden fingers need 0.15mm of voiding around/under the pad, so I'll do something like this:
 
-![[Pasted image 20251030065727.png]]
+![Pasted image 20251030065727.png](journal/Pasted%20image%2020251030065727.png)
 
 
