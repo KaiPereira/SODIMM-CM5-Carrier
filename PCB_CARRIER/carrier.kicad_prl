@@ -341,7 +341,7 @@
       "drc_exclusions",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffebf",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffe1f",
     "zone_display_mode": 0
   },
   "git": {
@@ -387,20 +387,20 @@
       13
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      11
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
