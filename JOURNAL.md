@@ -875,7 +875,22 @@ Alright so let's breakdown what my thought process behind this routing was place
 
 My next thought was that these low speed signals won't exhibit much cross-talk so they can be closer to the high speed lines.
 
+So after placing down the resistors, I placed down all the via's for the low speeds so that the inner layers could connect to them, this is beautiful, I needed to route it as compact as possible so it fit in!
+
 Now starting from the connector, you can see there's equal space between the top and bottom inside of the mezzanine connector. CSI is exhibiting cross-talk within 2x dielectric, so I made sure there was enough space there.
 
 And then I followed the 3W rule for the middle differential pair because that one was running parallel to 2 other differential pairs which can exhibit strong electromagnetic forces so I wanted that one to be the farthest away.
 
+Next I placed down the via's in a way so that the return via's gave a low impedance path in an efficient way by utilizing the dampening resistor return via's. This saves a LOT of space! The reason I needed to put via's down was to flip the polarity of the differential pair, because the traces need to cross over each other, this is a REALLY COOL trick!
+
+Next I put down the via's for GND, I needed to do lots of finesse so that they fit in nicely because via's are BIG, but I think it turned out well. I really couldn't manage cross-talk here, but it should be fine.
+
+Everything then needed to be skew tuned which was hard because it was all like fully manual because of how close the traces were, so I needed to just use the tool, and then manually adjust it, it was kinda fun.
+
+Now our board is looking like this:
+
+![[Pasted image 20251102100129.png]]
+
+The reason I didn't add more photo's for this part was because I was so focused on the routing and it took a long time so I didn't want to use up time writing about the routing I was just going to redo! This took 4 iterations of routing, but I think it turned out really nicely!
+
+## Day 17 - Routing CSI
