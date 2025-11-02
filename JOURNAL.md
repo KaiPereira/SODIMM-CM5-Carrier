@@ -795,7 +795,7 @@ And then after that I made my schematic a bit easier to read, I'm not going to a
 
 Anyways, I did a lot, but it was a bit slow because everything needed really deep considerations. Next I need to layout all my components on my actual PCB, and add test points!
 
-## Day 15 - Layout and test points! - 12 Hours
+## Day 15 - Layout, test points, PCIe! - 12 Hours
 
 Now that I've added all the dampening/termination resistors, I need to put them onto my board, fill all the footprints for my other components and group them together!
 
@@ -858,4 +858,24 @@ The golden fingers need 0.15mm of voiding around/under the pad, so I'll do somet
 
 ![Pasted image 20251030065727.png](journal/Pasted%20image%2020251030065727.png)
 
+
+And then BOOM done!
+
+## Day 16 - Routing HDMI, omg... 6 Hours
+
+I got a LOT done on day 15, and now that I've finished PCIe, I want to work on HDMI, because it's close to that connector.
+
+The one problem with routing HDMI is that there's also a lot of GPIO's I need to breakout and also I need to swap the polarity of HDMI midway through routing so that they can go into the connector. 
+
+I'm going to just add a photo of how I did it and then describe it. This took 4 ITERATIONS, and wasn't too difficult, but extremely time consuming to make sure I wouldn't have too much crosstalk/skew!
+
+![[Pasted image 20251102095312.png]]
+
+Alright so let's breakdown what my thought process behind this routing was place down the dampening resistors in a way so that I had enough space to breakout the GPIO's and also so they were close enough to the differential pair.
+
+My next thought was that these low speed signals won't exhibit much cross-talk so they can be closer to the high speed lines.
+
+Now starting from the connector, you can see there's equal space between the top and bottom inside of the mezzanine connector. CSI is exhibiting cross-talk within 2x dielectric, so I made sure there was enough space there.
+
+And then I followed the 3W rule for the middle differential pair because that one was running parallel to 2 other differential pairs which can exhibit strong electromagnetic forces so I wanted that one to be the farthest away.
 
