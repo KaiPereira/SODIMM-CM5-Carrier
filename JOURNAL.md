@@ -869,7 +869,7 @@ The one problem with routing HDMI is that there's also a lot of GPIO's I need to
 
 I'm going to just add a photo of how I did it and then describe it. This took 4 ITERATIONS, and wasn't too difficult, but extremely time consuming to make sure I wouldn't have too much crosstalk/skew!
 
-![[Pasted image 20251102095312.png]]
+![Pasted image 20251102095312.png](journal/Pasted%20image%2020251102095312.png)
 
 Alright so let's breakdown what my thought process behind this routing was place down the dampening resistors in a way so that I had enough space to breakout the GPIO's and also so they were close enough to the differential pair.
 
@@ -889,7 +889,7 @@ Everything then needed to be skew tuned which was hard because it was all like f
 
 Now our board is looking like this:
 
-![[Pasted image 20251102100129.png]]
+![Pasted image 20251102100129.png](journal/Pasted%20image%2020251102100129.png)
 
 The reason I didn't add more photo's for this part was because I was so focused on the routing and it took a long time so I didn't want to use up time writing about the routing I was just going to redo! This took 4 iterations of routing, but I think it turned out really nicely!
 
@@ -901,7 +901,7 @@ There were also a bunch of low speed signals and grounds I needed to connect, so
 
 This took a really long time but turned out pretty well:
 
-![[Pasted image 20251102202459.png]]
+![Pasted image 20251102202459.png](journal/Pasted%20image%2020251102202459.png)
 
 My thought process behind this was making sure all traces followed the 3W rule at a minimum or just passed side by side for barely any time!
 
