@@ -893,4 +893,34 @@ Now our board is looking like this:
 
 The reason I didn't add more photo's for this part was because I was so focused on the routing and it took a long time so I didn't want to use up time writing about the routing I was just going to redo! This took 4 iterations of routing, but I think it turned out really nicely!
 
-## Day 17 - Routing CSI
+## Day 17 - Routing CSI - 6 Hours
+
+Now that I've finished routing HDMI/PCIe, I have to finish routing USB DM/DP lower speed pairs aswell as MIPI CSI. These are still high speed so I have to make sure to design them well, this means sticking to the 3W rule, and paying attention to the Orin NX series design guide!
+
+There were also a bunch of low speed signals and grounds I needed to connect, so I had to move a lot of the stuff I did before to make it work!
+
+This took a really long time but turned out pretty well:
+
+![[Pasted image 20251102202459.png]]
+
+My thought process behind this was making sure all traces followed the 3W rule at a minimum or just passed side by side for barely any time!
+
+I also wanted to have return via's for every single differential pair, and put a little bit of attention into the antipad so that it didn't put a break in my ground at all under any trace!
+
+I also payed extra attention to USB 3.0 because that was my fastest speed, and gave it at least 5x dielectric spacing everywhere!
+
+This required quite a few iterations for each part, but took slightly less time than HDMI, because all the traces were pretty much on the same side, and could spread out some more!
+
+I'm a bit worried about the shared return via's for HDMI and whatnot, so I might mess with those and give them all their own reference via's, but it should be fine in theory, but probably not great practice. 
+
+I also modified one of the USB 3.0 pairs near the PCIe connector to be properly symmetrical and actually removed 2 return via's!
+
+After that I routed some of the low speeds that were in the vicinity, these are nice because they don't exhibit much cross-talk, so I don't have to worry about the routing quite as much for them!
+
+Once all that was done, I did the length matching. Some of these don't have perfect 0mm skew, but they're under 0.02mm, so it should be fine!
+
+Anyways, an absolute TON done today, and next I have to wire up the low speeds by this connector, and then start on some of the other stuff.
+
+Stuff to look at:
+- Checking each separate layer in detail to make sure there's not too much cross-talk
+- Maybe don't share return via's for HDMI and some other pairs, this could give ground looping or cross-talk issues, and it's proper a higher impedance path...
