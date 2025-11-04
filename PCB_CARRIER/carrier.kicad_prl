@@ -53,7 +53,7 @@
       "drc_exclusions",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffe1f",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffe1b",
     "zone_display_mode": 0
   },
   "git": {
