@@ -924,3 +924,17 @@ Anyways, an absolute TON done today, and next I have to wire up the low speeds b
 Stuff to look at:
 - Checking each separate layer in detail to make sure there's not too much cross-talk
 - Maybe don't share return via's for HDMI and some other pairs, this could give ground looping or cross-talk issues, and it's proper a higher impedance path...
+
+## Day 18 - Refining and working on low-speeds
+
+Deep down I was a bit unhappy with my routing yesterday, so today I wanted to fix all of that and reduce all the cross-talk on my board!
+
+I wanted to focus on HDMI and re-routing that alongside the via's for low-speed! 
+
+There's really not too much to journal about because it's just a lot of trial and error, and eventually I came up with this beautiful design:
+
+![[Pasted image 20251103205306.png]]
+
+Now I'm a tad bit unhappy with the traces after the resistors, but everything before that is now significantly improved.
+
+I also need to move the via's out a tad bit more, but it's pretty good!
