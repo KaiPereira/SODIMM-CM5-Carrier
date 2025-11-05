@@ -954,3 +954,15 @@ And then I routed up my power and buttons. You'll notice i use one via per pad p
 ![Pasted image 20251104171009.png](journal/Pasted%20image%2020251104171009.png)
 
 ![Pasted image 20251104171022.png](journal/Pasted%20image%2020251104171022.png)
+
+Now that all that is done, I can focus fully on some of the stuff I've been meaning to double check like the SD Card, mosfets, buttons, etc. Just to make sure they'll work fine!
+
+The first thing I looked at was the SHUTDOWN_REQ:
+
+![[Pasted image 20251104195450.png]]
+
+Now currently my mosfet logic isn't actually correct, all I need to do is level shift this, which I'll use a mosfet for because it's one of my common components!
+
+![[Pasted image 20251104195536.png]]
+
+This also free's up a GPIO that I was previously using which I can add to my board!
