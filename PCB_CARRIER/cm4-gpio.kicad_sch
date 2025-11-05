@@ -6568,7 +6568,7 @@
 		)
 		(uuid "7bd6553b-f38a-4bd3-bdae-5c1045ab0096")
 	)
-	(text "Shift 5V Shutdown Req to 3V3 Shutdown!"
+	(text "Shift 5V Shutdown Req to 3V3 Shutdown! Mod -> Carrier"
 		(exclude_from_sim no)
 		(at 57.15 166.37 0)
 		(effects
@@ -6647,16 +6647,6 @@
 			)
 		)
 		(uuid "f0a15e5c-df71-4587-82b6-6737ea87813d")
-	)
-	(text "Module drives carrier"
-		(exclude_from_sim no)
-		(at -11.684 179.324 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f72e5805-8ff5-4be4-8cd2-6fcb4ac0fddf")
 	)
 	(text "Sleep Status Output >"
 		(exclude_from_sim no)
@@ -8055,6 +8045,16 @@
 			(type default)
 		)
 		(uuid "79fcea2f-d96f-4cd2-b0f3-ff4598740876")
+	)
+	(wire
+		(pts
+			(xy 209.55 120.65) (xy 204.47 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9d1d1e-69ef-4a97-a916-610c657cdf1f")
 	)
 	(wire
 		(pts
@@ -9706,6 +9706,28 @@
 			)
 		)
 	)
+	(global_label "MOD_PWR_REQ"
+		(shape input)
+		(at 67.31 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "438d10e9-cb97-4d69-b8e4-1f1128a82408")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.1183 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI-1_CLK_3V3"
 		(shape output)
 		(at 209.55 115.57 0)
@@ -10168,6 +10190,28 @@
 			)
 		)
 	)
+	(global_label "MOD_PWR_REQ"
+		(shape input)
+		(at 209.55 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8648c8e2-c31e-4e55-8a7a-73bd841f18cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.3583 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART-0_TX_3V3"
 		(shape output)
 		(at 138.43 128.27 180)
@@ -10477,7 +10521,7 @@
 		)
 	)
 	(global_label "SHUT_REQ_BMC"
-		(shape input)
+		(shape output)
 		(at 46.99 186.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -10670,28 +10714,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PMIC_EN"
-		(shape output)
-		(at 67.31 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6dea85b-4068-4903-bd8a-28d5ad619bd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.4336 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -15488,7 +15510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K"
+		(property "Value" "10K"
 			(at 70.866 182.88 0)
 			(effects
 				(font
