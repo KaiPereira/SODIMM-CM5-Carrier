@@ -938,3 +938,19 @@ There's really not too much to journal about because it's just a lot of trial an
 Now I'm a tad bit unhappy with the traces after the resistors, but everything before that is now significantly improved.
 
 I also need to move the via's out a tad bit more, but it's pretty good!
+
+Next I needed to modify this to make the via's more accessibly, and to also connect some of the low speeds on the top/bottom layer. I only do this for a couple traces though so there's less traces intersecting on the inner low-speed layers.
+
+I also moved some HDMI signals to make way for a CSI differential pair, so now it looks like this:
+
+![[Pasted image 20251104170843.png]]
+
+Now I need to route up my level shifters. These again, just shift some of the GPIO's from 3V3 to 1V8, I did this convenient layout:
+
+![[Pasted image 20251104170926.png]]
+
+And then I routed up my power and buttons. You'll notice i use one via per pad pretty much, and this is to again, give a low impedance return path for signals!
+
+![[Pasted image 20251104171009.png]]
+
+![[Pasted image 20251104171022.png]]
