@@ -6608,6 +6608,16 @@
 		)
 		(uuid "b0df01a9-d86f-4a3f-9aca-55b51f124b52")
 	)
+	(text "Carrier drives module"
+		(exclude_from_sim no)
+		(at -11.684 94.742 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9731cab-8fd1-4458-a110-0b8c98fc1805")
+	)
 	(text "As many 0.1uF as can fit, a 10uF/1uF for bulk"
 		(exclude_from_sim no)
 		(at 233.426 195.834 0)
@@ -6637,6 +6647,16 @@
 			)
 		)
 		(uuid "f0a15e5c-df71-4587-82b6-6737ea87813d")
+	)
+	(text "Module drives carrier"
+		(exclude_from_sim no)
+		(at -11.684 179.324 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f72e5805-8ff5-4be4-8cd2-6fcb4ac0fddf")
 	)
 	(text "Sleep Status Output >"
 		(exclude_from_sim no)
