@@ -933,7 +933,7 @@ I wanted to focus on HDMI and re-routing that alongside the via's for low-speed!
 
 There's really not too much to journal about because it's just a lot of trial and error, and eventually I came up with this beautiful design:
 
-![[Pasted image 20251103205306.png]]
+![Pasted image 20251103205306.png](journal/Pasted%20image%2020251103205306.png)
 
 Now I'm a tad bit unhappy with the traces after the resistors, but everything before that is now significantly improved.
 
@@ -943,14 +943,14 @@ Next I needed to modify this to make the via's more accessibly, and to also conn
 
 I also moved some HDMI signals to make way for a CSI differential pair, so now it looks like this:
 
-![[Pasted image 20251104170843.png]]
+![Pasted image 20251104170843.png](journal/Pasted%20image%2020251104170843.png)
 
 Now I need to route up my level shifters. These again, just shift some of the GPIO's from 3V3 to 1V8, I did this convenient layout:
 
-![[Pasted image 20251104170926.png]]
+![Pasted image 20251104170926.png](journal/Pasted%20image%2020251104170926.png)
 
 And then I routed up my power and buttons. You'll notice i use one via per pad pretty much, and this is to again, give a low impedance return path for signals!
 
-![[Pasted image 20251104171009.png]]
+![Pasted image 20251104171009.png](journal/Pasted%20image%2020251104171009.png)
 
-![[Pasted image 20251104171022.png]]
+![Pasted image 20251104171022.png](journal/Pasted%20image%2020251104171022.png)
