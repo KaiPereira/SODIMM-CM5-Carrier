@@ -6570,7 +6570,7 @@
 	)
 	(text "Shift 5V Shutdown Req to 3V3 Shutdown!"
 		(exclude_from_sim no)
-		(at 57.15 165.862 0)
+		(at 57.15 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7919,16 +7919,6 @@
 			(type solid)
 		)
 		(uuid "6b7f5471-bf51-4d9e-875d-7eb8a5147fd7")
-	)
-	(wire
-		(pts
-			(xy 209.55 120.65) (xy 204.47 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d81645f-0c96-4a0a-8b51-b8cfa580b5f3")
 	)
 	(wire
 		(pts
@@ -11046,28 +11036,6 @@
 			)
 		)
 	)
-	(global_label "SHUTDOWN_REQ"
-		(shape output)
-		(at 209.55 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7a9664e-0c9f-403c-bcc6-f35bb383cfc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.5679 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CSI-0_SCL"
 		(shape bidirectional)
 		(at 138.43 184.15 180)
@@ -12865,7 +12833,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5K"
 			(at 46.99 182.8799 0)
 			(effects
 				(font
@@ -15553,7 +15521,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "5K"
 			(at 70.866 182.88 0)
 			(effects
 				(font
