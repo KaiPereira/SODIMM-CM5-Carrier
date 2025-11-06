@@ -3286,7 +3286,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-1_CS1_1V8"
+	(global_label "SPI-1_CS1_1V8"
 		(shape output)
 		(at 58.42 116.84 180)
 		(fields_autoplaced yes)
@@ -3298,7 +3298,7 @@
 		)
 		(uuid "0ce4c2ee-e95b-47a1-a80f-fa3b0aa76af2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1927 116.84 0)
+			(at 40.3417 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3308,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-0_CS0_1V8"
+	(global_label "SPI-0_CS0_1V8"
 		(shape output)
 		(at 58.42 96.52 180)
 		(fields_autoplaced yes)
@@ -3320,7 +3320,7 @@
 		)
 		(uuid "128d004f-0616-47a7-8158-4b0b9461c20a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1927 96.52 0)
+			(at 40.3417 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3396,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CLK_3V3"
+	(global_label "dSPI-1_CLK_3V3"
 		(shape input)
 		(at 83.82 106.68 0)
 		(fields_autoplaced yes)
@@ -3408,7 +3408,7 @@
 		)
 		(uuid "1895e68b-54ef-4893-b5d5-8ba2507d0858")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7774 106.68 0)
+			(at 102.9264 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3506,7 +3506,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-1_CLK_1V8"
+	(global_label "SPI-1_CLK_1V8"
 		(shape output)
 		(at 58.42 106.68 180)
 		(fields_autoplaced yes)
@@ -3518,7 +3518,7 @@
 		)
 		(uuid "4107551d-fba7-4443-8069-77208f091dff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3136 106.68 0)
+			(at 40.4626 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3682,7 +3682,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CS1_3V3"
+	(global_label "dSPI-1_CS1_3V3"
 		(shape input)
 		(at 83.82 116.84 0)
 		(fields_autoplaced yes)
@@ -3694,7 +3694,7 @@
 		)
 		(uuid "7f48eb15-ee19-4f64-baa9-fc1fd6e5da34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 116.84 0)
+			(at 103.0473 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3770,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CLK_3V3"
+	(global_label "dSPI-0_CLK_3V3"
 		(shape input)
 		(at 83.82 91.44 0)
 		(fields_autoplaced yes)
@@ -3782,7 +3782,7 @@
 		)
 		(uuid "8fa7c1c3-0286-4353-879f-9082ebd0e2bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7774 91.44 0)
+			(at 102.9264 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3792,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-1_MOSI_1V8"
+	(global_label "SPI-1_MOSI_1V8"
 		(shape output)
 		(at 58.42 111.76 180)
 		(fields_autoplaced yes)
@@ -3804,7 +3804,7 @@
 		)
 		(uuid "9073aa22-0fab-46e0-af9d-5db69317db62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.2855 111.76 0)
+			(at 39.4345 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3814,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CS0_3V3"
+	(global_label "dSPI-1_CS0_3V3"
 		(shape input)
 		(at 83.82 121.92 0)
 		(fields_autoplaced yes)
@@ -3826,7 +3826,7 @@
 		)
 		(uuid "960de589-d982-4825-a839-f8fd5501c296")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 121.92 0)
+			(at 103.0473 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3836,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-0_MOSI_1V8"
+	(global_label "SPI-0_MOSI_1V8"
 		(shape output)
 		(at 58.42 86.36 180)
 		(fields_autoplaced yes)
@@ -3848,7 +3848,7 @@
 		)
 		(uuid "9cef8a4f-e076-49b1-80c2-b4925efd84ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.2855 86.36 0)
+			(at 39.4345 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3902,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MOSI_3V3"
+	(global_label "dSPI-1_MOSI_3V3"
 		(shape input)
 		(at 83.82 111.76 0)
 		(fields_autoplaced yes)
@@ -3914,7 +3914,7 @@
 		)
 		(uuid "ae0c508c-470c-44c1-b9f1-b1c9dab0cd58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8055 111.76 0)
+			(at 103.9545 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3990,7 +3990,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-0_CS1_1V8"
+	(global_label "SPI-0_CS1_1V8"
 		(shape output)
 		(at 58.42 101.6 180)
 		(fields_autoplaced yes)
@@ -4002,7 +4002,7 @@
 		)
 		(uuid "c27acb16-dc5b-4ee7-ade3-ae653b6a5a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1927 101.6 0)
+			(at 40.3417 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +4056,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS0_3V3"
+	(global_label "dSPI-0_CS0_3V3"
 		(shape input)
 		(at 83.82 96.52 0)
 		(fields_autoplaced yes)
@@ -4068,7 +4068,7 @@
 		)
 		(uuid "d4195a16-ac0d-48b9-a794-e5d0861a3cf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 96.52 0)
+			(at 103.0473 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS1_3V3"
+	(global_label "dSPI-0_CS1_3V3"
 		(shape input)
 		(at 83.82 101.6 0)
 		(fields_autoplaced yes)
@@ -4112,7 +4112,7 @@
 		)
 		(uuid "dc61b03a-9ac6-4953-add0-4f62c484a84f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 101.6 0)
+			(at 103.0473 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,7 +4166,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-0_CLK_1V8"
+	(global_label "SPI-0_CLK_1V8"
 		(shape output)
 		(at 58.42 91.44 180)
 		(fields_autoplaced yes)
@@ -4178,7 +4178,7 @@
 		)
 		(uuid "df6a1038-fb04-496e-b356-a8db2615554a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.3136 91.44 0)
+			(at 40.4626 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4188,7 @@
 			)
 		)
 	)
-	(global_label "SPI-0_MOSI_3V3"
+	(global_label "dSPI-0_MOSI_3V3"
 		(shape input)
 		(at 83.82 86.36 0)
 		(fields_autoplaced yes)
@@ -4200,7 +4200,7 @@
 		)
 		(uuid "e0fa6ca7-cf51-4926-8702-5edddfddeefc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8055 86.36 0)
+			(at 103.9545 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4210,7 @@
 			)
 		)
 	)
-	(global_label "dSPI-1_CS0_1V8"
+	(global_label "SPI-1_CS0_1V8"
 		(shape output)
 		(at 58.42 121.92 180)
 		(fields_autoplaced yes)
@@ -4222,7 +4222,7 @@
 		)
 		(uuid "eae4413a-4871-40f2-a3e1-fdd4b024f3fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.1927 121.92 0)
+			(at 40.3417 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
