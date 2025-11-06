@@ -6548,9 +6548,9 @@
 		)
 		(uuid "60724ff6-5699-4e75-bd9f-d8cb0b006995")
 	)
-	(text "Soft Off/On"
+	(text "Hard Off/On"
 		(exclude_from_sim no)
-		(at 285.496 189.23 0)
+		(at 285.242 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6558,7 +6558,7 @@
 		)
 		(uuid "72d94758-3c29-4157-bc60-38d4c1f267c5")
 	)
-	(text "Hard Off"
+	(text "Soft Off"
 		(exclude_from_sim no)
 		(at 286.766 191.77 0)
 		(effects
