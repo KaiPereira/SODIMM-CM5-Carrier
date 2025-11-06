@@ -959,11 +959,11 @@ Now that all that is done, I can focus fully on some of the stuff I've been mean
 
 The first thing I looked at was the SHUTDOWN_REQ:
 
-![[Pasted image 20251104195450.png]]
+![Pasted image 20251104195450.png](journal/Pasted%20image%2020251104195450.png)
 
 Now currently my mosfet logic isn't actually correct, all I need to do is level shift this, which I'll use a mosfet for because it's one of my common components!
 
-![[Pasted image 20251104195536.png]]
+![Pasted image 20251104195536.png](journal/Pasted%20image%2020251104195536.png)
 
 This also free's up a GPIO that I was previously using which I can add to my board!
 
@@ -971,6 +971,12 @@ And this one's actually wrong, it's supposed to be telling the CARRIER that it c
 
 My other mosfets were wrong too still, so I had to fix them all:
 
-![[Pasted image 20251105162544.png]]
+![Pasted image 20251105162544.png](journal/Pasted%20image%2020251105162544.png)
 
 This took me quite a long time to figure out, but eventually I just realized that it's all just simple level shifting with pullups!
+
+Next I needed to re-wired my level shifters to have more organized routing!
+
+![Pasted image 20251105173509.png](journal/Pasted%20image%2020251105173509.png)
+
+Initially I moved the pins to make the routing INTO the connector more simple, but I realized the pin OUT matters more because of the tight SODIMM connector and tight via's! So I had to choose one or the other so I chose simple SODIMM routing!
