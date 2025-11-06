@@ -1746,7 +1746,7 @@
 	)
 	(text "< GPIO0 is transmit only to save on IC's"
 		(exclude_from_sim no)
-		(at 260.35 117.094 0)
+		(at 262.382 117.094 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3264,95 +3264,7 @@
 		)
 		(uuid "fffbcb8a-70bc-4dbf-b053-95dfd0fa7cb5")
 	)
-	(global_label "UART-2_RX_1V8"
-		(shape input)
-		(at 154.94 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c39a515-a816-455d-90c5-e2fcbb0d0a5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3812 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAN_PWM_3V3"
-		(shape input)
-		(at 226.06 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d160620-3928-4493-8b4a-df9312139faa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.2636 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_RTS_3V3"
-		(shape input)
-		(at 226.06 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10552663-7ffe-4890-ba02-34d924f26189")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4688 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-1_RX_3V3"
-		(shape output)
-		(at 129.54 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1666b17b-5ed1-487a-988d-a437c78f3b07")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0988 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_CS0_1V8"
+	(global_label "SPI-0_CLK_1V8"
 		(shape output)
 		(at 58.42 96.52 180)
 		(fields_autoplaced yes)
@@ -3362,9 +3274,9 @@
 			)
 			(justify right)
 		)
-		(uuid "18e340a5-abdf-484b-af1c-e7d7a2ce94c3")
+		(uuid "02680f3d-5e4d-44df-a20e-b7d5e9485642")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.3417 96.52 0)
+			(at 40.4626 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,31 +3286,9 @@
 			)
 		)
 	)
-	(global_label "FAN_TACH_1V8"
-		(shape input)
-		(at 154.94 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23a11ffa-e787-42ab-b63f-d971c8118f46")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6275 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-1_TX_1V8"
+	(global_label "SPI-0_MOSI_1V8"
 		(shape output)
-		(at 200.66 96.52 180)
+		(at 58.42 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3406,9 +3296,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2b79c461-cf37-40f8-a93d-1b502789f859")
+		(uuid "08c366d3-79e4-4aae-8b85-113e0a5c6df4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5212 96.52 0)
+			(at 39.4345 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3418,139 +3308,7 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MISO_3V3"
-		(shape output)
-		(at 129.54 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2df12e20-409c-4625-8c3e-cce7aaa0c405")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5545 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-1_RTS_3V3"
-		(shape input)
-		(at 226.06 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "323e762d-b417-4d31-9397-61595fcb3ea1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.4688 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_RTS_1V8"
-		(shape output)
-		(at 200.66 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3508c265-0801-4199-a03d-245edd600c6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2512 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO0_1V8"
-		(shape output)
-		(at 200.66 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "353c60d9-3583-4742-9001-e3aeabe932c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.4197 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-1_TX_3V3"
-		(shape input)
-		(at 226.06 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "362f4aa1-ac6b-49ef-874f-f91882800491")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1988 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_CLK_1V8"
-		(shape output)
-		(at 58.42 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3fb6fbfc-8c93-4270-b868-67fb0736cac9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4626 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_CS0_3V3"
+	(global_label "SPI-1_MOSI_3V3"
 		(shape input)
 		(at 83.82 116.84 0)
 		(fields_autoplaced yes)
@@ -3560,9 +3318,9 @@
 			)
 			(justify left)
 		)
-		(uuid "465b2b3c-517a-4c7f-ab78-544b25e37f7e")
+		(uuid "0f67ac41-662d-4ceb-aaf5-f5f60393d09e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 116.84 0)
+			(at 102.8055 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,9 +3330,9 @@
 			)
 		)
 	)
-	(global_label "SPI-1_CLK_3V3"
+	(global_label "UART-1_RTS_3V3"
 		(shape input)
-		(at 83.82 111.76 0)
+		(at 226.06 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3582,9 +3340,53 @@
 			)
 			(justify left)
 		)
-		(uuid "46bb91df-aa4b-46bc-acc8-97fbce1115cf")
+		(uuid "16ccbd04-d950-4fa9-90f1-3d9fd53fe12c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7774 111.76 0)
+			(at 245.4688 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-0_MISO_3V3"
+		(shape output)
+		(at 129.54 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a7a30d7-8980-4aad-8a03-a9639b284128")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5545 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-0_RTS_3V3"
+		(shape input)
+		(at 226.06 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1bffc59c-02d7-467b-9c5a-139d48fb6ecb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.4688 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,6 +3398,50 @@
 	)
 	(global_label "UART-0_CTS_1V8"
 		(shape input)
+		(at 154.94 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24707c37-e900-49ed-a885-9aa7e9b18f81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.3488 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-2_TX_1V8"
+		(shape output)
+		(at 200.66 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29c36dda-37a9-4f1a-b989-de636db54a98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5212 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_CTS_1V8"
+		(shape input)
 		(at 154.94 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3604,9 +3450,273 @@
 			)
 			(justify left)
 		)
-		(uuid "49ad4fc4-edd4-4f7b-8e7b-dd2436d8a0f5")
+		(uuid "2b9f6dab-ed07-4b0d-b9c1-075b0497ed68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 174.3488 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_TACH_3V3"
+		(shape output)
+		(at 129.54 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "341f8b76-341d-44c3-a34f-e0f086923657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8525 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_MISO_3V3"
+		(shape output)
+		(at 129.54 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3696a0f4-8f2d-4101-bbf3-9f5b9509ef57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5545 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CS0_1V8"
+		(shape output)
+		(at 58.42 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3854c435-8323-4944-be7b-3470016137d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3417 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_TX_1V8"
+		(shape output)
+		(at 200.66 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a2d934a-627d-4039-b749-552142c7a050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.5212 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-0_CTS_3V3"
+		(shape output)
+		(at 129.54 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3c84896e-6a12-4574-9d19-55810125ec29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1312 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-0_RX_3V3"
+		(shape output)
+		(at 129.54 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "405cf36e-a542-4e9e-9786-fb051e90fa53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.0988 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM_1V8"
+		(shape output)
+		(at 200.66 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "437d79b4-9287-4077-be1b-6a6a28a7a3d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.4564 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CLK_3V3"
+		(shape input)
+		(at 83.82 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4391503f-eca6-444f-97b2-b3e52f2ea354")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.7774 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CLK_1V8"
+		(shape output)
+		(at 58.42 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bddb0d5-525d-402b-ab6f-fb0e99d283d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.4626 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-0_MOSI_3V3"
+		(shape input)
+		(at 83.82 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fd16e39-694f-4ec9-b423-813966410c99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.8055 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CS1_3V3"
+		(shape input)
+		(at 83.82 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51040e95-d18e-41a8-a236-703c2b34e261")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8983 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-2_TX_3V3"
+		(shape input)
+		(at 226.06 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bbbbe4b-6d87-4be9-b200-cf298cb847ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.1988 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3626,7 +3736,7 @@
 			)
 			(justify left)
 		)
-		(uuid "4d87cf2f-75be-4008-b466-6f405e8358e9")
+		(uuid "5cf25b62-3101-4598-8134-b0d7ae41f2c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.3812 106.68 0)
 			(effects
@@ -3638,7 +3748,51 @@
 			)
 		)
 	)
-	(global_label "SPI-0_MISO_1V8"
+	(global_label "SPI-0_CS0_3V3"
+		(shape input)
+		(at 83.82 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6585a045-d0d5-4d34-8f13-957f3d391755")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.7417 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0_1V8"
+		(shape output)
+		(at 200.66 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "66e0d29e-aecd-4b59-8bab-4a18efa5b696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.4197 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_TACH_1V8"
 		(shape input)
 		(at 154.94 86.36 0)
 		(fields_autoplaced yes)
@@ -3648,131 +3802,21 @@
 			)
 			(justify left)
 		)
-		(uuid "58d7cda2-deba-4b09-8a2c-eebd460bf705")
+		(uuid "6a2f91af-91f6-43f5-83a4-424fee87f4bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9255 86.36 0)
+			(at 171.6275 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_CS1_3V3"
-		(shape input)
-		(at 83.82 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5ce9bceb-557b-4aa2-bb5b-93cbb4ffc9f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_MOSI_3V3"
-		(shape input)
-		(at 83.82 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64c43a54-ea76-454f-aec8-19c5bae0c070")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8055 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_RX_1V8"
-		(shape input)
-		(at 154.94 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "704e57bd-9f3e-4132-8067-d53aca1c1c2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.3812 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO0_3V3"
-		(shape input)
-		(at 226.06 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7266acae-8bc3-4e1b-9f8e-6317cc28432a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.3003 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_MISO_3V3"
-		(shape output)
-		(at 129.54 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72f61e57-4fa8-4cc2-a6b5-eb92adc0ab24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5545 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "UART-1_RTS_1V8"
 		(shape output)
-		(at 200.66 101.6 180)
+		(at 200.66 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3780,9 +3824,9 @@
 			)
 			(justify right)
 		)
-		(uuid "735f8f4d-b189-44b8-8f20-f82fcc9f6ed9")
+		(uuid "70fd5aa7-3ba2-4a34-9e49-d26fa586c9a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2512 101.6 0)
+			(at 181.2512 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,9 +3836,9 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CLK_1V8"
+	(global_label "SPI-0_CS0_1V8"
 		(shape output)
-		(at 58.42 91.44 180)
+		(at 58.42 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3802,273 +3846,9 @@
 			)
 			(justify right)
 		)
-		(uuid "73697681-20f8-4511-b222-f991abe114e2")
+		(uuid "73dcbf64-6190-400a-8985-2e144d919285")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.4626 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_CS1_3V3"
-		(shape input)
-		(at 83.82 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d574122-662b-4004-903a-d91a42eb7393")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_MOSI_3V3"
-		(shape input)
-		(at 83.82 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ede4ae2-e7ad-4b81-bf67-c5b9790f60db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8055 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAN_PWM_1V8"
-		(shape output)
-		(at 200.66 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83f5587b-e266-42d6-afec-4f4db1a19437")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.4564 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_RX_3V3"
-		(shape output)
-		(at 129.54 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "866af156-e6ef-48f1-afbc-326eea6871fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0988 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_CLK_3V3"
-		(shape input)
-		(at 83.82 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9a57fb9f-ae52-4da6-b9c7-82a097d7b05c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.7774 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-1_CTS_1V8"
-		(shape input)
-		(at 154.94 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9c4b1e02-f5f3-4fdb-b94a-a7e7100038c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.3488 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-2_TX_3V3"
-		(shape input)
-		(at 226.06 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9cfa6670-c284-45c4-b240-c32cf622b5f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1988 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-0_MOSI_1V8"
-		(shape output)
-		(at 58.42 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f6a9526-152d-47f4-928f-7adb18c4595b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4345 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_CS0_1V8"
-		(shape output)
-		(at 58.42 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a38536f1-cf69-490c-bbb8-aafb6700e6ad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.3417 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_CS1_1V8"
-		(shape output)
-		(at 58.42 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a8dfc441-d3ff-4972-abf6-c1b0bf7d873a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.3417 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FAN_TACH_3V3"
-		(shape output)
-		(at 129.54 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1a6f7fc-044a-46e3-bd68-fd0eb087659c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.8525 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_CTS_3V3"
-		(shape output)
-		(at 129.54 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b93922e1-07e4-471e-87c5-b1b5d14548e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1312 101.6 0)
+			(at 40.3417 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4080,7 +3860,7 @@
 	)
 	(global_label "UART-0_TX_1V8"
 		(shape output)
-		(at 200.66 86.36 180)
+		(at 200.66 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4088,9 +3868,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c086dfa8-0eef-4d61-a7d7-9f50eb99f44c")
+		(uuid "851eb2e8-a8ef-429e-8d6b-6c590bed92e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5212 86.36 0)
+			(at 182.5212 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,31 +3880,9 @@
 			)
 		)
 	)
-	(global_label "SPI-1_MOSI_1V8"
-		(shape output)
-		(at 58.42 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0a005c9-c6b1-4bfe-9f63-25fe419d72b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4345 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI-1_MISO_1V8"
+	(global_label "UART-1_TX_3V3"
 		(shape input)
-		(at 154.94 91.44 0)
+		(at 226.06 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4132,9 +3890,9 @@
 			)
 			(justify left)
 		)
-		(uuid "cf3854ac-9811-4896-a5d5-efd25039ac79")
+		(uuid "891de10b-60dc-4792-be92-5e4f72a347f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.9255 91.44 0)
+			(at 244.1988 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,9 +3902,53 @@
 			)
 		)
 	)
-	(global_label "UART-1_CTS_3V3"
+	(global_label "UART-0_RX_1V8"
+		(shape input)
+		(at 154.94 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9173640c-201c-420c-9934-fba4770b8938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3812 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-0_TX_3V3"
+		(shape input)
+		(at 226.06 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "951d68dc-2101-4a88-bdc5-f8a81ee2b19a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.1988 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_RX_3V3"
 		(shape output)
-		(at 129.54 111.76 180)
+		(at 129.54 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4154,9 +3956,9 @@
 			)
 			(justify right)
 		)
-		(uuid "d711c319-d15b-4ec6-b7cb-d66f1685bd4c")
+		(uuid "9e3b617b-7553-4f14-9648-9cb09e5c36ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.1312 111.76 0)
+			(at 111.0988 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4166,9 +3968,31 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS0_3V3"
+	(global_label "UART-0_RTS_1V8"
+		(shape output)
+		(at 200.66 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5d36c7f-9999-4759-9d94-c3f62610629a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.2512 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO0_3V3"
 		(shape input)
-		(at 83.82 96.52 0)
+		(at 226.06 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4176,9 +4000,9 @@
 			)
 			(justify left)
 		)
-		(uuid "dba35995-81c3-43e2-9e19-e68aafe3a42f")
+		(uuid "a69e08a6-a7ed-4faf-84be-9a3ff8908893")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8983 96.52 0)
+			(at 239.3003 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4190,7 +4014,7 @@
 	)
 	(global_label "UART-2_RX_3V3"
 		(shape output)
-		(at 129.54 116.84 180)
+		(at 129.54 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4198,9 +4022,9 @@
 			)
 			(justify right)
 		)
-		(uuid "eccab676-64c5-4acb-9ea9-20290b109340")
+		(uuid "ad57b0e4-65d2-4e45-b857-1fcbfa667fe7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.0988 116.84 0)
+			(at 111.0988 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,31 +4034,9 @@
 			)
 		)
 	)
-	(global_label "SPI-0_CS1_1V8"
-		(shape output)
-		(at 58.42 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "edbc68c5-82e9-491e-9346-8ed6eb1c9778")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.3417 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART-0_TX_3V3"
+	(global_label "SPI-1_MISO_1V8"
 		(shape input)
-		(at 226.06 86.36 0)
+		(at 154.94 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4242,9 +4044,9 @@
 			)
 			(justify left)
 		)
-		(uuid "eef04b26-4d2e-4fb8-b57b-76cda2262dae")
+		(uuid "b25a48d7-4dea-48dd-b6fe-720d58f195cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.1988 86.36 0)
+			(at 173.9255 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,9 +4056,53 @@
 			)
 		)
 	)
-	(global_label "UART-2_TX_1V8"
+	(global_label "SPI-0_MISO_1V8"
+		(shape input)
+		(at 154.94 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2f4a1a2-433f-457b-9eb6-b968abe4af03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.9255 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-0_CS1_3V3"
+		(shape input)
+		(at 83.82 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b543683f-6a23-4bf6-bdd5-3ba5e8259eb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8983 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-0_CS1_1V8"
 		(shape output)
-		(at 200.66 106.68 180)
+		(at 58.42 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4264,9 +4110,163 @@
 			)
 			(justify right)
 		)
-		(uuid "f5d47e8c-6aeb-4603-a5bd-05d69ccf6855")
+		(uuid "b6f5256b-89ba-47a3-96f7-d82d71c27383")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.5212 106.68 0)
+			(at 40.3417 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-2_RX_1V8"
+		(shape input)
+		(at 154.94 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc0750c4-4863-4548-a6b1-8b06ad060f01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.3812 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_MOSI_1V8"
+		(shape output)
+		(at 58.42 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf89ea99-6b85-4cf5-b1a2-84b757f929aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.4345 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_PWM_3V3"
+		(shape input)
+		(at 226.06 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db7faf21-107c-47ef-9063-cc9882c3c6c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.2636 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CS0_3V3"
+		(shape input)
+		(at 83.82 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd9229c2-dcba-4285-b155-ab851707cf30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.8983 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-1_CS1_1V8"
+		(shape output)
+		(at 58.42 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e451839e-283a-448d-8fe3-de9a3f09977f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.3417 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI-0_CLK_3V3"
+		(shape input)
+		(at 83.82 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e87869a5-606c-403b-9d44-890c1d546257")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.7774 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART-1_CTS_3V3"
+		(shape output)
+		(at 129.54 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8fbe136-9898-4e0b-af04-b28f7e48fc0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.1312 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
