@@ -966,3 +966,11 @@ Now currently my mosfet logic isn't actually correct, all I need to do is level 
 ![[Pasted image 20251104195536.png]]
 
 This also free's up a GPIO that I was previously using which I can add to my board!
+
+And this one's actually wrong, it's supposed to be telling the CARRIER that it can shut down, but this is the opposite, it's the carrier telling the module! 
+
+My other mosfets were wrong too still, so I had to fix them all:
+
+![[Pasted image 20251105162544.png]]
+
+This took me quite a long time to figure out, but eventually I just realized that it's all just simple level shifting with pullups!
