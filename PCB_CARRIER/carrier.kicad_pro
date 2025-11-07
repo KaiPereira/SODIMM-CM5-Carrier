@@ -512,6 +512,15 @@
         "diff_pair_width": 0.109,
         "name": "CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1565
+      },
+      {
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.109,
+        "name": "GbE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
@@ -521,7 +530,7 @@
         "diff_pair_width": 0.109,
         "name": "HDMI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -529,7 +538,7 @@
         "diff_pair_width": 0.1494,
         "name": "PCIe",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       },
@@ -538,7 +547,7 @@
         "diff_pair_width": 0.1494,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2108
       },
@@ -547,7 +556,7 @@
         "diff_pair_width": 0.1295,
         "name": "USB2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1565
       }
