@@ -9493,6 +9493,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 209.55 90.5828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "PWR_Button"
 		(shape output)
@@ -9551,6 +9561,16 @@
 		(uuid "225ccce9-3223-4a30-a68c-8666888d5999")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.9038 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 138.43 90.5828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9713,6 +9733,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 209.55 100.7428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GBE_MDI1_N"
 		(shape bidirectional)
@@ -9727,6 +9757,16 @@
 		(uuid "36772356-e6fb-4e50-b4c1-9a73e1fc935a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.8433 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 138.43 93.1228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,6 +9929,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 209.55 93.1228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "GBE_MDI2_N"
 		(shape bidirectional)
@@ -9903,6 +9953,16 @@
 		(uuid "50c4d16e-5f21-4e22-b7d0-5bb16a5375c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.1367 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 209.55 98.2028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,6 +10191,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 138.43 98.2028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "nRPIBOOT"
 		(shape input)
@@ -10211,6 +10281,16 @@
 		(uuid "79619d47-d5c2-45ae-81cf-3997b367c709")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.935 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 209.55 105.8228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10747,6 +10827,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 138.43 100.7428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "MOD_SLEEP"
 		(shape output)
@@ -11003,6 +11093,16 @@
 		(uuid "f5909889-df79-451f-8d15-60faa23f667c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.0278 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 209.55 108.3628 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -626,6 +626,36 @@
       "CSI-1_D3_P": [
         "CSI"
       ],
+      "GBE_LED_ACT": [
+        "GbE"
+      ],
+      "GBE_LED_LINK": [
+        "GbE"
+      ],
+      "GBE_MDI0_N": [
+        "GbE"
+      ],
+      "GBE_MDI0_P": [
+        "GbE"
+      ],
+      "GBE_MDI1_N": [
+        "GbE"
+      ],
+      "GBE_MDI1_P": [
+        "GbE"
+      ],
+      "GBE_MDI2_N": [
+        "GbE"
+      ],
+      "GBE_MDI2_P": [
+        "GbE"
+      ],
+      "GBE_MDI3_N": [
+        "GbE"
+      ],
+      "GBE_MDI3_P": [
+        "GbE"
+      ],
       "HDMI-0_CLK_N": [
         "HDMI"
       ],

@@ -8787,6 +8787,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 195.58 157.8928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "MOD_SLEEP"
 		(shape input)
@@ -8921,6 +8931,16 @@
 		(uuid "45077e60-ad10-4bde-bd85-a8505a9463b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.5562 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 113.03 187.1028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,6 +9855,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 113.03 189.6428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB3-1-TX_P"
 		(shape input)
@@ -9881,6 +9911,16 @@
 		(uuid "9af96c5c-a118-41ff-8eba-9b0ce0d9e167")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.5238 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 113.03 197.2628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,6 +10105,16 @@
 		(uuid "ac1d60f1-9057-4d9d-8018-ae2f74f40ce5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 211.1062 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 195.58 160.4328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,6 +10403,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 113.03 199.8028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SLEEP{slash}WAKE"
 		(shape bidirectional)
@@ -10569,6 +10629,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 113.03 192.1828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SPI-0_MISO_1V8"
 		(shape output)
@@ -10605,6 +10675,16 @@
 		(uuid "de4b1f39-affc-4a15-b989-c0b137ac67c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.5562 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 113.03 194.7228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10765,6 +10845,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "GbE"
+			(at 113.03 202.3428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "dCSI-1_D0_P"
 		(shape output)
@@ -10865,6 +10955,16 @@
 		(uuid "ef3bffed-0ca7-4e03-9d2f-56e0206d4297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.6167 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "GbE"
+			(at 113.03 184.5628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
