@@ -980,3 +980,19 @@ Next I needed to re-wired my level shifters to have more organized routing!
 ![Pasted image 20251105173509.png](journal/Pasted%20image%2020251105173509.png)
 
 Initially I moved the pins to make the routing INTO the connector more simple, but I realized the pin OUT matters more because of the tight SODIMM connector and tight via's! So I had to choose one or the other so I chose simple SODIMM routing!
+
+And now, I'm honestly going to teleport to finishing the routing for my low-speeds because there's not too much to talk about here:
+
+![[Pasted image 20251107173801.png]]
+
+So let's explain about my thought process here:
+- Keep the top/bottom layer away from the high speeds as much as possible
+- Prioritize orange, use green next, this gives me lots of room to route
+- SPI should be separated the most from these signals, this is because it's mid-frequency, and the noise can affect it.
+- GbE is routed with the 3W rule (I have yet to impedance match it though)
+- Lots of via's, it keeps the board really clean and it's fine for the low speeds
+- Focus on the far signals last, these will be harder to route but it's fine
+- Leave enough room at the top for all the SD card signals
+
+And there's a bunch of other minor stuff, but that's the majority of it
+
