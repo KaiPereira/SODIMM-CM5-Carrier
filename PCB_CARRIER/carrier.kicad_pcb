@@ -3955,7 +3955,7 @@
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at -0.0075 0 0)
+			(at -1.4675 -0.73 0)
 			(layer "B.SilkS")
 			(uuid "2b775dcd-609b-408f-8d43-5fe1b32d8283")
 			(effects
@@ -21814,7 +21814,7 @@
 		(at 146.93 92.98)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "MOD_SLEEP"
+		(property "Reference" "MOD SLEEP"
 			(at -0.01 -1.47 0)
 			(layer "F.SilkS")
 			(uuid "1089e42e-158a-4123-9961-22f86727a935")
@@ -26938,6 +26938,18 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "kaipereira.com"
+		(at 101.01 82.53 270)
+		(layer "F.SilkS")
+		(uuid "ee4e4d4d-4dae-452c-b52d-38f5e0a66e33")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
