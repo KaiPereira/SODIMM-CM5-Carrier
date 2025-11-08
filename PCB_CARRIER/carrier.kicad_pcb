@@ -1896,15 +1896,16 @@
 		(at 165.1 59.8)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D1"
-			(at 0 -1.43 0)
-			(layer "F.SilkS")
+		(property "Reference" "Activity"
+			(at 0.26 -0.07 180)
+			(layer "B.SilkS")
 			(uuid "e832beb7-955e-4c24-b1fc-b2ac7779b302")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Green"
@@ -3531,14 +3532,15 @@
 		(descr "SMD 4x-dip-switch SPST Copal_CHS-04B, Slide, row spacing 7.62 mm (300 mils), body size  (see http://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf), SMD")
 		(tags "SMD DIP Switch SPST Slide 7.62mm 300mil SMD")
 		(property "Reference" "SW1"
-			(at 0 -4.235 90)
-			(layer "F.SilkS")
+			(at 0.01 0.05 0)
+			(layer "B.SilkS")
 			(uuid "94cef175-a677-4a18-b320-fd791730b7c3")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "SW_DIP_x04"
@@ -3954,14 +3956,15 @@
 		(descr "TSOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U4"
-			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(at -0.0075 0 0)
+			(layer "B.SilkS")
 			(uuid "2b775dcd-609b-408f-8d43-5fe1b32d8283")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "RT9742GGJ5"
@@ -4507,14 +4510,15 @@
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q4"
-			(at -0.05 -2.25 90)
-			(layer "F.SilkS")
+			(at 0.01 -0.0125 0)
+			(layer "B.SilkS")
 			(uuid "1b70c513-1349-4d10-9aba-cf72d9d83825")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BC817-40"
@@ -5000,14 +5004,15 @@
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(at 0.015 0.0175 0)
+			(layer "B.SilkS")
 			(uuid "11af12fb-6f97-43df-9af2-a0b9ebdb3388")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BSS138"
@@ -12826,14 +12831,15 @@
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(at 0.0125 0 0)
+			(layer "B.SilkS")
 			(uuid "9d7f84b2-8305-4de2-8c72-83fdcaa2b58f")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BSS138"
@@ -15303,14 +15309,15 @@
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q5"
-			(at 0 -2.4 90)
-			(layer "F.SilkS")
+			(at 0.005 0 0)
+			(layer "B.SilkS")
 			(uuid "438e6ef4-8808-48cd-9c32-e0dcd4c0d79d")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "BSS138"
@@ -16474,14 +16481,15 @@
 		(descr "Micro SD, SMD, right-angle, push-pull (https://www.hirose.com/product/en/download_file/key_name/DM3AT-SF-PEJM5/category/Drawing%20(2D)/doc_file_id/44099/?file_category_id=6&item_id=06090031000&is_series=)")
 		(tags "Micro SD")
 		(property "Reference" "J2"
-			(at -0.075 -9.525 90)
-			(layer "F.SilkS")
+			(at 0.005 -0.055 180)
+			(layer "B.SilkS")
 			(uuid "257fdd25-2be2-4bb3-a2ac-7c3942d422a4")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Micro_SD_Card_Det2"
@@ -20902,14 +20910,14 @@
 		(at 156.37 88.19)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP1"
+		(property "Reference" "VBAT"
 			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "4800a93c-3ad2-45cb-8646-8e7c61f113ad")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -21805,14 +21813,14 @@
 		(at 146.93 92.98)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
-		(property "Reference" "TP2"
-			(at 0 -1.448 0)
+		(property "Reference" "MOD_SLEEP"
+			(at -0.01 -1.47 0)
 			(layer "F.SilkS")
 			(uuid "1089e42e-158a-4123-9961-22f86727a935")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -23308,15 +23316,16 @@
 		(at 165.1 57.8)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D2"
-			(at 0 -1.43 0)
-			(layer "F.SilkS")
+		(property "Reference" "Power"
+			(at -0.14 -0.02 180)
+			(layer "B.SilkS")
 			(uuid "c0b3e9fb-aefb-4e14-9f87-e084ef7246f8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "Yellow"
@@ -26886,6 +26895,54 @@
 		(layer "Edge.Cuts")
 		(uuid "ff190513-4a53-4409-b07a-f5e617c988fa")
 	)
+	(gr_text "RPI Boot\n"
+		(at 104.55 59.48 90)
+		(layer "F.SilkS")
+		(uuid "09b09a20-0756-4ea9-81ed-a38e7cb8dce4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Reset"
+		(at 105.84 59.43 90)
+		(layer "F.SilkS")
+		(uuid "3309f250-3ed1-4391-b452-abd8c5a3acfd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Hard off"
+		(at 101.98 59.52 90)
+		(layer "F.SilkS")
+		(uuid "6a0bb702-c588-4005-912e-460aca41d14c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Soft off"
+		(at 103.2 59.49 90)
+		(layer "F.SilkS")
+		(uuid "6e10de31-5907-4c17-94af-c2697128b125")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RPi CM4\nCarrier Template"
 		(locked yes)
 		(at 134.737501 75.005025 90)
@@ -26895,6 +26952,18 @@
 			(font
 				(size 2 2)
 				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Car Shut Req"
+		(at 165.35 80.3 0)
+		(layer "B.SilkS")
+		(uuid "31d7d505-c3fc-4600-9131-d6d5b30bffcc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify mirror)
 		)
@@ -26920,6 +26989,30 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Mod Shut Req"
+		(at 157.04 80.33 0)
+		(layer "B.SilkS")
+		(uuid "cb4891f5-2249-4288-9aa8-ca09f7f938d1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "Reset"
+		(at 161.23 80.33 0)
+		(layer "B.SilkS")
+		(uuid "fb453df4-028b-4552-a39a-e8b2e7d051c1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify mirror)
 		)
