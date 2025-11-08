@@ -994,5 +994,17 @@ So let's explain about my thought process here:
 - Focus on the far signals last, these will be harder to route but it's fine
 - Leave enough room at the top for all the SD card signals
 
-And there's a bunch of other minor stuff, but that's the majority of it
+And there's a bunch of other minor stuff, but that's the majority of it.
+
+Now I also decided to add dampening resistors to SPI, because it's travelling really far, and it's mid-frequency so I want to make sure my signal integrity is okay!
+
+![[Pasted image 20251107174146.png]]
+
+![[Pasted image 20251107174214.png]]
+
+And here's the rest of my board now:
+
+![[Pasted image 20251107174237.png]]
+
+
 
