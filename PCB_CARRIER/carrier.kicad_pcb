@@ -1897,15 +1897,14 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "Activity"
-			(at 0.26 -0.07 180)
-			(layer "B.SilkS")
+			(at 2.83 0.01 0)
+			(layer "F.SilkS")
 			(uuid "e832beb7-955e-4c24-b1fc-b2ac7779b302")
 			(effects
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "Green"
@@ -6339,8 +6338,9 @@
 		(descr "TSSOP, 24 Pin (JEDEC MO-153 Var CA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U1"
-			(at -0.04 0 0)
+			(at 2.86 -0.01 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "ba6ed36a-b874-467c-99c5-9e89f2092b41")
 			(effects
 				(font
@@ -13965,8 +13965,9 @@
 		(descr "TSSOP, 24 Pin (JEDEC MO-153 Var CA https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSSOP SO")
 		(property "Reference" "U2"
-			(at 0.03 -0.01 0)
+			(at 2.72 -0.01 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "fd45a111-e866-4174-a259-1971bb8c5826")
 			(effects
 				(font
@@ -23317,15 +23318,14 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "Power"
-			(at -0.14 -0.02 180)
-			(layer "B.SilkS")
+			(at 2.6 -0.02 0)
+			(layer "F.SilkS")
 			(uuid "c0b3e9fb-aefb-4e14-9f87-e084ef7246f8")
 			(effects
 				(font
 					(size 0.5 0.5)
 					(thickness 0.125)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Value" "Yellow"
@@ -24147,7 +24147,6 @@
 		)
 	)
 	(footprint "CM4IO:Raspberry-Pi-4-Compute-Module"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "f2e17c68-23bb-4713-8530-c3d1ed0928ed")
 		(at 110.712501 58.500025 -90)
@@ -26943,9 +26942,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RPi CM4\nCarrier Template"
-		(locked yes)
-		(at 134.737501 75.005025 90)
+	(gr_text "RPi CM5\nSO-DIMM Carrier"
+		(at 134.73 73.21 0)
 		(layer "B.SilkS")
 		(uuid "110672d7-ff4b-4a32-a4bd-52ee5afc6c79")
 		(effects
@@ -26957,7 +26955,7 @@
 		)
 	)
 	(gr_text "Car Shut Req"
-		(at 165.35 80.3 0)
+		(at 165.22 80.31 0)
 		(layer "B.SilkS")
 		(uuid "31d7d505-c3fc-4600-9131-d6d5b30bffcc")
 		(effects
@@ -26968,23 +26966,34 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "v01"
-		(locked yes)
-		(at 108.237501 63.005025 90)
+	(gr_text "@KaiPereira GH"
+		(at 150 83.22 0)
 		(layer "B.SilkS")
-		(uuid "adbff8d5-8316-4868-8231-932035d9f8a3")
+		(uuid "6b131337-1f7b-4ce2-8628-0e1a7bd11a23")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
+			(justify left bottom mirror)
 		)
 	)
-	(gr_text "U3"
-		(at 137.34 69.05 0)
+	(gr_text "kaipereira.com"
+		(at 131.9 83.19 0)
 		(layer "B.SilkS")
-		(uuid "b6c1369a-5ec5-421c-beb7-bd05c8969368")
+		(uuid "9b14e0be-aa5c-4c53-89dd-44c2370098f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "v01"
+		(at 135.19 68.57 0)
+		(layer "B.SilkS")
+		(uuid "adbff8d5-8316-4868-8231-932035d9f8a3")
 		(effects
 			(font
 				(size 1 1)
@@ -27005,8 +27014,20 @@
 			(justify mirror)
 		)
 	)
+	(gr_text "Jetson Compatible!"
+		(at 135.242499 78.344975 0)
+		(layer "B.SilkS")
+		(uuid "d77462c8-9769-477a-a38f-fd81fc33681b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "Reset"
-		(at 161.23 80.33 0)
+		(at 161.19 83.4 0)
 		(layer "B.SilkS")
 		(uuid "fb453df4-028b-4552-a39a-e8b2e7d051c1")
 		(effects
@@ -27030,7 +27051,6 @@
 		)
 	)
 	(gr_text "Wireless\nKeepout"
-		(locked yes)
 		(at 110.487501 71.005025 90)
 		(layer "Dwgs.User")
 		(uuid "88f63287-1cd8-4975-96ed-4d96b1d9cd52")
@@ -60270,7 +60290,6 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(locked yes)
 		(layers "F.Cu" "B.Cu")
 		(uuid "08dab3c7-d912-490a-bc27-76df6c603dc4")
 		(name "Wireless Keepout")
@@ -64702,10 +64721,9 @@
 	)
 	(group ""
 		(uuid "f66c76b9-93a3-4269-853c-ce7a13832aed")
-		(locked yes)
 		(members "08dab3c7-d912-490a-bc27-76df6c603dc4" "110672d7-ff4b-4a32-a4bd-52ee5afc6c79"
 			"88f63287-1cd8-4975-96ed-4d96b1d9cd52" "adbff8d5-8316-4868-8231-932035d9f8a3"
-			"f2e17c68-23bb-4713-8530-c3d1ed0928ed"
+			"d77462c8-9769-477a-a38f-fd81fc33681b" "f2e17c68-23bb-4713-8530-c3d1ed0928ed"
 		)
 	)
 	(generated
