@@ -925,7 +925,7 @@ Stuff to look at:
 - Checking each separate layer in detail to make sure there's not too much cross-talk
 - Maybe don't share return via's for HDMI and some other pairs, this could give ground looping or cross-talk issues, and it's proper a higher impedance path...
 
-## Day 18 - Refining and working on low-speeds
+## Day 18 - Refining and working on low-speeds - 15 Hours
 
 Deep down I was a bit unhappy with my routing yesterday, so today I wanted to fix all of that and reduce all the cross-talk on my board!
 
@@ -1006,5 +1006,22 @@ And here's the rest of my board now:
 
 ![[Pasted image 20251107174237.png]]
 
+## Day 19 - Routing power and ground!
 
+Next up I have to route power. Now I already did route a bit of power in the last screenshot, but it's fine and I'll explain it here.
 
+So I want to have a really low impedance return path, so I have lots of via's for my grounding:
+
+![[Pasted image 20251107174517.png]]
+
+And then I want my power to by efficient handles so I just did another via matrix connected with traces that's put on both sides and has a little fill!
+
+![[Pasted image 20251107174603.png]]
+
+And then I routed out my power across the board:
+
+![[Pasted image 20251107174922.png]]
+
+The input power to the CM5 through the mezzanine connector is a bit different though, all my decoupling caps and mezzanine pins just have a fill connecting it all like so, which just makes it easy to route:
+
+![[Pasted image 20251107175007.png]]
