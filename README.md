@@ -1,5 +1,5 @@
-# 8-Node ITX Cluster Board
+# SODIMM CM5 Carrier
 
-I'm working on an 8-node ITX cluster board with support for the NVIDIA Jetson compute module, turing RK1, and CM5/CM4.
+<img width="2487" height="1404" alt="image" src="https://github.com/user-attachments/assets/20c7fc94-a71c-4298-a040-105470a12b82" />
 
-I'm also making custom daughter boards for the CM4/CM5 that support NVMe SSD, and a bunch of other stuff, with SODIMM pinout compatibility with many of the NVIDIA Jetson models
+This SODIMM card essentially let's you turn a CM5 into a NVIDIA Jetson card, turing RK1, and other compatible SODIMM standards! It's going to be used for my future server clutser motherboard!
