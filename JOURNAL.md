@@ -983,7 +983,7 @@ Initially I moved the pins to make the routing INTO the connector more simple, b
 
 And now, I'm honestly going to teleport to finishing the routing for my low-speeds because there's not too much to talk about here:
 
-![[Pasted image 20251107173801.png]]
+![Pasted image 20251107173801.png](journal/Pasted%20image%2020251107173801.png)
 
 So let's explain about my thought process here:
 - Keep the top/bottom layer away from the high speeds as much as possible
@@ -998,13 +998,13 @@ And there's a bunch of other minor stuff, but that's the majority of it.
 
 Now I also decided to add dampening resistors to SPI, because it's travelling really far, and it's mid-frequency so I want to make sure my signal integrity is okay!
 
-![[Pasted image 20251107174146.png]]
+![Pasted image 20251107174146.png](journal/Pasted%20image%2020251107174146.png)
 
-![[Pasted image 20251107174214.png]]
+![Pasted image 20251107174214.png](journal/Pasted%20image%2020251107174214.png)
 
 And here's the rest of my board now:
 
-![[Pasted image 20251107174237.png]]
+![Pasted image 20251107174237.png](journal/Pasted%20image%2020251107174237.png)
 
 ## Day 19 - Routing power and ground!
 
@@ -1012,16 +1012,16 @@ Next up I have to route power. Now I already did route a bit of power in the las
 
 So I want to have a really low impedance return path, so I have lots of via's for my grounding:
 
-![[Pasted image 20251107174517.png]]
+![Pasted image 20251107174517.png](journal/Pasted%20image%2020251107174517.png)
 
 And then I want my power to by efficient handles so I just did another via matrix connected with traces that's put on both sides and has a little fill!
 
-![[Pasted image 20251107174603.png]]
+![Pasted image 20251107174603.png](journal/Pasted%20image%2020251107174603.png)
 
 And then I routed out my power across the board:
 
-![[Pasted image 20251107174922.png]]
+![Pasted image 20251107174922.png](journal/Pasted%20image%2020251107174922.png)
 
 The input power to the CM5 through the mezzanine connector is a bit different though, all my decoupling caps and mezzanine pins just have a fill connecting it all like so, which just makes it easy to route:
 
-![[Pasted image 20251107175007.png]]
+![Pasted image 20251107175007.png](journal/Pasted%20image%2020251107175007.png)
