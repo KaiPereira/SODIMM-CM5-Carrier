@@ -1,6 +1,6 @@
 # CM5 SO-DIMM Carrier
 
-<img width="2487" height="1404" alt="image" src="https://github.com/user-attachments/assets/20c7fc94-a71c-4298-a040-105470a12b82" />
+<img width="2483" height="1403" alt="image" src="https://github.com/user-attachments/assets/0496ab93-4c95-473c-82a0-89bfa811d03a" />
 
 This SO-DIMM card essentially let's you turn a CM5 into a NVIDIA Jetson card, turing RK1, and other compatible SO-DIMM standards! It's going to be used for my future server clutser motherboard!
 ## Custom Features!
@@ -17,6 +17,8 @@ This SO-DIMM card essentially let's you turn a CM5 into a NVIDIA Jetson card, tu
 
 The CM5 SO-DIMM carrier is a complex 6-layer PCB, with the stackup HIGH-SPEED/GND/SIGNAL/SIGNAL/GND/HIGH-SPEED, with power running along the top layer!
 
-<img width="2482" height="1404" alt="image" src="https://github.com/user-attachments/assets/52a0dbcf-237a-4563-a2ce-a4cc14e04d36" />
+<img width="2485" height="1404" alt="image" src="https://github.com/user-attachments/assets/6665e5a2-3051-45e6-bf47-429893f11384" />
+
+<img width="2482" height="1403" alt="image" src="https://github.com/user-attachments/assets/697af6de-3f7a-4227-bc32-bcdb3215ecbc" />
 
 
