@@ -1060,3 +1060,12 @@ I like to follow the format of:
 - PCB Design (stackup/schematic)
 
 And then add in BOM/Credits/License as you wish!
+
+## Day 20 - Production!
+
+Now that I've finished pretty much creating my board and adding a README and such, it's time to get this thing actually made!
+
+I like to use the KiCad Fabrication Toolkit to do so, and it makes it really easy to generate the gerbers, CPL, BOM, etc.
+
+![[Pasted image 20251109111531.png]]
+
