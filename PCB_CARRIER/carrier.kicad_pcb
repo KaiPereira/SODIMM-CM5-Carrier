@@ -26444,6 +26444,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "/home/kai/Downloads/RP-007222-DD-2-rpi-cm5 3D_STEP/CM5R5-3dsteps.step"
+			(offset
+				(xyz 36.5 -3.5 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
