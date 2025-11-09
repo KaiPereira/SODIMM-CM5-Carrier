@@ -1006,7 +1006,7 @@ And here's the rest of my board now:
 
 ![Pasted image 20251107174237.png](journal/Pasted%20image%2020251107174237.png)
 
-## Day 19 - Routing power and ground!
+## Day 19 - Routing power, ground and finishing touches! - 6 Hours
 
 Next up I have to route power. Now I already did route a bit of power in the last screenshot, but it's fine and I'll explain it here.
 
@@ -1025,3 +1025,18 @@ And then I routed out my power across the board:
 The input power to the CM5 through the mezzanine connector is a bit different though, all my decoupling caps and mezzanine pins just have a fill connecting it all like so, which just makes it easy to route:
 
 ![Pasted image 20251107175007.png](journal/Pasted%20image%2020251107175007.png)
+
+
+And now I'm going to do a bit of teleportation to the future, and show the finished routing for my board!
+
+![[Pasted image 20251109110528.png]]
+
+In this screenshot, I also cleaned up all of the silkscreen. My thought process for the power was to just keep it away from components, but also stick to rails of power that are easy to distribute across the board!
+
+I also did a lot of small tweaks like adding return via's all along the bottom, you can't put these too close to ultra high speeds like PCIe or USB 3.0 though, but it'll give them low inductance return paths!
+
+![[Pasted image 20251109110659.png]]
+
+I also labelled a lot of the important stuff with silkscreen like buttons, each specific mosfet, LED's, etc.
+
+I still want to clean up the traces a bit more though, but it's in a finished phase!
