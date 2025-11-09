@@ -1029,13 +1029,13 @@ The input power to the CM5 through the mezzanine connector is a bit different th
 
 And now I'm going to do a bit of teleportation to the future, and show the finished routing for my board!
 
-![[Pasted image 20251109110528.png]]
+![Pasted image 20251109110528.png](journal/Pasted%20image%2020251109110528.png)
 
 In this screenshot, I also cleaned up all of the silkscreen. My thought process for the power was to just keep it away from components, but also stick to rails of power that are easy to distribute across the board!
 
 I also did a lot of small tweaks like adding return via's all along the bottom, you can't put these too close to ultra high speeds like PCIe or USB 3.0 though, but it'll give them low inductance return paths!
 
-![[Pasted image 20251109110659.png]]
+![Pasted image 20251109110659.png](journal/Pasted%20image%2020251109110659.png)
 
 I also labelled a lot of the important stuff with silkscreen like buttons, each specific mosfet, LED's, etc.
 
@@ -1043,15 +1043,15 @@ I still want to clean up the traces a bit more though, but it's in a finished ph
 
 Next I needed to add in the 3D models for some of the missing components! Convenient this is just the high density mezzanine connector, and the CM5 missing, so I added those in real quick:
 
-![[Pasted image 20251109110907.png]]
+![Pasted image 20251109110907.png](journal/Pasted%20image%2020251109110907.png)
 
-![[Pasted image 20251109110912.png]]
+![Pasted image 20251109110912.png](journal/Pasted%20image%2020251109110912.png)
 
 You can do this by going to the footprint editor and adding a 3D model to the footprint, or just by double clicking it and just quickly adding one which is what I did, because I'm lazy!
 
 To polish things up, I then added a very nice REAMDE (GO THE REPO STAR IT IF YOU'RE SOMEHOW READING THIS):
 
-![[Pasted image 20251109111051.png]]
+![Pasted image 20251109111051.png](journal/Pasted%20image%2020251109111051.png)
 
 I like to follow the format of:
 - Hero Image
@@ -1067,5 +1067,5 @@ Now that I've finished pretty much creating my board and adding a README and suc
 
 I like to use the KiCad Fabrication Toolkit to do so, and it makes it really easy to generate the gerbers, CPL, BOM, etc.
 
-![[Pasted image 20251109111531.png]]
+![Pasted image 20251109111531.png](journal/Pasted%20image%2020251109111531.png)
 
