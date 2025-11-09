@@ -26413,13 +26413,35 @@
 		)
 		(model "./CM4IO.3dshapes/DF40C-100DS.stp"
 			(offset
-				(xyz 33.46 15.38 0)
+				(xyz 27.96 14.88 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 0 0)
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "/home/kai/Downloads/DF40HC(3.0)-100DS-0.4V(51_CL0684-4151-0-51_3DDrawing_STEP_0001218445S/DF40HC(3.0)-100DS-0.4V.stp"
+			(offset
+				(xyz -0.5 21.6 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -180)
+			)
+		)
+		(model "/home/kai/Downloads/DF40HC(3.0)-100DS-0.4V(51_CL0684-4151-0-51_3DDrawing_STEP_0001218445S/DF40HC(3.0)-100DS-0.4V.stp"
+			(offset
+				(xyz 33.5 21.37 1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
