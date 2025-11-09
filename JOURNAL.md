@@ -1040,3 +1040,23 @@ I also did a lot of small tweaks like adding return via's all along the bottom, 
 I also labelled a lot of the important stuff with silkscreen like buttons, each specific mosfet, LED's, etc.
 
 I still want to clean up the traces a bit more though, but it's in a finished phase!
+
+Next I needed to add in the 3D models for some of the missing components! Convenient this is just the high density mezzanine connector, and the CM5 missing, so I added those in real quick:
+
+![[Pasted image 20251109110907.png]]
+
+![[Pasted image 20251109110912.png]]
+
+You can do this by going to the footprint editor and adding a 3D model to the footprint, or just by double clicking it and just quickly adding one which is what I did, because I'm lazy!
+
+To polish things up, I then added a very nice REAMDE (GO THE REPO STAR IT IF YOU'RE SOMEHOW READING THIS):
+
+![[Pasted image 20251109111051.png]]
+
+I like to follow the format of:
+- Hero Image
+- Short description
+- Custom Features (bullet list)
+- PCB Design (stackup/schematic)
+
+And then add in BOM/Credits/License as you wish!
