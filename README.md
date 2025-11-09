@@ -19,6 +19,9 @@ The CM5 SO-DIMM carrier is a complex 6-layer PCB, with the stackup HIGH-SPEED/GN
 
 <img width="2485" height="1404" alt="image" src="https://github.com/user-attachments/assets/6665e5a2-3051-45e6-bf47-429893f11384" />
 
+<img width="2484" height="1406" alt="image" src="https://github.com/user-attachments/assets/bee8f6b3-7bef-487d-8a45-68f6dfe98c84" />
+
 <img width="2482" height="1403" alt="image" src="https://github.com/user-attachments/assets/697af6de-3f7a-4227-bc32-bcdb3215ecbc" />
+
 
 
