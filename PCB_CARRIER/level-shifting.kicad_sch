@@ -1746,7 +1746,7 @@
 	)
 	(text "< GPIO0 is transmit only to save on IC's"
 		(exclude_from_sim no)
-		(at 262.382 117.094 0)
+		(at 260.604 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
