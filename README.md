@@ -15,7 +15,7 @@ This SO-DIMM card essentially let's you turn a CM5 into a NVIDIA Jetson card, tu
 
 ## PCB Design
 
-The CM5 SO-DIMM carrier is a complex 6-layer PCB, with the stackup HIGH-SPEED/GND/SIGNAL/SIGNAL/GND/HIGH-SPEED, with power running along the top layer! You can easily access the schematic [here](https://github.com/KaiPereira/CM5-SODIMM-Carrier/blob/master/PCB_CARRIER/carrier.pdf)!
+The CM5 SO-DIMM carrier is a complex 6-layer PCB, with the stackup HIGH-SPEED/GND/SIGNAL/SIGNAL/GND/HIGH-SPEED, with power running along the top layer! You can easily access the [schematic](https://github.com/KaiPereira/CM5-SODIMM-Carrier/blob/master/PCB_CARRIER/SCHEMATIC.pdf), [PCB layers](https://github.com/KaiPereira/CM5-SODIMM-Carrier/blob/master/PCB_CARRIER/PCB.pdf) and [whole PCB](https://github.com/KaiPereira/CM5-SODIMM-Carrier/blob/master/PCB_CARRIER/PCB_WHOLE.pdf) PDF's!
 
 <img width="2485" height="1404" alt="image" src="https://github.com/user-attachments/assets/6665e5a2-3051-45e6-bf47-429893f11384" />
 
