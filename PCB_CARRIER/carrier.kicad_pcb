@@ -1708,7 +1708,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "330Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "e8cbcd9f-16e1-41df-b5f4-95edc24ed0cc")
