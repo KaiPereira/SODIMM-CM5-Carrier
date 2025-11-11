@@ -1069,3 +1069,16 @@ I like to use the KiCad Fabrication Toolkit to do so, and it makes it really eas
 
 ![Pasted image 20251109111531.png](journal/Pasted%20image%2020251109111531.png)
 
+The next thing I did is submit my PCB for review. I usually like to get reviews from 3 places, Discord (KiCad discord server), Reddit (r/PrintedCircuitBoard), and the HackClub slack even though they're not as qualified, they can help me catch some dumb mistakes!
+
+The only suggestions I got from Discord were about if the CM5 would fit with the SD card and the level shifters on the front so I'll need to double check that.
+
+But before I do that, I want to do what Reddit suggested me! I got some really good suggestions from u/Ove-ry:
+
+![[Pasted image 20251110170628.png]]
+
+So basically:
+- I'll want to check my anti-pad with a 2.5D field solver to see if I can get my reference plane a bit more clean, reducing parasitic capacitance and improving impedance control
+- Also use a field solver to check if voiding the pads underneath the SODIMM/mezzanine connector are worth it
+- Working a bit on organizing my layout, though I personally feel like it's pretty good, there's always improvements!
+- Checking the GND plane 0mm clearance, no clue what this means, though I remember doing it, so I definitely need to check this!

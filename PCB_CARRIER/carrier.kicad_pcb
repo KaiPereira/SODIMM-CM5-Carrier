@@ -26445,6 +26445,7 @@
 			)
 		)
 		(model "/home/kai/Downloads/RP-007222-DD-2-rpi-cm5 3D_STEP/CM5R5-3dsteps.step"
+			(hide yes)
 			(offset
 				(xyz 36.5 -3.5 3)
 			)
