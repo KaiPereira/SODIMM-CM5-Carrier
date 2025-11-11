@@ -1075,7 +1075,7 @@ The only suggestions I got from Discord were about if the CM5 would fit with the
 
 But before I do that, I want to do what Reddit suggested me! I got some really good suggestions from u/Ove-ry:
 
-![[Pasted image 20251110170628.png]]
+![Pasted image 20251110170628.png](journal/Pasted%20image%2020251110170628.png)
 
 So basically:
 - I'll want to check my anti-pad with a 2.5D field solver to see if I can get my reference plane a bit more clean, reducing parasitic capacitance and improving impedance control
@@ -1089,7 +1089,7 @@ The next thing I checked is my layout, all the suggestions were decent, but I di
 
 After that I checked the anti-pad with a 2.5D field solver. I wanted to use Saturn PCB but I'm on Linux, so I booted up an old windows device to do it and did the simulations:
 
-![[Pasted image 20251111100338.png]]
+![Pasted image 20251111100338.png](journal/Pasted%20image%2020251111100338.png)
 
 So let's explain what's happening here:
 - The via hole is the size of my via hole
@@ -1100,6 +1100,6 @@ So let's explain what's happening here:
 
 The main thing we're looking at here, is the resonant frequency. PCIe has a frequency of 4 GHz, so if our via is oscillating at 4 GHz too, it can cause severe signal integrity issues. 6.6 GHz of resonant frequency is acceptable, but I personally should've calculated this beforehand, because 8 GHz, or a ref plane of 40 mils, would've probably been a bit more optimal. But I think it works out nicely because my return via's have a perfect reference plane underneath of them:
 
-![[Pasted image 20251111100734.png]]
+![Pasted image 20251111100734.png](journal/Pasted%20image%2020251111100734.png)
 
 In the future I'll calculate this beforehand, but it should be fine for our use case!
