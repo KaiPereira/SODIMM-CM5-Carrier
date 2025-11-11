@@ -1082,3 +1082,24 @@ So basically:
 - Also use a field solver to check if voiding the pads underneath the SODIMM/mezzanine connector are worth it
 - Working a bit on organizing my layout, though I personally feel like it's pretty good, there's always improvements!
 - Checking the GND plane 0mm clearance, no clue what this means, though I remember doing it, so I definitely need to check this!
+
+So the first thing I check was the GND plane 0mm clearance! This is totally acceptable because I specify my clearance in my design rules constraints, though it's not best practice but it's fine.
+
+The next thing I checked is my layout, all the suggestions were decent, but I didn't think any of them warranted any changes!
+
+After that I checked the anti-pad with a 2.5D field solver. I wanted to use Saturn PCB but I'm on Linux, so I booted up an old windows device to do it and did the simulations:
+
+![[Pasted image 20251111100338.png]]
+
+So let's explain what's happening here:
+- The via hole is the size of my via hole
+- The internal pad diameter, is that pad around the via
+- The ref plane opening diameter is one of the most important things here, that's how close the ground plane is to the via, the anti-pad in our case!
+- The via height is just the height of my board because they're going straight through
+- The via plating thickness is just the thickness of the copper/material on the via internal pad
+
+The main thing we're looking at here, is the resonant frequency. PCIe has a frequency of 4 GHz, so if our via is oscillating at 4 GHz too, it can cause severe signal integrity issues. 6.6 GHz of resonant frequency is acceptable, but I personally should've calculated this beforehand, because 8 GHz, or a ref plane of 40 mils, would've probably been a bit more optimal. But I think it works out nicely because my return via's have a perfect reference plane underneath of them:
+
+![[Pasted image 20251111100734.png]]
+
+In the future I'll calculate this beforehand, but it should be fine for our use case!
