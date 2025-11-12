@@ -13552,7 +13552,7 @@
 				)
 			)
 		)
-		(property "Value" "330Ω"
+		(property "Value" "330"
 			(at 377.19 189.738 90)
 			(effects
 				(font
