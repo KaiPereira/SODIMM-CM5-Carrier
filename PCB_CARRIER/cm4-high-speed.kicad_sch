@@ -7092,7 +7092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module"
+		(property "Footprint" "kai's library:Raspberry-Pi-4-Compute-Module"
 			(at 132.08 123.19 0)
 			(effects
 				(font
