@@ -1061,7 +1061,7 @@ I like to follow the format of:
 
 And then add in BOM/Credits/License as you wish!
 
-## Day 20 - Production!
+## Day 20 - Production! - 6 Hours
 
 Now that I've finished pretty much creating my board and adding a README and such, it's time to get this thing actually made!
 
@@ -1103,3 +1103,31 @@ The main thing we're looking at here, is the resonant frequency. PCIe has a freq
 ![Pasted image 20251111100734.png](journal/Pasted%20image%2020251111100734.png)
 
 In the future I'll calculate this beforehand, but it should be fine for our use case!
+
+Anyways next, I needed to upload all my production files to JLCPCB. This took way longer than I expected for a couple reasons:
+- The mezzanine connectors on my board were one footprint, while I needed 2 so that JLCPCB could recognize it as 2 different parts
+- I didn't have a part picked out for my buttons
+- My level shifters apparently didn't have a part associated with them
+- My LED's weren't basic part, because I used 0603 instead of 0805 footprints for them
+- I had some values for resistors that used an ohm sign at the end instead of none like the other components
+
+So the first thing I fixed was the symbol mismatch for ohms and stuff, that was really easy.
+
+The next thing I fixed was LED's not being a basic part, this took a bit longer but was also pretty quick because I just had to make them 0805.
+
+Now the next couple things I had to do took much longer...
+
+It probably took me about an hour to find the level shifters because they weren't filled out properly on LCSC and had the wrong info, so when I was searching for them, they wouldn't come up. You see this description, and package is just completely wrong, you can count the pins and it's clearly 24, and the description is just fully whack: https://jlcpcb.com/partdetail/TexasInstruments-SN74LVCH8T245DGVR/C2873141
+
+And then I had to pick out the part for my switches, it took me a bit because JLC's part picker search sucks, but I Found a decent one I liked that resembled the Turing Pi one: https://www.lcsc.com/product-detail/C3293144.html
+
+And then finally I had to separate my mezzanine connector which definitely took the longest! I had to separate the symbols into my own library with 2 separate symbols. Assign them to the different mezzanine connector symbols. And then I had to do the same thing with the footprint and duplicate those removing one connector from each footprint.
+
+And then I uploaded this to JLCPCB, but the root position of the connectors were off, so I had to move them so that JLCPCB PCBA would place them properly on the connector, which was all just really annoying to deal with. 
+
+But anyways after all this hassle, I finally got to the checkout!!
+
+![[Pasted image 20251112204729.png]]
+
+
+
