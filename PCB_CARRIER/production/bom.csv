@@ -6,8 +6,8 @@ D1,0805,1,Green,
 D2,0805,1,Yellow,
 J1,SODIMM_DDR4_EDGE,1,SODIMM-260_Split,
 J2,microSD_HC_Hirose_DM3AT-SF-PEJM5,1,Micro_SD_Card_Det2,
-MODULE1,Raspberry-Pi-4-Compute-Module-B,1,Mezzanine_B,2x DF40C-100DS-0.4V
-MODULE2,Raspberry-Pi-4-Compute-Module-A,1,Mezzanine_A,2x DF40C-100DS-0.4V
+MODULE1,Raspberry-Pi-4-Compute-Module-B,1,10164227-1004A1RLF,2x DF40C-100DS-0.4V
+MODULE2,Raspberry-Pi-4-Compute-Module-A,1,10164227-1004A1RLF,2x DF40C-100DS-0.4V
 "Q2, Q3, Q5",SOT-23-3,3,BSS138,
 Q4,SOT-323_SC-70,1,BC817-40,
 "R1, R15",0402,2,330,
