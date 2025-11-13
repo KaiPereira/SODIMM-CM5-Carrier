@@ -1061,7 +1061,7 @@ I like to follow the format of:
 
 And then add in BOM/Credits/License as you wish!
 
-## Day 20 - Production! - 6 Hours
+## Day 20 - Production! - 7 Hours
 
 Now that I've finished pretty much creating my board and adding a README and such, it's time to get this thing actually made!
 
@@ -1129,5 +1129,14 @@ But anyways after all this hassle, I finally got to the checkout!!
 
 ![[Pasted image 20251112204729.png]]
 
+Now I thought that my PCB's would be cheaper, but PCBA added on an extra $85 which I was not prepared for.
 
+Now I'm either going to:
+- Pay this out of pocket and get my tickets for https://blueprint.hackclub.com
+- Get it sponsored and get my tickets
+- Or get blueprint to sponsor it and not get my tickets, but also get the CM5/IO board
+
+Personally I think that getting the board sponsored is the best choice, so that's what I'm going to try and do!
+
+This was such a back and forth to get it ready for assembly, in the future, I'm going to try and work on making checkout much easier by making sure my parts are available and everything is correct, but it honestly just comes with experience!
 
