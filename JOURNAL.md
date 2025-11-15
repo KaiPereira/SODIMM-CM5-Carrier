@@ -1,8 +1,9 @@
 ---
-title: Cluster Board
+title: CM5 SO-DIMM Carrier
 author: Kai Pereira
-description: An open source 8 node ITX cluster board running custom compute modules, supports up to 256 GB of ram
+description: A fully open source CM5 carrier to turn your Pi into a Jetson in compact SO-DIMM format!
 created_at: 2025-08-14
+hours: "152"
 ---
 ## Day 1 - Research Galore - 6 Hours
 
@@ -193,7 +194,7 @@ Anyways I asked on the KiCad discord server for some help after this finding RAM
 
 So for now, I'm going to focus my attention on building the cluster board, because I think I'll actually learn more building that and it's also not as complicated or as expensive, but still pretty darn hard.
 
-## Day 5 - Let's build a cluster board
+## Day 5 - Let's build a cluster board - 2 Hours
 
 Now that I've postponed my compute module shenanigans, I want to focus my attention on building the cluster board.
 
