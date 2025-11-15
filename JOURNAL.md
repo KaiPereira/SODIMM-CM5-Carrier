@@ -1127,7 +1127,7 @@ And then I uploaded this to JLCPCB, but the root position of the connectors were
 
 But anyways after all this hassle, I finally got to the checkout!!
 
-![[Pasted image 20251112204729.png]]
+![Pasted image 20251112204729.png](journal/Pasted%20image%2020251112204729.png)
 
 Now I thought that my PCB's would be cheaper, but PCBA added on an extra $85 which I was not prepared for.
 
